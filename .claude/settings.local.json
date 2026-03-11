@@ -10,7 +10,9 @@
       "Read(//d/workspace/小说/新建文件夹/$PROJECT_ROOT/**)",
       "Bash(ls -la \"d:\\\\workspace\\\\小说\\\\新建文件夹\\\\装乖千金病娇大佬他自我攻略了\\\\.webnovel\"\" 2>/dev/null || echo \"目录不存在 \")",
       "Skill(webnovel-writer:webnovel-query)",
-      "Skill(webnovel-writer:webnovel-query:*)"
+      "Skill(webnovel-writer:webnovel-query:*)",
+      "Read(//dev/**)",
+      "Bash(python -c \":*)"
     ],
     "additionalDirectories": [
       "D:\\workspace\\小说\\新建文件夹\\$PROJECT_ROOT"
