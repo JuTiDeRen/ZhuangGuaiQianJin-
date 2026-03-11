@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/XinKai/.claude/plugins/cache/webnovel-writer-marketplace/webnovel-writer/5.5.4/skills/webnovel-analysis/references/**)",
+      "Bash(export PROJECT_ROOT=\"/d/workspace/小说/新建文件夹/装乖千金病娇大佬他自我攻略了\")",
+      "Read(//d/workspace/小说/新建文件夹/$PROJECT_ROOT/.webnovel/**)",
+      "Read(//d/workspace/小说/新建文件夹/$PROJECT_ROOT/大纲/**)",
+      "Read(//c/Users/XinKai/.claude/plugins/cache/webnovel-writer-marketplace/webnovel-writer/5.5.4/templates/output/**)",
+      "Read(//c/Users/XinKai/.claude/plugins/cache/webnovel-writer-marketplace/webnovel-writer/5.5.4/references/**)",
+      "Read(//d/workspace/小说/新建文件夹/$PROJECT_ROOT/**)",
+      "Bash(ls -la \"d:\\\\workspace\\\\小说\\\\新建文件夹\\\\装乖千金病娇大佬他自我攻略了\\\\.webnovel\"\" 2>/dev/null || echo \"目录不存在 \")",
+      "Skill(webnovel-writer:webnovel-query)",
+      "Skill(webnovel-writer:webnovel-query:*)"
+    ],
+    "additionalDirectories": [
+      "D:\\workspace\\小说\\新建文件夹\\$PROJECT_ROOT"
+    ]
+  }
+}

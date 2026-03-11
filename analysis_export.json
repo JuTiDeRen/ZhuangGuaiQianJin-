@@ -1,0 +1,121 @@
+{
+  "export_type": "analysis_to_init",
+  "generation_mode": "auto_outline",
+  "source_books": [
+    "姐妹随军认错夫：面凶军官沦陷了",
+    "装乖过头了，太子爷非说我暗恋他"
+  ],
+  "extracted_best_practices": {
+    "character": {
+      "archetype": "装乖型女主 - 表面柔弱乖巧，内心锋利有主见",
+      "flaw_pattern": "过度隐忍后的爆发，习惯性用乖巧作为生存策略",
+      "growth_arc": "从被欺负的乖乖女到主动反击的强者",
+      "hero_archetype": "自我攻略型男主 - 主动脑补女主喜欢自己",
+      "villain_design": "绿茶型假千金，表面无辜实则心机"
+    },
+    "plot": {
+      "structure": "双线并行 - 复仇线+感情线",
+      "turning_points": ["开篇强冲突", "身份揭露", "情感升温", "关系危机", "最终和解"],
+      "conflict_curve": "高密度冲突，每2-3章一个小高潮",
+      "opening_hook": "真假千金设定+开篇即冲突"
+    },
+    "narrative": {
+      "pov": "女主第三人称限知视角",
+      "info_density": "高密度信息，快节奏推进",
+      "suspense_rhythm": "章章有钩子，爽点密集"
+    },
+    "commercial": {
+      "cool_types": ["身份打脸", "能力打脸", "情感打脸", "借势打脸"],
+      "hook_frequency": "每章都有章末钩",
+      "payoff_timing": "小兑现3章内，中兑现10-30章"
+    }
+  },
+  "generated_outline": {
+    "title": "装乖千金：病娇大佬他自我攻略了",
+    "genre": "现言豪门/真假千金/双向暗恋",
+    "one_liner": "被流放的真千金以'装乖'为武器归来，却被那个看穿她伪装的病娇大佬自我攻略式缠上",
+    "core_conflict": "女主夺回属于自己的一切 vs 男主'她是不是暗恋我'的自我攻略",
+    "volume_count": 3,
+    "target_words": 80
+  },
+  "constraints": {
+    "anti_trope": "男主'自我攻略'代替传统追妻，女主'装乖'代替真善美",
+    "hard_constraints": [
+      "每章必须有爽点或钩子",
+      "爽点密度≥每2章1个",
+      "女主不能圣母，必须睚眦必报",
+      "男主必须一眼看穿女主伪装"
+    ],
+    "protagonist_flaw": "过度隐忍后的爆发式反击，习惯性'装乖'难辨真假",
+    "opening_hook": "开篇即回国打脸，3章内完成主要人物登场+首次冲突"
+  },
+  "protagonist": {
+    "name": "沈知意",
+    "age": 24,
+    "starting_identity": "被流放国外的真千金，刚回国",
+    "ending_identity": "沈家真正的掌权人，病娇大佬的心尖宠",
+    "core_trait": "外乖内狠，表面柔弱江南美人，实则睚眦必报的锋利",
+    "flaw": "过度隐忍后的爆发，习惯性用乖巧作为武器",
+    "surface_want": "夺回属于自己的身份地位和宠爱",
+    "deep_want": "被真正理解和接纳，而非被当作替身",
+    "golden_finger": {
+      "type": "心理洞察",
+      "name": "微表情洞察",
+      "ability": "能敏锐捕捉他人微表情和情绪波动",
+      "limitation": "无法读取具体想法，只能感知情绪",
+      "growth": "随着剧情推进，洞察能力逐渐增强"
+    },
+    "arc": {
+      "start": "被迫隐忍的乖乖女",
+      "end": "掌控全局的沈家掌权人",
+      "key_points": [
+        {"chapter": 10, "event": "首次主动反击假千金"},
+        {"chapter": 30, "event": "在男主面前卸下伪装"},
+        {"chapter": 60, "event": "正式掌控沈家大权"}
+      ]
+    }
+  },
+  "hero": {
+    "name": "陆砚辞",
+    "age": 28,
+    "identity": "陆氏集团掌权人，京城顶级权贵",
+    "core_trait": "散漫与狠厉并存，一眼看穿女主伪装",
+    "characteristic": "自我攻略型，主动脑补女主喜欢他",
+    "flaw": "偏执占有欲强，认定就不放手"
+  },
+  "villain": {
+    "name": "沈清瑶",
+    "identity": "假千金，占据了沈知意位置13年",
+    "motivation": "嫉妒与不甘，害怕失去现有的一切",
+    "methods": "表面温柔贤淑，实则心机深沉，擅长借刀杀人"
+  },
+  "volume_plan": [
+    {
+      "volume": 1,
+      "chapters": "1-80",
+      "theme": "归来与反击",
+      "goal": "女主回国，开始夺回属于自己的一切",
+      "climax": "首次公开打脸假千金，确立地位",
+      "ending_change": "女主在沈家站稳脚跟，与男主关系升温",
+      "hook": "神秘势力暗中针对沈家"
+    },
+    {
+      "volume": 2,
+      "chapters": "81-160",
+      "theme": "博弈与升温",
+      "goal": "女主逐步掌控沈家产业，与男主感情深化",
+      "climax": "商业大战胜利，假千金彻底失势",
+      "ending_change": "女主成为沈家实际掌权人，男主正式表白",
+      "hook": "当年被流放的真相浮出水面"
+    },
+    {
+      "volume": 3,
+      "chapters": "161-240",
+      "theme": "真相与圆满",
+      "goal": "揭开所有谜团，彻底解决反派",
+      "climax": "最终对决，反派彻底失败",
+      "ending_change": "女主事业爱情双丰收，男主求婚",
+      "hook": "大婚+甜蜜番外"
+    }
+  ]
+}

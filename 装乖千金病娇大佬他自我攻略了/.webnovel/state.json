@@ -1,0 +1,65 @@
+{
+  "project": {
+    "title": "装乖千金：病娇大佬他自我攻略了",
+    "title_safe": "装乖千金病娇大佬他自我攻略了",
+    "genre": "现言豪门/真假千金/双向暗恋",
+    "target_words": 800000,
+    "target_chapters": 240,
+    "one_liner": "被流放的真千金以'装乖'为武器归来，却被那个看穿她伪装的病娇大佬自我攻略式缠上",
+    "core_conflict": "女主夺回属于自己的一切 vs 男主'她是不是暗恋我'的自我攻略",
+    "target_reader": "18-30岁女性，喜欢甜宠爽文、豪门恩怨、打脸虐渣",
+    "platform": "番茄小说/七猫小说"
+  },
+  "progress": {
+    "current_volume": 3,
+    "current_chapter": 0,
+    "total_written_words": 0,
+    "status": "volume_3_planned"
+  },
+  "volume_plan": {
+    "volume_1": {
+      "name": "归来与反击",
+      "chapters": "1-80",
+      "planned_at": "2026-03-11",
+      "beat_sheet": "大纲/第1卷-节拍表.md",
+      "timeline": "大纲/第1卷-时间线.md",
+      "outline": "大纲/第1卷-详细大纲.md"
+    },
+    "volume_2": {
+      "name": "博弈与升温",
+      "chapters": "81-160",
+      "planned_at": "2026-03-11",
+      "beat_sheet": "大纲/第2卷-节拍表.md",
+      "timeline": "大纲/第2卷-时间线.md",
+      "outline": "大纲/第2卷-详细大纲.md"
+    },
+    "volume_3": {
+      "name": "真相与圆满",
+      "chapters": "161-240",
+      "planned_at": "2026-03-11",
+      "beat_sheet": "大纲/第3卷-节拍表.md",
+      "timeline": "大纲/第3卷-时间线.md",
+      "outline": "大纲/第3卷-详细大纲.md"
+    }
+  },
+  "protagonist_state": {
+    "name": "沈知意",
+    "current_identity": "沈氏集团继承人，刚成为正式掌权人",
+    "arc_stage": "掌控全局的沈家掌权人",
+    "golden_finger_level": 2
+  },
+  "strand_tracker": {
+    "fire": 0,
+    "constellation": 0,
+    "quest": 0
+  },
+  "export_source": {
+    "type": "analysis_to_init",
+    "source_books": [
+      "姐妹随军认错夫：面凶军官沦陷了",
+      "装乖过头了，太子爷非说我暗恋他"
+    ],
+    "generation_mode": "auto_outline",
+    "generated_at": "2026-03-11"
+  }
+}
