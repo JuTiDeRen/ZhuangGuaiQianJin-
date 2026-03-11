@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 1,
-    "current_chapter": 4,
-    "total_written_words": 8000,
+    "current_chapter": 6,
+    "total_written_words": 9600,
     "status": "writing",
     "total_words": 0,
-    "last_updated": "2026-03-12 00:14:59"
+    "last_updated": "2026-03-12 00:59:31"
   },
   "volume_plan": {
     "volume_1": {
@@ -46,13 +46,13 @@
   },
   "protagonist_state": {
     "name": "沈知意",
-    "current_identity": "沈家真千金，已掌握二房把柄",
+    "current_identity": "沈氏集团市场部员工（边缘组），掌握王经理贪污把柄",
     "arc_stage": "初期布局阶段，收集情报",
     "golden_finger_level": 1,
     "abilities": {
       "微表情洞察": {
         "daily_limit": 3,
-        "used_today": 3,
+        "used_today": 4,
         "remaining": 0
       }
     },
@@ -64,6 +64,11 @@
       ],
       "二房把柄": [
         "新项目中饱私囊（需进一步查证）"
+      ],
+      "职场情报": [
+        "王经理是沈清瑶的人",
+        "王经理贪污350万项目款",
+        "失败项目与陆氏集团有关"
       ]
     }
   },
@@ -165,6 +170,24 @@
         "time": "傍晚",
         "location": "沈知意房间",
         "emotion": "掌握主动"
+      }
+    },
+    "0006": {
+      "hook": {
+        "type": "悬念钩",
+        "content": "沈知意入职沈氏集团，被安排到边缘工位，职场第一战即将打响",
+        "strength": "medium"
+      },
+      "pattern": {
+        "opening": "场景描写开场",
+        "hook": "悬念钩",
+        "emotion_rhythm": "低→高→爽",
+        "info_density": "high"
+      },
+      "ending": {
+        "time": "下午五点",
+        "location": "沈氏集团电梯口",
+        "emotion": "掌握主动权，警惕未来"
       }
     }
   },
