@@ -5,17 +5,9 @@
       "chapter_num": 1
     },
     "started_at": "2026-03-11T23:56:26.721509",
-    "last_heartbeat": "2026-03-12T00:16:26.715590",
+    "last_heartbeat": "2026-03-12T00:16:41.191030",
     "status": "running",
-    "current_step": {
-      "id": "Step 6",
-      "name": "Git备份",
-      "status": "running",
-      "started_at": "2026-03-12T00:16:26.715587",
-      "running_at": "2026-03-12T00:16:26.715587",
-      "attempt": 5,
-      "progress_note": null
-    },
+    "current_step": null,
     "completed_steps": [
       {
         "id": "Step 2B",
@@ -44,6 +36,20 @@
           "overall_score": 86.8,
           "anti_ai_force_check": "pass",
           "notes": "第1章94.8分 第2章85分 第3章82分 第4章88分 第5章80分，无critical/high问题"
+        }
+      },
+      {
+        "id": "Step 6",
+        "name": "Git备份",
+        "status": "completed",
+        "started_at": "2026-03-12T00:16:26.715587",
+        "running_at": "2026-03-12T00:16:26.715587",
+        "attempt": 5,
+        "progress_note": null,
+        "completed_at": "2026-03-12T00:16:41.190968",
+        "artifacts": {
+          "status": "completed",
+          "commit_hash": "4be2c13"
         }
       }
     ],
@@ -90,7 +96,8 @@
       "status": "completed",
       "notes": "第1章94.8分 第2章85分 第3章82分 第4章88分 第5章80分，无critical/high问题",
       "overall_score": 86.8,
-      "anti_ai_force_check": "pass"
+      "anti_ai_force_check": "pass",
+      "commit_hash": "4be2c13"
     }
   },
   "last_stable_state": null,
