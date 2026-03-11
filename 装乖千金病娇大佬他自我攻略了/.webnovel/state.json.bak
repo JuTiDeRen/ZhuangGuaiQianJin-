@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 1,
-    "current_chapter": 4,
-    "total_written_words": 8000,
+    "current_chapter": 3,
+    "total_written_words": 6000,
     "status": "writing",
     "total_words": 0,
-    "last_updated": "2026-03-12 00:14:59"
+    "last_updated": "2026-03-12 00:13:36"
   },
   "volume_plan": {
     "volume_1": {
@@ -46,14 +46,14 @@
   },
   "protagonist_state": {
     "name": "沈知意",
-    "current_identity": "沈家真千金，已掌握二房把柄",
+    "current_identity": "沈家真千金，刚回国入住沈家",
     "arc_stage": "初期布局阶段，收集情报",
     "golden_finger_level": 1,
     "abilities": {
       "微表情洞察": {
         "daily_limit": 3,
-        "used_today": 3,
-        "remaining": 0
+        "used_today": 2,
+        "remaining": 1
       }
     },
     "intel": {
@@ -61,9 +61,6 @@
         "拥抱时身体僵硬（抗拒）",
         "与纪舒互动时得意上扬（占有欲）",
         "提及钢琴时瞳孔微缩（紧张/不安）"
-      ],
-      "二房把柄": [
-        "新项目中饱私囊（需进一步查证）"
       ]
     }
   },
@@ -127,44 +124,6 @@
         "time": "晚餐后",
         "location": "沈知意房间",
         "emotion": "警惕思考"
-      }
-    },
-    "0005": {
-      "0005": {
-        "hook": {
-          "type": "悬念钩",
-          "content": "林嘉树对沈清瑶异常忠诚的原因待查",
-          "strength": "medium"
-        },
-        "pattern": {
-          "opening": "场景描写开场",
-          "hook": "打脸反击",
-          "emotion_rhythm": "低→高→爽",
-          "info_density": "medium"
-        },
-        "ending": {
-          "time": "傍晚",
-          "location": "沈家",
-          "emotion": "掌握主动权"
-        }
-      }
-    },
-    "0004": {
-      "hook": {
-        "type": "危机钩",
-        "content": "二房夫妇上门试探，表面热情实则算计",
-        "strength": "medium"
-      },
-      "pattern": {
-        "opening": "场景开场",
-        "hook": "危机钩",
-        "emotion_rhythm": "低→高",
-        "info_density": "high"
-      },
-      "ending": {
-        "time": "傍晚",
-        "location": "沈知意房间",
-        "emotion": "掌握主动"
       }
     }
   },

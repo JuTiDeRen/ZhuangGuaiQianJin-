@@ -1,0 +1,98 @@
+{"timestamp": "2026-03-12T00:09:29.550577", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-12T00:10:37.454811", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-03-12T00:10:37.750351", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 12}
+{"timestamp": "2026-03-12T00:10:38.668981", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 11}
+{"timestamp": "2026-03-12T00:10:41.239172", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 13}
+{"timestamp": "2026-03-12T00:10:41.525181", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 11}
+{"timestamp": "2026-03-12T00:10:55.459076", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-03-12T00:10:55.734733", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 沈知意"}
+{"timestamp": "2026-03-12T00:10:56.018886", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 沈清瑶"}
+{"timestamp": "2026-03-12T00:10:56.301218", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 10, "error_code": "NOT_FOUND", "error_message": "未找到别名: 纪舒"}
+{"timestamp": "2026-03-12T00:11:21.648585", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-12T00:11:21.955707", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-12T00:11:22.249713", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-03-12T00:11:22.545911", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-12T00:11:22.857106", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-12T00:11:22.876723", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 22}
+{"timestamp": "2026-03-12T00:11:23.183440", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-03-12T00:11:23.506308", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-12T00:11:23.796762", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-12T00:11:24.092868", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-12T00:15:00.000000", "chapter": 2, "step": "A_load_context", "elapsed_ms": 150, "tool_name": "data_agent:read_chapter"}
+{"timestamp": "2026-03-12T00:15:00.000000", "chapter": 2, "step": "B_entity_extract", "elapsed_ms": 800, "tool_name": "data_agent:ai_extract"}
+{"timestamp": "2026-03-12T00:15:00.000000", "chapter": 2, "step": "C_disambiguation", "elapsed_ms": 100, "tool_name": "data_agent:disambiguate"}
+{"timestamp": "2026-03-12T00:15:00.000000", "chapter": 2, "step": "D_state_index_write", "elapsed_ms": 200, "tool_name": "data_agent:write_state"}
+{"timestamp": "2026-03-12T00:15:00.000000", "chapter": 2, "step": "E_summary_write", "elapsed_ms": 120, "tool_name": "data_agent:write_summary"}
+{"timestamp": "2026-03-12T00:15:00.000000", "chapter": 2, "step": "F_scene_chunking", "elapsed_ms": 300, "tool_name": "data_agent:ai_chunk"}
+{"timestamp": "2026-03-12T00:15:00.000000", "chapter": 2, "step": "G_rag_index", "elapsed_ms": 0, "tool_name": "data_agent:rag_skip"}
+{"timestamp": "2026-03-12T00:15:00.000000", "chapter": 2, "step": "H_style_sample", "elapsed_ms": 0, "tool_name": "data_agent:style_skip"}
+{"timestamp": "2026-03-12T00:15:00.000000", "chapter": 2, "step": "I_debt_interest", "elapsed_ms": 0, "tool_name": "data_agent:debt_skip"}
+{"timestamp": "2026-03-12T00:15:00.000000", "chapter": 2, "step": "TOTAL", "elapsed_ms": 1670, "tool_name": "data_agent:complete"}
+{"timestamp": "2026-03-12T00:11:29.943323", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 20}
+{"timestamp": "2026-03-12T00:11:30.234849", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 18}
+{"timestamp": "2026-03-12T00:11:30.526340", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-03-12T00:11:30.819416", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-12T00:11:31.102832", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-12T00:11:31.395369", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-12T00:11:39.841430", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-12T00:11:40.167650", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-12T00:11:40.460404", "tool_name": "index_manager:register-alias", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-03-12T00:11:40.760766", "tool_name": "index_manager:register-alias", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-03-12T00:11:41.056394", "tool_name": "index_manager:register-alias", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-12T00:11:41.800541", "tool_name": "index_manager:register-alias", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-12T00:11:42.096161", "tool_name": "index_manager:register-alias", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-12T00:11:42.394309", "tool_name": "index_manager:register-alias", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-12T00:11:42.683515", "tool_name": "index_manager:register-alias", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-12T00:11:47.270643", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-12T00:11:47.550882", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-12T00:11:47.832462", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-12T00:11:48.125354", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-03-12T00:11:48.453886", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-12T00:11:48.756172", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-12T00:11:54.063814", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-12T00:12:07.977768", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-12T00:12:08.269816", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-12T00:12:08.573821", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-12T00:12:09.607499", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-12T00:12:09.895816", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-12T00:12:10.626653", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-12T00:12:10.923128", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-12T00:12:11.232562", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-12T00:12:11.553761", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-12T00:12:17.275146", "tool_name": "state_manager:process-chapter", "success": false, "elapsed_ms": 17, "error_code": "SCHEMA_VALIDATION_FAILED", "error_message": "数据结构校验失败"}
+{"timestamp": "2026-03-12T00:12:20.030036", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-12T00:12:20.321953", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-12T00:12:24.737868", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 22, "chapter": 1}
+{"timestamp": "2026-03-12T00:12:25.562848", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-12T00:12:25.883071", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-12T00:12:26.191102", "tool_name": "state_manager:process-chapter", "success": false, "elapsed_ms": 14, "error_code": "SCHEMA_VALIDATION_FAILED", "error_message": "数据结构校验失败"}
+{"timestamp": "2026-03-12T00:12:31.253759", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-12T00:12:31.374313", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-12T00:12:31.659679", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-12T00:12:31.933467", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-12T00:12:34.554277", "tool_name": "state_manager:process-chapter", "success": false, "elapsed_ms": 13, "error_code": "SCHEMA_VALIDATION_FAILED", "error_message": "数据结构校验失败"}
+{"timestamp": "2026-03-12T00:12:46.296476", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 18, "chapter": 3}
+{"timestamp": "2026-03-12T00:12:57.383390", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 438, "chapter": 4}
+{"timestamp": "2026-03-12T00:13:10.135435", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 436, "chapter": 1}
+{"timestamp": "2026-03-12T00:13:13.570920", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 399, "chapter": 3}
+{"timestamp": "2026-03-12T00:13:21.144109", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 10, "chapter": 1}
+{"timestamp": "2026-03-12T00:13:26.969673", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-03-12T00:13:27.476208", "tool_name": "state_manager:get-progress", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-12T00:13:28.902346", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 10, "chapter": 3}
+{"timestamp": "2026-03-12T00:13:36.575513", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 20, "chapter": 3}
+{"timestamp": "2026-03-12T00:13:39.897848", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 10}
+{"timestamp": "2026-03-12T00:13:42.384488", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 10}
+{"timestamp": "2026-03-12T00:13:42.688762", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 10}
+{"timestamp": "2026-03-12T00:13:42.978326", "tool_name": "index_manager:get-relationships", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-03-12T00:13:56.555151", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 28, "chapter": 5}
+{"timestamp": "2026-03-12T00:14:06.202750", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 432, "chapter": 5}
+{"timestamp": "2026-03-12T00:14:11.921096", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 9, "chapter": 5}
+{"timestamp": "2026-03-12T00:14:18.021193", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-12T00:14:18.319969", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-12T00:15:12.015648", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 10, "chapter": 4}
+{"timestamp": "2026-03-12T00:15:17.403782", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 13}
+{"timestamp": "2026-03-12T00:15:17.682539", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-03-12T00:15:23.173809", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 10, "error_code": "NOT_FOUND", "error_message": "未找到别名: 沈仲明"}
+{"timestamp": "2026-03-12T00:15:23.483121", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 10, "error_code": "NOT_FOUND", "error_message": "未找到别名: 林美华"}
+{"timestamp": "2026-03-12T00:15:37.678407", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 10}
+{"timestamp": "2026-03-12T00:15:37.945213", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 10}

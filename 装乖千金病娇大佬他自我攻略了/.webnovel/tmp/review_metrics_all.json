@@ -1,0 +1,21 @@
+{
+  "start_chapter": 1,
+  "end_chapter": 5,
+  "overall_score": 86.8,
+  "dimension_scores": {
+    "设定一致性": 92,
+    "连贯性": 88,
+    "人物塑造": 88,
+    "追读力": 84,
+    "爽点密度": 85
+  },
+  "severity_counts": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 5
+  },
+  "critical_issues": [],
+  "report_file": "审查报告/第1-5章审查报告.md",
+  "notes": "selected_checkers: consistency-checker,continuity-checker,ooc-checker,reader-pull-checker | anti_ai_force_check: pass | 第1章:94.8分 第2章:85分 第3章:82分 第4章:88分 第5章:80分 | 修复问题: 微表情洞察使用次数统一，时间线过渡修正"
+}
