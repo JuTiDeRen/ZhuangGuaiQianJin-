@@ -1,92 +1,9 @@
 {
-  "current_task": {
+  "current_task": null,
+  "last_stable_state": {
     "command": "webnovel-write",
-    "args": {
-      "chapter_num": 1
-    },
-    "started_at": "2026-03-11T23:56:26.721509",
-    "last_heartbeat": "2026-03-12T00:16:41.191030",
-    "status": "running",
-    "current_step": null,
-    "completed_steps": [
-      {
-        "id": "Step 2B",
-        "name": "风格适配",
-        "status": "completed",
-        "started_at": "2026-03-12T00:05:45.491023",
-        "running_at": "2026-03-12T00:05:45.491023",
-        "attempt": 5,
-        "progress_note": null,
-        "completed_at": "2026-03-12T00:06:05.564016",
-        "artifacts": {
-          "status": "completed",
-          "notes": "风格适配完成，各章符合网文风格要求"
-        }
-      },
-      {
-        "id": "Step 3",
-        "name": "审查",
-        "status": "completed",
-        "started_at": "2026-03-12T00:06:42.561533",
-        "running_at": "2026-03-12T00:06:42.561533",
-        "attempt": 5,
-        "progress_note": null,
-        "completed_at": "2026-03-12T00:09:42.274080",
-        "artifacts": {
-          "overall_score": 86.8,
-          "anti_ai_force_check": "pass",
-          "notes": "第1章94.8分 第2章85分 第3章82分 第4章88分 第5章80分，无critical/high问题"
-        }
-      },
-      {
-        "id": "Step 6",
-        "name": "Git备份",
-        "status": "completed",
-        "started_at": "2026-03-12T00:16:26.715587",
-        "running_at": "2026-03-12T00:16:26.715587",
-        "attempt": 5,
-        "progress_note": null,
-        "completed_at": "2026-03-12T00:16:41.190968",
-        "artifacts": {
-          "status": "completed",
-          "commit_hash": "4be2c13"
-        }
-      }
-    ],
-    "failed_steps": [
-      {
-        "id": "Step 2A",
-        "name": "正文起草",
-        "status": "failed",
-        "started_at": "2026-03-11T23:59:26.424843",
-        "running_at": "2026-03-11T23:59:26.424843",
-        "attempt": 5,
-        "progress_note": null,
-        "failed_at": "2026-03-12T00:05:45.491018",
-        "failure_reason": "step_replaced_before_completion"
-      },
-      {
-        "id": "Step 5",
-        "name": "Data Agent",
-        "status": "failed",
-        "started_at": "2026-03-12T00:10:12.259942",
-        "running_at": "2026-03-12T00:10:12.259942",
-        "attempt": 5,
-        "progress_note": null,
-        "failed_at": "2026-03-12T00:16:26.715582",
-        "failure_reason": "step_replaced_before_completion"
-      }
-    ],
-    "pending_steps": [
-      "Step 1",
-      "Step 2A",
-      "Step 2B",
-      "Step 3",
-      "Step 4",
-      "Step 5",
-      "Step 6"
-    ],
-    "retry_count": 4,
+    "chapter_num": 1,
+    "completed_at": "2026-03-12T01:33:33.407996",
     "artifacts": {
       "chapter_file": {},
       "git_status": {},
@@ -97,9 +14,19 @@
       "notes": "第1章94.8分 第2章85分 第3章82分 第4章88分 第5章80分，无critical/high问题",
       "overall_score": 86.8,
       "anti_ai_force_check": "pass",
-      "commit_hash": "4be2c13"
+      "commit_hash": "4be2c13",
+      "ok": true,
+      "report": "审查报告/第6-10章审查报告.md",
+      "fixed": true
     }
   },
-  "last_stable_state": null,
-  "history": []
+  "history": [
+    {
+      "task_id": "task_001",
+      "command": "webnovel-write",
+      "chapter": 1,
+      "status": "completed",
+      "completed_at": "2026-03-12T01:33:33.407996"
+    }
+  ]
 }
