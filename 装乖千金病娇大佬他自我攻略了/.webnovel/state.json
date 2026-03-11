@@ -188,7 +188,16 @@
     "active_threads": [],
     "foreshadowing": []
   },
-  "review_checkpoints": [],
+  "review_checkpoints": [
+    {
+      "chapter_range": "1-5",
+      "report_file": "审查报告/第1-5章审查报告.md",
+      "reviewed_at": "2026-03-12",
+      "overall_score": 82,
+      "critical_issues": 1,
+      "status": "fixed"
+    }
+  ],
   "disambiguation_warnings": [],
   "disambiguation_pending": [],
   "_migrated_to_sqlite": true

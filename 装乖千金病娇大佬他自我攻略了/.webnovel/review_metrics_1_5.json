@@ -1,0 +1,17 @@
+{
+  "start_chapter": 1,
+  "end_chapter": 5,
+  "overall_score": 82,
+  "dimension_scores": {
+    "爽点密度": 85,
+    "设定一致性": 70,
+    "节奏控制": 75,
+    "人物塑造": 95,
+    "连贯性": 85,
+    "追读力": 82
+  },
+  "severity_counts": {"critical": 1, "high": 1, "medium": 4, "low": 2},
+  "critical_issues": ["微表情洞察使用次数冲突（第4章在同一天又使用3次，第5章记录'已用完'但只用2次）"],
+  "report_file": "审查报告/第1-5章审查报告.md",
+  "notes": "整体质量优秀，人物塑造到位，爽点密度达标。需修复金手指使用次数设定冲突。"
+}
