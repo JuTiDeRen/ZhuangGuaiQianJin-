@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 1,
-    "current_chapter": 15,
-    "total_written_words": 38500,
+    "current_chapter": 16,
+    "total_written_words": 40800,
     "status": "writing",
-    "total_words": 28500,
-    "last_updated": "2026-03-12 15:30:00"
+    "total_words": 30800,
+    "last_updated": "2026-03-12 18:18:38"
   },
   "volume_plan": {
     "volume_1": {
@@ -347,7 +347,8 @@
         "location": "沈氏集团",
         "emotion": "大获全胜"
       }
-    }
+    },
+    "0016": {}
   },
   "export_source": {
     "type": "analysis_to_init",

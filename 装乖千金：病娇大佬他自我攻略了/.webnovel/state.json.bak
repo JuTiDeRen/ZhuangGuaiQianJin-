@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 1,
-    "current_chapter": 3,
-    "total_written_words": 6000,
+    "current_chapter": 16,
+    "total_written_words": 38500,
     "status": "writing",
-    "total_words": 0,
-    "last_updated": "2026-03-12 00:13:36"
+    "total_words": 28500,
+    "last_updated": "2026-03-12 18:17:37"
   },
   "volume_plan": {
     "volume_1": {
@@ -46,7 +46,7 @@
   },
   "protagonist_state": {
     "name": "沈知意",
-    "current_identity": "沈家真千金，刚回国入住沈家",
+    "current_identity": "沈氏集团市场部员工（边缘组），掌握王经理贪污把柄",
     "arc_stage": "初期布局阶段，收集情报",
     "golden_finger_level": 1,
     "abilities": {
@@ -61,6 +61,14 @@
         "拥抱时身体僵硬（抗拒）",
         "与纪舒互动时得意上扬（占有欲）",
         "提及钢琴时瞳孔微缩（紧张/不安）"
+      ],
+      "二房把柄": [
+        "新项目中饱私囊（需进一步查证）"
+      ],
+      "职场情报": [
+        "王经理是沈清瑶的人",
+        "王经理贪污350万项目款",
+        "失败项目与陆氏集团有关"
       ]
     }
   },
@@ -89,23 +97,21 @@
       }
     },
     "0001": {
-      "0001": {
-        "hook": {
-          "type": "悬念钩",
-          "content": "陆砚辞：你是不是暗恋我？",
-          "strength": "strong"
-        },
-        "pattern": {
-          "opening": "场景描写开场",
-          "hook": "悬念钩",
-          "emotion_rhythm": "低→高→悬念",
-          "info_density": "medium"
-        },
-        "ending": {
-          "time": "春日午后到傍晚",
-          "location": "离开九门湾的车上",
-          "emotion": "警惕与期待交织"
-        }
+      "hook": {
+        "type": "悬念钩",
+        "content": "陆砚辞：你是不是暗恋我？",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景描写开场",
+        "hook": "悬念钩",
+        "emotion_rhythm": "低→高→悬念",
+        "info_density": "medium"
+      },
+      "ending": {
+        "time": "春日午后到傍晚",
+        "location": "离开九门湾的车上",
+        "emotion": "警惕与期待交织"
       }
     },
     "0003": {
@@ -124,6 +130,240 @@
         "time": "晚餐后",
         "location": "沈知意房间",
         "emotion": "警惕思考"
+      }
+    },
+    "0005": {
+      "hook": {
+        "type": "悬念钩",
+        "content": "林嘉树对沈清瑶异常忠诚的原因待查",
+        "strength": "medium"
+      },
+      "pattern": {
+        "opening": "场景描写开场",
+        "hook": "打脸反击",
+        "emotion_rhythm": "低→高→爽",
+        "info_density": "medium"
+      },
+      "ending": {
+        "time": "傍晚",
+        "location": "沈家",
+        "emotion": "掌握主动权"
+      }
+    },
+    "0004": {
+      "hook": {
+        "type": "危机钩",
+        "content": "二房夫妇上门试探，表面热情实则算计",
+        "strength": "medium"
+      },
+      "pattern": {
+        "opening": "场景开场",
+        "hook": "危机钩",
+        "emotion_rhythm": "低→高",
+        "info_density": "high"
+      },
+      "ending": {
+        "time": "傍晚",
+        "location": "沈知意房间",
+        "emotion": "掌握主动"
+      }
+    },
+    "0006": {
+      "hook": {
+        "type": "悬念钩",
+        "content": "沈知意入职沈氏集团，被安排到边缘工位，职场第一战即将打响",
+        "strength": "medium"
+      },
+      "pattern": {
+        "opening": "场景描写开场",
+        "hook": "悬念钩",
+        "emotion_rhythm": "低→高→爽",
+        "info_density": "high"
+      },
+      "ending": {
+        "time": "下午五点",
+        "location": "沈氏集团电梯口",
+        "emotion": "掌握主动权，警惕未来"
+      }
+    },
+    "0007": {
+      "hook": {
+        "type": "冲突钩",
+        "content": "王经理当众刁难，沈知意用微表情洞察反击",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "对话开场",
+        "hook": "冲突钩",
+        "emotion_rhythm": "紧张→对峙→爽",
+        "info_density": "high"
+      },
+      "ending": {
+        "time": "傍晚",
+        "location": "沈氏集团",
+        "emotion": "初战告捷"
+      }
+    },
+    "0008": {
+      "hook": {
+        "type": "情感钩",
+        "content": "澜韵咖啡厅再遇陆砚辞，合作提议暗藏情愫",
+        "strength": "medium"
+      },
+      "pattern": {
+        "opening": "场景描写开场",
+        "hook": "情感钩",
+        "emotion_rhythm": "低→中→暧昧",
+        "info_density": "medium"
+      },
+      "ending": {
+        "time": "晚上",
+        "location": "澜韵咖啡厅",
+        "emotion": "暧昧升温"
+      }
+    },
+    "0009": {
+      "hook": {
+        "type": "悬念钩",
+        "content": "陆氏与沈氏合作项目开启，沈知意被点名参与",
+        "strength": "medium"
+      },
+      "pattern": {
+        "opening": "对话开场",
+        "hook": "悬念钩",
+        "emotion_rhythm": "中→高",
+        "info_density": "high"
+      },
+      "ending": {
+        "time": "次日",
+        "location": "沈氏集团会议室",
+        "emotion": "期待与警惕"
+      }
+    },
+    "0010": {
+      "hook": {
+        "type": "爽点钩",
+        "content": "宴会上当众揭穿沈清瑶假面，真千金锋芒初露",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景描写开场",
+        "hook": "爽点钩",
+        "emotion_rhythm": "低→高→爽",
+        "info_density": "high"
+      },
+      "ending": {
+        "time": "晚上",
+        "location": "宴会厅",
+        "emotion": "大快人心"
+      }
+    },
+    "0011": {
+      "hook": {
+        "type": "悬念钩",
+        "content": "沈清瑶的暗中报复，三个职场阴谋连环出击",
+        "strength": "medium"
+      },
+      "pattern": {
+        "opening": "场景感知开场",
+        "hook": "悬念钩",
+        "emotion_rhythm": "低→中→高",
+        "info_density": "high"
+      },
+      "ending": {
+        "time": "傍晚",
+        "location": "沈氏集团外",
+        "emotion": "暗流涌动"
+      }
+    },
+    "0012": {
+      "hook": {
+        "type": "情感钩",
+        "content": "闺蜜团登场，陆砚辞当众表白",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景切入开场",
+        "hook": "情感钩",
+        "emotion_rhythm": "中→高→甜",
+        "info_density": "medium"
+      },
+      "ending": {
+        "time": "下午",
+        "location": "澜韵会所",
+        "emotion": "暧昧升温"
+      }
+    },
+    "0013": {
+      "hook": {
+        "type": "冲突钩",
+        "content": "团队第一次会议，内鬼浮现",
+        "strength": "medium"
+      },
+      "pattern": {
+        "opening": "场景直入开场",
+        "hook": "冲突钩",
+        "emotion_rhythm": "中→高→爽",
+        "info_density": "high"
+      },
+      "ending": {
+        "time": "中午",
+        "location": "沈氏集团",
+        "emotion": "掌握主动"
+      }
+    },
+    "0014": {
+      "hook": {
+        "type": "情感钩",
+        "content": "陆砚辞的'巧合'，一个月前就预约的餐厅",
+        "strength": "medium"
+      },
+      "pattern": {
+        "opening": "场景切入开场",
+        "hook": "情感钩",
+        "emotion_rhythm": "中→高→甜",
+        "info_density": "medium"
+      },
+      "ending": {
+        "time": "晚上",
+        "location": "沈家别墅外",
+        "emotion": "暧昧升温"
+      }
+    },
+    "0015": {
+      "hook": {
+        "type": "爽点钩",
+        "content": "季度汇报会，当众揭穿沈清瑶阴谋，超额完成目标",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景直入开场",
+        "hook": "爽点钩",
+        "emotion_rhythm": "中→高→爽",
+        "info_density": "high"
+      },
+      "ending": {
+        "time": "下午",
+        "location": "沈氏集团",
+        "emotion": "大获全胜"
+      }
+    },
+    "0016": {
+      "hook": {
+        "type": "情绪钩",
+        "content": "女主的委屈谁能懂？陆砚辞暧昧短信",
+        "strength": "medium"
+      },
+      "pattern": {
+        "opening": "场景描写开场",
+        "hook": "情绪钩",
+        "emotion_rhythm": "低→高→觉醒",
+        "info_density": "medium"
+      },
+      "ending": {
+        "time": "晚上",
+        "location": "沈家别墅",
+        "emotion": "决心反击"
       }
     }
   },
@@ -147,7 +387,24 @@
     "active_threads": [],
     "foreshadowing": []
   },
-  "review_checkpoints": [],
+  "review_checkpoints": [
+    {
+      "chapter_range": "1-5",
+      "report_file": "审查报告/第1-5章审查报告.md",
+      "reviewed_at": "2026-03-12",
+      "overall_score": 82,
+      "critical_issues": 1,
+      "status": "fixed"
+    },
+    {
+      "chapter_range": "1-10",
+      "report_file": "审查报告/第1-10章审查报告.md",
+      "reviewed_at": "2026-03-12",
+      "overall_score": 72,
+      "critical_issues": 4,
+      "status": "fixed"
+    }
+  ],
   "disambiguation_warnings": [],
   "disambiguation_pending": [],
   "_migrated_to_sqlite": true

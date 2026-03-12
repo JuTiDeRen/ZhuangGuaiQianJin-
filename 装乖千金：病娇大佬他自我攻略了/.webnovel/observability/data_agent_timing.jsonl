@@ -110,3 +110,35 @@
 {"timestamp": "2026-03-12T15:14:12.970665", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 28}
 {"timestamp": "2026-03-12T15:16:19.776248", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 25}
 {"timestamp": "2026-03-12T15:18:35.746805", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 22}
+{"timestamp": "2026-03-12T16:16:12.141512", "tool_name": "rag_adapter:search", "success": true, "elapsed_ms": 303}
+{"timestamp": "2026-03-12T16:16:33.849138", "tool_name": "rag_adapter:search", "success": true, "elapsed_ms": 440}
+{"timestamp": "2026-03-12T16:16:41.750423", "tool_name": "rag_adapter:stats", "success": true, "elapsed_ms": 20}
+{"timestamp": "2026-03-12T16:58:31.222683", "tool_name": "index_manager:stats", "success": true, "elapsed_ms": 13}
+{"timestamp": "2026-03-12T16:59:50.124088", "tool_name": "rag_adapter:stats", "success": true, "elapsed_ms": 22}
+{"timestamp": "2026-03-12T18:05:20.100230", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 32}
+{"timestamp": "2026-03-12T18:12:04.309768", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 18}
+{"timestamp": "2026-03-12T18:12:11.828072", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 12}
+{"timestamp": "2026-03-12T18:12:30.591354", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 14, "error_code": "NOT_FOUND", "error_message": "未找到别名: 沈知意"}
+{"timestamp": "2026-03-12T18:12:38.527017", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 12, "error_code": "NOT_FOUND", "error_message": "未找到别名: 陆砚辞"}
+{"timestamp": "2026-03-12T18:12:46.403708", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 12, "error_code": "NOT_FOUND", "error_message": "未找到别名: 沈清瑶"}
+{"timestamp": "2026-03-12T18:12:54.058701", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 13, "error_code": "NOT_FOUND", "error_message": "未找到别名: 纪舒"}
+{"timestamp": "2026-03-12T18:13:18.039156", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 21}
+{"timestamp": "2026-03-12T18:13:25.519963", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 21}
+{"timestamp": "2026-03-12T18:13:33.200592", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 19}
+{"timestamp": "2026-03-12T18:13:41.194417", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 23}
+{"timestamp": "2026-03-12T18:14:00.268374", "tool_name": "index_manager:register-alias", "success": true, "elapsed_ms": 20}
+{"timestamp": "2026-03-12T18:14:07.845397", "tool_name": "index_manager:register-alias", "success": true, "elapsed_ms": 19}
+{"timestamp": "2026-03-12T18:14:15.403116", "tool_name": "index_manager:register-alias", "success": true, "elapsed_ms": 20}
+{"timestamp": "2026-03-12T18:14:23.118992", "tool_name": "index_manager:register-alias", "success": true, "elapsed_ms": 27}
+{"timestamp": "2026-03-12T18:14:49.332100", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 21}
+{"timestamp": "2026-03-12T18:15:33.411342", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 19}
+{"timestamp": "2026-03-12T18:15:40.805989", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 21}
+{"timestamp": "2026-03-12T18:15:48.397189", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 20}
+{"timestamp": "2026-03-12T18:16:13.311513", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 21}
+{"timestamp": "2026-03-12T18:16:28.574918", "tool_name": "state_manager:process-chapter", "success": false, "elapsed_ms": 20, "error_code": "SCHEMA_VALIDATION_FAILED", "error_message": "数据结构校验失败"}
+{"timestamp": "2026-03-12T18:17:01.921991", "tool_name": "state_manager:process-chapter", "success": false, "elapsed_ms": 15, "error_code": "SCHEMA_VALIDATION_FAILED", "error_message": "数据结构校验失败"}
+{"timestamp": "2026-03-12T18:17:38.134416", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 292, "chapter": 16}
+{"timestamp": "2026-03-12T18:18:20.337816", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 358, "chapter": 16}
+{"timestamp": "2026-03-12T18:18:38.114291", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 20, "chapter": 16}
+{"timestamp": "2026-03-12T18:20:26.285107", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 12}
+{"timestamp": "2026-03-12T18:20:33.800575", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 12}
