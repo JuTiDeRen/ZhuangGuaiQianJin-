@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 1,
-    "current_chapter": 10,
-    "total_written_words": 25989,
+    "current_chapter": 15,
+    "total_written_words": 38500,
     "status": "writing",
-    "total_words": 25989,
-    "last_updated": "2026-03-12 01:30:00"
+    "total_words": 28500,
+    "last_updated": "2026-03-12 15:30:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -256,6 +256,96 @@
         "time": "晚上",
         "location": "宴会厅",
         "emotion": "大快人心"
+      }
+    },
+    "0011": {
+      "hook": {
+        "type": "悬念钩",
+        "content": "沈清瑶的暗中报复，三个职场阴谋连环出击",
+        "strength": "medium"
+      },
+      "pattern": {
+        "opening": "场景感知开场",
+        "hook": "悬念钩",
+        "emotion_rhythm": "低→中→高",
+        "info_density": "high"
+      },
+      "ending": {
+        "time": "傍晚",
+        "location": "沈氏集团外",
+        "emotion": "暗流涌动"
+      }
+    },
+    "0012": {
+      "hook": {
+        "type": "情感钩",
+        "content": "闺蜜团登场，陆砚辞当众表白",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景切入开场",
+        "hook": "情感钩",
+        "emotion_rhythm": "中→高→甜",
+        "info_density": "medium"
+      },
+      "ending": {
+        "time": "下午",
+        "location": "澜韵会所",
+        "emotion": "暧昧升温"
+      }
+    },
+    "0013": {
+      "hook": {
+        "type": "冲突钩",
+        "content": "团队第一次会议，内鬼浮现",
+        "strength": "medium"
+      },
+      "pattern": {
+        "opening": "场景直入开场",
+        "hook": "冲突钩",
+        "emotion_rhythm": "中→高→爽",
+        "info_density": "high"
+      },
+      "ending": {
+        "time": "中午",
+        "location": "沈氏集团",
+        "emotion": "掌握主动"
+      }
+    },
+    "0014": {
+      "hook": {
+        "type": "情感钩",
+        "content": "陆砚辞的'巧合'，一个月前就预约的餐厅",
+        "strength": "medium"
+      },
+      "pattern": {
+        "opening": "场景切入开场",
+        "hook": "情感钩",
+        "emotion_rhythm": "中→高→甜",
+        "info_density": "medium"
+      },
+      "ending": {
+        "time": "晚上",
+        "location": "沈家别墅外",
+        "emotion": "暧昧升温"
+      }
+    },
+    "0015": {
+      "hook": {
+        "type": "爽点钩",
+        "content": "季度汇报会，当众揭穿沈清瑶阴谋，超额完成目标",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景直入开场",
+        "hook": "爽点钩",
+        "emotion_rhythm": "中→高→爽",
+        "info_density": "high"
+      },
+      "ending": {
+        "time": "下午",
+        "location": "沈氏集团",
+        "emotion": "大获全胜"
       }
     }
   },

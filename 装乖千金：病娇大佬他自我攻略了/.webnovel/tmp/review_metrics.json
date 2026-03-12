@@ -1,24 +1,10 @@
 {
-  "start_chapter": 6,
-  "end_chapter": 6,
-  "overall_score": 82.0,
-  "dimension_scores": {
-    "爽点密度": 86,
-    "设定一致性": 72,
-    "节奏控制": 82,
-    "人物塑造": 92,
-    "连贯性": 78,
-    "追读力": 82
-  },
-  "severity_counts": {
-    "critical": 1,
-    "high": 0,
-    "medium": 3,
-    "low": 4
-  },
-  "critical_issues": [
-    "微表情洞察使用次数统计错误：本章实际使用了4次（小张1次、王经理3次），但结尾记录为'已使用2次，还剩1次'"
-  ],
-  "report_file": "审查报告/第6章审查报告.md",
-  "notes": "已启用审查器: consistency-checker, continuity-checker, ooc-checker, reader-pull-checker, high-point-checker; 关键问题: 微表情洞察次数统计错误(Critical); 建议修复: 1.修正使用次数统计 2.补充林嘉树悬念承接 3.增加精神消耗描写"
+  "start_chapter": 15,
+  "end_chapter": 15,
+  "overall_score": 86.0,
+  "dimension_scores": {"爽点密度": 8.8, "设定一致性": 8.5, "节奏控制": 8.5, "人物塑造": 8.5, "连贯性": 8.5, "追读力": 8.7},
+  "severity_counts": {"critical": 0, "high": 0, "medium": 1, "low": 1},
+  "critical_issues": [],
+  "report_file": "审查报告/第15章审查报告.md",
+  "notes": "selected_checkers: consistency-checker,continuity-checker,ooc-checker,reader-pull-checker,high-point-checker,pacing-checker | anti_ai_force_check: pass | timeline_gate: pass"
 }
