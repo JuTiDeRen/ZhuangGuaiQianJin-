@@ -12,7 +12,16 @@
       "Skill(webnovel-writer:webnovel-query)",
       "Skill(webnovel-writer:webnovel-query:*)",
       "Read(//dev/**)",
-      "Bash(python -c \":*)"
+      "Bash(python -c \":*)",
+      "Bash(for f:*)",
+      "Bash(do echo:*)",
+      "Read(//d/WorkSpace/ZhuangGuaiQianJin-/**)",
+      "Bash(done)",
+      "Bash(ls -la C:/Users/lylens/AppData/Local/Temp/claude/d--WorkSpace-ZhuangGuaiQianJin-/tasks/a*.output)",
+      "Bash(ls -la C:/Users/lylens/AppData/Local/Temp/claude/d--WorkSpace-ZhuangGuaiQianJin-/tasks/*.output)",
+      "Bash(ls C:/Users/lylens/AppData/Local/Temp/claude/d--WorkSpace-ZhuangGuaiQianJin-/tasks/*.output)",
+      "Skill(webnovel-writer:webnovel-dashboard)",
+      "Skill(webnovel-writer:webnovel-dashboard:*)"
     ],
     "additionalDirectories": [
       "D:\\workspace\\小说\\新建文件夹\\$PROJECT_ROOT"

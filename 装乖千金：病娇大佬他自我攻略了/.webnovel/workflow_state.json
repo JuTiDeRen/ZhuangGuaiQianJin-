@@ -1,98 +1,9 @@
 {
-  "current_task": {
+  "current_task": null,
+  "last_stable_state": {
     "command": "webnovel-write",
-    "args": {
-      "chapter_num": 16
-    },
-    "started_at": "2026-03-12T17:57:14.296597",
-    "last_heartbeat": "2026-03-12T18:21:28.545986",
-    "status": "running",
-    "current_step": null,
-    "completed_steps": [
-      {
-        "id": "Step 1",
-        "name": "Context Agent",
-        "status": "completed",
-        "started_at": "2026-03-12T17:58:37.995940",
-        "running_at": "2026-03-12T17:58:37.995940",
-        "attempt": 1,
-        "progress_note": null,
-        "completed_at": "2026-03-12T18:01:53.465968",
-        "artifacts": {
-          "ok": true
-        }
-      },
-      {
-        "id": "Step 2A",
-        "name": "正文起草",
-        "status": "completed",
-        "started_at": "2026-03-12T18:02:09.731794",
-        "running_at": "2026-03-12T18:02:09.731794",
-        "attempt": 1,
-        "progress_note": null,
-        "completed_at": "2026-03-12T18:02:09.982362",
-        "artifacts": {
-          "chapter_file": "正文/第0016章-母亲的偏心.md",
-          "word_count": 2300
-        }
-      },
-      {
-        "id": "Step 3",
-        "name": "审查",
-        "status": "completed",
-        "started_at": "2026-03-12T18:03:34.135351",
-        "running_at": "2026-03-12T18:03:34.135351",
-        "attempt": 1,
-        "progress_note": null,
-        "completed_at": "2026-03-12T18:05:47.731976",
-        "artifacts": {
-          "overall_score": 90.25,
-          "critical_issues": 0,
-          "high_issues": 0
-        }
-      },
-      {
-        "id": "Step 4",
-        "name": "润色",
-        "status": "completed",
-        "started_at": "2026-03-12T18:06:27.622753",
-        "running_at": "2026-03-12T18:06:27.622753",
-        "attempt": 1,
-        "progress_note": null,
-        "completed_at": "2026-03-12T18:06:27.866671",
-        "artifacts": {
-          "anti_ai_force_check": "pass",
-          "poison_check": "pass",
-          "fixes": 0
-        }
-      },
-      {
-        "id": "Step 5",
-        "name": "Data Agent",
-        "status": "completed",
-        "started_at": "2026-03-12T18:07:00.551919",
-        "running_at": "2026-03-12T18:07:00.551919",
-        "attempt": 1,
-        "progress_note": null,
-        "completed_at": "2026-03-12T18:21:28.545962",
-        "artifacts": {
-          "entities_appeared": 4,
-          "scenes_chunked": 4,
-          "total_timing_ms": 5650
-        }
-      }
-    ],
-    "failed_steps": [],
-    "pending_steps": [
-      "Step 1",
-      "Step 2A",
-      "Step 2B",
-      "Step 3",
-      "Step 4",
-      "Step 5",
-      "Step 6"
-    ],
-    "retry_count": 0,
+    "chapter_num": 16,
+    "completed_at": "2026-03-12T18:21:58.653624",
     "artifacts": {
       "chapter_file": "正文/第0016章-母亲的偏心.md",
       "git_status": {},
@@ -108,20 +19,8 @@
       "poison_check": "pass",
       "fixes": 0,
       "scenes_chunked": 4,
-      "total_timing_ms": 5650
-    }
-  },
-  "last_stable_state": {
-    "command": "webnovel-review",
-    "chapter_num": 10,
-    "completed_at": "2026-03-12T14:57:16.775123",
-    "artifacts": {
-      "chapter_file": {},
-      "git_status": {},
-      "state_json_modified": false,
-      "entities_appeared": false,
-      "review_completed": false,
-      "ok": true
+      "total_timing_ms": 5650,
+      "chapter": 16
     }
   },
   "history": [
@@ -138,6 +37,13 @@
       "chapter": 10,
       "status": "completed",
       "completed_at": "2026-03-12T14:57:16.775123"
+    },
+    {
+      "task_id": "task_003",
+      "command": "webnovel-write",
+      "chapter": 16,
+      "status": "completed",
+      "completed_at": "2026-03-12T18:21:58.653624"
     }
   ]
 }
