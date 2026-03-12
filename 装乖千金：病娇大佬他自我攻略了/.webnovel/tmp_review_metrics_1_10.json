@@ -1,0 +1,27 @@
+{
+  "start_chapter": 1,
+  "end_chapter": 10,
+  "overall_score": 72,
+  "dimension_scores": {
+    "爽点密度": 8,
+    "设定一致性": 6,
+    "节奏控制": 7,
+    "人物塑造": 7,
+    "连贯性": 7,
+    "追读力": 8
+  },
+  "severity_counts": {
+    "critical": 4,
+    "high": 3,
+    "medium": 6,
+    "low": 4
+  },
+  "critical_issues": [
+    "微表情洞察使用次数超限（第2、4、6章）",
+    "第10章沈清瑶设局手段OOC",
+    "第10章沈清瑶失败表现OOC",
+    "匿名短信威胁线索遗忘"
+  ],
+  "report_file": "审查报告/第1-10章审查报告.md",
+  "notes": "主要问题集中在微表情洞察使用次数超标和第10章反派OOC"
+}

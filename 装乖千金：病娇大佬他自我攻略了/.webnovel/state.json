@@ -52,7 +52,7 @@
     "abilities": {
       "微表情洞察": {
         "daily_limit": 3,
-        "used_today": 4,
+        "used_today": 3,
         "remaining": 0
       }
     },
@@ -286,6 +286,14 @@
       "reviewed_at": "2026-03-12",
       "overall_score": 82,
       "critical_issues": 1,
+      "status": "fixed"
+    },
+    {
+      "chapter_range": "1-10",
+      "report_file": "审查报告/第1-10章审查报告.md",
+      "reviewed_at": "2026-03-12",
+      "overall_score": 72,
+      "critical_issues": 4,
       "status": "fixed"
     }
   ],

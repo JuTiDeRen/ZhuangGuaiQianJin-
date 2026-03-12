@@ -1,23 +1,16 @@
 {
   "current_task": null,
   "last_stable_state": {
-    "command": "webnovel-write",
-    "chapter_num": 1,
-    "completed_at": "2026-03-12T01:33:33.407996",
+    "command": "webnovel-review",
+    "chapter_num": 10,
+    "completed_at": "2026-03-12T14:57:16.775123",
     "artifacts": {
       "chapter_file": {},
       "git_status": {},
       "state_json_modified": false,
       "entities_appeared": false,
       "review_completed": false,
-      "status": "completed",
-      "notes": "第1章94.8分 第2章85分 第3章82分 第4章88分 第5章80分，无critical/high问题",
-      "overall_score": 86.8,
-      "anti_ai_force_check": "pass",
-      "commit_hash": "4be2c13",
-      "ok": true,
-      "report": "审查报告/第6-10章审查报告.md",
-      "fixed": true
+      "ok": true
     }
   },
   "history": [
@@ -27,6 +20,13 @@
       "chapter": 1,
       "status": "completed",
       "completed_at": "2026-03-12T01:33:33.407996"
+    },
+    {
+      "task_id": "task_002",
+      "command": "webnovel-review",
+      "chapter": 10,
+      "status": "completed",
+      "completed_at": "2026-03-12T14:57:16.775123"
     }
   ]
 }
