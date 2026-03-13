@@ -1,0 +1,17 @@
+{
+  "start_chapter": 26,
+  "end_chapter": 30,
+  "overall_score": 84.3,
+  "dimension_scores": {
+    "爽点密度": 82,
+    "设定一致性": 88,
+    "节奏控制": 86,
+    "人物塑造": 78,
+    "连贯性": 90,
+    "追读力": 82
+  },
+  "severity_counts": {"critical": 0, "high": 1, "medium": 3, "low": 4},
+  "critical_issues": [],
+  "report_file": "审查报告/第26-30章审查报告.md",
+  "notes": "第26-30章审查完成。1个高优先级问题：顾长渊提前出场；3个中优先级问题：情节逻辑、人设偏离；4个低优先级建议。总体评价良好，情感线巅峰章节表现优秀。"
+}
