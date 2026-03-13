@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 1,
-    "current_chapter": 31,
-    "total_written_words": 73100,
+    "current_chapter": 32,
+    "total_written_words": 75500,
     "status": "writing",
-    "total_words": 73100,
-    "last_updated": "2026-03-14 02:00:00"
+    "total_words": 75500,
+    "last_updated": "2026-03-14 12:00:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -52,8 +52,8 @@
     "abilities": {
       "微表情洞察": {
         "daily_limit": 3,
-        "used_today": 2,
-        "remaining": 1
+        "used_today": 0,
+        "remaining": 3
       }
     },
     "intel": {
@@ -83,9 +83,10 @@
         "顾长渊目的是控制沈家"
       ],
       "新项目情报": [
-        "陆氏沈氏合作项目投资五千万",
+        "陆氏沈氏合作项目投资五千万，已签约启动",
         "王经理/沈清瑶残余势力将阻挠项目",
-        "匿名威胁短信已保存证据"
+        "匿名威胁短信已保存证据",
+        "陆砚辞已委托裴靳调查短信来源（24小时内出结果）"
       ]
     },
     "items": [
@@ -95,9 +96,9 @@
     ]
   },
   "strand_tracker": {
-    "fire": 78,
-    "constellation": 35,
-    "quest": 65
+    "fire": 80,
+    "constellation": 38,
+    "quest": 67
   },
   "chapter_meta": {
     "0002": {
@@ -640,6 +641,25 @@
         "location": "沈知意办公室",
         "emotion": "战意燃烧，危机预警"
       }
+    },
+    "0032": {
+      "hook": {
+        "type": "甜蜜钩+悬念钩",
+        "content": "陆砚辞承诺每天去沈氏集团'视察项目'，24小时内查出匿名威胁者",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景感知开场",
+        "hook": "情感钩",
+        "emotion_rhythm": "紧张→甜蜜→悬念",
+        "info_density": "medium",
+        "strand_type": "Fire"
+      },
+      "ending": {
+        "time": "2026年4月27日晚",
+        "location": "沈家别墅",
+        "emotion": "感情升温，期待明日"
+      }
     }
   },
   "export_source": {
@@ -662,14 +682,16 @@
     "active_threads": [
       "慈善晚宴即将到来（D-48）",
       "顾长渊即将亲自出手",
-      "陆氏沈氏合作项目启动，沈知意全权负责",
+      "陆氏沈氏合作项目已签约启动，沈知意全权负责",
       "王经理/沈清瑶残余势力将阻挠新项目",
-      "匿名威胁短信来源待查"
+      "匿名威胁短信来源调查中（裴靳介入，24小时内出结果）",
+      "陆砚辞承诺每天去沈氏集团'视察项目'"
     ],
     "foreshadowing": [
       "顾长渊是幕后大BOSS",
       "慈善晚宴将是沈知意'真实自我'的首秀",
-      "新项目存在深层风险"
+      "新项目存在深层风险",
+      "陆砚辞的'办公室恋情'即将展开"
     ]
   },
   "review_checkpoints": [

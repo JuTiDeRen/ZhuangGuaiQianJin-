@@ -239,3 +239,15 @@
 {"timestamp": "2026-03-14T00:45:26.021104", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 14, "chapter": 31}
 {"timestamp": "2026-03-14T00:45:50.927564", "tool_name": "index_manager:get-state-changes", "success": true, "elapsed_ms": 9}
 {"timestamp": "2026-03-14T00:45:51.203465", "tool_name": "index_manager:get-relationships", "success": true, "elapsed_ms": 11}
+{"timestamp": "2026-03-14T00:49:54.492148", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-03-14T00:49:54.749376", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 11}
+{"timestamp": "2026-03-14T00:50:04.264143", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-14T00:50:04.540704", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-03-14T00:50:04.816477", "tool_name": "index_manager:register-alias", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-14T00:50:25.248791", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-14T00:50:25.521348", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-03-14T00:50:25.794796", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-14T00:52:55.636418", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 259, "chapter": 32}
+{"timestamp": "2026-03-14T00:52:55.992537", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 11, "chapter": 32}
+{"timestamp": "2026-03-14T00:52:59.702594", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 12, "error_code": "NOT_FOUND", "error_message": "未找到别名: 陆氏集团"}
+{"timestamp": "2026-03-14T00:53:02.914049", "tool_name": "index_manager:register-alias", "success": true, "elapsed_ms": 15}
