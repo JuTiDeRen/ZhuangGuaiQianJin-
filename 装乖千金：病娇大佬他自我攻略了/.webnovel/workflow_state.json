@@ -1,26 +1,19 @@
 {
   "current_task": null,
   "last_stable_state": {
-    "command": "webnovel-write",
-    "chapter_num": 16,
-    "completed_at": "2026-03-12T18:21:58.653624",
+    "command": "webnovel-review",
+    "chapter_num": 20,
+    "completed_at": "2026-03-13T22:46:31.443379",
     "artifacts": {
-      "chapter_file": "正文/第0016章-母亲的偏心.md",
+      "chapter_file": {},
       "git_status": {},
       "state_json_modified": false,
-      "entities_appeared": 4,
+      "entities_appeared": false,
       "review_completed": false,
-      "ok": true,
-      "word_count": 2300,
-      "overall_score": 90.25,
-      "critical_issues": 0,
-      "high_issues": 0,
-      "anti_ai_force_check": "pass",
-      "poison_check": "pass",
-      "fixes": 0,
-      "scenes_chunked": 4,
-      "total_timing_ms": 5650,
-      "chapter": 16
+      "checkers_completed": 4,
+      "report": "第11-20章审查报告.md",
+      "score": 82,
+      "status": "conditional_pass"
     }
   },
   "history": [
@@ -44,6 +37,13 @@
       "chapter": 16,
       "status": "completed",
       "completed_at": "2026-03-12T18:21:58.653624"
+    },
+    {
+      "task_id": "task_004",
+      "command": "webnovel-review",
+      "chapter": 20,
+      "status": "completed",
+      "completed_at": "2026-03-13T22:46:31.443379"
     }
   ]
 }

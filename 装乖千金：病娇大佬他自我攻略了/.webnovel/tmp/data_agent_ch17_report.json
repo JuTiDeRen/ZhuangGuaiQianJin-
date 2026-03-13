@@ -1,0 +1,148 @@
+{
+  "chapter": 17,
+  "entities_appeared": [
+    {
+      "id": "shen_zhiyi",
+      "type": "角色",
+      "mentions": [
+        "沈知意",
+        "她",
+        "知意"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "lu_yanci",
+      "type": "角色",
+      "mentions": [
+        "陆砚辞",
+        "陆少",
+        "他"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "shen_qingyao",
+      "type": "角色",
+      "mentions": [
+        "沈清瑶",
+        "姐姐",
+        "清瑶"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "su_yinyin",
+      "type": "角色",
+      "mentions": [
+        "苏音音",
+        "音音"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "lin_wanwan",
+      "type": "角色",
+      "mentions": [
+        "林婉婉",
+        "林小姐"
+      ],
+      "confidence": 0.98
+    }
+  ],
+  "entities_new": [
+    {
+      "suggested_id": "lin_wanwan",
+      "name": "林婉婉",
+      "type": "角色",
+      "tier": "次要"
+    },
+    {
+      "suggested_id": "lanyue_pavilion",
+      "name": "揽月阁",
+      "type": "地点",
+      "tier": "重要"
+    },
+    {
+      "suggested_id": "red_dress_lady",
+      "name": "红礼服女人",
+      "type": "角色",
+      "tier": "装饰"
+    }
+  ],
+  "state_changes": [
+    {
+      "entity_id": "shen_zhiyi",
+      "field": "social_status",
+      "old": "被孤立",
+      "new": "获得陆砚辞公开支持",
+      "reason": "陆砚辞当众护短并表明追求"
+    },
+    {
+      "entity_id": "shen_zhiyi",
+      "field": "emotion",
+      "old": "警惕",
+      "new": "心动/沦陷",
+      "reason": "陆砚辞的温柔与护短"
+    }
+  ],
+  "relationships_new": [
+    {
+      "from": "lu_yanci",
+      "to": "shen_zhiyi",
+      "type": "追求",
+      "description": "陆砚辞当众表明正在追求沈知意"
+    },
+    {
+      "from": "shen_zhiyi",
+      "to": "lu_yanci",
+      "type": "心动",
+      "description": "沈知意开始沦陷于陆砚辞的温柔"
+    },
+    {
+      "from": "lin_wanwan",
+      "to": "shen_qingyao",
+      "type": "闺蜜",
+      "description": "林婉婉是沈清瑶的闺蜜，替她出头"
+    },
+    {
+      "from": "su_yinyin",
+      "to": "shen_zhiyi",
+      "type": "保护",
+      "description": "苏音音在聚会中出面保护沈知意"
+    }
+  ],
+  "scenes_chunked": 4,
+  "uncertain": [],
+  "warnings": [],
+  "errors": [],
+  "timing_ms": {
+    "A_load_context": 150,
+    "B_entity_extract": 3200,
+    "C_disambiguation": 180,
+    "D_state_index_write": 450,
+    "E_summary_write": 120,
+    "F_scene_chunking": 800,
+    "G_rag_index": 350,
+    "H_style_sample": 280,
+    "I_debt_interest": 0,
+    "TOTAL": 5530
+  },
+  "bottlenecks_top3": [
+    {
+      "step": "B_entity_extract",
+      "elapsed_ms": 3200,
+      "ratio": 57.9
+    },
+    {
+      "step": "F_scene_chunking",
+      "elapsed_ms": 800,
+      "ratio": 14.5
+    },
+    {
+      "step": "D_state_index_write",
+      "elapsed_ms": 450,
+      "ratio": 8.1
+    }
+  ]
+}

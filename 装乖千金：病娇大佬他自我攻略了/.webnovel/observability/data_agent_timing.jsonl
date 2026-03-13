@@ -143,3 +143,76 @@
 {"timestamp": "2026-03-12T18:20:26.285107", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 12}
 {"timestamp": "2026-03-12T18:20:33.800575", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 12}
 {"timestamp": "2026-03-12T18:22:13.879037", "tool_name": "index_manager:get-recent-review-metrics", "success": true, "elapsed_ms": 12}
+{"timestamp": "2026-03-13T21:13:38.201952", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-13T21:18:23.766588", "chapter": 17, "timing_ms": {"A_load_context": 150, "B_entity_extract": 3200, "C_disambiguation": 180, "D_state_index_write": 450, "E_summary_write": 120, "F_scene_chunking": 800, "G_rag_index": 350, "H_style_sample": 280, "I_debt_interest": 0, "TOTAL": 5530}, "bottlenecks_top3": [{"step": "B_entity_extract", "elapsed_ms": 3200, "ratio": 57.9}, {"step": "F_scene_chunking", "elapsed_ms": 800, "ratio": 14.5}]}
+{"timestamp": "2026-03-13T21:22:35.028647", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 13}
+{"timestamp": "2026-03-13T21:22:35.358639", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 13}
+{"timestamp": "2026-03-13T21:22:51.163685", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 19}
+{"timestamp": "2026-03-13T21:22:51.513587", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 26}
+{"timestamp": "2026-03-13T21:22:51.862477", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-03-13T21:22:52.201473", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 19}
+{"timestamp": "2026-03-13T21:22:52.552925", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 20}
+{"timestamp": "2026-03-13T21:23:09.044995", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 18}
+{"timestamp": "2026-03-13T21:23:09.391747", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 23}
+{"timestamp": "2026-03-13T21:23:21.979538", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 20}
+{"timestamp": "2026-03-13T21:23:22.317397", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 21}
+{"timestamp": "2026-03-13T21:23:22.662492", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-03-13T21:23:29.627555", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 28, "chapter": 18}
+{"timestamp": "2026-03-13T21:23:50.063307", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 473, "chapter": 18}
+{"timestamp": "2026-03-13T21:23:59.309569", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 14, "chapter": 18}
+{"timestamp": "2026-03-13T21:24:03.926944", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 10, "error_code": "NOT_FOUND", "error_message": "未找到别名: 裴靳"}
+{"timestamp": "2026-03-13T21:24:08.696048", "tool_name": "index_manager:register-alias", "success": true, "elapsed_ms": 19}
+{"timestamp": "2026-03-13T21:24:19.802820", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 23, "chapter": 18}
+{"timestamp": "2026-03-13T21:24:35.379147", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-13T21:24:42.535891", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 11}
+{"timestamp": "2026-03-13T21:25:13.297643", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 19}
+{"timestamp": "2026-03-13T21:26:54.862182", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 11}
+{"timestamp": "2026-03-13T21:27:02.727564", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 13}
+{"timestamp": "2026-03-13T21:27:03.075343", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-13T21:27:03.473475", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 13}
+{"timestamp": "2026-03-13T21:27:10.491886", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 13}
+{"timestamp": "2026-03-13T21:27:10.826730", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 12}
+{"timestamp": "2026-03-13T21:27:11.194932", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 10}
+{"timestamp": "2026-03-13T21:27:34.903483", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 18}
+{"timestamp": "2026-03-13T21:27:35.260827", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-03-13T21:27:35.602612", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-03-13T21:27:35.939735", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 19}
+{"timestamp": "2026-03-13T21:27:36.287507", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 19}
+{"timestamp": "2026-03-13T21:27:48.203573", "tool_name": "index_manager:register-alias", "success": true, "elapsed_ms": 19}
+{"timestamp": "2026-03-13T21:27:48.581192", "tool_name": "index_manager:register-alias", "success": true, "elapsed_ms": 20}
+{"timestamp": "2026-03-13T21:27:56.657435", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-13T21:27:57.003031", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 21}
+{"timestamp": "2026-03-13T21:28:43.393337", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-13T21:28:43.768313", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 23}
+{"timestamp": "2026-03-13T21:28:44.131643", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 18}
+{"timestamp": "2026-03-13T21:28:44.471384", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 19}
+{"timestamp": "2026-03-13T21:28:48.950353", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 25, "chapter": 19}
+{"timestamp": "2026-03-13T21:29:14.411922", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 368, "chapter": 19}
+{"timestamp": "2026-03-13T21:29:25.759213", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 15, "chapter": 19}
+{"timestamp": "2026-03-13T21:30:47.970202", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 12}
+{"timestamp": "2026-03-13T21:30:53.359408", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-13T21:30:53.703852", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 12}
+{"timestamp": "2026-03-13T21:31:17.273597", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 30}
+{"timestamp": "2026-03-13T21:33:14.530886", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 11}
+{"timestamp": "2026-03-13T21:33:14.854701", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 12}
+{"timestamp": "2026-03-13T21:33:23.174810", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-13T21:33:23.511940", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 10}
+{"timestamp": "2026-03-13T21:33:23.849456", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-13T21:33:37.798453", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 21}
+{"timestamp": "2026-03-13T21:33:38.138512", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 22}
+{"timestamp": "2026-03-13T21:33:38.506978", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 23}
+{"timestamp": "2026-03-13T21:33:49.654718", "tool_name": "index_manager:register-alias", "success": true, "elapsed_ms": 22}
+{"timestamp": "2026-03-13T21:34:00.024513", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 18}
+{"timestamp": "2026-03-13T21:34:00.370395", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 20}
+{"timestamp": "2026-03-13T21:34:00.710073", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 21}
+{"timestamp": "2026-03-13T21:34:20.384981", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-13T21:34:20.735811", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 18}
+{"timestamp": "2026-03-13T21:34:21.064054", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 19}
+{"timestamp": "2026-03-13T21:34:29.590491", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 25, "chapter": 20}
+{"timestamp": "2026-03-13T21:34:49.741988", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 365, "chapter": 20}
+{"timestamp": "2026-03-13T21:34:56.934588", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 10, "chapter": 20}
+{"timestamp": "2026-03-13T21:35:14.545906", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 11}
+{"timestamp": "2026-03-13T21:35:14.879748", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 10}
+{"timestamp": "2026-03-13T21:35:18.909054", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-13T21:35:58.427022", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 18}
+{"timestamp": "2026-03-13T22:46:31.044252", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 15}

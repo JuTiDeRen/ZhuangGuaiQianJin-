@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 1,
-    "current_chapter": 16,
-    "total_written_words": 38500,
+    "current_chapter": 19,
+    "total_written_words": 46100,
     "status": "writing",
-    "total_words": 28500,
-    "last_updated": "2026-03-12 18:17:37"
+    "total_words": 41100,
+    "last_updated": "2026-03-13 21:35:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -46,21 +46,22 @@
   },
   "protagonist_state": {
     "name": "沈知意",
-    "current_identity": "沈氏集团市场部员工（边缘组），掌握王经理贪污把柄",
-    "arc_stage": "初期布局阶段，收集情报",
+    "current_identity": "沈氏集团市场部员工，掌握沈清瑶指使内鬼把柄",
+    "arc_stage": "职场反击阶段，掌握主动权",
     "golden_finger_level": 1,
     "abilities": {
       "微表情洞察": {
         "daily_limit": 3,
-        "used_today": 2,
-        "remaining": 1
+        "used_today": 4,
+        "remaining": -1
       }
     },
     "intel": {
       "沈清瑶破绽": [
         "拥抱时身体僵硬（抗拒）",
         "与纪舒互动时得意上扬（占有欲）",
-        "提及钢琴时瞳孔微缩（紧张/不安）"
+        "提及钢琴时瞳孔微缩（紧张/不安）",
+        "指使张磊泄露陆氏项目数据（人证物证俱在）"
       ],
       "二房把柄": [
         "新项目中饱私囊（需进一步查证）"
@@ -68,7 +69,12 @@
       "职场情报": [
         "王经理是沈清瑶的人",
         "王经理贪污350万项目款",
-        "失败项目与陆氏集团有关"
+        "失败项目与陆氏集团有关",
+        "张磊是沈清瑶安排的内鬼（已揭穿）"
+      ],
+      "揽月阁聚会": [
+        "林婉婉是沈清瑶闺蜜，替她出头",
+        "名媛圈对沈知意态度转变"
       ]
     }
   },
@@ -348,22 +354,59 @@
         "emotion": "大获全胜"
       }
     },
-    "0016": {
+    "0016": {},
+    "0017": {
       "hook": {
-        "type": "情绪钩",
-        "content": "女主的委屈谁能懂？陆砚辞暧昧短信",
-        "strength": "medium"
+        "type": "情感钩",
+        "content": "陆砚辞当众护短弹钢琴，公开表明追求沈知意",
+        "strength": "strong"
       },
       "pattern": {
         "opening": "场景描写开场",
-        "hook": "情绪钩",
-        "emotion_rhythm": "低→高→觉醒",
+        "hook": "冲突钩转情感钩",
+        "emotion_rhythm": "紧张→反击→甜蜜",
         "info_density": "medium"
       },
       "ending": {
-        "time": "晚上",
+        "time": "2026年4月2日晚",
+        "location": "高级餐厅",
+        "emotion": "心动沦陷"
+      }
+    },
+    "0018": {
+      "hook": {
+        "type": "冲突钩",
+        "content": "陆砚辞当众介绍沈知意为女朋友，裴靳的试探",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景描写开场",
+        "hook": "冲突钩",
+        "emotion_rhythm": "紧张→对峙→甜蜜",
+        "info_density": "medium"
+      },
+      "ending": {
+        "time": "2026年4月4日晚",
         "location": "沈家别墅",
-        "emotion": "决心反击"
+        "emotion": "心动沦陷"
+      }
+    },
+    "0019": {
+      "hook": {
+        "type": "危机钩",
+        "content": "陆氏项目核心数据泄露，沈知意临危受命调查内鬼",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景感知开场",
+        "hook": "危机钩",
+        "emotion_rhythm": "紧张→调查→反击→蓄势",
+        "info_density": "high"
+      },
+      "ending": {
+        "time": "2026年4月6日傍晚",
+        "location": "沈家别墅/车内",
+        "emotion": "蓄势待发"
       }
     }
   },
@@ -405,7 +448,9 @@
       "status": "fixed"
     }
   ],
-  "disambiguation_warnings": [],
+  "disambiguation_warnings": [
+    "第19章微表情洞察使用次数超限：本章使用4次（回忆2次+现场2次），超出每日限制3次"
+  ],
   "disambiguation_pending": [],
   "_migrated_to_sqlite": true
 }

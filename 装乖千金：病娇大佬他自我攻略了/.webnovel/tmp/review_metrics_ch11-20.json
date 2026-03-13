@@ -1,0 +1,17 @@
+{
+  "start_chapter": 11,
+  "end_chapter": 20,
+  "overall_score": 82,
+  "dimension_scores": {
+    "爽点密度": 8,
+    "设定一致性": 7.5,
+    "节奏控制": 8,
+    "人物塑造": 9,
+    "连贯性": 8.5,
+    "追读力": 8.5
+  },
+  "severity_counts": {"critical": 0, "high": 1, "medium": 4, "low": 5},
+  "critical_issues": ["第19章微表情洞察使用4次，超出每日3次限制"],
+  "report_file": "审查报告/第11-20章审查报告.md",
+  "notes": "整体质量优秀，需修复第19章微表情洞察超限问题"
+}

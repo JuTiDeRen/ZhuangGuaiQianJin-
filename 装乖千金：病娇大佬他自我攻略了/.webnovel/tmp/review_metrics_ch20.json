@@ -1,0 +1,22 @@
+{
+  "start_chapter": 20,
+  "end_chapter": 20,
+  "overall_score": 88,
+  "dimension_scores": {
+    "设定一致性": 90,
+    "连贯性": 86,
+    "人物塑造": 90,
+    "爽点密度": 92,
+    "节奏控制": 88,
+    "追读力": 88
+  },
+  "severity_counts": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 1
+  },
+  "critical_issues": [],
+  "report_file": "审查报告/第20章审查报告.md",
+  "notes": "已启用审查器: consistency-checker, continuity-checker, ooc-checker; 主要问题: 第19-20章之间缺少4月7日过渡; 时间线检查通过; anti_ai_force_check: pass"
+}
