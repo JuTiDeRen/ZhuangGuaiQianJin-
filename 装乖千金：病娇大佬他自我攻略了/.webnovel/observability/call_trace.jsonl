@@ -78,3 +78,7 @@
 {"timestamp": "2026-03-13T23:07:58.244897", "event": "step_completed", "payload": {"step_id": "Step 2A", "command": "webnovel-write", "chapter": 21}}
 {"timestamp": "2026-03-13T23:12:23.567720", "event": "task_completed", "payload": {"command": "webnovel-write", "chapter": 21, "completed_steps": 1, "failed_steps": 0}}
 {"timestamp": "2026-03-13T23:14:50.735435", "event": "task_started", "payload": {"command": "webnovel-write", "args": {"chapter_num": 21}}}
+{"timestamp": "2026-03-14T01:14:14.240608", "event": "task_reentered", "payload": {"command": "webnovel-write", "chapter": 21, "retry_count": 1}}
+{"timestamp": "2026-03-14T01:17:21.062981", "event": "step_started", "payload": {"step_id": "Step 8", "step_name": "收尾", "command": "webnovel-write", "chapter": 21, "progress_note": null, "expected_owner": "webnovel-write-skill"}}
+{"timestamp": "2026-03-14T01:17:21.373470", "event": "step_completed", "payload": {"step_id": "Step 8", "command": "webnovel-write", "chapter": 21}}
+{"timestamp": "2026-03-14T01:17:21.671054", "event": "task_completed", "payload": {"command": "webnovel-write", "chapter": 21, "completed_steps": 1, "failed_steps": 0}}

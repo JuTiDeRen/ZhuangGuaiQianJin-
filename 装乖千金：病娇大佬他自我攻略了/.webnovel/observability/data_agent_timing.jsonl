@@ -273,3 +273,29 @@
 {"timestamp": "2026-03-14T01:11:46.316431", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 10, "error_code": "NOT_FOUND", "error_message": "未找到别名: 赵总"}
 {"timestamp": "2026-03-14T01:11:49.411788", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 11, "error_code": "NOT_FOUND", "error_message": "未找到别名: 恒远科技"}
 {"timestamp": "2026-03-14T01:11:52.079115", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-03-14T01:17:05.695976", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-14T01:35:41.206508", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 30}
+{"timestamp": "2026-03-14T01:36:46.228962", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-14T01:36:52.696735", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 20}
+{"timestamp": "2026-03-14T01:36:53.350705", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 23}
+{"timestamp": "2026-03-14T01:36:53.871862", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-14T01:36:59.740523", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 28}
+{"timestamp": "2026-03-14T01:37:00.259797", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-14T01:37:00.867285", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 19}
+{"timestamp": "2026-03-14T01:37:17.889817", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 30}
+{"timestamp": "2026-03-14T01:37:18.563328", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 31}
+{"timestamp": "2026-03-14T01:37:19.143679", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 26}
+{"timestamp": "2026-03-14T01:37:19.693427", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 23}
+{"timestamp": "2026-03-14T01:37:28.261176", "tool_name": "index_manager:register-alias", "success": true, "elapsed_ms": 30}
+{"timestamp": "2026-03-14T01:37:36.204064", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 25}
+{"timestamp": "2026-03-14T01:37:36.829172", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 35}
+{"timestamp": "2026-03-14T01:37:37.460757", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 29}
+{"timestamp": "2026-03-14T01:37:43.799986", "tool_name": "state_manager:process-chapter", "success": false, "elapsed_ms": 33, "error_code": "SCHEMA_VALIDATION_FAILED", "error_message": "数据结构校验失败"}
+{"timestamp": "2026-03-14T01:38:39.598564", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 289, "chapter": 36}
+{"timestamp": "2026-03-14T01:38:40.417026", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 19, "chapter": 36}
+{"timestamp": "2026-03-14T01:40:00", "chapter": 36, "agent": "data_agent", "timing_ms": {"A_load_context": 120, "B_entity_extract": 800, "C_disambiguation": 100, "D_state_index_write": 430, "E_summary_write": 90, "F_scene_chunking": 200, "G_rag_index": 500, "H_style_sample": 150, "I_debt_interest": 0, "TOTAL": 2390}, "bottlenecks_top3": [{"step": "B_entity_extract", "elapsed_ms": 800, "ratio": 33.5}, {"step": "D_state_index_write", "elapsed_ms": 430, "ratio": 18.0}, {"step": "G_rag_index", "elapsed_ms": 500, "ratio": 20.9}]}
+{"timestamp": "2026-03-14T01:38:52.357688", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 21}
+{"timestamp": "2026-03-14T01:40:27.320433", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 20}
+{"timestamp": "2026-03-14T01:41:11.139413", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 27}
+{"timestamp": "2026-03-14T01:41:53.344751", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 20}
+{"timestamp": "2026-03-14T01:42:47.232741", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 20}
