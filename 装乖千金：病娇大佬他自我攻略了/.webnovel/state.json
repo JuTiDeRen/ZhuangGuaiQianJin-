@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 1,
-    "current_chapter": 35,
+    "current_chapter": 36,
     "total_written_words": 80000,
     "status": "writing",
-    "total_words": 77800,
-    "last_updated": "2026-03-14 01:10:57"
+    "total_words": 80000,
+    "last_updated": "2026-03-14 01:40:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -760,6 +760,35 @@
           }
         ]
       }
+    },
+    "0036": {
+      "hook": {
+        "type": "危机钩",
+        "content": "顾长渊在街角车窗后静静注视，风暴真的要来了",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景描写开场",
+        "hook": "甜蜜+危机",
+        "emotion_rhythm": "高→低→高→低",
+        "info_density": "medium",
+        "strand_type": "Fire"
+      },
+      "ending": {
+        "time": "2026年5月6日晚11点后",
+        "location": "君悦酒店门口",
+        "emotion": "紧张不安"
+      },
+      "golden_finger_usage": {
+        "used": 1,
+        "remaining": 2,
+        "targets": [
+          {
+            "target": "沈清瑶",
+            "result": "得意表情，话里有话"
+          }
+        ]
+      }
     }
   },
   "export_source": {
@@ -824,6 +853,14 @@
       "report_file": "审查报告/第26-30章审查报告.md",
       "reviewed_at": "2026-03-14",
       "overall_score": 84,
+      "critical_issues": 0,
+      "status": "passed"
+    },
+    {
+      "chapter_range": "31-35",
+      "report_file": "审查报告/第31-35章审查报告.md",
+      "reviewed_at": "2026-03-14",
+      "overall_score": 85,
       "critical_issues": 0,
       "status": "passed"
     }
