@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 1,
-    "current_chapter": 33,
-    "total_written_words": 77800,
+    "current_chapter": 34,
+    "total_written_words": 80000,
     "status": "writing",
     "total_words": 77800,
-    "last_updated": "2026-03-14 01:00:00"
+    "last_updated": "2026-03-14 02:00:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -52,8 +52,8 @@
     "abilities": {
       "微表情洞察": {
         "daily_limit": 3,
-        "used_today": 2,
-        "remaining": 1
+        "used_today": 1,
+        "remaining": 2
       }
     },
     "intel": {
@@ -90,6 +90,12 @@
         "陆砚辞已委托裴靳调查短信来源（24小时内出结果）",
         "技术部陈明被折服，成为可用之人",
         "财务部李主管值得信任，形成同盟"
+      ],
+      "慈善晚宴情报": [
+        "慈善晚宴筹备中发现多处问题（场地/餐饮/安保/礼仪）",
+        "顾长渊通过王经理介入慈善晚宴筹备",
+        "沈清瑶可能以顾长渊邀请身份出席慈善晚宴",
+        "周敏是纪舒亲信，在供应商更换上动手脚"
       ]
     },
     "items": [
@@ -686,8 +692,43 @@
         "used": 2,
         "remaining": 1,
         "targets": [
-          {"target": "陈明", "result": "不信任"},
-          {"target": "李主管", "result": "可信任"}
+          {
+            "target": "陈明",
+            "result": "不信任"
+          },
+          {
+            "target": "李主管",
+            "result": "可信任"
+          }
+        ]
+      }
+    },
+    "0034": {
+      "hook": {
+        "type": "危机钩",
+        "content": "慈善晚宴筹备中发现沈清瑶埋雷，顾长渊通过王经理介入",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景感知开场",
+        "hook": "危机钩",
+        "emotion_rhythm": "紧张→反击→甜蜜→危机",
+        "info_density": "high",
+        "strand_type": "Fire"
+      },
+      "ending": {
+        "time": "2026年5月3日晚",
+        "location": "沈知意办公室",
+        "emotion": "战意燃烧，危机预警"
+      },
+      "golden_finger_usage": {
+        "used": 1,
+        "remaining": 2,
+        "targets": [
+          {
+            "target": "周敏",
+            "result": "心虚紧张"
+          }
         ]
       }
     }
@@ -710,13 +751,12 @@
   },
   "plot_threads": {
     "active_threads": [
-      "慈善晚宴即将到来（D-48）",
+      "慈善晚宴即将到来（D-41）",
       "顾长渊即将亲自出手",
-      "陆氏沈氏合作项目已签约启动，沈知意全权负责",
-      "王经理/沈清瑶残余势力将阻挠项目",
-      "匿名威胁短信来源调查中（裴靳介入，24小时内出结果）",
-      "陆砚辞承诺每天去沈氏集团'视察项目'",
-      "王经理索要预算表，开始暗中破坏（第33章）"
+      "陆氏沈氏合作项目持续推进",
+      "王经理/沈清瑶残余势力在慈善晚宴筹备中埋雷",
+      "裴靳调查完成：匿名威胁与王经理、顾长渊有关",
+      "陆砚辞承诺慈善晚宴当天全程在场保护沈知意"
     ],
     "foreshadowing": [
       "顾长渊是幕后大BOSS",
