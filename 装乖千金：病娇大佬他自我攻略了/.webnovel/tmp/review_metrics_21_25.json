@@ -1,0 +1,17 @@
+{
+  "start_chapter": 21,
+  "end_chapter": 25,
+  "overall_score": 82,
+  "dimension_scores": {
+    "爽点密度": 8,
+    "设定一致性": 9,
+    "节奏控制": 8,
+    "人物塑造": 8,
+    "连贯性": 9,
+    "追读力": 8
+  },
+  "severity_counts": {"critical": 0, "high": 0, "medium": 3, "low": 2},
+  "critical_issues": [],
+  "report_file": "审查报告/第21-25章审查报告.md",
+  "notes": "纪舒态度转变建议补充过渡，连续5章情感钩建议调整"
+}

@@ -570,6 +570,14 @@
       "overall_score": 72,
       "critical_issues": 4,
       "status": "fixed"
+    },
+    {
+      "chapter_range": "21-25",
+      "report_file": "审查报告/第21-25章审查报告.md",
+      "reviewed_at": "2026-03-13",
+      "overall_score": 82,
+      "critical_issues": 0,
+      "status": "passed"
     }
   ],
   "disambiguation_warnings": [
