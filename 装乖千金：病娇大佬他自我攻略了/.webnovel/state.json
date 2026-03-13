@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 1,
-    "current_chapter": 34,
+    "current_chapter": 35,
     "total_written_words": 80000,
     "status": "writing",
     "total_words": 77800,
-    "last_updated": "2026-03-14 02:00:00"
+    "last_updated": "2026-03-14 01:10:57"
   },
   "volume_plan": {
     "volume_1": {
@@ -728,6 +728,35 @@
           {
             "target": "周敏",
             "result": "心虚紧张"
+          }
+        ]
+      }
+    },
+    "0035": {
+      "hook": {
+        "type": "危机钩",
+        "content": "有人花了大价钱想要看沈知意在谈判上栽跟头",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景感知开场",
+        "hook": "爽点钩转危机钩",
+        "emotion_rhythm": "紧张→反击→甜蜜→危机",
+        "info_density": "high",
+        "strand_type": "Fire"
+      },
+      "ending": {
+        "time": "2026年5月5日",
+        "location": "沈氏集团电梯口",
+        "emotion": "谈判胜利，危机预警"
+      },
+      "golden_finger_usage": {
+        "used": 1,
+        "remaining": 2,
+        "targets": [
+          {
+            "target": "赵总",
+            "result": "虚张声势，有后手"
           }
         ]
       }

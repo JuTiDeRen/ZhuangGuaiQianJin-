@@ -259,3 +259,17 @@
 {"timestamp": "2026-03-14T00:57:37.233472", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 17}
 {"timestamp": "2026-03-14T00:57:55.285235", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 254, "chapter": 33}
 {"timestamp": "2026-03-14T00:58:00.056754", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 10, "chapter": 33}
+{"timestamp": "2026-03-14T01:10:35.336032", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-14T01:10:35.631045", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-03-14T01:10:35.905698", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-14T01:10:36.178371", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-14T01:10:42.597333", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-14T01:10:49.918180", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-14T01:10:57.144147", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 22, "chapter": 35}
+{"timestamp": "2026-03-14T01:11:14.793617", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 238, "chapter": 35}
+{"timestamp": "2026-03-14T01:11:20.066861", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 10, "chapter": 35}
+{"timestamp": "2026-03-14T01:11:24.465762", "tool_name": "state_manager:get-progress", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-14T01:11:24.764534", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 11}
+{"timestamp": "2026-03-14T01:11:46.316431", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 10, "error_code": "NOT_FOUND", "error_message": "未找到别名: 赵总"}
+{"timestamp": "2026-03-14T01:11:49.411788", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 11, "error_code": "NOT_FOUND", "error_message": "未找到别名: 恒远科技"}
+{"timestamp": "2026-03-14T01:11:52.079115", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 9}
