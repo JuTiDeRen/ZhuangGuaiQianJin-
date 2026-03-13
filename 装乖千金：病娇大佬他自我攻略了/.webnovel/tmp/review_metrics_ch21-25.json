@@ -1,0 +1,22 @@
+{
+  "start_chapter": 21,
+  "end_chapter": 25,
+  "overall_score": 84.5,
+  "dimension_scores": {
+    "爽点密度": 8.1,
+    "设定一致性": 8.4,
+    "节奏控制": 8.3,
+    "人物塑造": 8.3,
+    "连贯性": 8.7,
+    "追读力": 8.5
+  },
+  "severity_counts": {
+    "critical": 0,
+    "high": 0,
+    "medium": 4,
+    "low": 14
+  },
+  "critical_issues": [],
+  "report_file": "审查报告/第21-25章审查报告.md",
+  "notes": "selected_checkers: consistency-checker,continuity-checker,ooc-checker,reader-pull-checker,high-point-checker | chapters: 21,22,23,24,25 | avg_scores: 82.5,86.5,86.4,82.0,85.0 | timeline_gate: pass | anti_ai_force_check: pending"
+}
