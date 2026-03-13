@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 1,
-    "current_chapter": 25,
-    "total_written_words": 58100,
+    "current_chapter": 30,
+    "total_written_words": 70300,
     "status": "writing",
-    "total_words": 58100,
-    "last_updated": "2026-03-13 23:45:00"
+    "total_words": 70300,
+    "last_updated": "2026-03-14 00:30:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -46,8 +46,8 @@
   },
   "protagonist_state": {
     "name": "沈知意",
-    "current_identity": "沈氏集团市场部员工，陆砚辞女朋友",
-    "arc_stage": "情感信任阶段，卸下伪装",
+    "current_identity": "沈氏集团市场部经理，陆砚辞未婚妻",
+    "arc_stage": "完全信任，真实自我，感情质变，事业上升",
     "golden_finger_level": 1,
     "abilities": {
       "微表情洞察": {
@@ -84,7 +84,8 @@
     },
     "items": [
       "陆砚辞赠送的心形粉钻项链（定情信物）",
-      "慈善晚宴香槟色礼服"
+      "慈善晚宴香槟色礼服",
+      "陆砚辞求婚钻戒"
     ]
   },
   "strand_tracker": {
@@ -525,6 +526,96 @@
         "location": "沈家别墅",
         "emotion": "完全信任，真实自我"
       }
+    },
+    "0026": {
+      "hook": {
+        "type": "爽点钩",
+        "content": "沈知意卸下伪装后的职场首秀，真实的一面更有魅力",
+        "strength": "medium"
+      },
+      "pattern": {
+        "opening": "场景描写开场",
+        "hook": "认知爽点",
+        "emotion_rhythm": "中→高→爽",
+        "info_density": "medium"
+      },
+      "ending": {
+        "time": "2026年4月20日傍晚",
+        "location": "沈氏集团外",
+        "emotion": "自信真实，收获认可"
+      }
+    },
+    "0027": {
+      "hook": {
+        "type": "情感钩",
+        "content": "陆砚辞六年前就暗恋沈知意，秘密相册曝光",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景切入开场",
+        "hook": "揭秘钩转情感钩",
+        "emotion_rhythm": "好奇→感动→甜蜜",
+        "info_density": "high"
+      },
+      "ending": {
+        "time": "2026年4月22日晚",
+        "location": "陆砚辞私人别墅",
+        "emotion": "深情告白，感情升温"
+      }
+    },
+    "0028": {
+      "hook": {
+        "type": "悬念钩",
+        "content": "林嘉树突然反水，向沈知意道歉并提供情报",
+        "strength": "medium"
+      },
+      "pattern": {
+        "opening": "对话开场",
+        "hook": "反转钩",
+        "emotion_rhythm": "警惕→认知→冷静",
+        "info_density": "high"
+      },
+      "ending": {
+        "time": "2026年4月24日下午",
+        "location": "沈氏集团",
+        "emotion": "危机预警，蓄势待发"
+      }
+    },
+    "0029": {
+      "hook": {
+        "type": "爽点钩",
+        "content": "董事会当众揭穿沈清瑶，林嘉树反水提供关键证据",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景直入开场",
+        "hook": "冲突钩转爽点钩",
+        "emotion_rhythm": "紧张→反击→大胜",
+        "info_density": "high"
+      },
+      "ending": {
+        "time": "2026年4月25日下午",
+        "location": "沈氏集团",
+        "emotion": "大获全胜，晋升经理"
+      }
+    },
+    "0030": {
+      "hook": {
+        "type": "爽点+情感钩",
+        "content": "陆砚辞强势护短'我的人你也敢动'，当众求婚",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景感知开场",
+        "hook": "护短名场面",
+        "emotion_rhythm": "紧张→高能→甜蜜",
+        "info_density": "high"
+      },
+      "ending": {
+        "time": "2026年4月25日晚",
+        "location": "沈家别墅外",
+        "emotion": "男主护短，求婚成功"
+      }
     }
   },
   "export_source": {
@@ -547,7 +638,8 @@
     "active_threads": [
       "慈善晚宴即将到来（下周）",
       "顾长渊即将亲自出手",
-      "林嘉树最近打听沈知意消息"
+      "林嘉树反水，向沈知意透露沈清瑶慈善晚宴计划",
+      "顾长渊亲自出面保沈清瑶，与陆砚辞正面冲突"
     ],
     "foreshadowing": [
       "顾长渊是幕后大BOSS",
