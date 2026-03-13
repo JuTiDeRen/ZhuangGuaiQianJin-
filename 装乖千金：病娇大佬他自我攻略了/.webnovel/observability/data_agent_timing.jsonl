@@ -226,3 +226,16 @@
 {"timestamp": "2026-03-13T23:29:47.396587", "tool_name": "index_manager:get-chapter", "success": true, "elapsed_ms": 9}
 {"timestamp": "2026-03-13T23:29:48.769077", "tool_name": "index_manager:get-chapter", "success": true, "elapsed_ms": 10}
 {"timestamp": "2026-03-13T23:29:49.718075", "tool_name": "index_manager:get-chapter", "success": true, "elapsed_ms": 11}
+{"timestamp": "2026-03-14T00:42:09.994157", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-14T00:42:10.252902", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 11}
+{"timestamp": "2026-03-14T00:42:16.123321", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-03-14T00:42:16.387720", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 11}
+{"timestamp": "2026-03-14T00:42:27.168319", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-14T00:42:34.789642", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-14T00:42:35.060953", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-03-14T00:42:46.223487", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-14T00:42:51.371508", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 19, "chapter": 31}
+{"timestamp": "2026-03-14T00:45:16.914140", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 386, "chapter": 31}
+{"timestamp": "2026-03-14T00:45:26.021104", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 14, "chapter": 31}
+{"timestamp": "2026-03-14T00:45:50.927564", "tool_name": "index_manager:get-state-changes", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-03-14T00:45:51.203465", "tool_name": "index_manager:get-relationships", "success": true, "elapsed_ms": 11}

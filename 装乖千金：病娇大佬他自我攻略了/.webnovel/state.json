@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 1,
-    "current_chapter": 30,
-    "total_written_words": 70300,
+    "current_chapter": 31,
+    "total_written_words": 73100,
     "status": "writing",
-    "total_words": 70300,
-    "last_updated": "2026-03-14 01:00:00"
+    "total_words": 73100,
+    "last_updated": "2026-03-14 02:00:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -52,8 +52,8 @@
     "abilities": {
       "微表情洞察": {
         "daily_limit": 3,
-        "used_today": 0,
-        "remaining": 3
+        "used_today": 2,
+        "remaining": 1
       }
     },
     "intel": {
@@ -70,7 +70,8 @@
         "王经理是沈清瑶的人",
         "王经理贪污350万项目款",
         "失败项目与陆氏集团有关",
-        "张磊是沈清瑶安排的内鬼（已揭穿）"
+        "张磊是沈清瑶安排的内鬼（已揭穿）",
+        "王经理在会议上公开阻挠沈知意（已确认敌对）"
       ],
       "揽月阁聚会": [
         "林婉婉是沈清瑶闺蜜，替她出头",
@@ -80,6 +81,11 @@
         "顾长渊是幕后黑手",
         "沈清瑶只是棋子",
         "顾长渊目的是控制沈家"
+      ],
+      "新项目情报": [
+        "陆氏沈氏合作项目投资五千万",
+        "王经理/沈清瑶残余势力将阻挠项目",
+        "匿名威胁短信已保存证据"
       ]
     },
     "items": [
@@ -89,9 +95,9 @@
     ]
   },
   "strand_tracker": {
-    "fire": 75,
-    "constellation": 30,
-    "quest": 60
+    "fire": 78,
+    "constellation": 35,
+    "quest": 65
   },
   "chapter_meta": {
     "0002": {
@@ -616,6 +622,24 @@
         "location": "沈家别墅外",
         "emotion": "男主护短，求婚成功"
       }
+    },
+    "0031": {
+      "hook": {
+        "type": "危机钩",
+        "content": "匿名威胁短信：这个项目背后的水很深",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景感知开场",
+        "hook": "危机钩",
+        "emotion_rhythm": "甜蜜→紧张→反击→危机",
+        "info_density": "high"
+      },
+      "ending": {
+        "time": "2026年4月26日傍晚",
+        "location": "沈知意办公室",
+        "emotion": "战意燃烧，危机预警"
+      }
     }
   },
   "export_source": {
@@ -636,14 +660,16 @@
   },
   "plot_threads": {
     "active_threads": [
-      "慈善晚宴即将到来（下周）",
+      "慈善晚宴即将到来（D-48）",
       "顾长渊即将亲自出手",
-      "林嘉树反水，向沈知意透露沈清瑶慈善晚宴计划",
-      "顾长渊亲自出面保沈清瑶，与陆砚辞正面冲突"
+      "陆氏沈氏合作项目启动，沈知意全权负责",
+      "王经理/沈清瑶残余势力将阻挠新项目",
+      "匿名威胁短信来源待查"
     ],
     "foreshadowing": [
       "顾长渊是幕后大BOSS",
-      "慈善晚宴将是沈知意'真实自我'的首秀"
+      "慈善晚宴将是沈知意'真实自我'的首秀",
+      "新项目存在深层风险"
     ]
   },
   "review_checkpoints": [
