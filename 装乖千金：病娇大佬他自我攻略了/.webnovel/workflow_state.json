@@ -5,7 +5,7 @@
       "chapter_num": 62
     },
     "started_at": "2026-03-14T15:38:26.980046",
-    "last_heartbeat": "2026-03-14T16:01:17.137358",
+    "last_heartbeat": "2026-03-14T16:09:30.298814",
     "status": "running",
     "current_step": {
       "id": "Step 3",
@@ -115,7 +115,7 @@
       "Step 5",
       "Step 6"
     ],
-    "retry_count": 2,
+    "retry_count": 3,
     "artifacts": {
       "chapter_file": {},
       "git_status": {},

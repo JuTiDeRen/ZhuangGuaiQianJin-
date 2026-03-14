@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 1,
-    "current_chapter": 64,
-    "total_written_words": 128634,
+    "current_chapter": 65,
+    "total_written_words": 130589,
     "status": "writing",
-    "total_words": 128634,
-    "last_updated": "2026-03-14 16:10:00"
+    "total_words": 130589,
+    "last_updated": "2026-03-14 17:00:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -1206,6 +1206,30 @@
           "location": "揽月阁宴会厅",
           "emotion": "战意燃烧，迎接最终对决"
         }
+      },
+      "golden_finger_usage": {
+        "used": 0,
+        "remaining": 3,
+        "targets": []
+      }
+    },
+    "0065": {
+      "hook": {
+        "type": "危机钩",
+        "content": "沈清瑶亮出U盘：真正的好戏还在后面，游戏才刚刚开始",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景感知开场",
+        "hook": "危机钩",
+        "emotion_rhythm": "紧张→反击→大胜→危机",
+        "info_density": "high",
+        "strand_type": "Quest"
+      },
+      "ending": {
+        "time": "2026年6月15日晚",
+        "location": "沈家别墅客厅",
+        "emotion": "暴风雨前的宁静"
       },
       "golden_finger_usage": {
         "used": 0,
