@@ -1,5 +1,41 @@
 {
-  "current_task": null,
+  "current_task": {
+    "command": "webnovel-write",
+    "args": {
+      "chapter_num": 71
+    },
+    "started_at": "2026-03-14T19:48:37.451942",
+    "last_heartbeat": "2026-03-14T19:51:05.608501",
+    "status": "running",
+    "current_step": {
+      "id": "Step 3",
+      "name": "审查",
+      "status": "running",
+      "started_at": "2026-03-14T19:51:05.608495",
+      "running_at": "2026-03-14T19:51:05.608495",
+      "attempt": 1,
+      "progress_note": null
+    },
+    "completed_steps": [],
+    "failed_steps": [],
+    "pending_steps": [
+      "Step 1",
+      "Step 2A",
+      "Step 2B",
+      "Step 3",
+      "Step 4",
+      "Step 5",
+      "Step 6"
+    ],
+    "retry_count": 0,
+    "artifacts": {
+      "chapter_file": {},
+      "git_status": {},
+      "state_json_modified": false,
+      "entities_appeared": false,
+      "review_completed": false
+    }
+  },
   "last_stable_state": {
     "command": "webnovel-review",
     "chapter_num": 70,
