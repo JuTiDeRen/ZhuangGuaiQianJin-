@@ -1123,9 +1123,13 @@
         "emotion": "掌控全局，静待晚宴"
       },
       "golden_finger_usage": {
-        "used": 1,
-        "remaining": 2,
+        "used": 2,
+        "remaining": 1,
         "targets": [
+          {
+            "target": "林美华",
+            "result": "评估、算计"
+          },
           {
             "target": "沈仲明",
             "result": "知情、恐惧"
