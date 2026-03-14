@@ -515,3 +515,15 @@
 {"timestamp": "2026-03-14T21:51:03.828686", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 17}
 {"timestamp": "2026-03-15T01:19:31.529207", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 19}
 {"timestamp": "2026-03-15T10:30:00", "chapter": 91, "timing_ms": {"A_load_context": 150, "B_entity_extract": 800, "C_disambiguation": 200, "D_state_index_write": 300, "E_summary_write": 150, "F_scene_chunking": 400, "G_rag_index": 0, "H_style_sample": 200, "I_debt_interest": 0, "TOTAL": 2200}, "bottlenecks_top3": [{"step": "B_entity_extract", "elapsed_ms": 800, "ratio": 36.4}, {"step": "F_scene_chunking", "elapsed_ms": 400, "ratio": 18.2}, {"step": "D_state_index_write", "elapsed_ms": 300, "ratio": 13.6}], "status": "success"}
+{"timestamp": "2026-03-15T01:51:47.467404", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-03-15T01:51:47.742101", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 10}
+{"timestamp": "2026-03-15T01:52:06.870909", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-15T01:52:07.128813", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-15T01:52:07.391371", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-03-15T01:52:17.599725", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-15T01:52:17.854332", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-15T01:52:18.521941", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 19, "chapter": 92}
+{"timestamp": "2026-03-15T01:52:42.211196", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 266, "chapter": 92}
+{"timestamp": "2026-03-15T01:52:47.029658", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 8, "chapter": 92}
+{"timestamp": "2026-03-15T01:53:19.215746", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-03-15T01:53:19.484519", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 10}

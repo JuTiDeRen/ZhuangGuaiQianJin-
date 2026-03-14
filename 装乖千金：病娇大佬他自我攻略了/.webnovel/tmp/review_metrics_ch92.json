@@ -1,0 +1,10 @@
+{
+  "start_chapter": 92,
+  "end_chapter": 92,
+  "overall_score": 90.0,
+  "dimension_scores": {"爽点密度": 8.5, "设定一致性": 9.5, "节奏控制": 8.5, "人物塑造": 9.5, "连贯性": 9.0},
+  "severity_counts": {"critical": 0, "high": 0, "medium": 0, "low": 0},
+  "critical_issues": [],
+  "report_file": "审查报告/第92章审查报告.md",
+  "notes": "selected_checkers: ooc-checker,consistency-checker; 无问题，通过审查"
+}
