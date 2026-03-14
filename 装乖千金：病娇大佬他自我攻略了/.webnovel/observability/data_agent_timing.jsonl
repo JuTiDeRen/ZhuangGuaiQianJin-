@@ -316,3 +316,4 @@
 {"timestamp": "2026-03-14T09:54:52.892882", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 24}
 {"timestamp": "2026-03-14T09:55:42.387160", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 25}
 {"timestamp": "2026-03-14T09:55:56.634102", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 16, "error_code": "NOT_FOUND", "error_message": "未找到别名: 陈明"}
+{"timestamp": "2026-03-14T09:58:42.415376", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 15}
