@@ -499,3 +499,15 @@
 {"timestamp": "2026-03-14T21:33:58.159523", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到别名: 匿名信"}
 {"timestamp": "2026-03-14T21:34:01.036752", "tool_name": "index_manager:register-alias", "success": true, "elapsed_ms": 17}
 {"timestamp": "2026-03-14T21:38:45.481200", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-14T21:44:39.918922", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-03-14T21:45:37.202512", "tool_name": "state_manager:process-chapter", "success": false, "elapsed_ms": 16, "error_code": "SCHEMA_VALIDATION_FAILED", "error_message": "数据结构校验失败"}
+{"timestamp": "2026-03-14T21:45:41.021953", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 24, "chapter": 83}
+{"timestamp": "2026-03-14T21:46:15.060378", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 28}
+{"timestamp": "2026-03-14T21:46:15.408871", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-03-14T21:46:15.753382", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 19}
+{"timestamp": "2026-03-14T21:46:16.161195", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 18}
+{"timestamp": "2026-03-14T21:46:23.107478", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 19}
+{"timestamp": "2026-03-14T21:46:23.441181", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 18}
+{"timestamp": "2026-03-14T21:46:41.074190", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-14T21:48:14.887168", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 287, "chapter": 83}
+{"timestamp": "2026-03-14T21:48:25.854162", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 12, "chapter": 83}

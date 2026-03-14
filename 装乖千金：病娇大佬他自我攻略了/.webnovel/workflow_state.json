@@ -2,10 +2,10 @@
   "current_task": {
     "command": "webnovel-write",
     "args": {
-      "chapter_num": 82
+      "chapter_num": 83
     },
-    "started_at": "2026-03-14T21:35:01.231890",
-    "last_heartbeat": "2026-03-14T21:41:52.841305",
+    "started_at": "2026-03-14T21:42:13.912617",
+    "last_heartbeat": "2026-03-14T21:48:47.175270",
     "status": "running",
     "current_step": null,
     "completed_steps": [
@@ -13,11 +13,11 @@
         "id": "Step 1",
         "name": "Context Agent",
         "status": "completed",
-        "started_at": "2026-03-14T21:35:05.794193",
-        "running_at": "2026-03-14T21:35:05.794193",
+        "started_at": "2026-03-14T21:42:19.104625",
+        "running_at": "2026-03-14T21:42:19.104625",
         "attempt": 1,
         "progress_note": null,
-        "completed_at": "2026-03-14T21:36:15.764522",
+        "completed_at": "2026-03-14T21:43:28.305148",
         "artifacts": {
           "ok": true
         }
@@ -26,11 +26,11 @@
         "id": "Step 2A",
         "name": "正文起草",
         "status": "completed",
-        "started_at": "2026-03-14T21:36:16.129598",
-        "running_at": "2026-03-14T21:36:16.129598",
+        "started_at": "2026-03-14T21:43:28.684514",
+        "running_at": "2026-03-14T21:43:28.684514",
         "attempt": 1,
         "progress_note": null,
-        "completed_at": "2026-03-14T21:37:22.136650",
+        "completed_at": "2026-03-14T21:44:24.291780",
         "artifacts": {
           "ok": true
         }
@@ -39,11 +39,11 @@
         "id": "Step 2B",
         "name": "风格适配",
         "status": "completed",
-        "started_at": "2026-03-14T21:37:22.433162",
-        "running_at": "2026-03-14T21:37:22.433162",
+        "started_at": "2026-03-14T21:44:24.649306",
+        "running_at": "2026-03-14T21:44:24.649306",
         "attempt": 1,
         "progress_note": null,
-        "completed_at": "2026-03-14T21:37:28.526015",
+        "completed_at": "2026-03-14T21:44:30.725296",
         "artifacts": {
           "ok": true
         }
@@ -52,40 +52,38 @@
         "id": "Step 3",
         "name": "质量审查",
         "status": "completed",
-        "started_at": "2026-03-14T21:37:28.828819",
-        "running_at": "2026-03-14T21:37:28.828819",
+        "started_at": "2026-03-14T21:44:31.093677",
+        "running_at": "2026-03-14T21:44:31.093677",
         "attempt": 1,
         "progress_note": null,
-        "completed_at": "2026-03-14T21:38:52.412529",
+        "completed_at": "2026-03-14T21:44:48.023236",
         "artifacts": {
-          "ok": true,
-          "overall_score": 91.0
+          "ok": true
         }
       },
       {
         "id": "Step 4",
         "name": "润色",
         "status": "completed",
-        "started_at": "2026-03-14T21:38:52.710669",
-        "running_at": "2026-03-14T21:38:52.710669",
+        "started_at": "2026-03-14T21:44:48.400815",
+        "running_at": "2026-03-14T21:44:48.400815",
         "attempt": 1,
         "progress_note": null,
-        "completed_at": "2026-03-14T21:39:06.495320",
+        "completed_at": "2026-03-14T21:44:48.768286",
         "artifacts": {
           "ok": true,
-          "anti_ai_force_check": "pass",
-          "polish_issues_fixed": 1
+          "anti_ai_force_check": "pass"
         }
       },
       {
         "id": "Step 5",
         "name": "Data Agent",
         "status": "completed",
-        "started_at": "2026-03-14T21:39:11.387535",
-        "running_at": "2026-03-14T21:39:11.387535",
+        "started_at": "2026-03-14T21:44:49.162157",
+        "running_at": "2026-03-14T21:44:49.162157",
         "attempt": 1,
         "progress_note": null,
-        "completed_at": "2026-03-14T21:41:52.841229",
+        "completed_at": "2026-03-14T21:48:47.175187",
         "artifacts": {
           "ok": true
         }
@@ -109,31 +107,23 @@
       "entities_appeared": false,
       "review_completed": false,
       "ok": true,
-      "overall_score": 91.0,
-      "anti_ai_force_check": "pass",
-      "polish_issues_fixed": 1
+      "anti_ai_force_check": "pass"
     }
   },
   "last_stable_state": {
     "command": "webnovel-write",
-    "chapter_num": 71,
-    "completed_at": "2026-03-14T21:34:54.789350",
+    "chapter_num": 82,
+    "completed_at": "2026-03-14T21:42:07.291157",
     "artifacts": {
-      "chapter_file": "正文/第0081章-匿名信.md",
+      "chapter_file": {},
       "git_status": {},
       "state_json_modified": false,
       "entities_appeared": false,
       "review_completed": false,
       "ok": true,
-      "context_ready": true,
-      "style_adapted": true,
-      "overall_score": 90.5,
+      "overall_score": 91.0,
       "anti_ai_force_check": "pass",
-      "polish_issues_fixed": 1,
-      "entities_extracted": 6,
-      "summary_saved": true,
-      "chapter": 81,
-      "committed": true
+      "polish_issues_fixed": 1
     }
   },
   "history": [
@@ -213,6 +203,13 @@
       "chapter": 71,
       "status": "completed",
       "completed_at": "2026-03-14T21:34:54.789350"
+    },
+    {
+      "task_id": "task_012",
+      "command": "webnovel-write",
+      "chapter": 82,
+      "status": "completed",
+      "completed_at": "2026-03-14T21:42:07.291157"
     }
   ]
 }
