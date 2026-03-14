@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 1,
-    "current_chapter": 55,
-    "total_written_words": 117516,
+    "current_chapter": 56,
+    "total_written_words": 119896,
     "status": "writing",
-    "total_words": 117516,
-    "last_updated": "2026-03-14 11:58:37"
+    "total_words": 119896,
+    "last_updated": "2026-03-14 12:22:03"
   },
   "volume_plan": {
     "volume_1": {
@@ -52,8 +52,8 @@
     "abilities": {
       "微表情洞察": {
         "daily_limit": 3,
-        "used_today": 0,
-        "remaining": 3
+        "used_today": 2,
+        "remaining": 1
       }
     },
     "intel": {
@@ -115,6 +115,11 @@
       "顾长渊势力": [
         "沈清瑶与顾长渊的人在咖啡厅密会（裴靳发现）",
         "沈清瑶另与神秘男人密会，背后另有势力（第51章）"
+      ],
+      "父亲考验": [
+        "三重考验题目与季度考核同源（第56章）",
+        "沈仲其正式认可沈知意为继承人（第56章）",
+        "父亲为六年前的事道歉（第56章）"
       ]
     },
     "items": [
@@ -1028,6 +1033,39 @@
         "used": 0,
         "remaining": 3,
         "targets": []
+      }
+    },
+    "0056": {
+      "hook": {
+        "type": "情感钩+倒计时",
+        "content": "陆砚辞约庆祝并透露考核小道消息，季度考核D-3",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景感知开场",
+        "hook": "考验推进",
+        "emotion_rhythm": "紧张→认可→甜蜜",
+        "info_density": "high",
+        "strand_type": "Fire"
+      },
+      "ending": {
+        "time": "周六傍晚",
+        "location": "沈家别墅走廊",
+        "emotion": "父女和解，期待未来"
+      },
+      "golden_finger_usage": {
+        "used": 2,
+        "remaining": 1,
+        "targets": [
+          {
+            "target": "沈仲其",
+            "result": "期待与赞许"
+          },
+          {
+            "target": "沈仲其",
+            "result": "问题对他很重要"
+          }
+        ]
       }
     }
   },
