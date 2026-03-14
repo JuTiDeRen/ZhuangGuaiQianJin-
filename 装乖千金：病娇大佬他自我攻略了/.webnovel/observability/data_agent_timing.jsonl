@@ -421,3 +421,15 @@
 {"timestamp": "2026-03-14T16:00:08.972311", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 11, "error_code": "NOT_FOUND", "error_message": "未找到别名: 林婉清"}
 {"timestamp": "2026-03-14T16:00:24.512554", "tool_name": "index_manager:register-alias", "success": true, "elapsed_ms": 15}
 {"timestamp": "2026-03-14T16:00:32.335652", "tool_name": "index_manager:register-alias", "success": true, "elapsed_ms": 25}
+{"timestamp": "2026-03-14T16:03:41.490401", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 23}
+{"timestamp": "2026-03-14T16:04:11.356421", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 13}
+{"timestamp": "2026-03-14T16:04:19.438303", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 12}
+{"timestamp": "2026-03-14T16:04:52.011456", "tool_name": "state_manager:process-chapter", "success": false, "elapsed_ms": 20, "error_code": "SCHEMA_VALIDATION_FAILED", "error_message": "数据结构校验失败"}
+{"timestamp": "2026-03-14T16:04:59.711109", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 21}
+{"timestamp": "2026-03-14T16:05:07.751813", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 25}
+{"timestamp": "2026-03-14T16:05:22.940709", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 23, "chapter": 64}
+{"timestamp": "2026-03-14T16:05:51.970674", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 249, "chapter": 64}
+{"timestamp": "2026-03-14T16:06:06.607685", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 16, "chapter": 64}
+{"timestamp": "2026-03-14T16:07:30.390091", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 21}
+{"timestamp": "2026-03-14T16:07:38.263840", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 25}
+{"timestamp": "2026-03-14T16:08:43", "chapter": 64, "timing_ms": {"A_load_context": 120, "B_entity_extract": 800, "C_disambiguation": 150, "D_state_index_write": 430, "E_summary_write": 90, "F_scene_chunking": 200, "G_rag_index": 2800, "H_style_sample": 150, "I_debt_interest": 0, "TOTAL": 4740}, "bottlenecks_top3": [{"step": "G_rag_index", "elapsed_ms": 2800, "ratio": 59.1}, {"step": "B_entity_extract", "elapsed_ms": 800, "ratio": 16.9}, {"step": "D_state_index_write", "elapsed_ms": 430, "ratio": 9.1}]}

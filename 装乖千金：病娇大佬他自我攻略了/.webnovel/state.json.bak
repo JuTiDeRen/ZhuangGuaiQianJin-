@@ -16,7 +16,7 @@
     "total_written_words": 126500,
     "status": "writing",
     "total_words": 126500,
-    "last_updated": "2026-03-14 15:58:18"
+    "last_updated": "2026-03-14 15:59:44"
   },
   "volume_plan": {
     "volume_1": {
@@ -1156,6 +1156,30 @@
           "location": "返程车内",
           "emotion": "期待应战"
         }
+      },
+      "golden_finger_usage": {
+        "used": 0,
+        "remaining": 3,
+        "targets": []
+      }
+    },
+    "0063": {
+      "hook": {
+        "type": "危机钩",
+        "content": "林婉清短信威胁：真正的游戏才刚刚开始",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景描写开场",
+        "hook": "爽点钩转危机钩",
+        "emotion_rhythm": "紧张→反击→大胜→危机",
+        "info_density": "high",
+        "strand_type": "Quest"
+      },
+      "ending": {
+        "time": "2026年6月13日晚",
+        "location": "揽月阁宴会厅休息区",
+        "emotion": "战意燃烧，迎接挑战"
       },
       "golden_finger_usage": {
         "used": 0,
