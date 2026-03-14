@@ -206,3 +206,23 @@
 {"timestamp": "2026-03-14T21:49:04.041915", "event": "task_started", "payload": {"command": "webnovel-write", "args": {"chapter_num": 84}}}
 {"timestamp": "2026-03-14T21:50:03.131268", "event": "task_reentered", "payload": {"command": "webnovel-write", "chapter": 84, "retry_count": 1}}
 {"timestamp": "2026-03-14T22:40:10.934252", "event": "task_reentered", "payload": {"command": "webnovel-write", "chapter": 84, "retry_count": 2}}
+{"timestamp": "2026-03-15T01:13:53.934187", "event": "task_reentered", "payload": {"command": "webnovel-write", "chapter": 84, "retry_count": 3}}
+{"timestamp": "2026-03-15T01:14:05.100116", "event": "step_started", "payload": {"step_id": "Step 1", "step_name": "加载参考", "command": "webnovel-write", "chapter": 84, "progress_note": null, "expected_owner": "context-agent"}}
+{"timestamp": "2026-03-15T01:14:05.393142", "event": "step_completed", "payload": {"step_id": "Step 1", "command": "webnovel-write", "chapter": 84}}
+{"timestamp": "2026-03-15T01:14:05.691325", "event": "step_started", "payload": {"step_id": "Step 2", "step_name": "加载项目状态", "command": "webnovel-write", "chapter": 84, "progress_note": null, "expected_owner": "webnovel-write-skill"}}
+{"timestamp": "2026-03-15T01:14:05.983247", "event": "step_completed", "payload": {"step_id": "Step 2", "command": "webnovel-write", "chapter": 84}}
+{"timestamp": "2026-03-15T01:14:37.603877", "event": "step_order_violation", "payload": {"step_id": "Step 3", "command": "webnovel-write", "completed_steps": ["Step 1", "Step 2"]}}
+{"timestamp": "2026-03-15T01:14:37.607790", "event": "step_started", "payload": {"step_id": "Step 3", "step_name": "并行调用检查员", "command": "webnovel-write", "chapter": 84, "progress_note": null, "expected_owner": "review-agents"}}
+{"timestamp": "2026-03-15T01:19:42.523181", "event": "step_completed", "payload": {"step_id": "Step 3", "command": "webnovel-write", "chapter": 84}}
+{"timestamp": "2026-03-15T01:19:42.812518", "event": "step_order_violation", "payload": {"step_id": "Step 4", "command": "webnovel-write", "completed_steps": ["Step 1", "Step 2", "Step 3"]}}
+{"timestamp": "2026-03-15T01:19:42.816198", "event": "step_started", "payload": {"step_id": "Step 4", "step_name": "生成审查报告", "command": "webnovel-write", "chapter": 84, "progress_note": null, "expected_owner": "polish-agent"}}
+{"timestamp": "2026-03-15T01:19:43.120048", "event": "step_completed", "payload": {"step_id": "Step 4", "command": "webnovel-write", "chapter": 84}}
+{"timestamp": "2026-03-15T01:19:43.407425", "event": "step_order_violation", "payload": {"step_id": "Step 5", "command": "webnovel-write", "completed_steps": ["Step 1", "Step 2", "Step 3", "Step 4"]}}
+{"timestamp": "2026-03-15T01:19:43.411023", "event": "step_started", "payload": {"step_id": "Step 5", "step_name": "保存审查指标", "command": "webnovel-write", "chapter": 84, "progress_note": null, "expected_owner": "data-agent"}}
+{"timestamp": "2026-03-15T01:19:43.707689", "event": "step_completed", "payload": {"step_id": "Step 5", "command": "webnovel-write", "chapter": 84}}
+{"timestamp": "2026-03-15T01:19:43.999273", "event": "step_order_violation", "payload": {"step_id": "Step 6", "command": "webnovel-write", "completed_steps": ["Step 1", "Step 2", "Step 3", "Step 4", "Step 5"]}}
+{"timestamp": "2026-03-15T01:19:44.003459", "event": "step_started", "payload": {"step_id": "Step 6", "step_name": "写回审查记录", "command": "webnovel-write", "chapter": 84, "progress_note": null, "expected_owner": "backup-agent"}}
+{"timestamp": "2026-03-15T01:19:44.307357", "event": "step_completed", "payload": {"step_id": "Step 6", "command": "webnovel-write", "chapter": 84}}
+{"timestamp": "2026-03-15T01:19:44.614248", "event": "step_started", "payload": {"step_id": "Step 8", "step_name": "收尾", "command": "webnovel-write", "chapter": 84, "progress_note": null, "expected_owner": "webnovel-write-skill"}}
+{"timestamp": "2026-03-15T01:19:44.913737", "event": "step_completed", "payload": {"step_id": "Step 8", "command": "webnovel-write", "chapter": 84}}
+{"timestamp": "2026-03-15T01:19:45.212370", "event": "task_completed", "payload": {"command": "webnovel-write", "chapter": 84, "completed_steps": 7, "failed_steps": 0}}
