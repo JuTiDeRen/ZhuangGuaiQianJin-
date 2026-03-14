@@ -395,3 +395,29 @@
 {"timestamp": "2026-03-14T15:47:01.907981", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 12, "chapter": 62}
 {"timestamp": "2026-03-14T15:47:32.934096", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 23}
 {"timestamp": "2026-03-14T15:47:47.321000", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 21, "chapter": 62}
+{"timestamp": "2026-03-14T15:53:17.521736", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 22}
+{"timestamp": "2026-03-14T15:53:51.087349", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-14T15:53:59.225603", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-03-14T15:54:15.757538", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 19, "error_code": "NOT_FOUND", "error_message": "未找到别名: 陈明"}
+{"timestamp": "2026-03-14T15:54:23.913354", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 12, "error_code": "NOT_FOUND", "error_message": "未找到别名: 林婉清"}
+{"timestamp": "2026-03-14T15:54:43.192679", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 20}
+{"timestamp": "2026-03-14T15:54:51.503042", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 25}
+{"timestamp": "2026-03-14T15:54:59.762360", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 26}
+{"timestamp": "2026-03-14T15:55:27.920042", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 29}
+{"timestamp": "2026-03-14T15:55:36.226806", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 25}
+{"timestamp": "2026-03-14T15:55:44.350206", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 25}
+{"timestamp": "2026-03-14T15:55:52.544114", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 25}
+{"timestamp": "2026-03-14T15:56:00.637757", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 24}
+{"timestamp": "2026-03-14T15:57:29.595008", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 21}
+{"timestamp": "2026-03-14T15:57:37.776623", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 25}
+{"timestamp": "2026-03-14T15:57:46.251353", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 25}
+{"timestamp": "2026-03-14T15:57:54.912082", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 23}
+{"timestamp": "2026-03-14T15:58:03.418452", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 37}
+{"timestamp": "2026-03-14T15:58:18.072421", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 20, "chapter": 63}
+{"timestamp": "2026-03-14T15:58:45.678617", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 254, "chapter": 63}
+{"timestamp": "2026-03-14T15:58:59.796278", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 11, "chapter": 63}
+{"timestamp": "2026-03-14T15:59:44.767225", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 19, "chapter": 63}
+{"timestamp": "2026-03-14T16:00:01.243871", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-03-14T16:00:08.972311", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 11, "error_code": "NOT_FOUND", "error_message": "未找到别名: 林婉清"}
+{"timestamp": "2026-03-14T16:00:24.512554", "tool_name": "index_manager:register-alias", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-14T16:00:32.335652", "tool_name": "index_manager:register-alias", "success": true, "elapsed_ms": 25}
