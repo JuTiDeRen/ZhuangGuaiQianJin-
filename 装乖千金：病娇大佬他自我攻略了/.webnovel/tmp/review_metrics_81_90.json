@@ -1,0 +1,17 @@
+{
+  "start_chapter": 81,
+  "end_chapter": 90,
+  "overall_score": 83.5,
+  "dimension_scores": {
+    "爽点密度": 88,
+    "设定一致性": 85,
+    "节奏控制": 72,
+    "人物塑造": 86,
+    "连贯性": 88,
+    "追读力": 82
+  },
+  "severity_counts": {"critical": 0, "high": 1, "medium": 3, "low": 8},
+  "critical_issues": [],
+  "report_file": "审查报告/第81-90章审查报告.md",
+  "notes": "第2卷开篇，Quest主线过载需调整，整体质量良好"
+}
