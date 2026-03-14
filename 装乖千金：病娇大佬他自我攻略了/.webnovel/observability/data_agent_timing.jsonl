@@ -317,3 +317,20 @@
 {"timestamp": "2026-03-14T09:55:42.387160", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 25}
 {"timestamp": "2026-03-14T09:55:56.634102", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 16, "error_code": "NOT_FOUND", "error_message": "未找到别名: 陈明"}
 {"timestamp": "2026-03-14T09:58:42.415376", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-14T10:38:14.217535", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 33}
+{"timestamp": "2026-03-14T10:40:30.744496", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-14T10:40:49.027970", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-14T10:41:07.317425", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 21}
+{"timestamp": "2026-03-14T10:41:15.489959", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 22}
+{"timestamp": "2026-03-14T10:41:23.559446", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 21}
+{"timestamp": "2026-03-14T10:41:31.386309", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 24}
+{"timestamp": "2026-03-14T10:42:53.620659", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 26}
+{"timestamp": "2026-03-14T10:43:01.458530", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 25}
+{"timestamp": "2026-03-14T10:43:09.852938", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 631}
+{"timestamp": "2026-03-14T10:43:48.360052", "tool_name": "index_manager:record-relationship-event", "success": false, "elapsed_ms": 15, "error_code": "INVALID_RELATIONSHIP_EVENT", "error_message": "关系事件参数无效，未写入"}
+{"timestamp": "2026-03-14T10:44:24.993939", "tool_name": "index_manager:record-relationship-event", "success": false, "elapsed_ms": 11, "error_code": "INVALID_RELATIONSHIP_EVENT", "error_message": "关系事件参数无效，未写入"}
+{"timestamp": "2026-03-14T10:44:32.668253", "tool_name": "index_manager:record-relationship-event", "success": false, "elapsed_ms": 11, "error_code": "INVALID_RELATIONSHIP_EVENT", "error_message": "关系事件参数无效，未写入"}
+{"timestamp": "2026-03-14T10:47:19.178922", "tool_name": "index_manager:stats", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-03-14T10:47:27.208201", "tool_name": "index_manager:get-state-changes", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-14T10:47:40.984477", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 12}
+{"timestamp": "2026-03-14T10:47:48.650862", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 15}

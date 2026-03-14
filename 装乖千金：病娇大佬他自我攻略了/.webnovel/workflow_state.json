@@ -1,5 +1,68 @@
 {
-  "current_task": null,
+  "current_task": {
+    "command": "webnovel-write",
+    "args": {
+      "chapter_num": 46
+    },
+    "started_at": "2026-03-14T10:31:52.690677",
+    "last_heartbeat": "2026-03-14T10:39:12.168220",
+    "status": "running",
+    "current_step": {
+      "id": "Step 5",
+      "name": "Data Agent",
+      "status": "running",
+      "started_at": "2026-03-14T10:39:12.168217",
+      "running_at": "2026-03-14T10:39:12.168217",
+      "attempt": 1,
+      "progress_note": null
+    },
+    "completed_steps": [
+      {
+        "id": "Step 1",
+        "name": "Context Agent",
+        "status": "completed",
+        "started_at": "2026-03-14T10:32:04.802170",
+        "running_at": "2026-03-14T10:32:04.802170",
+        "attempt": 1,
+        "progress_note": null,
+        "completed_at": "2026-03-14T10:33:50.909505",
+        "artifacts": {
+          "ok": true
+        }
+      }
+    ],
+    "failed_steps": [
+      {
+        "id": "Step 3",
+        "name": "Review",
+        "status": "failed",
+        "started_at": "2026-03-14T10:35:22.208964",
+        "running_at": "2026-03-14T10:35:22.208964",
+        "attempt": 1,
+        "progress_note": "第46章审查",
+        "failed_at": "2026-03-14T10:39:12.168213",
+        "failure_reason": "step_replaced_before_completion"
+      }
+    ],
+    "pending_steps": [
+      "Step 1",
+      "Step 2A",
+      "Step 2B",
+      "Step 3",
+      "Step 4",
+      "Step 5",
+      "Step 6"
+    ],
+    "retry_count": 0,
+    "artifacts": {
+      "chapter_file": {},
+      "git_status": {},
+      "state_json_modified": false,
+      "entities_appeared": false,
+      "review_completed": false,
+      "ok": true
+    }
+  },
   "last_stable_state": {
     "command": "webnovel-write",
     "chapter_num": 21,
