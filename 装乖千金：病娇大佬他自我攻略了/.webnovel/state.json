@@ -11,12 +11,12 @@
     "platform": "番茄小说/七猫小说"
   },
   "progress": {
-    "current_volume": 1,
-    "current_chapter": 80,
-    "total_written_words": 148300,
-    "status": "volume_1_complete",
-    "total_words": 145889,
-    "last_updated": "2026-03-14 22:00:00"
+    "current_volume": 2,
+    "current_chapter": 85,
+    "total_written_words": 170000,
+    "status": "writing_volume_2",
+    "total_words": 168500,
+    "last_updated": "2026-03-14 22:30:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -35,7 +35,8 @@
       "beat_sheet": "大纲/第2卷-节拍表.md",
       "timeline": "大纲/第2卷-时间线.md",
       "outline": "大纲/第2卷-详细大纲.md",
-      "status": "pending"
+      "status": "writing",
+      "started_at": "2026-03-14"
     },
     "volume_3": {
       "name": "真相与圆满",
@@ -126,7 +127,9 @@
       ],
       "顾长渊势力": [
         "沈清瑶与顾长渊的人在咖啡厅密会（裴靳发现）",
-        "沈清瑶另与神秘男人密会，背后另有势力（第51章）"
+        "沈清瑶另与神秘男人密会，背后另有势力（第51章）",
+        "顾长渊是恒信投资实际控制人，与六年前车祸有关（第82章）",
+        "林氏集团恶意收购沈氏，资金来源指向顾长渊（第82章）"
       ],
       "父亲选择": [
         "沈仲其正式在慈善晚宴宣布沈知意为唯一继承人（第78章）",
@@ -206,6 +209,101 @@
         "location": "返程车内",
         "emotion": "幸福中暗藏危机，第2卷预告"
       }
+    },
+    "0081": {
+      "hook": {
+        "type": "悬念钩",
+        "content": "匿名信约见九门湾，六年前的真相呼之欲出",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "承接上章悬念开场",
+        "hook": "悬念钩",
+        "emotion_rhythm": "疑惑→警惕→期待",
+        "info_density": "medium",
+        "strand_type": "Constellation"
+      },
+      "ending": {
+        "time": "2026年6月26日晚上",
+        "location": "九门湾赛道终点",
+        "emotion": "悬念加深，危机将临"
+      }
+    },
+    "0082": {
+      "hook": {
+        "type": "危机钩",
+        "content": "林氏集团恶意收购沈氏，七天倒计时开始",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "紧急事件开场",
+        "hook": "危机钩",
+        "emotion_rhythm": "震惊→冷静→斗志",
+        "info_density": "high",
+        "strand_type": "Quest"
+      },
+      "ending": {
+        "time": "2026年6月26日晚上",
+        "location": "沈氏集团/沈家",
+        "emotion": "危机爆发，准备反击"
+      }
+    },
+    "0083": {
+      "hook": {
+        "type": "策略钩",
+        "content": "装乖示弱麻痹对手，争取七天反击时间",
+        "strength": "medium"
+      },
+      "pattern": {
+        "opening": "董事会危机开场",
+        "hook": "策略钩",
+        "emotion_rhythm": "紧张→伪装→希望",
+        "info_density": "medium",
+        "strand_type": "Quest"
+      },
+      "ending": {
+        "time": "2026年6月26日深夜",
+        "location": "沈氏集团",
+        "emotion": "争取到时间，准备反击"
+      }
+    },
+    "0084": {
+      "hook": {
+        "type": "信息钩",
+        "content": "发现林氏资金来源漏洞，闺蜜团回归支援",
+        "strength": "medium"
+      },
+      "pattern": {
+        "opening": "调查分析开场",
+        "hook": "信息钩",
+        "emotion_rhythm": "焦急→突破→希望",
+        "info_density": "high",
+        "strand_type": "Quest"
+      },
+      "ending": {
+        "time": "2026年6月27日上午",
+        "location": "沈家书房",
+        "emotion": "找到反击点"
+      }
+    },
+    "0085": {
+      "hook": {
+        "type": "甜蜜钩",
+        "content": "陆砚辞开出暧昧条件，自我攻略模式全开",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "求助场景开场",
+        "hook": "甜蜜钩",
+        "emotion_rhythm": "犹豫→甜蜜→期待",
+        "info_density": "medium",
+        "strand_type": "Fire"
+      },
+      "ending": {
+        "time": "2026年6月27日下午",
+        "location": "陆氏集团",
+        "emotion": "达成合作，关系暧昧升级"
+      }
     }
   },
   "export_source": {
@@ -247,27 +345,28 @@
   },
   "plot_threads": {
     "active_threads": [
-      "第1卷完结：归来与反击",
+      "第2卷开启：博弈与升温",
       "沈知意正式成为沈氏集团唯一继承人（第78章）",
       "陆砚辞当众求婚成功，两人订婚（第80章）",
-      "沈清瑶被当众揭穿并带走（第79章）",
-      "林婉清涉嫌多起经济犯罪和买凶杀人被批捕（第79章）",
-      "陆氏沈氏合作项目圆满完成，带来八位数净利润",
-      "陈明晋升为技术部副总监，成为核心同盟",
-      "三个核心客户已正式签约",
-      "慈善晚宴圆满成功",
-      "二房把柄已回收，被迫成为情报来源（第61章）",
-      "恒信投资洗钱链条被揭露：沈仲其→恒信投资→林婉清/二房（第71章）",
-      "六年前车祸是买凶杀人，幕后主使身份仍成谜"
+      "林氏集团恶意收购沈氏，七天倒计时开始（第82章）",
+      "顾长渊浮出水面，是恒信投资实际控制人（第82章）",
+      "六年前车祸与顾长渊有关（第82章）",
+      "沈清瑶虽被关押但仍能遥控外界（第82章）",
+      "王董事被策反成为双面间谍（第82章）",
+      "沈知意用装乖策略争取到七天时间（第83章）",
+      "发现林氏资金来源漏洞，准备反击（第84章）",
+      "陆砚辞同意出资支持反收购（第85章）"
     ],
     "foreshadowing": [
-      "神秘短信预告：六年前的真相另有隐情（第80章）",
-      "幕后大BOSS身份不明，将在第2卷揭晓",
-      "陆砚辞和沈知意同时收到神秘短信，预示更大阴谋",
-      "第2卷·博弈与升温即将开启"
+      "顾长渊的真实目的是什么？",
+      "六年前车祸的完整真相",
+      "沈清瑶背后的势力还有谁？",
+      "七天倒计时能否成功化解危机？",
+      "陆砚辞的暧昧条件是什么？"
     ],
     "volume_1_completed": true,
-    "volume_2_ready": true
+    "volume_2_started": true,
+    "acquisition_crisis_countdown": "D-6"
   },
   "review_checkpoints": [
     {
