@@ -124,3 +124,7 @@
 {"timestamp": "2026-03-14T12:30:11.247837", "event": "task_reentered", "payload": {"command": "webnovel-write", "chapter": 56, "retry_count": 2}}
 {"timestamp": "2026-03-14T12:30:11.516692", "event": "task_reentered", "payload": {"command": "webnovel-write", "chapter": 56, "retry_count": 3}}
 {"timestamp": "2026-03-14T12:30:11.770647", "event": "task_reentered", "payload": {"command": "webnovel-write", "chapter": 56, "retry_count": 4}}
+{"timestamp": "2026-03-14T13:47:20.860292", "event": "step_order_violation", "payload": {"step_id": "Step 3", "command": "webnovel-write", "completed_steps": ["Step 1", "Step 2B", "Step 3", "Step 4", "Step 5"]}}
+{"timestamp": "2026-03-14T13:47:20.864630", "event": "step_started", "payload": {"step_id": "Step 3", "step_name": "并行调用检查员", "command": "webnovel-write", "chapter": 56, "progress_note": null, "expected_owner": "review-agents"}}
+{"timestamp": "2026-03-14T13:50:00.486312", "event": "step_completed", "payload": {"step_id": "Step 3", "command": "webnovel-write", "chapter": 56}}
+{"timestamp": "2026-03-14T13:50:00.709481", "event": "task_completed", "payload": {"command": "webnovel-write", "chapter": 56, "completed_steps": 6, "failed_steps": 0}}

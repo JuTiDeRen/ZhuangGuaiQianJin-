@@ -1,0 +1,21 @@
+{
+  "start_chapter": 51,
+  "end_chapter": 60,
+  "overall_score": 77,
+  "dimension_scores": {
+    "爽点密度": 85,
+    "设定一致性": 70,
+    "节奏控制": 75,
+    "人物塑造": 80,
+    "连贯性": 70,
+    "追读力": 82
+  },
+  "severity_counts": {"critical": 3, "high": 3, "medium": 4, "low": 3},
+  "critical_issues": [
+    "第53章时间线矛盾（D-22应为D-10）",
+    "第55章时间线矛盾（D-20应为D-8）",
+    "第60章车祸真凶线索缺失"
+  ],
+  "report_file": "审查报告/第51-60章审查报告.md",
+  "notes": "整体质量良好，主要问题是时间线标注错误和车祸线索缺失"
+}
