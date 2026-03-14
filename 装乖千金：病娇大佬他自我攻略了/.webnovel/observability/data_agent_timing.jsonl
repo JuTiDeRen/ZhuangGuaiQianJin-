@@ -308,3 +308,11 @@
 {"timestamp": "2026-03-14T09:45:39.971114", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 16}
 {"timestamp": "2026-03-14T09:45:51.174572", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 16, "error_code": "NOT_FOUND", "error_message": "未找到别名: 墨镜男"}
 {"timestamp": "2026-03-14T09:46:13.295476", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 12}
+{"timestamp": "2026-03-14T09:51:06.334502", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 24}
+{"timestamp": "2026-03-14T09:53:19.785921", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 22}
+{"timestamp": "2026-03-14T09:53:27.532198", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 21}
+{"timestamp": "2026-03-14T09:53:35.447026", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 22}
+{"timestamp": "2026-03-14T09:53:49.587287", "tool_name": "state_manager:process-chapter", "success": false, "elapsed_ms": 17, "error_code": "SCHEMA_VALIDATION_FAILED", "error_message": "数据结构校验失败"}
+{"timestamp": "2026-03-14T09:54:52.892882", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 24}
+{"timestamp": "2026-03-14T09:55:42.387160", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 25}
+{"timestamp": "2026-03-14T09:55:56.634102", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 16, "error_code": "NOT_FOUND", "error_message": "未找到别名: 陈明"}

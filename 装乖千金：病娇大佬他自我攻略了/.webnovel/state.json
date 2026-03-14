@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 1,
-    "current_chapter": 41,
-    "total_written_words": 95966,
+    "current_chapter": 42,
+    "total_written_words": 98166,
     "status": "writing",
-    "total_words": 95966,
-    "last_updated": "2026-03-14 10:00:00"
+    "total_words": 98166,
+    "last_updated": "2026-03-14 14:00:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -808,6 +808,25 @@
         "location": "沈氏集团大楼/街对面黑色轿车",
         "emotion": "正式结盟，危机升级"
       }
+    },
+    "0042": {
+      "hook": {
+        "type": "甜蜜+危机钩",
+        "content": "甩掉跟踪后的甜蜜独处，顾长渊监视仍在继续",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景感知开场",
+        "hook": "情感钩",
+        "emotion_rhythm": "紧张→甜蜜→温馨→危机",
+        "info_density": "medium",
+        "strand_type": "Fire"
+      },
+      "ending": {
+        "time": "慈善晚宴倒计时D-27夜晚",
+        "location": "离开陆砚辞别墅的车上",
+        "emotion": "温馨依靠，危机暗涌"
+      }
     }
   },
   "export_source": {
@@ -828,12 +847,12 @@
   },
   "plot_threads": {
     "active_threads": [
-      "慈善晚宴即将到来（D-41）",
-      "顾长渊即将亲自出手",
+      "慈善晚宴即将到来（D-27）",
+      "顾长渊监视持续，游戏刚刚开始",
       "陆氏沈氏合作项目持续推进",
-      "王经理/沈清瑶残余势力在慈善晚宴筹备中埋雷",
-      "裴靳调查完成：匿名威胁与王经理、顾长渊有关",
-      "陆砚辞承诺慈善晚宴当天全程在场保护沈知意"
+      "确定陈明为首要接触目标，计划争取技术部支持",
+      "考虑接触李主管，观察林嘉树",
+      "陆砚辞承诺陪伴支持"
     ],
     "foreshadowing": [
       "顾长渊是幕后大BOSS",
