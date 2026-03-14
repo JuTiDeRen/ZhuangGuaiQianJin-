@@ -334,3 +334,10 @@
 {"timestamp": "2026-03-14T10:47:27.208201", "tool_name": "index_manager:get-state-changes", "success": true, "elapsed_ms": 14}
 {"timestamp": "2026-03-14T10:47:40.984477", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 12}
 {"timestamp": "2026-03-14T10:47:48.650862", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-14T10:52:04.017483", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 12}
+{"timestamp": "2026-03-14T10:52:12.283253", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 13}
+{"timestamp": "2026-03-14T10:52:38.084898", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-03-14T10:52:46.721035", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-14T10:53:22.201444", "tool_name": "state_manager:process-chapter", "success": false, "elapsed_ms": 17, "error_code": "SCHEMA_VALIDATION_FAILED", "error_message": "数据结构校验失败"}
+{"timestamp": "2026-03-14T10:57:26.872087", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 12}
+{"timestamp": "2026-03-14T10:57:34.382325", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 12}
