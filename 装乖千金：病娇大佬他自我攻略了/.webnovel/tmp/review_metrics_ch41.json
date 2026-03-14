@@ -1,0 +1,22 @@
+{
+  "start_chapter": 41,
+  "end_chapter": 41,
+  "overall_score": 87.0,
+  "dimension_scores": {
+    "设定一致性": 88.0,
+    "连贯性": 88.0,
+    "人物塑造": 92.0,
+    "爽点密度": 85.0,
+    "节奏控制": 84.0,
+    "追读力": 88.0
+  },
+  "severity_counts": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 6
+  },
+  "critical_issues": [],
+  "report_file": "审查报告/第41章审查报告.md",
+  "notes": "审查器: consistency-checker,continuity-checker,ooc-checker,high-point-checker,reader-pull-checker,pacing-checker | 综合评分: 87.0 | 低级别问题: 1)倒计时D-28未标注 2)慈善晚宴倒计时未提及 3)甜蜜爽点可加强 4)中段可增加次级悬念 5)连续5章Quest建议插入Fire调节 6)分析段落略长 | 全部通过，无critical/high问题"
+}

@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 1,
-    "current_chapter": 40,
-    "total_written_words": 92500,
+    "current_chapter": 41,
+    "total_written_words": 95966,
     "status": "writing",
-    "total_words": 92500,
-    "last_updated": "2026-03-14 02:30:00"
+    "total_words": 95966,
+    "last_updated": "2026-03-14 10:00:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -788,6 +788,25 @@
             "result": "得意表情，话里有话"
           }
         ]
+      }
+    },
+    "0041": {
+      "hook": {
+        "type": "危机钩",
+        "content": "求婚录音曝光，被迫联姻舆论风暴席卷，顾长渊亲自下场",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景感知开场",
+        "hook": "揭秘钩转危机钩",
+        "emotion_rhythm": "紧张→揭秘→结盟→危机",
+        "info_density": "high",
+        "strand_type": "Fire"
+      },
+      "ending": {
+        "time": "2026年5月7日清晨",
+        "location": "沈氏集团大楼/街对面黑色轿车",
+        "emotion": "正式结盟，危机升级"
       }
     }
   },

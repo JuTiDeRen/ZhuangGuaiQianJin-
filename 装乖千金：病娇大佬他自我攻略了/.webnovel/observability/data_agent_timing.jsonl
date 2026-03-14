@@ -299,3 +299,12 @@
 {"timestamp": "2026-03-14T01:41:11.139413", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 27}
 {"timestamp": "2026-03-14T01:41:53.344751", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 20}
 {"timestamp": "2026-03-14T01:42:47.232741", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 20}
+{"timestamp": "2026-03-14T09:38:23.006757", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 25}
+{"timestamp": "2026-03-14T09:41:26.584968", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 30, "chapter": 41}
+{"timestamp": "2026-03-14T09:41:50.603466", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 22}
+{"timestamp": "2026-03-14T09:42:26.695811", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 24}
+{"timestamp": "2026-03-14T09:42:38.912036", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 23}
+{"timestamp": "2026-03-14T09:42:51.210316", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 22}
+{"timestamp": "2026-03-14T09:45:39.971114", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-14T09:45:51.174572", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 16, "error_code": "NOT_FOUND", "error_message": "未找到别名: 墨镜男"}
+{"timestamp": "2026-03-14T09:46:13.295476", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 12}
