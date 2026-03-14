@@ -1,11 +1,11 @@
 {
-  "start_chapter": 83,
-  "end_chapter": 83,
-  "overall_score": 89.0,
+  "start_chapter": 84,
+  "end_chapter": 84,
+  "overall_score": 88.0,
   "dimension_scores": {
-    "设定一致性": 9.0,
+    "设定一致性": 8.8,
     "连贯性": 8.8,
-    "人物塑造": 9.0
+    "人物塑造": 8.8
   },
   "severity_counts": {
     "critical": 0,
@@ -14,6 +14,6 @@
     "low": 0
   },
   "critical_issues": [],
-  "report_file": "审查报告/第83章审查报告.md",
-  "notes": "快速审查通过 | 反套路装乖示弱爽点到位 | 7天倒计时启动"
+  "report_file": "审查报告/第84章审查报告.md",
+  "notes": "快速审查通过 | 发现林氏集团资金链漏洞"
 }
