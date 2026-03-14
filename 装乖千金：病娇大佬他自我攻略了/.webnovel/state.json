@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 1,
-    "current_chapter": 71,
+    "current_chapter": 76,
     "total_written_words": 139800,
     "status": "writing",
     "total_words": 137589,
-    "last_updated": "2026-03-14 19:54:23"
+    "last_updated": "2026-03-14 20:27:44"
   },
   "volume_plan": {
     "volume_1": {
@@ -1440,6 +1440,35 @@
           {
             "target": "林婉清",
             "result": "提及沈清瑶时瞳孔收缩、肌肉僵硬——厌恶"
+          }
+        ]
+      }
+    },
+    "0076": {
+      "hook": {
+        "type": "爽点钩转危机钩",
+        "content": "沈知意当众揭穿沈清瑶真实身份，沈清瑶暗示还有后手",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景描写开场",
+        "hook": "爽点钩",
+        "emotion_rhythm": "平静→紧张→反击→大胜→危机",
+        "info_density": "high",
+        "strand_type": "Fire"
+      },
+      "ending": {
+        "time": "2026年6月23日傍晚",
+        "location": "沈氏集团董事会会议室",
+        "emotion": "真相浮现，决战将至"
+      },
+      "golden_finger_usage": {
+        "used": 1,
+        "remaining": 2,
+        "targets": [
+          {
+            "target": "沈仲其",
+            "result": "瞳孔收缩、额头冒汗、喉结滚动——恐惧+愤怒"
           }
         ]
       }
