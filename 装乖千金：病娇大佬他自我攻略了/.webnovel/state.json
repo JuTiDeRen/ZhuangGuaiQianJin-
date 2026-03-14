@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 2,
-    "current_chapter": 93,
-    "total_written_words": 170400,
+    "current_chapter": 94,
+    "total_written_words": 172540,
     "status": "writing",
-    "total_words": 162889,
-    "last_updated": "2026-03-15 01:55:55"
+    "total_words": 165029,
+    "last_updated": "2026-03-15 02:30:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -49,13 +49,13 @@
   "protagonist_state": {
     "name": "沈知意",
     "current_identity": "沈氏集团唯一继承人，陆砚辞未婚妻",
-    "arc_stage": "第2卷：博弈与升温 - 面对更大危机",
+    "arc_stage": "第2卷：博弈与升温 - 突破装乖，做真实自己",
     "golden_finger_level": 2,
     "abilities": {
       "微表情洞察": {
         "daily_limit": 5,
-        "used_today": 5,
-        "remaining": 0,
+        "used_today": 0,
+        "remaining": 5,
         "unlock_level": "第81章觉醒完成",
         "special_effect": "对亲密关系目标（信任度≥80）产生50%效果"
       }
@@ -102,7 +102,8 @@
         "财务部李主管值得信任，形成同盟（第82章）",
         "张董事是二房姻亲，与沈知意敌对（第83章）",
         "李董事真正焦虑公司处境（第83章）",
-        "王董事心中有鬼，目光游离（第83章）"
+        "王董事心中有鬼，目光游离（第83章）",
+        "赵总（地产板块负责人）贪污受贿、泄露机密，已被开除并移交法务（第94章）"
       ],
       "揽月阁聚会": [
         "林婉婉是沈清瑶闺蜜，替她出头",
@@ -174,7 +175,7 @@
         "陆砚辞六年前就认识沈知意并喜欢她（第87章）"
       ],
       "季度董事会": [
-        "季度董事会倒计时D-28启动（第91章）",
+        "季度董事会倒计时D-23（第94章）",
         "将是沈知意正式确立继承人地位的关键一战（第91章）"
       ]
     },
@@ -186,7 +187,7 @@
   },
   "strand_tracker": {
     "fire": 100,
-    "constellation": 70,
+    "constellation": 75,
     "quest": 95
   },
   "chapter_meta": {
@@ -381,24 +382,41 @@
       }
     },
     "0093": {
-      "0093": {
-        "hook": {
-          "type": "展望钩+情感钩",
-          "content": "二十三天后的董事会将是关键一战；欧洲之行确定，陆砚辞陪同",
-          "strength": "strong"
-        },
-        "pattern": {
-          "opening": "场景描写开场",
-          "hook": "展望钩",
-          "emotion_rhythm": "自信→震撼→甜蜜→展望",
-          "info_density": "high",
-          "strand_type": "Quest+Constellation"
-        },
-        "ending": {
-          "time": "2026年7月5日上午",
-          "location": "沈氏集团大楼总裁办公室",
-          "emotion": "野心勃勃，准备迎接新战场"
-        }
+      "hook": {
+        "type": "展望钩+情感钩",
+        "content": "二十三天后的董事会将是关键一战；欧洲之行确定，陆砚辞陪同",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景描写开场",
+        "hook": "展望钩",
+        "emotion_rhythm": "自信→震撼→甜蜜→展望",
+        "info_density": "high",
+        "strand_type": "Quest+Constellation"
+      },
+      "ending": {
+        "time": "2026年7月5日上午",
+        "location": "沈氏集团大楼总裁办公室",
+        "emotion": "野心勃勃，准备迎接新战场"
+      }
+    },
+    "0094": {
+      "hook": {
+        "type": "成长钩+展望钩",
+        "content": "女主突破'装乖'模式直接发飙清算赵总，决定做真实的自己；明天出发欧洲",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "会议场景开场",
+        "hook": "成长觉醒+打脸爽点",
+        "emotion_rhythm": "隐忍→觉醒→爆发→甜蜜→展望",
+        "info_density": "medium",
+        "strand_type": "Fire+Constellation"
+      },
+      "ending": {
+        "time": "2026年7月7日下午",
+        "location": "沈氏集团大楼总裁办公室",
+        "emotion": "突破自我，决心不再伪装，准备出发欧洲"
       }
     }
   },
@@ -463,6 +481,12 @@
       "status": "active",
       "chapter": 91,
       "description": "希曼集团亚太区总裁"
+    },
+    "赵总": {
+      "type": "被清算高管",
+      "status": "defeated",
+      "chapter": 94,
+      "description": "沈氏集团地产板块原负责人，因贪污受贿、泄露机密被开除并移交法务"
     }
   },
   "world_settings": {
@@ -502,14 +526,17 @@
       "陈明晋升为技术部副总监，成为核心同盟",
       "财务部李主管成为新盟友（第82章）",
       "希曼集团合作已确认，预计首年营收增加八亿（第91章）",
-      "季度董事会倒计时D-28启动（第91章）"
+      "季度董事会倒计时D-23（第94章）",
+      "女主突破'装乖'模式，决定做真实的自己（第94章）",
+      "赵总被开除并追责，智慧社区项目推进（第94章）"
     ],
     "foreshadowing": [
       "季度董事会将是沈知意正式确立继承人地位的关键一战",
       "顾长渊复仇计划将逐步展开",
       "六年前的真相与顾长渊有关",
       "二房与林氏集团暗中勾结，需要清理",
-      "沈清瑶和顾长渊可能正在策划新的阴谋"
+      "沈清瑶和顾长渊可能正在策划新的阴谋",
+      "欧洲之行将带来新的机遇与挑战"
     ],
     "volume_1_completed": true,
     "volume_2_ready": true
