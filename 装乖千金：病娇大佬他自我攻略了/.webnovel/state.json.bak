@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 1,
-    "current_chapter": 64,
-    "total_written_words": 128634,
+    "current_chapter": 68,
+    "total_written_words": 135000,
     "status": "writing",
-    "total_words": 128634,
-    "last_updated": "2026-03-14 16:10:00"
+    "total_words": 132789,
+    "last_updated": "2026-03-14 16:44:14"
   },
   "volume_plan": {
     "volume_1": {
@@ -79,7 +79,8 @@
         "二十多年前与沈仲其有情，生下沈清瑶",
         "被沈家拆散，沈清瑶记在纪舒名下",
         "通过恒信投资在集团洗钱二十多年",
-        "将沈清瑶当棋子，可能是车祸真凶"
+        "将沈清瑶当棋子，可能是车祸真凶",
+        "星辉传媒是林婉清势力，通过远房侄子控制（第67章）"
       ],
       "职场情报": [
         "王经理是沈清瑶的人",
@@ -132,6 +133,14 @@
         "三重考验题目与季度考核同源（第56章）",
         "沈仲其正式认可沈知意为继承人（第56章）",
         "父亲为六年前的事道歉（第56章）"
+      ],
+      "舆论危机情报": [
+        "热搜黑料为伪造照片，与沈清瑶U盘证据同源（第66章）",
+        "营销号凌晨3-5点集中发布，有组织预谋（第66章）",
+        "王经理看到舆论攻击后表现出得意（第66章）",
+        "神秘人发来沈清瑶与中年男人密会照片（第66章）",
+        "星辉传媒是林婉清势力，已被陆砚辞出手解决（第67章）",
+        "黑热搜已全部撤下，陆氏发布强硬声明并起诉造谣者（第67章）"
       ]
     },
     "items": [
@@ -1212,6 +1221,109 @@
         "remaining": 3,
         "targets": []
       }
+    },
+    "0065": {
+      "hook": {
+        "type": "危机钩",
+        "content": "沈清瑶亮出U盘：真正的好戏还在后面，游戏才刚刚开始",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景感知开场",
+        "hook": "危机钩",
+        "emotion_rhythm": "紧张→反击→大胜→危机",
+        "info_density": "high",
+        "strand_type": "Quest"
+      },
+      "ending": {
+        "time": "2026年6月15日晚",
+        "location": "沈家别墅客厅",
+        "emotion": "暴风雨前的宁静"
+      },
+      "golden_finger_usage": {
+        "used": 0,
+        "remaining": 3,
+        "targets": []
+      }
+    },
+    "0066": {
+      "hook": {
+        "type": "危机钩",
+        "content": "神秘人发来沈清瑶密会照片：想知道她怎么操控舆论的吗？",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景感知开场",
+        "hook": "危机钩",
+        "emotion_rhythm": "紧张→冷静→反击→悬念",
+        "info_density": "high",
+        "strand_type": "Quest"
+      },
+      "ending": {
+        "time": "2026年6月16日上午",
+        "location": "沈氏集团办公室",
+        "emotion": "战意燃烧，神秘援手出现"
+      },
+      "golden_finger_usage": {
+        "used": 1,
+        "remaining": 2,
+        "targets": [
+          {
+            "target": "王经理",
+            "result": "得意掩饰，心情愉悦"
+          }
+        ]
+      }
+    },
+    "0067": {
+      "hook": {
+        "type": "情感钩",
+        "content": "陆砚辞强势出手：我的人，只有我能动",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景感知开场",
+        "hook": "护短名场面",
+        "emotion_rhythm": "紧张→反击→甜蜜",
+        "info_density": "high",
+        "strand_type": "Fire"
+      },
+      "ending": {
+        "time": "2026年6月16日晚",
+        "location": "陆砚辞私人别墅",
+        "emotion": "舆论反转，感情升温"
+      },
+      "golden_finger_usage": {
+        "used": 0,
+        "remaining": 3,
+        "targets": []
+      }
+    },
+    "0068": {
+      "0068": {
+        "hook": {
+          "type": "危机钩",
+          "content": "六年前旧案被翻出，伪造视频曝光，父母不信任",
+          "strength": "strong"
+        },
+        "pattern": {
+          "opening": "场景感知开场",
+          "hook": "危机钩",
+          "emotion_rhythm": "紧张→对峙→绝望→希望",
+          "info_density": "high",
+          "strand_type": "Fire"
+        },
+        "ending": {
+          "time": "晚上九点",
+          "location": "沈家别墅",
+          "emotion": "绝望中见希望，神秘短信"
+        },
+        "golden_finger_usage": {
+          "used": 0,
+          "remaining": 3,
+          "targets": []
+        }
+      }
     }
   },
   "export_source": {
@@ -1263,7 +1375,9 @@
       "二房把柄已回收，被迫成为情报来源（第61章）",
       "沈清瑶生母林婉清身份揭晓，幕后黑手浮出水面",
       "恒信投资与林婉清、二房形成洗钱链条",
-      "林婉清可能是沈清瑶车祸真凶（灭口）"
+      "林婉清可能是沈清瑶车祸真凶（灭口）",
+      "星辉传媒是林婉清势力，已被陆砚辞出手解决（第67章）",
+      "舆论危机被解决，黑热搜全部撤下（第67章）"
     ],
     "foreshadowing": [
       "幕后大BOSS身份不明，将在第2卷揭晓",

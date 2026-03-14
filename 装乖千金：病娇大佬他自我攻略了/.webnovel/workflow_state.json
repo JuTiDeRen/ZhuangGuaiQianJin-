@@ -1,121 +1,9 @@
 {
-  "current_task": {
+  "current_task": null,
+  "last_stable_state": {
     "command": "webnovel-write",
-    "args": {
-      "chapter_num": 62
-    },
-    "started_at": "2026-03-14T15:38:26.980046",
-    "last_heartbeat": "2026-03-14T16:09:30.298814",
-    "status": "running",
-    "current_step": {
-      "id": "Step 3",
-      "name": "审查",
-      "status": "running",
-      "started_at": "2026-03-14T15:51:36.800480",
-      "running_at": "2026-03-14T15:51:36.800480",
-      "attempt": 2,
-      "progress_note": null
-    },
-    "completed_steps": [
-      {
-        "id": "Step 1",
-        "name": "Context Agent",
-        "status": "completed",
-        "started_at": "2026-03-14T15:38:40.523782",
-        "running_at": "2026-03-14T15:38:40.523782",
-        "attempt": 1,
-        "progress_note": null,
-        "completed_at": "2026-03-14T15:40:30.106909",
-        "artifacts": {
-          "chapter": 62,
-          "status": "context_ready"
-        }
-      },
-      {
-        "id": "Step 2A",
-        "name": "正文起草",
-        "status": "completed",
-        "started_at": "2026-03-14T15:40:38.705956",
-        "running_at": "2026-03-14T15:40:38.705956",
-        "attempt": 1,
-        "progress_note": null,
-        "completed_at": "2026-03-14T15:41:30.522488",
-        "artifacts": {
-          "chapter": 62,
-          "word_count": 2350
-        }
-      },
-      {
-        "id": "Step 3",
-        "name": "审查",
-        "status": "completed",
-        "started_at": "2026-03-14T15:42:11.054192",
-        "running_at": "2026-03-14T15:42:11.054192",
-        "attempt": 1,
-        "progress_note": null,
-        "completed_at": "2026-03-14T15:43:40.472399",
-        "artifacts": {
-          "chapter": 62,
-          "review_score": 92
-        }
-      },
-      {
-        "id": "Step 4",
-        "name": "润色",
-        "status": "completed",
-        "started_at": "2026-03-14T15:44:01.922008",
-        "running_at": "2026-03-14T15:44:01.922008",
-        "attempt": 1,
-        "progress_note": null,
-        "completed_at": "2026-03-14T15:44:29.393299",
-        "artifacts": {
-          "chapter": 62,
-          "polish_fixed": [
-            "英文混入",
-            "自我攻略强化"
-          ]
-        }
-      },
-      {
-        "id": "Step 5",
-        "name": "Data Agent",
-        "status": "completed",
-        "started_at": "2026-03-14T15:44:37.395286",
-        "running_at": "2026-03-14T15:44:37.395286",
-        "attempt": 1,
-        "progress_note": null,
-        "completed_at": "2026-03-14T15:48:16.054267",
-        "artifacts": {
-          "chapter": 62,
-          "data_saved": true
-        }
-      },
-      {
-        "id": "Step 1",
-        "name": "Context Agent",
-        "status": "completed",
-        "started_at": "2026-03-14T15:48:47.623271",
-        "running_at": "2026-03-14T15:48:47.623271",
-        "attempt": 2,
-        "progress_note": null,
-        "completed_at": "2026-03-14T15:51:07.153129",
-        "artifacts": {
-          "chapter": 63,
-          "status": "context_ready"
-        }
-      }
-    ],
-    "failed_steps": [],
-    "pending_steps": [
-      "Step 1",
-      "Step 2A",
-      "Step 2B",
-      "Step 3",
-      "Step 4",
-      "Step 5",
-      "Step 6"
-    ],
-    "retry_count": 3,
+    "chapter_num": 62,
+    "completed_at": "2026-03-14T16:20:35.729463",
     "artifacts": {
       "chapter_file": {},
       "git_status": {},
@@ -123,37 +11,20 @@
       "entities_appeared": false,
       "review_completed": false,
       "chapter": 63,
-      "status": "context_ready",
+      "status": "completed",
       "word_count": 2350,
       "review_score": 92,
       "polish_fixed": [
         "英文混入",
         "自我攻略强化"
       ],
-      "data_saved": true
-    }
-  },
-  "last_stable_state": {
-    "command": "webnovel-write",
-    "chapter_num": 56,
-    "completed_at": "2026-03-14T13:50:00.702921",
-    "artifacts": {
-      "chapter_file": {},
-      "git_status": {},
-      "state_json_modified": false,
-      "entities_appeared": false,
-      "review_completed": true,
-      "context_contract": "generated",
-      "chapter": 56,
-      "style_adapted": true,
-      "overall_score": 84,
-      "polished": true,
-      "anti_ai_check": "pass",
-      "data_extracted": true,
-      "summary_saved": true,
-      "state_updated": true,
-      "checkers_completed": true,
-      "report_generated": true
+      "data_saved": true,
+      "chapters_completed": [
+        62,
+        63,
+        64,
+        65
+      ]
     }
   },
   "history": [
@@ -212,6 +83,13 @@
       "chapter": 56,
       "status": "completed",
       "completed_at": "2026-03-14T13:50:00.702921"
+    },
+    {
+      "task_id": "task_009",
+      "command": "webnovel-write",
+      "chapter": 62,
+      "status": "completed",
+      "completed_at": "2026-03-14T16:20:35.729463"
     }
   ]
 }

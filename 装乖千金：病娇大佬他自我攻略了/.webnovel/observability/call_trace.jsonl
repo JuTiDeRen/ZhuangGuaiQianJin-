@@ -149,3 +149,4 @@
 {"timestamp": "2026-03-14T15:51:36.804323", "event": "step_started", "payload": {"step_id": "Step 3", "step_name": "审查", "command": "webnovel-write", "chapter": 62, "progress_note": null, "expected_owner": "review-agents"}}
 {"timestamp": "2026-03-14T16:01:17.141396", "event": "task_reentered", "payload": {"command": "webnovel-write", "chapter": 62, "retry_count": 2}}
 {"timestamp": "2026-03-14T16:09:30.303403", "event": "task_reentered", "payload": {"command": "webnovel-write", "chapter": 62, "retry_count": 3}}
+{"timestamp": "2026-03-14T16:20:35.733510", "event": "task_completed", "payload": {"command": "webnovel-write", "chapter": 62, "completed_steps": 6, "failed_steps": 1}}

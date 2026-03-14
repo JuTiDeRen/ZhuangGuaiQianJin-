@@ -435,3 +435,27 @@
 {"timestamp": "2026-03-14T16:08:43", "chapter": 64, "timing_ms": {"A_load_context": 120, "B_entity_extract": 800, "C_disambiguation": 150, "D_state_index_write": 430, "E_summary_write": 90, "F_scene_chunking": 200, "G_rag_index": 2800, "H_style_sample": 150, "I_debt_interest": 0, "TOTAL": 4740}, "bottlenecks_top3": [{"step": "G_rag_index", "elapsed_ms": 2800, "ratio": 59.1}, {"step": "B_entity_extract", "elapsed_ms": 800, "ratio": 16.9}, {"step": "D_state_index_write", "elapsed_ms": 430, "ratio": 9.1}]}
 {"timestamp": "2026-03-14T16:13:24.117146", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 22}
 {"timestamp": "2026-03-14T16:13:57.983619", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 24, "chapter": 65}
+{"timestamp": "2026-03-14T16:27:50.280816", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 11}
+{"timestamp": "2026-03-14T16:28:24.228191", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-14T16:28:47.230388", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 22, "chapter": 66}
+{"timestamp": "2026-03-14T16:29:19.806693", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 24}
+{"timestamp": "2026-03-14T16:29:33.444756", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 24}
+{"timestamp": "2026-03-14T16:30:00.113125", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 22}
+{"timestamp": "2026-03-14T16:31:23.824207", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 22}
+{"timestamp": "2026-03-14T16:31:35.812677", "tool_name": "index_manager:register-alias", "success": true, "elapsed_ms": 22}
+{"timestamp": "2026-03-14T16:31:48.041609", "tool_name": "index_manager:register-alias", "success": true, "elapsed_ms": 22}
+{"timestamp": "2026-03-14T16:32:00.022440", "tool_name": "state_manager:get-progress", "success": true, "elapsed_ms": 19}
+{"timestamp": "2026-03-14T16:32:11.624318", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-14T16:43:55.430241", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-14T16:44:14.621463", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 23, "chapter": 68}
+{"timestamp": "2026-03-14T16:44:37.208507", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 25}
+{"timestamp": "2026-03-14T16:44:55.819800", "tool_name": "index_manager:register-alias", "success": true, "elapsed_ms": 22}
+{"timestamp": "2026-03-14T16:45:28.666759", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 25}
+{"timestamp": "2026-03-14T16:45:36.701868", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 21}
+{"timestamp": "2026-03-14T16:46:02.629378", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 24}
+{"timestamp": "2026-03-14T16:46:26.509659", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 359, "chapter": 68}
+{"timestamp": "2026-03-14T16:46:38.409081", "tool_name": "state_manager:get-progress", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-03-14T16:51:49.241312", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 26, "chapter": 69}
+{"timestamp": "2026-03-14T16:52:33.839656", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 383, "chapter": 69}
+{"timestamp": "2026-03-14T16:52:59.447516", "tool_name": "state_manager:get-progress", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-14T16:59:50.547585", "chapter": 70, "agent": "data-agent", "timing_ms": {"A_load_context": 150, "B_entity_extract": 800, "C_disambiguation": 200, "D_state_index_write": 300, "E_summary_write": 150, "F_scene_chunking": 400, "G_rag_index": 0, "H_style_sample": 0, "I_debt_interest": 0, "TOTAL": 2000}, "bottlenecks_top3": [{"step": "B_entity_extract", "elapsed_ms": 800, "ratio": 40.0}, {"step": "F_scene_chunking", "elapsed_ms": 400, "ratio": 20.0}, {"step": "D_state_index_write", "elapsed_ms": 300, "ratio": 15.0}]}
