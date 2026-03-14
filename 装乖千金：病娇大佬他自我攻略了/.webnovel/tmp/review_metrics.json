@@ -1,20 +1,19 @@
 {
-  "start_chapter": 81,
-  "end_chapter": 81,
-  "overall_score": 90.5,
+  "start_chapter": 82,
+  "end_chapter": 82,
+  "overall_score": 91.0,
   "dimension_scores": {
-    "设定一致性": 9.5,
+    "设定一致性": 9.2,
     "连贯性": 8.8,
-    "人物塑造": 9.2,
-    "追读力": 8.8
+    "人物塑造": 9.2
   },
   "severity_counts": {
     "critical": 0,
     "high": 0,
     "medium": 0,
-    "low": 1
+    "low": 2
   },
   "critical_issues": [],
-  "report_file": "审查报告/第81章审查报告.md",
-  "notes": "已启用审查器: consistency-checker, continuity-checker, ooc-checker, reader-pull-checker | 轻微问题: 第207-209行语义重复 | 时间线检查通过"
+  "report_file": "审查报告/第82章审查报告.md",
+  "notes": "已启用审查器: consistency-checker, continuity-checker, ooc-checker | 轻微问题: 缺少时间标记, 音音角色背景 | 时间线检查通过"
 }

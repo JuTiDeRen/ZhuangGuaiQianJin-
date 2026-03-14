@@ -498,3 +498,4 @@
 {"timestamp": "2026-03-14T21:33:43.490298", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 455, "chapter": 81}
 {"timestamp": "2026-03-14T21:33:58.159523", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到别名: 匿名信"}
 {"timestamp": "2026-03-14T21:34:01.036752", "tool_name": "index_manager:register-alias", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-03-14T21:38:45.481200", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 15}
