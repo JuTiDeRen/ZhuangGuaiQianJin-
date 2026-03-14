@@ -546,3 +546,9 @@
 {"timestamp": "2026-03-15T01:59:56.545811", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 263, "chapter": 94}
 {"timestamp": "2026-03-15T01:59:56.879451", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 10, "chapter": 94}
 {"timestamp": "2026-03-15T02:00:00.323908", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 10}
+{"timestamp": "2026-03-15T02:01:59.630011", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-15T02:01:59.904684", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-15T02:02:00.184401", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-15T02:04:04.239145", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 242, "chapter": 95}
+{"timestamp": "2026-03-15T02:04:11.172251", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 8, "chapter": 95}
+{"timestamp": "2026-03-15T02:04:14.360625", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 9}

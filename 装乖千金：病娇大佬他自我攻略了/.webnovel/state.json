@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 2,
-    "current_chapter": 94,
-    "total_written_words": 172540,
+    "current_chapter": 95,
+    "total_written_words": 174840,
     "status": "writing",
-    "total_words": 165029,
-    "last_updated": "2026-03-15 02:30:00"
+    "total_words": 167029,
+    "last_updated": "2026-03-15 02:45:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -54,8 +54,8 @@
     "abilities": {
       "微表情洞察": {
         "daily_limit": 5,
-        "used_today": 0,
-        "remaining": 5,
+        "used_today": 1,
+        "remaining": 4,
         "unlock_level": "第81章觉醒完成",
         "special_effect": "对亲密关系目标（信任度≥80）产生50%效果"
       }
@@ -175,8 +175,9 @@
         "陆砚辞六年前就认识沈知意并喜欢她（第87章）"
       ],
       "季度董事会": [
-        "季度董事会倒计时D-23（第94章）",
-        "将是沈知意正式确立继承人地位的关键一战（第91章）"
+        "季度董事会倒计时D-20（第95章）",
+        "陈董事、周董事已争取为盟友（第95章）",
+        "刘董事被揭穿并处理（第95章）"
       ]
     },
     "items": [
@@ -187,7 +188,7 @@
   },
   "strand_tracker": {
     "fire": 100,
-    "constellation": 75,
+    "constellation": 78,
     "quest": 95
   },
   "chapter_meta": {
@@ -418,6 +419,25 @@
         "location": "沈氏集团大楼总裁办公室",
         "emotion": "突破自我，决心不再伪装，准备出发欧洲"
       }
+    },
+    "0095": {
+      "hook": {
+        "type": "倒计时钩",
+        "content": "二十天后的董事会决战；沈知意成功争取两位董事支持，揭穿一位叛徒",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景描写开场",
+        "hook": "能力爽点+策略",
+        "emotion_rhythm": "试探→洞察→揭穿→收服→甜蜜",
+        "info_density": "high",
+        "strand_type": "Fire+Quest"
+      },
+      "ending": {
+        "time": "2026年7月10日晚上",
+        "location": "揽月阁顶层包厢/露台",
+        "emotion": "董事会前哨战胜利，感情升温，准备欧洲之行"
+      }
     }
   },
   "export_source": {
@@ -487,6 +507,24 @@
       "status": "defeated",
       "chapter": 94,
       "description": "沈氏集团地产板块原负责人，因贪污受贿、泄露机密被开除并移交法务"
+    },
+    "陈董事": {
+      "type": "董事会盟友",
+      "status": "active",
+      "chapter": 95,
+      "description": "被沈知意用新项目收益打动，成为董事会支持者"
+    },
+    "周董事": {
+      "type": "董事会盟友",
+      "status": "active",
+      "chapter": 95,
+      "description": "被沈知意争取为盟友，解除外部压力顾虑"
+    },
+    "刘董事": {
+      "type": "被揭穿叛徒",
+      "status": "defeated",
+      "chapter": 95,
+      "description": "被沈清瑶收买，被沈知意揭穿并移交监管部门"
     }
   },
   "world_settings": {
@@ -511,6 +549,12 @@
         "type": "主要场景",
         "description": "总裁办公室、董事长办公室、会议室、董事会会议室",
         "first_chapter": 82
+      },
+      {
+        "name": "揽月阁",
+        "type": "重要场景",
+        "description": "京北顶级私人会所，顶层包厢是重要谈判场所",
+        "first_chapter": 78
       }
     ]
   },
@@ -526,9 +570,11 @@
       "陈明晋升为技术部副总监，成为核心同盟",
       "财务部李主管成为新盟友（第82章）",
       "希曼集团合作已确认，预计首年营收增加八亿（第91章）",
-      "季度董事会倒计时D-23（第94章）",
+      "季度董事会倒计时D-20（第95章）",
       "女主突破'装乖'模式，决定做真实的自己（第94章）",
-      "赵总被开除并追责，智慧社区项目推进（第94章）"
+      "赵总被开除并追责，智慧社区项目推进（第94章）",
+      "陈董事、周董事成为董事会盟友（第95章）",
+      "刘董事被揭穿并处理（第95章）"
     ],
     "foreshadowing": [
       "季度董事会将是沈知意正式确立继承人地位的关键一战",
