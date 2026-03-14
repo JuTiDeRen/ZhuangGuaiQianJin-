@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 1,
-    "current_chapter": 56,
-    "total_written_words": 119896,
+    "current_chapter": 57,
+    "total_written_words": 122046,
     "status": "writing",
-    "total_words": 119896,
-    "last_updated": "2026-03-14 12:22:03"
+    "total_words": 122046,
+    "last_updated": "2026-03-14 12:30:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -52,8 +52,8 @@
     "abilities": {
       "微表情洞察": {
         "daily_limit": 3,
-        "used_today": 2,
-        "remaining": 1
+        "used_today": 0,
+        "remaining": 3
       }
     },
     "intel": {
@@ -64,7 +64,11 @@
         "指使张磊泄露陆氏项目数据（人证物证俱在）",
         "董事会安插37名内鬼（已揭穿）",
         "指使周敏破坏慈善晚宴供应商（已揭穿）",
-        "与神秘男人密会，背后另有势力"
+        "与神秘男人密会，背后另有势力",
+        "双重阴谋：考核当天制造丑闻+慈善晚宴播放黑料（第57章）",
+        "买通考核委员会王董事（第57章）",
+        "策反宴会厅音响师（第57章）",
+        "助理周婷联系娱乐八卦媒体（第57章）"
       ],
       "二房把柄": [
         "新项目中饱私囊（需进一步查证）"
@@ -1066,6 +1070,30 @@
             "result": "问题对他很重要"
           }
         ]
+      }
+    },
+    "0057": {
+      "hook": {
+        "type": "危机钩",
+        "content": "陆砚辞透露沈清瑶接触考核评委和神秘男人，双重阴谋浮出水面",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景感知开场",
+        "hook": "危机钩",
+        "emotion_rhythm": "轻松→紧张→反击",
+        "info_density": "high",
+        "strand_type": "Fire"
+      },
+      "ending": {
+        "time": "周日傍晚",
+        "location": "沈氏集团会议室",
+        "emotion": "战意燃烧，将计就计"
+      },
+      "golden_finger_usage": {
+        "used": 0,
+        "remaining": 3,
+        "targets": []
       }
     }
   },

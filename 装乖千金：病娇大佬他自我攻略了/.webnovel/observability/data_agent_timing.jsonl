@@ -374,3 +374,13 @@
 {"timestamp": "2026-03-14T12:22:03.630157", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 23, "chapter": 56}
 {"timestamp": "2026-03-14T12:22:19.460847", "tool_name": "rag_adapter:stats", "success": true, "elapsed_ms": 25}
 {"timestamp": "2026-03-14T12:22:24.133202", "tool_name": "state_manager:get-entity", "success": true, "elapsed_ms": 18}
+{"timestamp": "2026-03-14T12:25:09.488434", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 24}
+{"timestamp": "2026-03-14T12:25:40.510461", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-14T12:25:41.363095", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 12}
+{"timestamp": "2026-03-14T12:26:27.110098", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 25}
+{"timestamp": "2026-03-14T12:26:27.986226", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 24}
+{"timestamp": "2026-03-14T12:26:28.892887", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 21}
+{"timestamp": "2026-03-14T12:26:29.768621", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 23}
+{"timestamp": "2026-03-14T12:26:35.145250", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 24}
+{"timestamp": "2026-03-14T12:26:53.224623", "tool_name": "state_manager:process-chapter", "success": false, "elapsed_ms": 19, "error_code": "SCHEMA_VALIDATION_FAILED", "error_message": "数据结构校验失败"}
+{"timestamp": "2026-03-14T12:26:57.686726", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 18, "chapter": 57}
