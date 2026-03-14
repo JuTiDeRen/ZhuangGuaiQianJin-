@@ -343,3 +343,12 @@
 {"timestamp": "2026-03-14T10:57:34.382325", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 12}
 {"timestamp": "2026-03-14T11:10:14.693940", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 29}
 {"timestamp": "2026-03-14T11:29:53.627008", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 21}
+{"timestamp": "2026-03-14T11:43:53.132389", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 27, "chapter": 53}
+{"timestamp": "2026-03-14T11:45:07.675359", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 24}
+{"timestamp": "2026-03-14T11:46:26.747917", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 24}
+{"timestamp": "2026-03-14T11:46:34.697215", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 24}
+{"timestamp": "2026-03-14T11:46:42.530743", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 21}
+{"timestamp": "2026-03-14T11:47:35.811648", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 23}
+{"timestamp": "2026-03-14T11:47:43.652057", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 24}
+{"timestamp": "2026-03-14T11:47:51.458237", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 29}
+{"timestamp": "2026-03-14T11:48:03.426175", "tool_name": "state_manager:get-progress", "success": true, "elapsed_ms": 16}

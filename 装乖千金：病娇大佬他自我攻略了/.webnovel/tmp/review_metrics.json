@@ -1,10 +1,10 @@
 {
-  "start_chapter": 52,
-  "end_chapter": 52,
-  "overall_score": 9.0,
-  "dimension_scores": {"爽点密度": 9.0, "设定一致性": 9.0, "节奏控制": 9.0, "人物塑造": 9.5, "连贯性": 9.0, "追读力": 8.5},
-  "severity_counts": {"critical": 0, "high": 0, "medium": 0, "low": 1},
+  "start_chapter": 53,
+  "end_chapter": 53,
+  "overall_score": 8.8,
+  "dimension_scores": {"爽点密度": 8.5, "设定一致性": 9.0, "节奏控制": 8.5, "人物塑造": 9.0, "连贯性": 9.0, "追读力": 8.5},
+  "severity_counts": {"critical": 0, "high": 0, "medium": 0, "low": 0},
   "critical_issues": [],
-  "report_file": "审查报告/第52章审查报告.md",
-  "notes": "审查通过。人物OOC优秀，自我攻略特质充分体现。selected_checkers: consistency-checker,ooc-checker"
+  "report_file": "审查报告/第53章审查报告.md",
+  "notes": "审查通过。职场线推进顺利，女主能力展现充分，男主暗中助攻。金手指使用2次（对陈明、张总），符合限制。"
 }

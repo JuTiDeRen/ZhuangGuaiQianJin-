@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 1,
-    "current_chapter": 52,
+    "current_chapter": 53,
     "total_written_words": 115216,
     "status": "writing",
     "total_words": 115216,
-    "last_updated": "2026-03-14 20:00:00"
+    "last_updated": "2026-03-14 11:43:53"
   },
   "volume_plan": {
     "volume_1": {
@@ -956,6 +956,25 @@
         "used": 0,
         "remaining": 3,
         "targets": []
+      }
+    },
+    "0053": {
+      "hook": {
+        "type": "压力钩",
+        "content": "季度考核D-7，慈善晚宴D-22，双重压力摆在眼前",
+        "strength": "medium"
+      },
+      "pattern": {
+        "opening": "场景感知开场",
+        "hook": "压力钩",
+        "emotion_rhythm": "紧张→反击→大胜→危机",
+        "info_density": "high",
+        "strand_type": "Fire"
+      },
+      "ending": {
+        "time": "2026年5月27日晚",
+        "location": "沈氏集团办公室",
+        "emotion": "大获全胜，警惕后续"
       }
     }
   },
