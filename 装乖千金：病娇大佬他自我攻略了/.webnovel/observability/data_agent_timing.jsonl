@@ -342,3 +342,4 @@
 {"timestamp": "2026-03-14T10:57:26.872087", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 12}
 {"timestamp": "2026-03-14T10:57:34.382325", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 12}
 {"timestamp": "2026-03-14T11:10:14.693940", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 29}
+{"timestamp": "2026-03-14T11:29:53.627008", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 21}
