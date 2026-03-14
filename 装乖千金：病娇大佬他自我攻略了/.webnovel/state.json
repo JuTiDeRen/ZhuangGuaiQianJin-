@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 1,
-    "current_chapter": 61,
+    "current_chapter": 62,
     "total_written_words": 126500,
     "status": "writing",
     "total_words": 126500,
-    "last_updated": "2026-03-14 14:00:00"
+    "last_updated": "2026-03-14 15:47:47"
   },
   "volume_plan": {
     "volume_1": {
@@ -1135,6 +1135,32 @@
             "result": "知情、恐惧"
           }
         ]
+      }
+    },
+    "0062": {
+      "0062": {
+        "hook": {
+          "type": "渴望钩",
+          "content": "陆砚辞透露明日晚宴有惊喜准备，林婉清发来威胁短信",
+          "strength": "strong"
+        },
+        "pattern": {
+          "opening": "场景感知开场",
+          "hook": "情感钩",
+          "emotion_rhythm": "紧张→甜蜜→期待",
+          "info_density": "medium",
+          "strand_type": "Fire"
+        },
+        "ending": {
+          "time": "2026年6月12日傍晚",
+          "location": "返程车内",
+          "emotion": "期待应战"
+        }
+      },
+      "golden_finger_usage": {
+        "used": 0,
+        "remaining": 3,
+        "targets": []
       }
     }
   },

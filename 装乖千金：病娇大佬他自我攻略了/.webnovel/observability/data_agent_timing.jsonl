@@ -389,3 +389,9 @@
 {"timestamp": "2026-03-14T12:30:02.618689", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 23}
 {"timestamp": "2026-03-14T13:49:38.521460", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 13}
 {"timestamp": "2026-03-14T14:41:55.507516", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 22}
+{"timestamp": "2026-03-14T15:43:48.327260", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 28}
+{"timestamp": "2026-03-14T15:46:20.134141", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 24, "chapter": 62}
+{"timestamp": "2026-03-14T15:46:46.183772", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 367, "chapter": 62}
+{"timestamp": "2026-03-14T15:47:01.907981", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 12, "chapter": 62}
+{"timestamp": "2026-03-14T15:47:32.934096", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 23}
+{"timestamp": "2026-03-14T15:47:47.321000", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 21, "chapter": 62}

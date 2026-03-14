@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 1,
-    "current_chapter": 56,
-    "total_written_words": 119896,
+    "current_chapter": 62,
+    "total_written_words": 126500,
     "status": "writing",
-    "total_words": 119896,
-    "last_updated": "2026-03-14 12:22:03"
+    "total_words": 126500,
+    "last_updated": "2026-03-14 15:46:20"
   },
   "volume_plan": {
     "volume_1": {
@@ -52,8 +52,8 @@
     "abilities": {
       "微表情洞察": {
         "daily_limit": 3,
-        "used_today": 2,
-        "remaining": 1
+        "used_today": 0,
+        "remaining": 3
       }
     },
     "intel": {
@@ -64,10 +64,22 @@
         "指使张磊泄露陆氏项目数据（人证物证俱在）",
         "董事会安插37名内鬼（已揭穿）",
         "指使周敏破坏慈善晚宴供应商（已揭穿）",
-        "与神秘男人密会，背后另有势力"
+        "与神秘男人密会，背后另有势力",
+        "双重阴谋：考核当天制造丑闻+慈善晚宴播放黑料（第57章）",
+        "买通考核委员会王董事（第57章）",
+        "策反宴会厅音响师（第57章）",
+        "助理周婷联系娱乐八卦媒体（第57章）"
       ],
       "二房把柄": [
-        "新项目中饱私囊（需进一步查证）"
+        "商业综合体项目贪污两千万（已掌握证据）",
+        "二房被迫成为情报来源（第61章）"
+      ],
+      "沈清瑶生母情报": [
+        "生母姓名：林婉清，林美华远房表妹",
+        "二十多年前与沈仲其有情，生下沈清瑶",
+        "被沈家拆散，沈清瑶记在纪舒名下",
+        "通过恒信投资在集团洗钱二十多年",
+        "将沈清瑶当棋子，可能是车祸真凶"
       ],
       "职场情报": [
         "王经理是沈清瑶的人",
@@ -969,7 +981,7 @@
     "0053": {
       "hook": {
         "type": "压力钩",
-        "content": "季度考核D-7，慈善晚宴D-22，双重压力摆在眼前",
+        "content": "季度考核D-7，慈善晚宴D-10，双重压力摆在眼前",
         "strength": "medium"
       },
       "pattern": {
@@ -1067,6 +1079,63 @@
           }
         ]
       }
+    },
+    "0057": {
+      "hook": {
+        "type": "危机钩",
+        "content": "陆砚辞透露沈清瑶接触考核评委和神秘男人，双重阴谋浮出水面",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景感知开场",
+        "hook": "危机钩",
+        "emotion_rhythm": "轻松→紧张→反击",
+        "info_density": "high",
+        "strand_type": "Fire"
+      },
+      "ending": {
+        "time": "周日傍晚",
+        "location": "沈氏集团会议室",
+        "emotion": "战意燃烧，将计就计"
+      },
+      "golden_finger_usage": {
+        "used": 0,
+        "remaining": 3,
+        "targets": []
+      }
+    },
+    "0061": {
+      "hook": {
+        "type": "悬念钩",
+        "content": "二房把柄回收，沈清瑶生母林婉清身份揭晓，幕后黑手浮出水面",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景感知开场",
+        "hook": "回收+揭秘",
+        "emotion_rhythm": "平静→紧张→反转→掌控",
+        "info_density": "high",
+        "strand_type": "Quest"
+      },
+      "ending": {
+        "time": "周四晚上",
+        "location": "揽月阁宴会厅",
+        "emotion": "掌控全局，静待晚宴"
+      },
+      "golden_finger_usage": {
+        "used": 2,
+        "remaining": 1,
+        "targets": [
+          {
+            "target": "林美华",
+            "result": "评估、算计"
+          },
+          {
+            "target": "沈仲明",
+            "result": "知情、恐惧"
+          }
+        ]
+      }
     }
   },
   "export_source": {
@@ -1103,7 +1172,7 @@
   },
   "plot_threads": {
     "active_threads": [
-      "慈善晚宴即将到来（D-20）",
+      "慈善晚宴即将到来（D-8）",
       "顾长渊监视持续，游戏刚刚开始",
       "陆氏沈氏合作项目圆满完成，带来八位数净利润",
       "陈明晋升为技术部副总监，成为核心同盟",
@@ -1114,7 +1183,11 @@
       "御膳坊成为新餐饮供应商",
       "沈清瑶与神秘男人密会，背后另有势力",
       "陆砚辞承诺晚宴全程陪伴支持",
-      "音音、苏蔓、林晓加入慈善晚宴筹备，闺蜜团提供支援"
+      "音音、苏蔓、林晓加入慈善晚宴筹备，闺蜜团提供支援",
+      "二房把柄已回收，被迫成为情报来源（第61章）",
+      "沈清瑶生母林婉清身份揭晓，幕后黑手浮出水面",
+      "恒信投资与林婉清、二房形成洗钱链条",
+      "林婉清可能是沈清瑶车祸真凶（灭口）"
     ],
     "foreshadowing": [
       "幕后大BOSS身份不明，将在第2卷揭晓",
@@ -1175,6 +1248,14 @@
       "overall_score": 87,
       "critical_issues": 0,
       "status": "fixed"
+    },
+    {
+      "chapter_range": "61",
+      "report_file": "审查报告/第61章审查报告.md",
+      "reviewed_at": "2026-03-14",
+      "overall_score": 88.5,
+      "critical_issues": 0,
+      "status": "passed"
     }
   ],
   "disambiguation_warnings": [
