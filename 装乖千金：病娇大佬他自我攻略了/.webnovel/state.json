@@ -50,12 +50,14 @@
     "name": "沈知意",
     "current_identity": "沈氏集团唯一继承人，陆砚辞未婚妻",
     "arc_stage": "第2卷：博弈与升温 - 面对更大危机",
-    "golden_finger_level": 1,
+    "golden_finger_level": 2,
     "abilities": {
       "微表情洞察": {
-        "daily_limit": 3,
+        "daily_limit": 5,
         "used_today": 2,
-        "remaining": 1
+        "remaining": 3,
+        "unlock_level": "第50章觉醒完成",
+        "special_effect": "对亲密关系目标（信任度≥80）产生50%效果"
       }
     },
     "intel": {
@@ -503,6 +505,23 @@
       "overall_score": 86,
       "critical_issues": 0,
       "status": "passed"
+    },
+    {
+      "chapter_range": "81-90",
+      "report_file": "审查报告/第81-90章审查报告.md",
+      "reviewed_at": "2026-03-14",
+      "fixed_at": "2026-03-14",
+      "overall_score": 85,
+      "critical_issues": 0,
+      "status": "fixed",
+      "fixes": [
+        "第90章时间修正：7月1日→7月3日（符合7天倒计时）",
+        "第90章钩子增强：顾长渊短信+抵达江城",
+        "第82章补充沈清瑶被保释的过渡说明",
+        "第85章补充陆砚辞自我攻略内心OS",
+        "第90章补充陆砚辞内心OS",
+        "第84章增强爽点：添加与陆砚辞电话互动"
+      ]
     }
   ],
   "disambiguation_warnings": [
