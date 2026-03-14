@@ -967,6 +967,14 @@
       "overall_score": 85,
       "critical_issues": 0,
       "status": "passed"
+    },
+    {
+      "chapter_range": "41-50",
+      "report_file": "审查报告/第41-50章审查报告.md",
+      "reviewed_at": "2026-03-14",
+      "overall_score": 87,
+      "critical_issues": 0,
+      "status": "fixed"
     }
   ],
   "disambiguation_warnings": [
