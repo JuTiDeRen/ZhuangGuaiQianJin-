@@ -527,3 +527,12 @@
 {"timestamp": "2026-03-15T01:52:47.029658", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 8, "chapter": 92}
 {"timestamp": "2026-03-15T01:53:19.215746", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 8}
 {"timestamp": "2026-03-15T01:53:19.484519", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 10}
+{"timestamp": "2026-03-15T01:55:05.743233", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-03-15T01:55:06.014552", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 10}
+{"timestamp": "2026-03-15T01:55:14.490896", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 149, "chapter": 93}
+{"timestamp": "2026-03-15T01:55:22.273798", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-15T01:55:28.336131", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-15T01:55:28.607692", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-15T01:55:45.040698", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 18, "chapter": 93}
+{"timestamp": "2026-03-15T01:55:55.375373", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 18, "chapter": 93}
+{"timestamp": "2026-03-15T01:55:58.093691", "tool_name": "state_manager:get-progress", "success": true, "elapsed_ms": 13}

@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 2,
-    "current_chapter": 91,
+    "current_chapter": 93,
     "total_written_words": 170400,
     "status": "writing",
-    "total_words": 160589,
-    "last_updated": "2026-03-15 10:30:00"
+    "total_words": 162889,
+    "last_updated": "2026-03-15 01:55:45"
   },
   "volume_plan": {
     "volume_1": {
@@ -54,8 +54,8 @@
     "abilities": {
       "微表情洞察": {
         "daily_limit": 5,
-        "used_today": 3,
-        "remaining": 2,
+        "used_today": 5,
+        "remaining": 0,
         "unlock_level": "第81章觉醒完成",
         "special_effect": "对亲密关系目标（信任度≥80）产生50%效果"
       }
@@ -359,6 +359,46 @@
         "time": "2026年7月2日上午",
         "location": "沈氏集团大楼总裁办公室",
         "emotion": "危机解除，新的战场开始"
+      }
+    },
+    "0092": {
+      "hook": {
+        "type": "关系裂痕钩",
+        "content": "沈母纪舒为沈清瑶求情，母女理念冲突裂痕加深；沈清瑶想回来认错",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景描写开场",
+        "hook": "清算爽点转关系裂痕",
+        "emotion_rhythm": "冷静→冲突→决裂",
+        "info_density": "medium",
+        "strand_type": "Fire+Quest"
+      },
+      "ending": {
+        "time": "2026年7月3日下午",
+        "location": "沈氏集团大楼总裁办公室",
+        "emotion": "冷酷决绝，母女裂痕加深"
+      }
+    },
+    "0093": {
+      "0093": {
+        "hook": {
+          "type": "展望钩+情感钩",
+          "content": "二十三天后的董事会将是关键一战；欧洲之行确定，陆砚辞陪同",
+          "strength": "strong"
+        },
+        "pattern": {
+          "opening": "场景描写开场",
+          "hook": "展望钩",
+          "emotion_rhythm": "自信→震撼→甜蜜→展望",
+          "info_density": "high",
+          "strand_type": "Quest+Constellation"
+        },
+        "ending": {
+          "time": "2026年7月5日上午",
+          "location": "沈氏集团大楼总裁办公室",
+          "emotion": "野心勃勃，准备迎接新战场"
+        }
       }
     }
   },
