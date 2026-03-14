@@ -204,3 +204,4 @@
 {"timestamp": "2026-03-14T21:48:47.181682", "event": "step_completed", "payload": {"step_id": "Step 5", "command": "webnovel-write", "chapter": 83}}
 {"timestamp": "2026-03-14T21:48:55.889737", "event": "task_completed", "payload": {"command": "webnovel-write", "chapter": 83, "completed_steps": 6, "failed_steps": 0}}
 {"timestamp": "2026-03-14T21:49:04.041915", "event": "task_started", "payload": {"command": "webnovel-write", "args": {"chapter_num": 84}}}
+{"timestamp": "2026-03-14T21:50:03.131268", "event": "task_reentered", "payload": {"command": "webnovel-write", "chapter": 84, "retry_count": 1}}
