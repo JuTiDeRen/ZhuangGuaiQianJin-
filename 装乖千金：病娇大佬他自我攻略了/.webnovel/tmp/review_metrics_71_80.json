@@ -1,0 +1,17 @@
+{
+  "start_chapter": 71,
+  "end_chapter": 80,
+  "overall_score": 87,
+  "dimension_scores": {
+    "爽点密度": 92,
+    "设定一致性": 95,
+    "节奏控制": 77,
+    "人物塑造": 90,
+    "连贯性": 85,
+    "追读力": 86
+  },
+  "severity_counts": {"critical": 0, "high": 2, "medium": 3, "low": 2},
+  "critical_issues": [],
+  "report_file": "审查报告/第71-80章审查报告.md",
+  "notes": "第1卷卷末高潮区，整体质量优秀。主要问题：卷末高潮篇幅偏短，建议扩展78-80章。"
+}
