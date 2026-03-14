@@ -481,3 +481,20 @@
 {"timestamp": "2026-03-14T20:27:44.983264", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 52, "chapter": 76}
 {"timestamp": "2026-03-14T20:27:48.957247", "tool_name": "state_manager:get-progress", "success": true, "elapsed_ms": 48}
 {"timestamp": "2026-03-14T20:27:55.594667", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 27}
+{"timestamp": "2026-03-14T21:31:33.480024", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-14T21:32:35.534217", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 11}
+{"timestamp": "2026-03-14T21:32:35.820351", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 11}
+{"timestamp": "2026-03-14T21:32:51.859497", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-14T21:32:52.151872", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-03-14T21:32:52.438462", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-14T21:32:52.720376", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-14T21:32:53.008544", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-03-14T21:32:53.307383", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 18}
+{"timestamp": "2026-03-14T21:33:10.612962", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-14T21:33:10.887295", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-14T21:33:11.166850", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 18}
+{"timestamp": "2026-03-14T21:33:16.209545", "tool_name": "state_manager:process-chapter", "success": false, "elapsed_ms": 14, "error_code": "SCHEMA_VALIDATION_FAILED", "error_message": "数据结构校验失败"}
+{"timestamp": "2026-03-14T21:33:21.159736", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 21, "chapter": 81}
+{"timestamp": "2026-03-14T21:33:43.490298", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 455, "chapter": 81}
+{"timestamp": "2026-03-14T21:33:58.159523", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到别名: 匿名信"}
+{"timestamp": "2026-03-14T21:34:01.036752", "tool_name": "index_manager:register-alias", "success": true, "elapsed_ms": 17}

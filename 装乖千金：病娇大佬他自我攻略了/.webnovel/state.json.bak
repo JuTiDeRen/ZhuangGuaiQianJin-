@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 1,
-    "current_chapter": 76,
-    "total_written_words": 139800,
-    "status": "writing",
-    "total_words": 137589,
-    "last_updated": "2026-03-14 20:26:22"
+    "current_chapter": 80,
+    "total_written_words": 148300,
+    "status": "volume_1_complete",
+    "total_words": 145889,
+    "last_updated": "2026-03-14 22:00:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -25,7 +25,8 @@
       "planned_at": "2026-03-11",
       "beat_sheet": "大纲/第1卷-节拍表.md",
       "timeline": "大纲/第1卷-时间线.md",
-      "outline": "大纲/第1卷-详细大纲.md"
+      "outline": "大纲/第1卷-详细大纲.md",
+      "completed_at": "2026-03-14"
     },
     "volume_2": {
       "name": "博弈与升温",
@@ -33,7 +34,8 @@
       "planned_at": "2026-03-11",
       "beat_sheet": "大纲/第2卷-节拍表.md",
       "timeline": "大纲/第2卷-时间线.md",
-      "outline": "大纲/第2卷-详细大纲.md"
+      "outline": "大纲/第2卷-详细大纲.md",
+      "status": "pending"
     },
     "volume_3": {
       "name": "真相与圆满",
@@ -46,14 +48,14 @@
   },
   "protagonist_state": {
     "name": "沈知意",
-    "current_identity": "沈氏集团市场部经理，陆砚辞女朋友",
-    "arc_stage": "完全信任，真实自我，感情质变，事业上升",
+    "current_identity": "沈氏集团唯一继承人，陆砚辞未婚妻",
+    "arc_stage": "完全信任，真实自我，感情质变，事业巅峰",
     "golden_finger_level": 1,
     "abilities": {
       "微表情洞察": {
         "daily_limit": 3,
-        "used_today": 3,
-        "remaining": 0
+        "used_today": 0,
+        "remaining": 3
       }
     },
     "intel": {
@@ -68,7 +70,8 @@
         "双重阴谋：考核当天制造丑闻+慈善晚宴播放黑料（第57章）",
         "买通考核委员会王董事（第57章）",
         "策反宴会厅音响师（第57章）",
-        "助理周婷联系娱乐八卦媒体（第57章）"
+        "助理周婷联系娱乐八卦媒体（第57章）",
+        "真实身份被揭穿，已被带走（第79章）"
       ],
       "二房把柄": [
         "商业综合体项目贪污两千万（已掌握证据）",
@@ -80,7 +83,8 @@
         "被沈家拆散，沈清瑶记在纪舒名下",
         "通过恒信投资在集团洗钱二十多年",
         "将沈清瑶当棋子，可能是车祸真凶",
-        "星辉传媒是林婉清势力，通过远房侄子控制（第67章）"
+        "星辉传媒是林婉清势力，通过远房侄子控制（第67章）",
+        "涉嫌多起经济犯罪和买凶杀人，已被批捕（第79章）"
       ],
       "职场情报": [
         "王经理是沈清瑶的人",
@@ -97,9 +101,10 @@
         "名媛圈对沈知意态度转变"
       ],
       "六年前的真相": [
-        "六年前的事另有隐情",
-        "沈清瑶背后有神秘势力",
-        "幕后黑手身份不明"
+        "六年前车祸不是意外，是买凶杀人",
+        "幕后主使身份不明，林婉清知晓内情",
+        "幕后主使远比想象中可怕",
+        "神秘短信暗示真相另有隐情（第80章）"
       ],
       "新项目情报": [
         "陆氏沈氏合作项目投资五千万，已签约启动",
@@ -112,16 +117,10 @@
         "项目超额完成，带来八位数净利润"
       ],
       "慈善晚宴情报": [
-        "慈善晚宴筹备中发现多处问题（场地/餐饮/安保/礼仪）",
-        "顾长渊通过王经理介入慈善晚宴筹备",
-        "沈清瑶可能以顾长渊邀请身份出席慈善晚宴",
-        "周敏是纪舒亲信，在供应商更换上动手脚（已揭穿处理）",
-        "慈善晚宴原场地被退订，有人背后施压（沈清瑶所为）",
+        "慈善晚宴圆满成功，沈知意成为唯一继承人",
+        "沈清瑶在晚宴上被当众揭穿并带走",
+        "林婉清录音证据曝光，已被批捕",
         "御膳坊已成为新餐饮供应商（第51章签约）",
-        "沈清瑶准备在慈善晚宴搞'大惊喜'（第51章）",
-        "沈清瑶与神秘男人密会，非顾长渊的人（第51章）",
-        "陆砚辞承诺晚宴当天全程陪伴支持（第52章）",
-        "音音、苏蔓、林晓加入慈善晚宴筹备，闺蜜团提供支援（第54章）",
         "慈善晚宴场地变更至揽月阁（第55章）",
         "赞助商超额完成（第55章）"
       ],
@@ -129,1348 +128,83 @@
         "沈清瑶与顾长渊的人在咖啡厅密会（裴靳发现）",
         "沈清瑶另与神秘男人密会，背后另有势力（第51章）"
       ],
-      "父亲考验": [
-        "三重考验题目与季度考核同源（第56章）",
-        "沈仲其正式认可沈知意为继承人（第56章）",
+      "父亲选择": [
+        "沈仲其正式在慈善晚宴宣布沈知意为唯一继承人（第78章）",
         "父亲为六年前的事道歉（第56章）"
       ],
-      "舆论危机情报": [
-        "热搜黑料为伪造照片，与沈清瑶U盘证据同源（第66章）",
-        "营销号凌晨3-5点集中发布，有组织预谋（第66章）",
-        "王经理看到舆论攻击后表现出得意（第66章）",
-        "神秘人发来沈清瑶与中年男人密会照片（第66章）",
-        "星辉传媒是林婉清势力，已被陆砚辞出手解决（第67章）",
-        "黑热搜已全部撤下，陆氏发布强硬声明并起诉造谣者（第67章）"
-      ],
-      "林婉清动态": [
-        "主动联系女主，约今晚十二点行动（第70章）",
-        "声称有办法帮沈知意逃出禁足",
-        "与沈清瑶母女反目，称沈清瑶只是棋子",
-        "提出交易：帮沈知意出席晚宴，条件是揭穿沈清瑶身世",
-        "掌握沈仲其洗钱证据，可威胁沈仲其",
-        "知晓六年前车祸真相，以此要挟沈知意",
-        "约定明晚八点回复是否接受交易"
-      ],
-      "恒信投资情报": [
-        "法人代表陈志远只是台前傀儡，幕后实际控制人待查",
-        "沈仲其与恒信投资有二十多年资金往来",
-        "通过恒信投资洗钱金额至少五亿"
-      ],
-      "陈志远情报": [
-        "恒信投资法人代表，台前傀儡，幕后实际控制人待查"
-      ],
-      "六年前车祸真相": [
-        "六年前车祸不是意外，是买凶杀人",
-        "幕后主使身份不明，林婉清知晓内情",
-        "幕后主使远比想象中可怕"
+      "神秘短信": [
+        "第80章收到神秘短信：'你以为这就结束了吗？六年前的真相，你想知道吗？'",
+        "陆砚辞同时收到相同内容短信",
+        "预示第2卷更大阴谋即将揭晓"
       ]
     },
     "items": [
       "陆砚辞赠送的心形粉钻项链（定情信物）",
+      "陆砚辞求婚钻戒",
       "慈善晚宴香槟色礼服"
     ]
   },
   "strand_tracker": {
-    "fire": 92,
-    "constellation": 50,
-    "quest": 80
+    "fire": 100,
+    "constellation": 60,
+    "quest": 90
   },
   "chapter_meta": {
-    "0002": {
-      "hook": {
-        "type": "悬念钩",
-        "content": "沈知意回答'察言观色'，沈氏集团季度考核倒计时D-90",
-        "strength": "medium"
-      },
-      "pattern": {
-        "opening": "回忆开场",
-        "hook": "悬念钩",
-        "emotion_rhythm": "低→中→高",
-        "info_density": "high"
-      },
-      "ending": {
-        "time": "晚餐时分",
-        "location": "沈家餐厅",
-        "emotion": "暗流涌动"
-      }
-    },
-    "0001": {
-      "hook": {
-        "type": "悬念钩",
-        "content": "陆砚辞：你是不是暗恋我？",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "场景描写开场",
-        "hook": "悬念钩",
-        "emotion_rhythm": "低→高→悬念",
-        "info_density": "medium"
-      },
-      "ending": {
-        "time": "春日午后到傍晚",
-        "location": "离开九门湾的车上",
-        "emotion": "警惕与期待交织"
-      }
-    },
-    "0003": {
-      "hook": {
-        "type": "冲突钩",
-        "content": "沈清瑶递燕窝汤试探，沈知意反击",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "对话开场",
-        "hook": "冲突钩",
-        "emotion_rhythm": "紧张→对峙→平静",
-        "info_density": "high"
-      },
-      "ending": {
-        "time": "晚餐后",
-        "location": "沈知意房间",
-        "emotion": "警惕思考"
-      }
-    },
-    "0005": {
-      "hook": {
-        "type": "悬念钩",
-        "content": "林嘉树对沈清瑶异常忠诚的原因待查",
-        "strength": "medium"
-      },
-      "pattern": {
-        "opening": "场景描写开场",
-        "hook": "打脸反击",
-        "emotion_rhythm": "低→高→爽",
-        "info_density": "medium"
-      },
-      "ending": {
-        "time": "傍晚",
-        "location": "沈家",
-        "emotion": "掌握主动权"
-      }
-    },
-    "0004": {
+    "0078": {
       "hook": {
         "type": "危机钩",
-        "content": "二房夫妇上门试探，表面热情实则算计",
-        "strength": "medium"
+        "content": "沈清瑶召来星辉传媒刘总及黑衣人，声称要让所有人知道谁才是最后的赢家",
+        "strength": "strong"
       },
       "pattern": {
-        "opening": "场景开场",
+        "opening": "场景描写开场",
         "hook": "危机钩",
-        "emotion_rhythm": "低→高",
-        "info_density": "high"
-      },
-      "ending": {
-        "time": "傍晚",
-        "location": "沈知意房间",
-        "emotion": "掌握主动"
-      }
-    },
-    "0006": {
-      "hook": {
-        "type": "悬念钩",
-        "content": "沈知意入职沈氏集团，被安排到边缘工位，职场第一战即将打响",
-        "strength": "medium"
-      },
-      "pattern": {
-        "opening": "场景描写开场",
-        "hook": "悬念钩",
-        "emotion_rhythm": "低→高→爽",
-        "info_density": "high"
-      },
-      "ending": {
-        "time": "下午五点",
-        "location": "沈氏集团电梯口",
-        "emotion": "掌握主动权，警惕未来"
-      }
-    },
-    "0007": {
-      "hook": {
-        "type": "冲突钩",
-        "content": "王经理当众刁难，沈知意用微表情洞察反击",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "对话开场",
-        "hook": "冲突钩",
-        "emotion_rhythm": "紧张→对峙→爽",
-        "info_density": "high"
-      },
-      "ending": {
-        "time": "傍晚",
-        "location": "沈氏集团",
-        "emotion": "初战告捷"
-      }
-    },
-    "0008": {
-      "hook": {
-        "type": "情感钩",
-        "content": "澜韵咖啡厅再遇陆砚辞，合作提议暗藏情愫",
-        "strength": "medium"
-      },
-      "pattern": {
-        "opening": "场景描写开场",
-        "hook": "情感钩",
-        "emotion_rhythm": "低→中→暧昧",
-        "info_density": "medium"
-      },
-      "ending": {
-        "time": "晚上",
-        "location": "澜韵咖啡厅",
-        "emotion": "暧昧升温"
-      }
-    },
-    "0009": {
-      "hook": {
-        "type": "悬念钩",
-        "content": "陆氏与沈氏合作项目开启，沈知意被点名参与",
-        "strength": "medium"
-      },
-      "pattern": {
-        "opening": "对话开场",
-        "hook": "悬念钩",
-        "emotion_rhythm": "中→高",
-        "info_density": "high"
-      },
-      "ending": {
-        "time": "次日",
-        "location": "沈氏集团会议室",
-        "emotion": "期待与警惕"
-      }
-    },
-    "0010": {
-      "hook": {
-        "type": "爽点钩",
-        "content": "宴会上当众揭穿沈清瑶假面，真千金锋芒初露",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "场景描写开场",
-        "hook": "爽点钩",
-        "emotion_rhythm": "低→高→爽",
-        "info_density": "high"
-      },
-      "ending": {
-        "time": "晚上",
-        "location": "宴会厅",
-        "emotion": "大快人心"
-      }
-    },
-    "0011": {
-      "hook": {
-        "type": "悬念钩",
-        "content": "沈清瑶的暗中报复，三个职场阴谋连环出击",
-        "strength": "medium"
-      },
-      "pattern": {
-        "opening": "场景感知开场",
-        "hook": "悬念钩",
-        "emotion_rhythm": "低→中→高",
-        "info_density": "high"
-      },
-      "ending": {
-        "time": "傍晚",
-        "location": "沈氏集团外",
-        "emotion": "暗流涌动"
-      }
-    },
-    "0012": {
-      "hook": {
-        "type": "情感钩",
-        "content": "闺蜜团登场，陆砚辞当众表白",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "场景切入开场",
-        "hook": "情感钩",
-        "emotion_rhythm": "中→高→甜",
-        "info_density": "medium"
-      },
-      "ending": {
-        "time": "下午",
-        "location": "澜韵会所",
-        "emotion": "暧昧升温"
-      }
-    },
-    "0013": {
-      "hook": {
-        "type": "冲突钩",
-        "content": "团队第一次会议，内鬼浮现",
-        "strength": "medium"
-      },
-      "pattern": {
-        "opening": "场景直入开场",
-        "hook": "冲突钩",
-        "emotion_rhythm": "中→高→爽",
-        "info_density": "high"
-      },
-      "ending": {
-        "time": "中午",
-        "location": "沈氏集团",
-        "emotion": "掌握主动"
-      }
-    },
-    "0014": {
-      "hook": {
-        "type": "情感钩",
-        "content": "陆砚辞的'巧合'，一个月前就预约的餐厅",
-        "strength": "medium"
-      },
-      "pattern": {
-        "opening": "场景切入开场",
-        "hook": "情感钩",
-        "emotion_rhythm": "中→高→甜",
-        "info_density": "medium"
-      },
-      "ending": {
-        "time": "晚上",
-        "location": "沈家别墅外",
-        "emotion": "暧昧升温"
-      }
-    },
-    "0015": {
-      "hook": {
-        "type": "爽点钩",
-        "content": "季度汇报会，当众揭穿沈清瑶阴谋，超额完成目标",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "场景直入开场",
-        "hook": "爽点钩",
-        "emotion_rhythm": "中→高→爽",
-        "info_density": "high"
-      },
-      "ending": {
-        "time": "下午",
-        "location": "沈氏集团",
-        "emotion": "大获全胜"
-      }
-    },
-    "0016": {},
-    "0017": {
-      "hook": {
-        "type": "情感钩",
-        "content": "陆砚辞当众护短弹钢琴，公开表明追求沈知意",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "场景描写开场",
-        "hook": "冲突钩转情感钩",
-        "emotion_rhythm": "紧张→反击→甜蜜",
-        "info_density": "medium"
-      },
-      "ending": {
-        "time": "2026年4月2日晚",
-        "location": "高级餐厅",
-        "emotion": "心动沦陷"
-      }
-    },
-    "0018": {
-      "hook": {
-        "type": "冲突钩",
-        "content": "陆砚辞当众介绍沈知意为女朋友，裴靳的试探",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "场景描写开场",
-        "hook": "冲突钩",
-        "emotion_rhythm": "紧张→对峙→甜蜜",
-        "info_density": "medium"
-      },
-      "ending": {
-        "time": "2026年4月4日晚",
-        "location": "沈家别墅",
-        "emotion": "心动沦陷"
-      }
-    },
-    "0019": {
-      "hook": {
-        "type": "危机钩",
-        "content": "陆氏项目核心数据泄露，沈知意临危受命调查内鬼",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "场景感知开场",
-        "hook": "危机钩",
-        "emotion_rhythm": "紧张→调查→反击→蓄势",
-        "info_density": "high"
-      },
-      "ending": {
-        "time": "2026年4月6日傍晚",
-        "location": "沈家别墅/车内",
-        "emotion": "蓄势待发"
-      }
-    },
-    "0020": {
-      "hook": {
-        "type": "爽点钩",
-        "content": "董事会上沈知意揭穿沈清瑶真面目，当众打脸",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "场景直入开场",
-        "hook": "爽点钩",
-        "emotion_rhythm": "紧张→反击→甜蜜",
-        "info_density": "high"
-      },
-      "ending": {
-        "time": "2026年4月8日晚",
-        "location": "沈家别墅/陆砚辞私人别墅",
-        "emotion": "感情质变，危机伏笔"
-      }
-    },
-    "0021": {
-      "hook": {
-        "type": "情感钩",
-        "content": "陆砚辞精心策划约会，沈知意主动亲吻脸颊",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "消息开场",
-        "hook": "情感钩",
-        "emotion_rhythm": "甜→高→甜",
-        "info_density": "medium"
-      },
-      "ending": {
-        "time": "2026年4月10日晚",
-        "location": "沈家别墅",
-        "emotion": "心动沦陷，开始信任"
-      }
-    },
-    "0022": {
-      "hook": {
-        "type": "情感钩",
-        "content": "真心话大冒险，沈知意首次说出'我爱你'",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "场景切入开场",
-        "hook": "情感钩",
-        "emotion_rhythm": "轻松→高→甜",
-        "info_density": "medium"
-      },
-      "ending": {
-        "time": "2026年4月12日晚",
-        "location": "沈家别墅",
-        "emotion": "甜蜜升温，宣示主权"
-      }
-    },
-    "0023": {
-      "hook": {
-        "type": "情感钩",
-        "content": "纪舒道歉，陆砚辞赠送定情项链",
-        "strength": "medium"
-      },
-      "pattern": {
-        "opening": "对话开场",
-        "hook": "情感钩",
-        "emotion_rhythm": "低→中→高",
-        "info_density": "medium"
-      },
-      "ending": {
-        "time": "2026年4月14日晚",
-        "location": "沈家别墅",
-        "emotion": "家庭缓和，感情稳定"
-      }
-    },
-    "0024": {
-      "hook": {
-        "type": "悬念钩",
-        "content": "沈仲其揭开六年前真相，顾长渊浮出水面",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "场景感知开场",
-        "hook": "揭秘钩",
-        "emotion_rhythm": "低→高→紧张",
-        "info_density": "high"
-      },
-      "ending": {
-        "time": "2026年4月15日深夜",
-        "location": "沈家别墅",
-        "emotion": "真相大白，蓄势待发"
-      }
-    },
-    "0025": {
-      "hook": {
-        "type": "情感钩",
-        "content": "沈知意卸下伪装，第一次主动说'我喜欢你'",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "场景描写开场",
-        "hook": "情感质变钩",
-        "emotion_rhythm": "低→高→甜",
-        "info_density": "medium"
-      },
-      "ending": {
-        "time": "2026年4月18日晚",
-        "location": "沈家别墅",
-        "emotion": "完全信任，真实自我"
-      }
-    },
-    "0026": {
-      "hook": {
-        "type": "爽点钩",
-        "content": "沈知意卸下伪装后的职场首秀，真实的一面更有魅力",
-        "strength": "medium"
-      },
-      "pattern": {
-        "opening": "场景描写开场",
-        "hook": "认知爽点",
-        "emotion_rhythm": "中→高→爽",
-        "info_density": "medium"
-      },
-      "ending": {
-        "time": "2026年4月20日傍晚",
-        "location": "沈氏集团外",
-        "emotion": "自信真实，收获认可"
-      }
-    },
-    "0027": {
-      "hook": {
-        "type": "情感钩",
-        "content": "陆砚辞六年前就暗恋沈知意，秘密相册曝光",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "场景切入开场",
-        "hook": "揭秘钩转情感钩",
-        "emotion_rhythm": "好奇→感动→甜蜜",
-        "info_density": "high"
-      },
-      "ending": {
-        "time": "2026年4月22日晚",
-        "location": "陆砚辞私人别墅",
-        "emotion": "深情告白，感情升温"
-      }
-    },
-    "0028": {
-      "hook": {
-        "type": "悬念钩",
-        "content": "林嘉树突然反水，向沈知意道歉并提供情报",
-        "strength": "medium"
-      },
-      "pattern": {
-        "opening": "对话开场",
-        "hook": "反转钩",
-        "emotion_rhythm": "警惕→认知→冷静",
-        "info_density": "high"
-      },
-      "ending": {
-        "time": "2026年4月24日下午",
-        "location": "沈氏集团",
-        "emotion": "危机预警，蓄势待发"
-      }
-    },
-    "0029": {
-      "hook": {
-        "type": "爽点钩",
-        "content": "董事会当众揭穿沈清瑶，林嘉树反水提供关键证据",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "场景直入开场",
-        "hook": "冲突钩转爽点钩",
-        "emotion_rhythm": "紧张→反击→大胜",
-        "info_density": "high"
-      },
-      "ending": {
-        "time": "2026年4月25日下午",
-        "location": "沈氏集团",
-        "emotion": "大获全胜，晋升经理"
-      }
-    },
-    "0030": {
-      "hook": {
-        "type": "爽点+情感钩",
-        "content": "陆砚辞强势护短'我的人你也敢动'，当众求婚",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "场景感知开场",
-        "hook": "护短名场面",
-        "emotion_rhythm": "紧张→高能→甜蜜",
-        "info_density": "high"
-      },
-      "ending": {
-        "time": "2026年4月25日晚",
-        "location": "沈家别墅外",
-        "emotion": "男主护短，求婚成功"
-      }
-    },
-    "0031": {
-      "hook": {
-        "type": "危机钩",
-        "content": "匿名威胁短信：这个项目背后的水很深",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "场景感知开场",
-        "hook": "危机钩",
-        "emotion_rhythm": "甜蜜→紧张→反击→危机",
-        "info_density": "high"
-      },
-      "ending": {
-        "time": "2026年4月26日傍晚",
-        "location": "沈知意办公室",
-        "emotion": "战意燃烧，危机预警"
-      }
-    },
-    "0032": {
-      "hook": {
-        "type": "甜蜜钩+悬念钩",
-        "content": "陆砚辞承诺每天去沈氏集团'视察项目'，24小时内查出匿名威胁者",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "场景感知开场",
-        "hook": "情感钩",
-        "emotion_rhythm": "紧张→甜蜜→悬念",
-        "info_density": "medium",
-        "strand_type": "Fire"
-      },
-      "ending": {
-        "time": "2026年4月27日晚",
-        "location": "沈家别墅",
-        "emotion": "感情升温，期待明日"
-      }
-    },
-    "0033": {
-      "hook": {
-        "type": "危机钩",
-        "content": "王经理索要预算表，内鬼浮现，暗中破坏开始",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "场景感知开场",
-        "hook": "危机钩",
-        "emotion_rhythm": "紧张→反击→甜蜜→危机",
+        "emotion_rhythm": "紧张→反击→危机",
         "info_density": "high",
         "strand_type": "Fire"
       },
       "ending": {
-        "time": "2026年4月30日晚",
-        "location": "沈知意办公室",
-        "emotion": "战意燃烧，危机预警"
-      },
-      "golden_finger_usage": {
-        "used": 2,
-        "remaining": 1,
-        "targets": [
-          {
-            "target": "陈明",
-            "result": "不信任"
-          },
-          {
-            "target": "李主管",
-            "result": "可信任"
-          }
-        ]
-      }
-    },
-    "0034": {
-      "hook": {
-        "type": "危机钩",
-        "content": "慈善晚宴筹备中发现沈清瑶埋雷，顾长渊通过王经理介入",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "场景感知开场",
-        "hook": "危机钩",
-        "emotion_rhythm": "紧张→反击→甜蜜→危机",
-        "info_density": "high",
-        "strand_type": "Fire"
-      },
-      "ending": {
-        "time": "2026年5月3日晚",
-        "location": "沈知意办公室",
-        "emotion": "战意燃烧，危机预警"
-      },
-      "golden_finger_usage": {
-        "used": 1,
-        "remaining": 2,
-        "targets": [
-          {
-            "target": "周敏",
-            "result": "心虚紧张"
-          }
-        ]
-      }
-    },
-    "0035": {
-      "hook": {
-        "type": "危机钩",
-        "content": "有人花了大价钱想要看沈知意在谈判上栽跟头",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "场景感知开场",
-        "hook": "爽点钩转危机钩",
-        "emotion_rhythm": "紧张→反击→甜蜜→危机",
-        "info_density": "high",
-        "strand_type": "Fire"
-      },
-      "ending": {
-        "time": "2026年5月5日",
-        "location": "沈氏集团电梯口",
-        "emotion": "谈判胜利，危机预警"
-      },
-      "golden_finger_usage": {
-        "used": 1,
-        "remaining": 2,
-        "targets": [
-          {
-            "target": "赵总",
-            "result": "虚张声势，有后手"
-          }
-        ]
-      }
-    },
-    "0036": {
-      "hook": {
-        "type": "危机钩",
-        "content": "顾长渊在街角车窗后静静注视，风暴真的要来了",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "场景描写开场",
-        "hook": "甜蜜+危机",
-        "emotion_rhythm": "高→低→高→低",
-        "info_density": "medium",
-        "strand_type": "Fire"
-      },
-      "ending": {
-        "time": "2026年5月6日晚11点后",
-        "location": "君悦酒店门口",
-        "emotion": "紧张不安"
-      },
-      "golden_finger_usage": {
-        "used": 1,
-        "remaining": 2,
-        "targets": [
-          {
-            "target": "沈清瑶",
-            "result": "得意表情，话里有话"
-          }
-        ]
-      }
-    },
-    "0041": {
-      "hook": {
-        "type": "危机钩",
-        "content": "求婚录音曝光，被迫联姻舆论风暴席卷，顾长渊亲自下场",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "场景感知开场",
-        "hook": "揭秘钩转危机钩",
-        "emotion_rhythm": "紧张→揭秘→结盟→危机",
-        "info_density": "high",
-        "strand_type": "Fire"
-      },
-      "ending": {
-        "time": "2026年5月7日清晨",
-        "location": "沈氏集团大楼/街对面黑色轿车",
-        "emotion": "正式结盟，危机升级"
-      }
-    },
-    "0042": {
-      "hook": {
-        "type": "甜蜜+危机钩",
-        "content": "甩掉跟踪后的甜蜜独处，顾长渊监视仍在继续",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "场景感知开场",
-        "hook": "情感钩",
-        "emotion_rhythm": "紧张→甜蜜→温馨→危机",
-        "info_density": "medium",
-        "strand_type": "Fire"
-      },
-      "ending": {
-        "time": "慈善晚宴倒计时D-27夜晚",
-        "location": "离开陆砚辞别墅的车上",
-        "emotion": "温馨依靠，危机暗涌"
-      }
-    },
-    "0046": {
-      "hook": {
-        "type": "悬念钩",
-        "content": "沈清瑶被揭穿后暗示还有底牌，假千金的反击尚未结束",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "场景感知开场",
-        "hook": "爽点钩转悬念钩",
-        "emotion_rhythm": "紧张→反击→大胜→危机",
-        "info_density": "high",
-        "strand_type": "Fire"
-      },
-      "ending": {
-        "time": "2026年5月24日傍晚",
-        "location": "沈知意办公室",
-        "emotion": "大获全胜，警惕后续"
-      },
-      "golden_finger_usage": {
-        "used": 1,
-        "remaining": 1,
-        "targets": [
-          {
-            "target": "沈清瑶",
-            "result": "紧张不安，强装镇定"
-          }
-        ]
-      }
-    },
-    "0047": {
-      "hook": {
-        "type": "爽点钩转危机钩",
-        "content": "项目超额完成签约成功，慈善晚宴场地被截胡，沈清瑶与神秘男人密会",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "场景直入开场",
-        "hook": "爽点钩",
-        "emotion_rhythm": "紧张→大胜→甜蜜→危机",
-        "info_density": "high",
-        "strand_type": "Fire"
-      },
-      "ending": {
-        "time": "2026年5月24日傍晚",
-        "location": "沈氏集团会议室",
-        "emotion": "大获全胜，新危机降临"
-      },
-      "golden_finger_usage": {
-        "used": 1,
-        "remaining": 0,
-        "targets": [
-          {
-            "target": "宏远集团张总",
-            "result": "虚张声势，试探利益"
-          }
-        ]
-      }
-    },
-    "0051": {
-      "hook": {
-        "type": "悬念钩",
-        "content": "沈清瑶与神秘男人密会，慈善晚宴将有'大惊喜'，背后另有势力",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "场景感知开场",
-        "hook": "危机钩转爽点钩转悬念钩",
-        "emotion_rhythm": "紧张→反击→大胜→危机",
-        "info_density": "high",
-        "strand_type": "Fire"
-      },
-      "ending": {
-        "time": "2026年5月25日傍晚",
-        "location": "沈氏集团办公室",
-        "emotion": "大获全胜，新危机暗涌"
-      },
-      "golden_finger_usage": {
-        "used": 2,
-        "remaining": 1,
-        "targets": [
-          {
-            "target": "周敏",
-            "result": "撒谎，心虚得逞"
-          },
-          {
-            "target": "刘总（御膳坊）",
-            "result": "真诚可信"
-          }
-        ]
-      }
-    },
-    "0052": {
-      "hook": {
-        "type": "情感钩",
-        "content": "陆砚辞承诺慈善晚宴全程陪伴，神秘暗示有惊喜",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "场景描写开场",
-        "hook": "情感钩",
-        "emotion_rhythm": "轻松→甜蜜→温馨",
-        "info_density": "medium",
-        "strand_type": "Fire"
-      },
-      "ending": {
-        "time": "2026年5月26日晚",
-        "location": "陆砚辞私人别墅",
-        "emotion": "安心依靠，感情升温"
-      },
-      "golden_finger_usage": {
-        "used": 0,
-        "remaining": 3,
-        "targets": []
-      }
-    },
-    "0053": {
-      "hook": {
-        "type": "压力钩",
-        "content": "季度考核D-7，慈善晚宴D-10，双重压力摆在眼前",
-        "strength": "medium"
-      },
-      "pattern": {
-        "opening": "场景感知开场",
-        "hook": "压力钩",
-        "emotion_rhythm": "紧张→反击→大胜→危机",
-        "info_density": "high",
-        "strand_type": "Fire"
-      },
-      "ending": {
-        "time": "2026年5月27日晚",
-        "location": "沈氏集团办公室",
-        "emotion": "大获全胜，警惕后续"
-      }
-    },
-    "0054": {
-      "hook": {
-        "type": "情感钩",
-        "content": "闺蜜团主动支援慈善晚宴筹备，沈知意收获最强后援团",
-        "strength": "medium"
-      },
-      "pattern": {
-        "opening": "场景切入开场",
-        "hook": "情感钩",
-        "emotion_rhythm": "温馨→甜蜜→力量",
-        "info_density": "medium",
-        "strand_type": "Fire"
-      },
-      "ending": {
-        "time": "2026年5月27日晚",
-        "location": "澜韵会所/陆砚辞车上",
-        "emotion": "温暖依靠，无所畏惧"
-      },
-      "golden_finger_usage": {
-        "used": 0,
-        "remaining": 3,
-        "targets": []
-      }
-    },
-    "0055": {
-      "0055": {
-        "hook": {
-          "type": "危机转爽点钩",
-          "content": "君悦酒店场地被破坏，陆砚辞提供揽月阁，赞助商超额完成",
-          "strength": "strong"
-        },
-        "pattern": {
-          "opening": "危机开场",
-          "hook": "危机转爽点",
-          "emotion_rhythm": "紧张→反击→大胜→甜蜜",
-          "info_density": "high",
-          "strand_type": "Fire"
-        },
-        "ending": {
-          "time": "周五晚上",
-          "location": "沈知意办公室/外出",
-          "emotion": "大获全胜，感情升温"
-        }
-      },
-      "golden_finger_usage": {
-        "used": 0,
-        "remaining": 3,
-        "targets": []
-      }
-    },
-    "0056": {
-      "hook": {
-        "type": "情感钩+倒计时",
-        "content": "陆砚辞约庆祝并透露考核小道消息，季度考核D-3",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "场景感知开场",
-        "hook": "考验推进",
-        "emotion_rhythm": "紧张→认可→甜蜜",
-        "info_density": "high",
-        "strand_type": "Fire"
-      },
-      "ending": {
-        "time": "周六傍晚",
-        "location": "沈家别墅走廊",
-        "emotion": "父女和解，期待未来"
-      },
-      "golden_finger_usage": {
-        "used": 2,
-        "remaining": 1,
-        "targets": [
-          {
-            "target": "沈仲其",
-            "result": "期待与赞许"
-          },
-          {
-            "target": "沈仲其",
-            "result": "问题对他很重要"
-          }
-        ]
-      }
-    },
-    "0057": {
-      "hook": {
-        "type": "危机钩",
-        "content": "陆砚辞透露沈清瑶接触考核评委和神秘男人，双重阴谋浮出水面",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "场景感知开场",
-        "hook": "危机钩",
-        "emotion_rhythm": "轻松→紧张→反击",
-        "info_density": "high",
-        "strand_type": "Fire"
-      },
-      "ending": {
-        "time": "周日傍晚",
-        "location": "沈氏集团会议室",
-        "emotion": "战意燃烧，将计就计"
-      },
-      "golden_finger_usage": {
-        "used": 0,
-        "remaining": 3,
-        "targets": []
-      }
-    },
-    "0061": {
-      "hook": {
-        "type": "悬念钩",
-        "content": "二房把柄回收，沈清瑶生母林婉清身份揭晓，幕后黑手浮出水面",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "场景感知开场",
-        "hook": "回收+揭秘",
-        "emotion_rhythm": "平静→紧张→反转→掌控",
-        "info_density": "high",
-        "strand_type": "Quest"
-      },
-      "ending": {
-        "time": "周四晚上",
+        "time": "2026年6月24日晚上7点",
         "location": "揽月阁宴会厅",
-        "emotion": "掌控全局，静待晚宴"
-      },
-      "golden_finger_usage": {
-        "used": 2,
-        "remaining": 1,
-        "targets": [
-          {
-            "target": "林美华",
-            "result": "评估、算计"
-          },
-          {
-            "target": "沈仲明",
-            "result": "知情、恐惧"
-          }
-        ]
+        "emotion": "决战一触即发"
       }
     },
-    "0062": {
-      "0062": {
-        "hook": {
-          "type": "渴望钩",
-          "content": "陆砚辞透露明日晚宴有惊喜准备，林婉清发来威胁短信",
-          "strength": "strong"
-        },
-        "pattern": {
-          "opening": "场景感知开场",
-          "hook": "情感钩",
-          "emotion_rhythm": "紧张→甜蜜→期待",
-          "info_density": "medium",
-          "strand_type": "Fire"
-        },
-        "ending": {
-          "time": "2026年6月12日傍晚",
-          "location": "返程车内",
-          "emotion": "期待应战"
-        }
-      },
-      "golden_finger_usage": {
-        "used": 0,
-        "remaining": 3,
-        "targets": []
-      }
-    },
-    "0063": {
+    "0079": {
       "hook": {
-        "type": "危机钩",
-        "content": "林婉清短信威胁：真正的游戏才刚刚开始",
+        "type": "爽点钩",
+        "content": "沈知意当众播放沈清瑶密会视频和林婉清录音，彻底揭穿母女阴谋",
         "strength": "strong"
       },
       "pattern": {
-        "opening": "场景描写开场",
-        "hook": "爽点钩转危机钩",
-        "emotion_rhythm": "紧张→反击→大胜→危机",
-        "info_density": "high",
-        "strand_type": "Quest"
-      },
-      "ending": {
-        "time": "2026年6月13日晚",
-        "location": "揽月阁宴会厅休息区",
-        "emotion": "战意燃烧，迎接挑战"
-      },
-      "golden_finger_usage": {
-        "used": 0,
-        "remaining": 3,
-        "targets": []
-      }
-    },
-    "0064": {
-      "0064": {
-        "hook": {
-          "type": "危机钩",
-          "content": "沈清瑶耐心即将耗尽，林婉清发来威胁彩信",
-          "strength": "strong"
-        },
-        "pattern": {
-          "opening": "场景感知开场",
-          "hook": "爽点钩转危机钩",
-          "emotion_rhythm": "紧张→反击→大胜→危机",
-          "info_density": "high",
-          "strand_type": "Fire"
-        },
-        "ending": {
-          "time": "2026年6月14日下午",
-          "location": "揽月阁宴会厅",
-          "emotion": "战意燃烧，迎接最终对决"
-        }
-      },
-      "golden_finger_usage": {
-        "used": 0,
-        "remaining": 3,
-        "targets": []
-      }
-    },
-    "0065": {
-      "hook": {
-        "type": "危机钩",
-        "content": "沈清瑶亮出U盘：真正的好戏还在后面，游戏才刚刚开始",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "场景感知开场",
-        "hook": "危机钩",
-        "emotion_rhythm": "紧张→反击→大胜→危机",
-        "info_density": "high",
-        "strand_type": "Quest"
-      },
-      "ending": {
-        "time": "2026年6月15日晚",
-        "location": "沈家别墅客厅",
-        "emotion": "暴风雨前的宁静"
-      },
-      "golden_finger_usage": {
-        "used": 0,
-        "remaining": 3,
-        "targets": []
-      }
-    },
-    "0066": {
-      "hook": {
-        "type": "危机钩",
-        "content": "神秘人发来沈清瑶密会照片：想知道她怎么操控舆论的吗？",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "场景感知开场",
-        "hook": "危机钩",
-        "emotion_rhythm": "紧张→冷静→反击→悬念",
-        "info_density": "high",
-        "strand_type": "Quest"
-      },
-      "ending": {
-        "time": "2026年6月16日上午",
-        "location": "沈氏集团办公室",
-        "emotion": "战意燃烧，神秘援手出现"
-      },
-      "golden_finger_usage": {
-        "used": 1,
-        "remaining": 2,
-        "targets": [
-          {
-            "target": "王经理",
-            "result": "得意掩饰，心情愉悦"
-          }
-        ]
-      }
-    },
-    "0067": {
-      "hook": {
-        "type": "情感钩",
-        "content": "陆砚辞强势出手：我的人，只有我能动",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "场景感知开场",
-        "hook": "护短名场面",
-        "emotion_rhythm": "紧张→反击→甜蜜",
-        "info_density": "high",
-        "strand_type": "Fire"
-      },
-      "ending": {
-        "time": "2026年6月16日晚",
-        "location": "陆砚辞私人别墅",
-        "emotion": "舆论反转，感情升温"
-      },
-      "golden_finger_usage": {
-        "used": 0,
-        "remaining": 3,
-        "targets": []
-      }
-    },
-    "0068": {
-      "0068": {
-        "hook": {
-          "type": "危机钩",
-          "content": "六年前旧案被翻出，伪造视频曝光，父母不信任",
-          "strength": "strong"
-        },
-        "pattern": {
-          "opening": "场景感知开场",
-          "hook": "危机钩",
-          "emotion_rhythm": "紧张→对峙→绝望→希望",
-          "info_density": "high",
-          "strand_type": "Fire"
-        },
-        "ending": {
-          "time": "晚上九点",
-          "location": "沈家别墅",
-          "emotion": "绝望中见希望，神秘短信"
-        },
-        "golden_finger_usage": {
-          "used": 0,
-          "remaining": 3,
-          "targets": []
-        }
-      }
-    },
-    "0069": {
-      "0069": {
-        "hook": {
-          "type": "情感决裂钩",
-          "content": "母女彻底决裂，沈知意心寒离开沈家",
-          "strength": "strong"
-        },
-        "pattern": {
-          "opening": "场景感知开场",
-          "hook": "情感决裂",
-          "emotion_rhythm": "低→高→决裂→温暖",
-          "info_density": "high",
-          "strand_type": "Fire"
-        },
-        "ending": {
-          "time": "清晨",
-          "location": "离开沈家别墅的车上",
-          "emotion": "心寒但有陆砚辞陪伴"
-        },
-        "golden_finger_usage": {
-          "used": 2,
-          "remaining": 1,
-          "targets": [
-            {
-              "target": "纪舒",
-              "result": "内心认定女主有罪"
-            },
-            {
-              "target": "沈清瑶",
-              "result": "得意假装担忧"
-            }
-          ]
-        }
-      }
-    },
-    "0070": {
-      "hook": {
-        "type": "危机钩+悬念钩",
-        "content": "沈知意被父亲强行禁足，林婉清主动联系约今晚十二点行动",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "场景切入开场",
-        "hook": "危机钩",
-        "emotion_rhythm": "温馨→紧张→危机→悬念",
-        "info_density": "high",
-        "strand_type": "Fire"
-      },
-      "ending": {
-        "time": "傍晚",
-        "location": "沈家别墅禁足房间",
-        "emotion": "绝地反击前的蓄势"
-      },
-      "golden_finger_usage": {
-        "used": 1,
-        "remaining": 2,
-        "targets": [
-          {
-            "target": "沈仲其",
-            "result": "眼神闪烁、眉头紧锁、喉结滚动——在害怕"
-          }
-        ]
-      }
-    },
-    "0071": {
-      "hook": {
-        "type": "渴望钩（信息型）",
-        "content": "六年前车祸真相、幕后主使身份",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "场景感知开场",
-        "hook": "渴望钩",
-        "emotion_rhythm": "紧张→揭秘→悬疑",
-        "info_density": "high",
-        "strand_type": "Quest"
-      },
-      "ending": {
-        "time": "凌晨，天边泛起鱼肚白",
-        "location": "城郊私人会所包间",
-        "emotion": "风暴前的宁静，悬疑重重"
-      },
-      "golden_finger_usage": {
-        "used": 2,
-        "remaining": 0,
-        "targets": [
-          {
-            "target": "保镖",
-            "result": "心虚，对沈仲其的保护说辞存疑"
-          },
-          {
-            "target": "林婉清",
-            "result": "提及沈清瑶时瞳孔收缩、肌肉僵硬——厌恶"
-          }
-        ]
-      }
-    },
-    "0076": {
-      "hook": {
-        "type": "爽点钩转危机钩",
-        "content": "沈知意当众揭穿沈清瑶真实身份，沈清瑶暗示还有后手",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "场景描写开场",
+        "opening": "危机开场",
         "hook": "爽点钩",
-        "emotion_rhythm": "平静→紧张→反击→大胜→危机",
+        "emotion_rhythm": "紧张→反击→大胜",
         "info_density": "high",
         "strand_type": "Fire"
       },
       "ending": {
-        "time": "2026年6月23日傍晚",
-        "location": "沈氏集团董事会会议室",
-        "emotion": "真相浮现，决战将至"
+        "time": "慈善晚宴当晚",
+        "location": "揽月阁宴会厅",
+        "emotion": "大获全胜，反派落网"
+      }
+    },
+    "0080": {
+      "hook": {
+        "type": "情感钩+悬念钩",
+        "content": "陆砚辞当众求婚成功，但神秘短信预告六年前的真相另有隐情",
+        "strength": "strong"
       },
-      "golden_finger_usage": {
-        "used": 1,
-        "remaining": 2,
-        "targets": [
-          {
-            "target": "沈仲其",
-            "result": "瞳孔收缩、额头冒汗、喉结滚动——恐惧+愤怒"
-          }
-        ]
+      "pattern": {
+        "opening": "胜利后余韵开场",
+        "hook": "情感钩转悬念钩",
+        "emotion_rhythm": "甜蜜→幸福→悬念",
+        "info_density": "medium",
+        "strand_type": "Constellation"
+      },
+      "ending": {
+        "time": "2026年6月24日晚上10点",
+        "location": "返程车内",
+        "emotion": "幸福中暗藏危机，第2卷预告"
       }
     }
   },
@@ -1499,6 +233,11 @@
       "type": "表妹/盟友",
       "status": "active",
       "chapter": 54
+    },
+    "陆砚辞": {
+      "type": "未婚夫",
+      "status": "active",
+      "chapter": 80
     }
   },
   "world_settings": {
@@ -1508,49 +247,27 @@
   },
   "plot_threads": {
     "active_threads": [
-      "慈善晚宴即将到来（D-8）",
-      "顾长渊监视持续，游戏刚刚开始",
+      "第1卷完结：归来与反击",
+      "沈知意正式成为沈氏集团唯一继承人（第78章）",
+      "陆砚辞当众求婚成功，两人订婚（第80章）",
+      "沈清瑶被当众揭穿并带走（第79章）",
+      "林婉清涉嫌多起经济犯罪和买凶杀人被批捕（第79章）",
       "陆氏沈氏合作项目圆满完成，带来八位数净利润",
       "陈明晋升为技术部副总监，成为核心同盟",
       "三个核心客户已正式签约",
-      "沈清瑶37名内鬼被揭穿，声望受损",
-      "慈善晚宴场地被截胡，新冲突开启",
-      "周敏被揭穿处理，供应商危机解除",
-      "御膳坊成为新餐饮供应商",
-      "沈清瑶与神秘男人密会，背后另有势力",
-      "陆砚辞承诺晚宴全程陪伴支持",
-      "音音、苏蔓、林晓加入慈善晚宴筹备，闺蜜团提供支援",
+      "慈善晚宴圆满成功",
       "二房把柄已回收，被迫成为情报来源（第61章）",
-      "沈清瑶生母林婉清身份揭晓，幕后黑手浮出水面",
-      "恒信投资与林婉清、二房形成洗钱链条",
-      "林婉清可能是沈清瑶车祸真凶（灭口）",
-      "星辉传媒是林婉清势力，已被陆砚辞出手解决（第67章）",
-      "舆论危机被解决，黑热搜全部撤下（第67章）",
-      "沈知意被父亲禁足沈家，失去自由（第70章）",
-      "慈善晚宴倒计时D-6（第70章）",
-      "沈知意成功逃脱禁足，与林婉清会面（第71章）",
-      "林婉清与沈清瑶母女反目，提出交易条件（第71章）",
-      "恒信投资洗钱链条：沈仲其→恒信投资→林婉清/二房（第71章）",
-      "陈志远是恒信投资台前傀儡，幕后实际控制人待查（第71章）",
-      "六年前车祸是买凶杀人，幕后主使身份成谜（第71章）",
-      "慈善晚宴倒计时D-5（第71章）",
-      "明晚八点需回复林婉清是否接受交易"
+      "恒信投资洗钱链条被揭露：沈仲其→恒信投资→林婉清/二房（第71章）",
+      "六年前车祸是买凶杀人，幕后主使身份仍成谜"
     ],
     "foreshadowing": [
+      "神秘短信预告：六年前的真相另有隐情（第80章）",
       "幕后大BOSS身份不明，将在第2卷揭晓",
-      "慈善晚宴将是沈知意'真实自我'的首秀",
-      "沈清瑶还有底牌未出，与顾长渊的人密会",
-      "陆砚辞的'办公室恋情'即将展开",
-      "沈清瑶准备在慈善晚宴搞'大惊喜'",
-      "神秘男人身份待查，非顾长渊派系",
-      "陆砚辞暗示晚宴当天有'惊喜'",
-      "闺蜜团支援将为慈善晚宴带来转机",
-      "陈志远背后实际控制人身份待查",
-      "六年前车祸幕后主使是谁",
-      "林婉清为何要与亲生女儿沈清瑶反目",
-      "沈知意是否接受林婉清的交易",
-      "慈善晚宴倒计时D-5，时间紧迫"
-    ]
+      "陆砚辞和沈知意同时收到神秘短信，预示更大阴谋",
+      "第2卷·博弈与升温即将开启"
+    ],
+    "volume_1_completed": true,
+    "volume_2_ready": true
   },
   "review_checkpoints": [
     {
@@ -1614,6 +331,14 @@
       "report_file": "审查报告/第61章审查报告.md",
       "reviewed_at": "2026-03-14",
       "overall_score": 88.5,
+      "critical_issues": 0,
+      "status": "passed"
+    },
+    {
+      "chapter_range": "71-80",
+      "report_file": "审查报告/第71-80章审查报告.md",
+      "reviewed_at": "2026-03-14",
+      "overall_score": 86,
       "critical_issues": 0,
       "status": "passed"
     }
