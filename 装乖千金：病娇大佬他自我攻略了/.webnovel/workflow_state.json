@@ -1,30 +1,16 @@
 {
   "current_task": null,
   "last_stable_state": {
-    "command": "webnovel-write",
-    "chapter_num": 62,
-    "completed_at": "2026-03-14T16:20:35.729463",
+    "command": "webnovel-review",
+    "chapter_num": 70,
+    "completed_at": "2026-03-14T17:54:58.001219",
     "artifacts": {
       "chapter_file": {},
       "git_status": {},
       "state_json_modified": false,
       "entities_appeared": false,
       "review_completed": false,
-      "chapter": 63,
-      "status": "completed",
-      "word_count": 2350,
-      "review_score": 92,
-      "polish_fixed": [
-        "英文混入",
-        "自我攻略强化"
-      ],
-      "data_saved": true,
-      "chapters_completed": [
-        62,
-        63,
-        64,
-        65
-      ]
+      "ok": true
     }
   },
   "history": [
@@ -90,6 +76,13 @@
       "chapter": 62,
       "status": "completed",
       "completed_at": "2026-03-14T16:20:35.729463"
+    },
+    {
+      "task_id": "task_010",
+      "command": "webnovel-review",
+      "chapter": 70,
+      "status": "completed",
+      "completed_at": "2026-03-14T17:54:58.001219"
     }
   ]
 }

@@ -1,0 +1,17 @@
+{
+  "start_chapter": 61,
+  "end_chapter": 70,
+  "overall_score": 76,
+  "dimension_scores": {
+    "爽点密度": 72,
+    "设定一致性": 75,
+    "节奏控制": 75,
+    "人物塑造": 75,
+    "连贯性": 80,
+    "追读力": 85
+  },
+  "severity_counts": {"critical": 1, "high": 4, "medium": 6, "low": 5},
+  "critical_issues": ["微表情洞察使用次数记录混乱"],
+  "report_file": "审查报告/第61-70章审查报告.md",
+  "notes": "第71章需尽快释放爽点，扭转被动局面"
+}

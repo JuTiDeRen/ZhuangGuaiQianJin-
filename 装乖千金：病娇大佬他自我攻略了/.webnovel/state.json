@@ -1514,6 +1514,14 @@
       "status": "fixed"
     },
     {
+      "chapter_range": "61-70",
+      "report_file": "审查报告/第61-70章审查报告.md",
+      "reviewed_at": "2026-03-14",
+      "overall_score": 76,
+      "critical_issues": 1,
+      "status": "fixed"
+    },
+    {
       "chapter_range": "61",
       "report_file": "审查报告/第61章审查报告.md",
       "reviewed_at": "2026-03-14",

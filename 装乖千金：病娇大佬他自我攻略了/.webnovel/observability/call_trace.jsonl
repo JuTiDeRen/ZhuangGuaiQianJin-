@@ -150,3 +150,10 @@
 {"timestamp": "2026-03-14T16:01:17.141396", "event": "task_reentered", "payload": {"command": "webnovel-write", "chapter": 62, "retry_count": 2}}
 {"timestamp": "2026-03-14T16:09:30.303403", "event": "task_reentered", "payload": {"command": "webnovel-write", "chapter": 62, "retry_count": 3}}
 {"timestamp": "2026-03-14T16:20:35.733510", "event": "task_completed", "payload": {"command": "webnovel-write", "chapter": 62, "completed_steps": 6, "failed_steps": 1}}
+{"timestamp": "2026-03-14T17:48:06.340802", "event": "task_started", "payload": {"command": "webnovel-review", "args": {"chapter_num": 70}}}
+{"timestamp": "2026-03-14T17:50:33.800239", "event": "step_order_violation", "payload": {"step_id": "Step 3", "command": "webnovel-review", "completed_steps": []}}
+{"timestamp": "2026-03-14T17:50:33.807472", "event": "step_started", "payload": {"step_id": "Step 3", "step_name": "并行调用检查员", "command": "webnovel-review", "chapter": 70, "progress_note": null, "expected_owner": "webnovel-review-skill"}}
+{"timestamp": "2026-03-14T17:54:57.523536", "event": "step_order_violation", "payload": {"step_id": "Step 8", "command": "webnovel-review", "completed_steps": []}}
+{"timestamp": "2026-03-14T17:54:57.527811", "event": "step_started", "payload": {"step_id": "Step 8", "step_name": "收尾", "command": "webnovel-review", "chapter": 70, "progress_note": null, "expected_owner": "webnovel-review-skill"}}
+{"timestamp": "2026-03-14T17:54:57.780700", "event": "step_completed", "payload": {"step_id": "Step 8", "command": "webnovel-review", "chapter": 70}}
+{"timestamp": "2026-03-14T17:54:58.004712", "event": "task_completed", "payload": {"command": "webnovel-review", "chapter": 70, "completed_steps": 1, "failed_steps": 1}}

@@ -459,3 +459,4 @@
 {"timestamp": "2026-03-14T16:52:33.839656", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 383, "chapter": 69}
 {"timestamp": "2026-03-14T16:52:59.447516", "tool_name": "state_manager:get-progress", "success": true, "elapsed_ms": 14}
 {"timestamp": "2026-03-14T16:59:50.547585", "chapter": 70, "agent": "data-agent", "timing_ms": {"A_load_context": 150, "B_entity_extract": 800, "C_disambiguation": 200, "D_state_index_write": 300, "E_summary_write": 150, "F_scene_chunking": 400, "G_rag_index": 0, "H_style_sample": 0, "I_debt_interest": 0, "TOTAL": 2000}, "bottlenecks_top3": [{"step": "B_entity_extract", "elapsed_ms": 800, "ratio": 40.0}, {"step": "F_scene_chunking", "elapsed_ms": 400, "ratio": 20.0}, {"step": "D_state_index_write", "elapsed_ms": 300, "ratio": 15.0}]}
+{"timestamp": "2026-03-14T17:54:11.220509", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 23}
