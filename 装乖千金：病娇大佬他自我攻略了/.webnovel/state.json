@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 2,
-    "current_chapter": 124,
-    "total_written_words": 242210,
+    "current_chapter": 125,
+    "total_written_words": 244710,
     "status": "writing",
-    "total_words": 227099,
-    "last_updated": "2026-03-15 19:15:00"
+    "total_words": 229599,
+    "last_updated": "2026-03-15 19:30:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -55,7 +55,7 @@
     }
   },
   "strand_tracker": {
-    "fire": 103,
+    "fire": 104,
     "constellation": 86,
     "quest": 100
   },
@@ -606,6 +606,25 @@
         "time": "2026年8月25日上午",
         "location": "沈氏集团会议室",
         "emotion": "真相浮现，计划启动"
+      }
+    },
+    "0125": {
+      "hook": {
+        "type": "反套路爽点+悬念钩",
+        "content": "陆砚辞心甘情愿被利用、六年前的守护真相、顾明轩浮出水面",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景开场",
+        "hook": "情感爽点+信息爽点",
+        "emotion_rhythm": "温馨→深情→揭秘→震撼",
+        "info_density": "high",
+        "strand_type": "Fire"
+      },
+      "ending": {
+        "time": "2026年8月27日下午",
+        "location": "陆氏集团办公室",
+        "emotion": "感情确立，真相逼近"
       }
     }
   },
