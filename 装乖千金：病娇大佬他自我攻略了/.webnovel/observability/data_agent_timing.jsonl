@@ -613,3 +613,4 @@
 {"timestamp": "2026-03-15T22:43:58.326176", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 15}
 {"timestamp": "2026-03-15T22:43:58.521082", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 16}
 {"timestamp": "2026-03-15T22:48:24.312876", "agent": "data_agent", "chapter": "144-145", "operation": "batch_process", "timing_ms": {"A_load_context": 150, "B_entity_extract": 0, "C_disambiguation": 50, "D_state_index_write": 300, "E_summary_write": 200, "F_scene_chunking": 150, "G_rag_index": 400, "H_style_sample": 0, "I_debt_interest": 0, "TOTAL": 1250}, "bottlenecks_top3": [{"step": "G_rag_index", "elapsed_ms": 400, "ratio": 32.0}, {"step": "D_state_index_write", "elapsed_ms": 300, "ratio": 24.0}, {"step": "E_summary_write", "elapsed_ms": 200, "ratio": 16.0}]}
+{"timestamp": "2026-03-15T23:00:13.924623", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 15}
