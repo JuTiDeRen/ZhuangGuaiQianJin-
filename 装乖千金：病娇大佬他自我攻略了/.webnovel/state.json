@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 2,
-    "current_chapter": 125,
+    "current_chapter": 126,
     "total_written_words": 244710,
     "status": "writing",
     "total_words": 229599,
-    "last_updated": "2026-03-15 19:30:00"
+    "last_updated": "2026-03-15 15:54:45"
   },
   "volume_plan": {
     "volume_1": {
@@ -513,24 +513,23 @@
       }
     },
     "0116": {
-          
-        "hook": {
-          "type": "危机钩",
-          "content": "沈清瑶临走时阴狠眼神，暗示还有后招",
-          "strength": "strong"
-        },
-        "pattern": {
-          "opening": "场景描写开场",
-          "hook": "爽点钩",
-          "emotion_rhythm": "紧张→反击→大胜→甜蜜→危机",
-          "info_density": "high",
-          "strand_type": "Fire+Quest"
-        },
-        "ending": {
-          "time": "2026年8月16日下午",
-          "location": "沈氏集团顶层会议室",
-          "emotion": "商业对决获胜，但危机暗涌"
-        }
+      "hook": {
+        "type": "危机钩",
+        "content": "沈清瑶临走时阴狠眼神，暗示还有后招",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景描写开场",
+        "hook": "爽点钩",
+        "emotion_rhythm": "紧张→反击→大胜→甜蜜→危机",
+        "info_density": "high",
+        "strand_type": "Fire+Quest"
+      },
+      "ending": {
+        "time": "2026年8月16日下午",
+        "location": "沈氏集团顶层会议室",
+        "emotion": "商业对决获胜，但危机暗涌"
+      }
     },
     "0121": {
       "hook": {
@@ -625,6 +624,27 @@
         "time": "2026年8月27日下午",
         "location": "陆氏集团办公室",
         "emotion": "感情确立，真相逼近"
+      }
+    },
+    "0126": {
+      "0126": {
+        "hook": {
+          "type": "真相揭露钩",
+          "content": "六年前车祸真相揭露：顾明轩误杀亲生女儿顾子衿，陈建国是关键证人",
+          "strength": "strong"
+        },
+        "pattern": {
+          "opening": "信息接收开场",
+          "hook": "真相揭露",
+          "emotion_rhythm": "紧张→恐惧→震撼",
+          "info_density": "high",
+          "strand_type": "Constellation"
+        },
+        "ending": {
+          "time": "2026年8月29日下午",
+          "location": "江城青松路老陈便利店",
+          "emotion": "真相揭露后的震撼与愤怒"
+        }
       }
     }
   },

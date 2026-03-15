@@ -563,3 +563,18 @@
 {"timestamp": "2026-03-15T14:02:17.978817", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 14}
 {"timestamp": "2026-03-15T14:55:14.488306", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 15}
 {"timestamp": "2026-03-15T15:00:59.345353", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-15T15:53:46.909188", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 11}
+{"timestamp": "2026-03-15T15:53:47.181985", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 11}
+{"timestamp": "2026-03-15T15:54:06.238124", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-15T15:54:06.515643", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-03-15T15:54:06.797156", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-03-15T15:54:07.072054", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-15T15:54:15.086721", "tool_name": "index_manager:register-alias", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-03-15T15:54:15.367931", "tool_name": "index_manager:register-alias", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-03-15T15:54:15.644579", "tool_name": "index_manager:register-alias", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-15T15:54:37.623737", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-15T15:54:37.914143", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 21}
+{"timestamp": "2026-03-15T15:54:38.193742", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-15T15:54:45.762483", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 21, "chapter": 126}
+{"timestamp": "2026-03-15T15:55:11.278721", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 440, "chapter": 126}
+{"timestamp": "2026-03-15T15:55:18.010429", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 9, "chapter": 126}
