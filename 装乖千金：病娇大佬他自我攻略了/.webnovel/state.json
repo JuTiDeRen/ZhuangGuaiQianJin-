@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 2,
-    "current_chapter": 112,
-    "total_written_words": 216050,
+    "current_chapter": 113,
+    "total_written_words": 218350,
     "status": "writing",
     "total_words": 205639,
-    "last_updated": "2026-03-15 23:30:00"
+    "last_updated": "2026-03-15 23:45:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -230,7 +230,7 @@
     ]
   },
   "strand_tracker": {
-    "fire": 100,
+    "fire": 102,
     "constellation": 85,
     "quest": 97
   },
@@ -632,6 +632,25 @@
         "time": "2026年8月8日下午",
         "location": "沈氏集团大楼总裁办公室",
         "emotion": "追查真相的决心，与顾长渊的竞赛正式开始"
+      }
+    },
+    "0113": {
+      "hook": {
+        "type": "悬念钩",
+        "content": "顾长渊的人已先到江城，抢先一步，竞赛正式开始",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "焦虑思考开场",
+        "hook": "甜蜜爽点",
+        "emotion_rhythm": "焦虑→温暖→坚定→紧张",
+        "info_density": "medium",
+        "strand_type": "Fire"
+      },
+      "ending": {
+        "time": "2026年8月10日晚上",
+        "location": "沈知意公寓",
+        "emotion": "两人正式成为战友，准备出发江城，危险升级"
       }
     }
   },
