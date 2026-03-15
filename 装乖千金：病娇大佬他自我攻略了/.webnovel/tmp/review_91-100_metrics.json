@@ -1,0 +1,17 @@
+{
+  "start_chapter": 91,
+  "end_chapter": 100,
+  "overall_score": 81.4,
+  "dimension_scores": {
+    "设定一致性": 8.0,
+    "连贯性": 8.5,
+    "人物塑造": 8.0,
+    "爽点密度": 8.0,
+    "节奏控制": 8.2
+  },
+  "severity_counts": {"critical": 0, "high": 1, "medium": 4, "low": 3},
+  "critical_issues": [],
+  "high_issues": ["第99-100章时间线不一致"],
+  "report_file": "审查报告/第91-100章审查报告.md",
+  "notes": "第2卷关键段落，整体质量优秀。女主'不再装乖'成长弧光完成，Fire线推进出色，Quest线悬念到位。需修复时间线minor不一致和第98章人设轻微偏离。"
+}

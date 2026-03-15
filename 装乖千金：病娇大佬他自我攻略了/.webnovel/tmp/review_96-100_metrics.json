@@ -1,0 +1,206 @@
+{
+  "review_id": "review_96-100_20260315",
+  "chapter_range": "96-100",
+  "reviewed_at": "2026-03-15",
+  "overall_score": 88.1,
+  "scores": {
+    "consistency": {
+      "weight": 0.20,
+      "score": 88,
+      "details": {
+        "character_consistency": 90,
+        "setting_consistency": 88,
+        "plot_consistency": 86
+      }
+    },
+    "continuity": {
+      "weight": 0.15,
+      "score": 82,
+      "details": {
+        "timeline_accuracy": 78,
+        "event_sequence": 85,
+        "cause_effect": 83
+      }
+    },
+    "ooc_check": {
+      "weight": 0.20,
+      "score": 90,
+      "details": {
+        "protagonist_ooc": 92,
+        "male_lead_ooc": 90,
+        "antagonist_ooc": 88
+      }
+    },
+    "reader_pull": {
+      "weight": 0.20,
+      "score": 92,
+      "details": {
+        "hook_strength": 92,
+        "cliffhanger_quality": 91,
+        "anticipation_building": 93
+      }
+    },
+    "high_point_density": {
+      "weight": 0.15,
+      "score": 88,
+      "details": {
+        "satisfaction_moments": 88,
+        "emotional_peaks": 90,
+        "plot_twists": 86
+      }
+    },
+    "pacing": {
+      "weight": 0.10,
+      "score": 85,
+      "details": {
+        "fire_strand_balance": 88,
+        "quest_strand_balance": 85,
+        "information_density": 82
+      }
+    }
+  },
+  "chapter_breakdown": {
+    "0096": {
+      "title": "他的关心",
+      "word_count": 2100,
+      "strand": "Fire",
+      "satisfaction_type": "甜蜜爽点",
+      "scores": {
+        "consistency": 90,
+        "ooc": 92,
+        "satisfaction": 88,
+        "hook": 90
+      },
+      "issues": [
+        {
+          "severity": "minor",
+          "type": "timeline",
+          "description": "倒计时D-18与第95章D-20间隔2天，未明确说明原因"
+        }
+      ]
+    },
+    "0097": {
+      "title": "闺蜜团的建议",
+      "word_count": 2200,
+      "strand": "Fire",
+      "satisfaction_type": "情绪爽点",
+      "scores": {
+        "consistency": 88,
+        "ooc": 90,
+        "satisfaction": 85,
+        "hook": 88
+      },
+      "issues": [
+        {
+          "severity": "minor",
+          "type": "timeline",
+          "description": "倒计时D-16与内容时间线存在偏差"
+        },
+        {
+          "severity": "minor",
+          "type": "pacing",
+          "description": "闺蜜对话信息量偏低，与主线关联度不高"
+        }
+      ]
+    },
+    "0098": {
+      "title": "相似的过往",
+      "word_count": 2400,
+      "strand": "Fire",
+      "satisfaction_type": "情绪爽点",
+      "scores": {
+        "consistency": 92,
+        "ooc": 95,
+        "satisfaction": 95,
+        "hook": 94
+      },
+      "issues": [
+        {
+          "severity": "minor",
+          "type": "timeline",
+          "description": "日期标注7月16日与倒计时D-14不匹配，应为7月18日"
+        }
+      ]
+    },
+    "0099": {
+      "title": "沈清瑶的后手",
+      "word_count": 2000,
+      "strand": "Quest",
+      "satisfaction_type": "悬念爽点",
+      "scores": {
+        "consistency": 85,
+        "ooc": 88,
+        "satisfaction": 90,
+        "hook": 92
+      },
+      "issues": [
+        {
+          "severity": "minor",
+          "type": "timeline",
+          "description": "日期7月18日与倒计时D-12不匹配，应为7月20日"
+        },
+        {
+          "severity": "minor",
+          "type": "suspense",
+          "description": "神秘男人身份线索不足"
+        }
+      ]
+    },
+    "0100": {
+      "title": "董事会前夕",
+      "word_count": 1900,
+      "strand": "Quest",
+      "satisfaction_type": "紧张爽点",
+      "scores": {
+        "consistency": 88,
+        "ooc": 90,
+        "satisfaction": 88,
+        "hook": 95
+      },
+      "issues": [
+        {
+          "severity": "minor",
+          "type": "timeline",
+          "description": "沈清瑶约见董事时间表述为明天上午与D-10倒计时冲突"
+        }
+      ]
+    }
+  },
+  "critical_issues": [],
+  "medium_issues": [
+    {
+      "type": "timeline_consistency",
+      "description": "第98、99章日期标注与倒计时不匹配",
+      "affected_chapters": ["0098", "0099"],
+      "suggested_fix": "修正第98章日期为7月18日，第99章日期为7月20日"
+    },
+    {
+      "type": "timeline_consistency",
+      "description": "第100章沈清瑶约见董事时间表述不当",
+      "affected_chapters": ["0100"],
+      "suggested_fix": "将明天上午改为几天后或具体日期"
+    }
+  ],
+  "low_issues": [
+    {
+      "type": "pacing",
+      "description": "第97章闺蜜对话可压缩",
+      "affected_chapters": ["0097"]
+    },
+    {
+      "type": "suspense",
+      "description": "第99章神秘男人可增加识别特征",
+      "affected_chapters": ["0099"]
+    }
+  ],
+  "strengths": [
+    "Fire线情感推进层次分明，从依赖试探到深层共鸣",
+    "陆砚辞母亲往事与女主经历形成镜像对照，情感共鸣强",
+    "顾长渊与六年前真相的关联悬念设置到位",
+    "人物人设保持稳定，情感转变自然可信",
+    "章末钩子强度出色，期待感拉满"
+  ],
+  "overall_assessment": "优秀",
+  "recommendation": "通过审查，建议修正时间线问题后发布",
+  "next_review_recommended": "101-105"
+}
