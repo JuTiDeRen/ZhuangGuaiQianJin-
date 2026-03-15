@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 2,
-    "current_chapter": 122,
-    "total_written_words": 237210,
+    "current_chapter": 123,
+    "total_written_words": 239710,
     "status": "writing",
-    "total_words": 222099,
-    "last_updated": "2026-03-15 18:45:00"
+    "total_words": 224599,
+    "last_updated": "2026-03-15 19:00:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -49,13 +49,13 @@
   "protagonist_state": {
     "abilities": {
       "微表情洞察": {
-        "used_today": 2,
-        "remaining": 1
+        "used_today": 0,
+        "remaining": 3
       }
     }
   },
   "strand_tracker": {
-    "fire": 102,
+    "fire": 103,
     "constellation": 86,
     "quest": 100
   },
@@ -568,6 +568,25 @@
         "time": "2026年8月22日下午",
         "location": "车内",
         "emotion": "真相浮现，悬念加深"
+      }
+    },
+    "0123": {
+      "hook": {
+        "type": "甜蜜钩+危机钩",
+        "content": "血型秘密揭露、深情守护、枪击危机、神秘'另一位顾先生'",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景开场",
+        "hook": "信息爽点+情感爽点",
+        "emotion_rhythm": "温馨→危机→深情→信任",
+        "info_density": "high",
+        "strand_type": "Fire"
+      },
+      "ending": {
+        "time": "2026年8月23日晚上",
+        "location": "京北城郊私人会所",
+        "emotion": "感情升温，信任确立"
       }
     }
   },
