@@ -53,9 +53,9 @@
     "golden_finger_level": 2,
     "abilities": {
       "微表情洞察": {
-        "daily_limit": 5,
-        "used_today": 4,
-        "remaining": 1,
+        "daily_limit": 3,
+        "used_today": 0,
+        "remaining": 3,
         "unlock_level": "第81章觉醒完成",
         "special_effect": "对亲密关系目标（信任度≥80）产生50%效果"
       }

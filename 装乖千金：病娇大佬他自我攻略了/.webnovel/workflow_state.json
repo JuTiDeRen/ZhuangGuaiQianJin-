@@ -1,74 +1,9 @@
 {
-  "current_task": {
-    "command": "webnovel-write",
-    "args": {
-      "chapter_num": 102
-    },
-    "started_at": "2026-03-15T13:36:21.039740",
-    "last_heartbeat": "2026-03-15T13:39:01.363972",
-    "status": "running",
-    "current_step": {
-      "id": "Step 5",
-      "name": "Data Agent",
-      "status": "running",
-      "started_at": "2026-03-15T13:39:01.363956",
-      "running_at": "2026-03-15T13:39:01.363956",
-      "attempt": 1,
-      "progress_note": null
-    },
-    "completed_steps": [
-      {
-        "id": "Step 1",
-        "name": "Context Agent",
-        "status": "completed",
-        "started_at": "2026-03-15T13:36:41.139296",
-        "running_at": "2026-03-15T13:36:41.139296",
-        "attempt": 1,
-        "progress_note": null,
-        "completed_at": "2026-03-15T13:38:30.191267",
-        "artifacts": {
-          "context_contract": "generated"
-        }
-      },
-      {
-        "id": "Step 3",
-        "name": "审查",
-        "status": "completed",
-        "started_at": "2026-03-15T13:38:47.025927",
-        "running_at": "2026-03-15T13:38:47.025927",
-        "attempt": 1,
-        "progress_note": null,
-        "completed_at": "2026-03-15T13:39:00.636726",
-        "artifacts": {
-          "overall_score": 87
-        }
-      }
-    ],
-    "failed_steps": [],
-    "pending_steps": [
-      "Step 1",
-      "Step 2A",
-      "Step 2B",
-      "Step 3",
-      "Step 4",
-      "Step 5",
-      "Step 6"
-    ],
-    "retry_count": 0,
-    "artifacts": {
-      "chapter_file": {},
-      "git_status": {},
-      "state_json_modified": false,
-      "entities_appeared": false,
-      "review_completed": false,
-      "context_contract": "generated",
-      "overall_score": 87
-    }
-  },
+  "current_task": null,
   "last_stable_state": {
     "command": "webnovel-write",
-    "chapter_num": 101,
-    "completed_at": "2026-03-15T13:36:12.705360",
+    "chapter_num": 102,
+    "completed_at": "2026-03-15T14:02:25.451938",
     "artifacts": {
       "chapter_file": {},
       "git_status": {},
@@ -76,13 +11,9 @@
       "entities_appeared": false,
       "review_completed": false,
       "context_contract": "generated",
-      "word_count": 2450,
-      "anti_ai_force_check": "pass",
-      "polish_type": "light",
-      "state_updated": true,
-      "summary_created": true,
-      "committed": true,
-      "chapter_101": "completed"
+      "overall_score": 87,
+      "report_file": "审查报告/第101-110章审查报告.md",
+      "score": 86
     }
   },
   "history": [
@@ -197,6 +128,13 @@
       "chapter": 101,
       "status": "completed",
       "completed_at": "2026-03-15T13:36:12.705360"
+    },
+    {
+      "task_id": "task_017",
+      "command": "webnovel-write",
+      "chapter": 102,
+      "status": "completed",
+      "completed_at": "2026-03-15T14:02:25.451938"
     }
   ]
 }
