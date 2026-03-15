@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 2,
-    "current_chapter": 127,
-    "total_written_words": 247210,
+    "current_chapter": 131,
+    "total_written_words": 252210,
     "status": "writing",
-    "total_words": 231849,
-    "last_updated": "2026-03-15 16:30:00"
+    "total_words": 236849,
+    "last_updated": "2026-03-15 17:00:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -49,15 +49,22 @@
   "protagonist_state": {
     "abilities": {
       "微表情洞察": {
-        "used_today": 2,
-        "remaining": 1
+        "used_today": 1,
+        "remaining": 2
       }
-    }
+    },
+    "intel": [
+      "顾长渊控制的空壳公司转移资产证据",
+      "顾长渊与境外资金往来记录",
+      "监管部门已正式立案调查顾长渊",
+      "顾子衿的nanny是关键证人",
+      "六年前车祸真相：顾明轩误杀亲生女儿"
+    ]
   },
   "strand_tracker": {
-    "fire": 104,
-    "constellation": 87,
-    "quest": 100
+    "fire": 105,
+    "constellation": 88,
+    "quest": 101
   },
   "chapter_meta": {
     "0078": {
@@ -663,6 +670,25 @@
         "location": "江城老陈便利店后间",
         "emotion": "真相揭露后的震惊与决心"
       }
+    },
+    "0131": {
+      "hook": {
+        "type": "危机钩",
+        "content": "反击计划启动成功，但沈清瑶持刀在大厅扬言同归于尽",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景描写开场",
+        "hook": "策略爽点+危机钩",
+        "emotion_rhythm": "紧张→反击→大胜→危机",
+        "info_density": "high",
+        "strand_type": "Fire+Quest"
+      },
+      "ending": {
+        "time": "2026年9月6日下午",
+        "location": "沈氏集团顶层办公室/大厅",
+        "emotion": "反击初胜但沈清瑶持刀失控，危机升级"
+      }
     }
   },
   "export_source": {
@@ -710,7 +736,7 @@
       "type": "幕后BOSS",
       "status": "active",
       "chapter": 111,
-      "description": "沈家太爷爷私生子，沈仲其堂兄，沈清瑶生父，六年前车祸疑似参与者/策划者，正式登场宣战"
+      "description": "沈家太爷爷私生子，沈仲其堂兄，沈清瑶生父，六年前车祸疑似参与者/策划者，正式登场宣战，现已被监管部门立案调查"
     },
     "张董事": {
       "type": "敌对",
@@ -757,6 +783,18 @@
       "status": "active",
       "chapter": 110,
       "description": "沈清瑶闺蜜，在峰会上刁难沈知意被陆砚辞打脸"
+    },
+    "陈队长": {
+      "type": "监管部门盟友",
+      "status": "active",
+      "chapter": 131,
+      "description": "经侦总队陈队长，受理顾长渊案件并立案调查"
+    },
+    "顾子衿的nanny": {
+      "type": "关键证人",
+      "status": "active",
+      "chapter": 131,
+      "description": "顾子衿的保姆，六年前车祸知情者，关键证人"
     }
   },
   "world_settings": {
@@ -773,6 +811,12 @@
         "type": "商业合作伙伴",
         "description": "欧洲最大奢侈品零售商，年销售额超三百亿欧元，将成为沈氏在华独家合作伙伴",
         "first_chapter": 91
+      },
+      {
+        "name": "监管部门/经侦总队",
+        "type": "官方机构",
+        "description": "已正式对顾长渊控制的空壳公司立案调查",
+        "first_chapter": 131
       }
     ],
     "locations": [
@@ -793,6 +837,12 @@
         "type": "重要场景",
         "description": "京北顶级私人会所，顶层包厢是重要谈判场所",
         "first_chapter": 78
+      },
+      {
+        "name": "青松路",
+        "type": "关键地点",
+        "description": "江城青松路，顾子衿nanny藏身之处，关键证人所在地",
+        "first_chapter": 126
       }
     ]
   },
@@ -835,7 +885,10 @@
       "顾长渊透露六年前车祸他在场，疑似参与者/策划者（第111章）",
       "沈知意委托裴靳调查顾长渊和六年前真相（第111章）",
       "沈清瑶在顾长渊支持下策划针对年度股东大会的阴谋（第114章）",
-      "沈清瑶已收买超过15%股份，江城行程被迫推迟（第114章）"
+      "沈清瑶已收买超过15%股份，江城行程被迫推迟（第114章）",
+      "反击计划启动：监管部门正式立案调查顾长渊（第131章）",
+      "顾长渊派十二人拦截陆砚辞失败，被警方带走（第131章）",
+      "沈清瑶持刀威胁沈知意，狗急跳墙（第131章）"
     ],
     "foreshadowing": [
       "顾长渊复仇计划将全面展开，正式向沈知意宣战",
@@ -845,7 +898,9 @@
       "沈清瑶只是顾长渊的棋子，父女关系将在后续揭晓",
       "陆砚辞与沈知意关系公开后，将面临顾长渊的针对",
       "六年前真相调查进入关键阶段，裴靳将提供重要情报",
-      "顾长渊与陆家的上一代恩怨将在第3卷揭晓"
+      "顾长渊与陆家的上一代恩怨将在第3卷揭晓",
+      "顾子衿的nanny是关键证人，需确保其安全",
+      "距离年度股东大会还有二十六天，最终决战临近"
     ],
     "volume_1_completed": true,
     "volume_2_ready": true
