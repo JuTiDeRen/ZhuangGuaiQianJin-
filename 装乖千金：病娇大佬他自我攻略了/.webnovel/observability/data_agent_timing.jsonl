@@ -601,3 +601,4 @@
 {"timestamp": "2026-03-15T22:29:02.175239", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 254, "chapter": 141}
 {"timestamp": "2026-03-15T22:29:02.511576", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 10, "chapter": 141}
 {"timestamp": "2026-03-15T22:30:52.804970", "tool_name": "index_manager:get-relationships", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-03-15T22:34:11.772207", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 15}

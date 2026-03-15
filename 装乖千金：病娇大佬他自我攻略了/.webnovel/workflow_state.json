@@ -2,68 +2,42 @@
   "current_task": {
     "command": "webnovel-write",
     "args": {
-      "chapter_num": 141
+      "chapter_num": 142
     },
-    "started_at": "2026-03-15T22:21:01.456078",
-    "last_heartbeat": "2026-03-15T22:27:00.568689",
+    "started_at": "2026-03-15T22:31:51.601813",
+    "last_heartbeat": "2026-03-15T22:34:12.054087",
     "status": "running",
     "current_step": {
-      "id": "Step 5",
-      "name": "Data Agent",
+      "id": "Step 4",
+      "name": "润色",
       "status": "running",
-      "started_at": "2026-03-15T22:27:00.568682",
-      "running_at": "2026-03-15T22:27:00.568682",
+      "started_at": "2026-03-15T22:34:12.054084",
+      "running_at": "2026-03-15T22:34:12.054084",
       "attempt": 1,
       "progress_note": null
     },
-    "completed_steps": [
-      {
-        "id": "Step 4",
-        "name": "润色",
-        "status": "completed",
-        "started_at": "2026-03-15T22:26:16.403358",
-        "running_at": "2026-03-15T22:26:16.403358",
-        "attempt": 1,
-        "progress_note": null,
-        "completed_at": "2026-03-15T22:26:43.735314",
-        "artifacts": {
-          "anti_ai_force_check": "pass",
-          "issues_fixed": 1
-        }
-      }
-    ],
+    "completed_steps": [],
     "failed_steps": [
-      {
-        "id": "Step 2A",
-        "name": "正文起草",
-        "status": "failed",
-        "started_at": "2026-03-15T22:22:33.462618",
-        "running_at": "2026-03-15T22:22:33.462618",
-        "attempt": 1,
-        "progress_note": null,
-        "failed_at": "2026-03-15T22:23:18.257893",
-        "failure_reason": "step_replaced_before_completion"
-      },
       {
         "id": "Step 2B",
         "name": "风格适配",
         "status": "failed",
-        "started_at": "2026-03-15T22:23:18.257902",
-        "running_at": "2026-03-15T22:23:18.257902",
+        "started_at": "2026-03-15T22:34:11.276070",
+        "running_at": "2026-03-15T22:34:11.276070",
         "attempt": 1,
         "progress_note": null,
-        "failed_at": "2026-03-15T22:24:15.318842",
+        "failed_at": "2026-03-15T22:34:11.570754",
         "failure_reason": "step_replaced_before_completion"
       },
       {
         "id": "Step 3",
         "name": "审查",
         "status": "failed",
-        "started_at": "2026-03-15T22:24:15.318855",
-        "running_at": "2026-03-15T22:24:15.318855",
+        "started_at": "2026-03-15T22:34:11.570759",
+        "running_at": "2026-03-15T22:34:11.570759",
         "attempt": 1,
         "progress_note": null,
-        "failed_at": "2026-03-15T22:26:16.403347",
+        "failed_at": "2026-03-15T22:34:12.054079",
         "failure_reason": "step_replaced_before_completion"
       }
     ],
@@ -82,29 +56,22 @@
       "git_status": {},
       "state_json_modified": false,
       "entities_appeared": false,
-      "review_completed": false,
-      "anti_ai_force_check": "pass",
-      "issues_fixed": 1
+      "review_completed": false
     }
   },
   "last_stable_state": {
     "command": "webnovel-write",
-    "chapter_num": 137,
-    "completed_at": "2026-03-15T21:22:25.413348",
+    "chapter_num": 141,
+    "completed_at": "2026-03-15T22:31:27.665679",
     "artifacts": {
       "chapter_file": {},
       "git_status": {},
       "state_json_modified": false,
       "entities_appeared": false,
       "review_completed": false,
-      "ok": true,
-      "word_count": 2100,
-      "chapters": [
-        137,
-        138,
-        139,
-        140
-      ],
+      "anti_ai_force_check": "pass",
+      "issues_fixed": 1,
+      "chapter": 141,
       "status": "completed"
     }
   },
@@ -241,6 +208,13 @@
       "chapter": 137,
       "status": "completed",
       "completed_at": "2026-03-15T21:22:25.413348"
+    },
+    {
+      "task_id": "task_020",
+      "command": "webnovel-write",
+      "chapter": 141,
+      "status": "completed",
+      "completed_at": "2026-03-15T22:31:27.665679"
     }
   ]
 }

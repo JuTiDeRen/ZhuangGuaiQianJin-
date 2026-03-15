@@ -312,3 +312,11 @@
 {"timestamp": "2026-03-15T22:26:43.738868", "event": "step_completed", "payload": {"step_id": "Step 4", "command": "webnovel-write", "chapter": 141}}
 {"timestamp": "2026-03-15T22:27:00.568438", "event": "step_order_violation", "payload": {"step_id": "Step 5", "command": "webnovel-write", "completed_steps": ["Step 4"]}}
 {"timestamp": "2026-03-15T22:27:00.571938", "event": "step_started", "payload": {"step_id": "Step 5", "step_name": "Data Agent", "command": "webnovel-write", "chapter": 141, "progress_note": null, "expected_owner": "data-agent"}}
+{"timestamp": "2026-03-15T22:31:27.668709", "event": "task_completed", "payload": {"command": "webnovel-write", "chapter": 141, "completed_steps": 1, "failed_steps": 4}}
+{"timestamp": "2026-03-15T22:31:51.605219", "event": "task_started", "payload": {"command": "webnovel-write", "args": {"chapter_num": 142}}}
+{"timestamp": "2026-03-15T22:34:11.275795", "event": "step_order_violation", "payload": {"step_id": "Step 2B", "command": "webnovel-write", "completed_steps": []}}
+{"timestamp": "2026-03-15T22:34:11.279422", "event": "step_started", "payload": {"step_id": "Step 2B", "step_name": "风格适配", "command": "webnovel-write", "chapter": 142, "progress_note": null, "expected_owner": "style-adapter"}}
+{"timestamp": "2026-03-15T22:34:11.570532", "event": "step_order_violation", "payload": {"step_id": "Step 3", "command": "webnovel-write", "completed_steps": []}}
+{"timestamp": "2026-03-15T22:34:11.573899", "event": "step_started", "payload": {"step_id": "Step 3", "step_name": "审查", "command": "webnovel-write", "chapter": 142, "progress_note": null, "expected_owner": "review-agents"}}
+{"timestamp": "2026-03-15T22:34:12.053867", "event": "step_order_violation", "payload": {"step_id": "Step 4", "command": "webnovel-write", "completed_steps": []}}
+{"timestamp": "2026-03-15T22:34:12.057597", "event": "step_started", "payload": {"step_id": "Step 4", "step_name": "润色", "command": "webnovel-write", "chapter": 142, "progress_note": null, "expected_owner": "polish-agent"}}
