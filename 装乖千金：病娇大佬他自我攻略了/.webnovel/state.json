@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 2,
-    "current_chapter": 121,
-    "total_written_words": 234710,
+    "current_chapter": 122,
+    "total_written_words": 237210,
     "status": "writing",
-    "total_words": 219599,
-    "last_updated": "2026-03-15 18:30:00"
+    "total_words": 222099,
+    "last_updated": "2026-03-15 18:45:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -49,14 +49,14 @@
   "protagonist_state": {
     "abilities": {
       "微表情洞察": {
-        "used_today": 1,
-        "remaining": 2
+        "used_today": 2,
+        "remaining": 1
       }
     }
   },
   "strand_tracker": {
     "fire": 102,
-    "constellation": 85,
+    "constellation": 86,
     "quest": 100
   },
   "chapter_meta": {
@@ -549,6 +549,25 @@
         "time": "2026年8月21日上午",
         "location": "沈氏集团顶层会议室",
         "emotion": "重整旗鼓，准备反击"
+      }
+    },
+    "0122": {
+      "hook": {
+        "type": "信息钩+悬念钩",
+        "content": "发现太爷爷两份遗嘱的秘密，顾长渊身世之谜浮现，陆砚辞发现新线索",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "承接开场",
+        "hook": "信息爽点",
+        "emotion_rhythm": "潜入→发现秘密→身世揭秘→悬念加深",
+        "info_density": "high",
+        "strand_type": "Constellation"
+      },
+      "ending": {
+        "time": "2026年8月22日下午",
+        "location": "车内",
+        "emotion": "真相浮现，悬念加深"
       }
     }
   },
