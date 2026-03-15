@@ -2,16 +2,30 @@
   "current_task": null,
   "last_stable_state": {
     "command": "webnovel-write",
-    "chapter_num": 84,
-    "completed_at": "2026-03-15T01:19:45.208647",
+    "chapter_num": 98,
+    "completed_at": "2026-03-15T12:44:37.502189",
     "artifacts": {
       "chapter_file": {},
       "git_status": {},
       "state_json_modified": false,
       "entities_appeared": false,
       "review_completed": false,
-      "ok": true,
-      "completed": true
+      "word_count": 3200,
+      "status": "completed",
+      "notes": "风格适配完成，章节符合网文风格",
+      "overall_score": 88.5,
+      "critical_issues": 0,
+      "anti_ai_force_check": "pass",
+      "poison_check": "pass",
+      "fixes": 0,
+      "summary_saved": true,
+      "state_updated": true,
+      "new_entities": [
+        "京北城郊高地",
+        "陆砚辞母亲"
+      ],
+      "commit_hash": "dd04614",
+      "chapter": 98
     }
   },
   "history": [
@@ -112,6 +126,13 @@
       "chapter": 84,
       "status": "completed",
       "completed_at": "2026-03-15T01:19:45.208647"
+    },
+    {
+      "task_id": "task_015",
+      "command": "webnovel-write",
+      "chapter": 98,
+      "status": "completed",
+      "completed_at": "2026-03-15T12:44:37.502189"
     }
   ]
 }
