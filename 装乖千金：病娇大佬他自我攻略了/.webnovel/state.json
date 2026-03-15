@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 2,
-    "current_chapter": 143,
-    "total_written_words": 259400,
+    "current_chapter": 145,
+    "total_written_words": 264400,
     "status": "writing",
-    "total_words": 241800,
-    "last_updated": "2026-03-15 22:40:33"
+    "total_words": 246800,
+    "last_updated": "2026-03-15 23:00:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -71,9 +71,9 @@
     ]
   },
   "strand_tracker": {
-    "fire": 108,
-    "constellation": 90,
-    "quest": 104
+    "fire": 110,
+    "constellation": 94,
+    "quest": 108
   },
   "chapter_meta": {
     "0078": {
@@ -849,6 +849,44 @@
         "time": "2026年9月21日傍晚",
         "location": "沈氏集团股东大会会场",
         "emotion": "女主陷入绝境，陆砚辞坚定支持，顾长渊暗示还有后手"
+      }
+    },
+    "0144": {
+      "hook": {
+        "type": "情感钩+成长钩",
+        "content": "沈母质疑女主，女主陷入最低谷，陆砚辞坚定支持并透露六年前就开始调查真相",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "承接开场",
+        "hook": "情感钩",
+        "emotion_rhythm": "绝望→温暖→坚定",
+        "info_density": "medium",
+        "strand_type": "Fire+Constellation"
+      },
+      "ending": {
+        "time": "2026年9月21日晚上",
+        "location": "沈氏集团股东大会会场休息室",
+        "emotion": "女主从最低谷重新振作，准备绝地反击"
+      }
+    },
+    "0145": {
+      "hook": {
+        "type": "展望钩+情感钩",
+        "content": "nanny将到达京北携带关键罪证，女主联系音音和陈队长准备反击，与陆砚辞感情升温",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "承接开场",
+        "hook": "展望钩",
+        "emotion_rhythm": "紧张→布局→甜蜜",
+        "info_density": "high",
+        "strand_type": "Quest+Constellation"
+      },
+      "ending": {
+        "time": "2026年9月21日深夜",
+        "location": "沈知意公寓",
+        "emotion": "绝地反击准备就绪，感情升温，等待黎明"
       }
     }
   },
