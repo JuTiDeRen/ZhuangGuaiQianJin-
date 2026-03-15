@@ -587,3 +587,17 @@
 {"timestamp": "2026-03-15T16:01:09.460433", "tool_name": "state_manager:process-chapter", "success": false, "elapsed_ms": 14, "error_code": "SCHEMA_VALIDATION_FAILED", "error_message": "数据结构校验失败"}
 {"timestamp": "2026-03-15T16:02:16.999908", "tool_name": "index_manager:entity-appearances", "success": true, "elapsed_ms": 8}
 {"timestamp": "2026-03-15T21:11:29.328087", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-15T22:26:07.527837", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 21}
+{"timestamp": "2026-03-15T22:27:38.011056", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-03-15T22:27:38.274836", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 10}
+{"timestamp": "2026-03-15T22:27:58.486714", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-15T22:27:58.756995", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-15T22:27:59.033588", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-03-15T22:28:10.953977", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-15T22:28:23.739853", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-15T22:28:24.013944", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-15T22:28:29.363069", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-15T22:28:35.509008", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 23, "chapter": 141}
+{"timestamp": "2026-03-15T22:29:02.175239", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 254, "chapter": 141}
+{"timestamp": "2026-03-15T22:29:02.511576", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 10, "chapter": 141}
+{"timestamp": "2026-03-15T22:30:52.804970", "tool_name": "index_manager:get-relationships", "success": true, "elapsed_ms": 9}

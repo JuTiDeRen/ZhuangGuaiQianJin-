@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 2,
-    "current_chapter": 136,
+    "current_chapter": 141,
     "total_written_words": 257200,
     "status": "writing",
     "total_words": 241800,
-    "last_updated": "2026-03-15 22:30:00"
+    "last_updated": "2026-03-15 22:35:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -49,8 +49,8 @@
   "protagonist_state": {
     "abilities": {
       "微表情洞察": {
-        "used_today": 0,
-        "remaining": 3
+        "used_today": 1,
+        "remaining": 2
       }
     },
     "intel": [
@@ -788,6 +788,25 @@
         "time": "2026年9月14日深夜",
         "location": "沈氏集团大楼总裁办公室",
         "emotion": "布局完成，与顾长渊正面对峙，决战前夜"
+      }
+    },
+    "0141": {
+      "hook": {
+        "type": "危机钩",
+        "content": "DNA报告揭露沈清瑶是顾长渊亲生女儿，陈铭收到顾长渊短信：游戏才刚刚开始",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景描写开场",
+        "hook": "能力爽点+危机钩",
+        "emotion_rhythm": "紧张→对峙→反转→危机",
+        "info_density": "high",
+        "strand_type": "Fire+Quest"
+      },
+      "ending": {
+        "time": "2026年9月21日上午",
+        "location": "沈氏集团股东大会会场",
+        "emotion": "DNA真相揭露，顾长渊远程威胁，决战升级"
       }
     }
   },

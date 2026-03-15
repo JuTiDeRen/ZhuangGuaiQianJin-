@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 2,
-    "current_chapter": 125,
-    "total_written_words": 244710,
+    "current_chapter": 136,
+    "total_written_words": 257200,
     "status": "writing",
-    "total_words": 229599,
-    "last_updated": "2026-03-15 19:30:00"
+    "total_words": 241800,
+    "last_updated": "2026-03-15 22:30:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -49,15 +49,27 @@
   "protagonist_state": {
     "abilities": {
       "微表情洞察": {
-        "used_today": 1,
-        "remaining": 2
+        "used_today": 0,
+        "remaining": 3
       }
-    }
+    },
+    "intel": [
+      "顾长渊控制的空壳公司转移资产证据",
+      "顾长渊与境外资金往来记录",
+      "监管部门已正式立案调查顾长渊",
+      "顾子衿的nanny是关键证人",
+      "六年前车祸真相：顾明轩误杀亲生女儿",
+      "顾长渊的核心罪证已获取（黑色文件夹）",
+      "顾长渊目标不仅是沈家还有陆家",
+      "顾长渊与沈清瑶的DNA检测报告已获取",
+      "顾长渊通过律师见了林氏前财务总监、星辉传媒副总和神秘人",
+      "顾长渊正在收购小股东股份（已被女主预判反制）"
+    ]
   },
   "strand_tracker": {
-    "fire": 104,
-    "constellation": 86,
-    "quest": 100
+    "fire": 108,
+    "constellation": 90,
+    "quest": 104
   },
   "chapter_meta": {
     "0078": {
@@ -513,24 +525,23 @@
       }
     },
     "0116": {
-          
-        "hook": {
-          "type": "危机钩",
-          "content": "沈清瑶临走时阴狠眼神，暗示还有后招",
-          "strength": "strong"
-        },
-        "pattern": {
-          "opening": "场景描写开场",
-          "hook": "爽点钩",
-          "emotion_rhythm": "紧张→反击→大胜→甜蜜→危机",
-          "info_density": "high",
-          "strand_type": "Fire+Quest"
-        },
-        "ending": {
-          "time": "2026年8月16日下午",
-          "location": "沈氏集团顶层会议室",
-          "emotion": "商业对决获胜，但危机暗涌"
-        }
+      "hook": {
+        "type": "危机钩",
+        "content": "沈清瑶临走时阴狠眼神，暗示还有后招",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景描写开场",
+        "hook": "爽点钩",
+        "emotion_rhythm": "紧张→反击→大胜→甜蜜→危机",
+        "info_density": "high",
+        "strand_type": "Fire+Quest"
+      },
+      "ending": {
+        "time": "2026年8月16日下午",
+        "location": "沈氏集团顶层会议室",
+        "emotion": "商业对决获胜，但危机暗涌"
+      }
     },
     "0121": {
       "hook": {
@@ -626,6 +637,158 @@
         "location": "陆氏集团办公室",
         "emotion": "感情确立，真相逼近"
       }
+    },
+    "0126": {
+      "hook": {
+        "type": "真相揭露钩",
+        "content": "六年前车祸真相揭露：顾明轩误杀亲生女儿顾子衿，陈建国是关键证人",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "信息接收开场",
+        "hook": "真相揭露",
+        "emotion_rhythm": "紧张→恐惧→震撼",
+        "info_density": "high",
+        "strand_type": "Constellation"
+      },
+      "ending": {
+        "time": "2026年8月29日下午",
+        "location": "江城青松路老陈便利店",
+        "emotion": "真相揭露后的震撼与愤怒"
+      }
+    },
+    "0127": {
+      "hook": {
+        "type": "真相揭露钩+危机钩",
+        "content": "陈建国讲述六年前车祸真相，顾明轩现身持枪对峙，揭露误杀亲生女儿的真相",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景氛围开场",
+        "hook": "真相揭露+危机对峙",
+        "emotion_rhythm": "紧张→恐惧→震撼→反击",
+        "info_density": "high",
+        "strand_type": "Constellation"
+      },
+      "ending": {
+        "time": "2026年8月30日晚上",
+        "location": "江城老陈便利店后间",
+        "emotion": "真相揭露后的震惊与决心"
+      }
+    },
+    "0131": {
+      "hook": {
+        "type": "危机钩",
+        "content": "反击计划启动成功，但沈清瑶持刀在大厅扬言同归于尽",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景描写开场",
+        "hook": "策略爽点+危机钩",
+        "emotion_rhythm": "紧张→反击→大胜→危机",
+        "info_density": "high",
+        "strand_type": "Fire+Quest"
+      },
+      "ending": {
+        "time": "2026年9月6日下午",
+        "location": "沈氏集团顶层办公室/大厅",
+        "emotion": "反击初胜但沈清瑶持刀失控，危机升级"
+      }
+    },
+    "0132": {
+      "hook": {
+        "type": "悬念钩+倒计时钩",
+        "content": "获取顾长渊核心罪证后发现其目标不仅是沈家还有陆家，股东大会倒计时二十三天",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "危机场景开场",
+        "hook": "能力爽点+悬念钩",
+        "emotion_rhythm": "紧张→反击→潜入→揭秘→危机",
+        "info_density": "high",
+        "strand_type": "Fire+Quest"
+      },
+      "ending": {
+        "time": "2026年9月8日深夜",
+        "location": "沈氏集团办公室",
+        "emotion": "罪证到手但发现更大阴谋，决战倒计时"
+      }
+    },
+    "0133": {
+      "hook": {
+        "type": "清算爽点+展望钩",
+        "content": "沈知意探视沈清瑶，揭露顾长渊抛弃真相，沈清瑶彻底崩溃；准备与顾长渊最终决战",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景描写开场",
+        "hook": "清算爽点",
+        "emotion_rhythm": "冷静→揭露→崩溃→展望",
+        "info_density": "high",
+        "strand_type": "Fire+Quest"
+      },
+      "ending": {
+        "time": "2026年9月9日上午",
+        "location": "京北看守所外/车内",
+        "emotion": "沈清瑶棋子被废弃，准备最终决战"
+      }
+    },
+    "0134": {
+      "hook": {
+        "type": "倒计时钩",
+        "content": "舆论战胜利，距离年度股东大会还有十九天，决战即将开始",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "危机开场",
+        "hook": "反击爽点+甜蜜互动",
+        "emotion_rhythm": "紧张→反击→大胜→甜蜜→期待",
+        "info_density": "high",
+        "strand_type": "Fire+Constellation"
+      },
+      "ending": {
+        "time": "2026年9月12日晚上",
+        "location": "沈氏集团办公室",
+        "emotion": "舆论战大获全胜，感情升温，准备决战"
+      }
+    },
+    "0135": {
+      "hook": {
+        "type": "情感钩",
+        "content": "陆砚辞山顶正式求婚，沈知意答应股东大会后结婚，临别定情之吻",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景描写开场",
+        "hook": "情感钩",
+        "emotion_rhythm": "疲惫→放松→甜蜜→深情→坚定",
+        "info_density": "medium",
+        "strand_type": "Fire"
+      },
+      "ending": {
+        "time": "2026年9月13日深夜",
+        "location": "沈氏集团大楼",
+        "emotion": "感情升华，重拾信心，准备决战"
+      }
+    },
+    "0136": {
+      "hook": {
+        "type": "承诺钩+危机钩",
+        "content": "顾长渊威胁短信暗示股东大会有\"惊喜\"，女主回复\"奉陪\"，决战一触即发",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "回忆场景开场",
+        "hook": "策略爽点+危机钩",
+        "emotion_rhythm": "温馨→紧张→布局→甜蜜→对峙",
+        "info_density": "high",
+        "strand_type": "Quest+Fire"
+      },
+      "ending": {
+        "time": "2026年9月14日深夜",
+        "location": "沈氏集团大楼总裁办公室",
+        "emotion": "布局完成，与顾长渊正面对峙，决战前夜"
+      }
     }
   },
   "export_source": {
@@ -673,7 +836,7 @@
       "type": "幕后BOSS",
       "status": "active",
       "chapter": 111,
-      "description": "沈家太爷爷私生子，沈仲其堂兄，沈清瑶生父，六年前车祸疑似参与者/策划者，正式登场宣战"
+      "description": "沈家太爷爷私生子，沈仲其堂兄，沈清瑶生父，六年前车祸疑似参与者/策划者，正式登场宣战，现已被监管部门立案调查"
     },
     "张董事": {
       "type": "敌对",
@@ -720,6 +883,24 @@
       "status": "active",
       "chapter": 110,
       "description": "沈清瑶闺蜜，在峰会上刁难沈知意被陆砚辞打脸"
+    },
+    "陈队长": {
+      "type": "监管部门盟友",
+      "status": "active",
+      "chapter": 131,
+      "description": "经侦总队陈队长，受理顾长渊案件并立案调查"
+    },
+    "顾子衿的nanny": {
+      "type": "关键证人",
+      "status": "active",
+      "chapter": 131,
+      "description": "顾子衿的保姆，六年前车祸知情者，关键证人"
+    },
+    "陈明": {
+      "type": "核心盟友",
+      "status": "active",
+      "chapter": 136,
+      "description": "技术部副总监，女主核心同盟，负责技术情报支持"
     }
   },
   "world_settings": {
@@ -736,6 +917,12 @@
         "type": "商业合作伙伴",
         "description": "欧洲最大奢侈品零售商，年销售额超三百亿欧元，将成为沈氏在华独家合作伙伴",
         "first_chapter": 91
+      },
+      {
+        "name": "监管部门/经侦总队",
+        "type": "官方机构",
+        "description": "已正式对顾长渊控制的空壳公司立案调查",
+        "first_chapter": 131
       }
     ],
     "locations": [
@@ -756,6 +943,12 @@
         "type": "重要场景",
         "description": "京北顶级私人会所，顶层包厢是重要谈判场所",
         "first_chapter": 78
+      },
+      {
+        "name": "青松路",
+        "type": "关键地点",
+        "description": "江城青松路，顾子衿nanny藏身之处，关键证人所在地",
+        "first_chapter": 126
       }
     ]
   },
@@ -798,7 +991,13 @@
       "顾长渊透露六年前车祸他在场，疑似参与者/策划者（第111章）",
       "沈知意委托裴靳调查顾长渊和六年前真相（第111章）",
       "沈清瑶在顾长渊支持下策划针对年度股东大会的阴谋（第114章）",
-      "沈清瑶已收买超过15%股份，江城行程被迫推迟（第114章）"
+      "沈清瑶已收买超过15%股份，江城行程被迫推迟（第114章）",
+      "反击计划启动：监管部门正式立案调查顾长渊（第131章）",
+      "顾长渊派十二人拦截陆砚辞失败，被警方带走（第131章）",
+      "沈清瑶因持械威胁被拘留（第132章）",
+      "顾长渊核心罪证已获取，股东大会反击准备就绪（第132章）",
+      "股东大会前最后布局完成：沈知意提前收购小股东股份反制顾长渊（第136章）",
+      "顾长渊威胁短信暗示股东大会有\"惊喜\"，决战一触即发（第136章）"
     ],
     "foreshadowing": [
       "顾长渊复仇计划将全面展开，正式向沈知意宣战",
@@ -808,7 +1007,11 @@
       "沈清瑶只是顾长渊的棋子，父女关系将在后续揭晓",
       "陆砚辞与沈知意关系公开后，将面临顾长渊的针对",
       "六年前真相调查进入关键阶段，裴靳将提供重要情报",
-      "顾长渊与陆家的上一代恩怨将在第3卷揭晓"
+      "顾长渊与陆家的上一代恩怨将在第3卷揭晓",
+      "顾子衿的nanny是关键证人，需确保其安全",
+      "顾长渊目标扩展到陆家，陆砚辞正式卷入战斗",
+      "距离年度股东大会还有十七天，最终决战临近",
+      "顾长渊声称股东大会当天有\"惊喜\"，可能有后手"
     ],
     "volume_1_completed": true,
     "volume_2_ready": true
@@ -954,6 +1157,47 @@
         "人物塑造保持一致，无OOC问题",
         "节奏张弛有度，符合第2卷博弈与升温主题",
         "所有高/中/低优先级问题已修复，达到发布标准"
+      ]
+    },
+    {
+      "chapter_range": "121-130",
+      "report_file": "审查报告/第121-130章审查报告.md",
+      "reviewed_at": "2026-03-15",
+      "fixed_at": "2026-03-15",
+      "overall_score": 85,
+      "critical_issues": 0,
+      "status": "fixed",
+      "fixes": [
+        "第128章时间修正：9月1日→9月2日（符合与上章2天间隔）",
+        "第129章时间修正：9月2日→9月3日",
+        "第130章时间修正：9月4日→9月5日",
+        "第128章补充顾长渊与顾明轩双重关系解释（养父+同父异母哥哥）",
+        "第127章微表情标注修正：'第2次'→'第1次'（已过午夜重置）"
+      ],
+      "notes": [
+        "第121-130章整体质量优秀，完成第2卷后期'真相揭露'阶段任务",
+        "六年前车祸真相（顾明轩误杀女儿）揭示冲击力极强",
+        "身世之谜层层剥开，真假千金实为同父异母姐妹设计巧妙",
+        "陆砚辞六年守护真相揭露，感情线有重大推进",
+        "所有中低优先级问题已修复，剩余身世时间线待后续章节补充"
+      ]
+    },
+    {
+      "chapter_range": "131-140",
+      "report_file": "审查报告/第131-140章审查报告.md",
+      "reviewed_at": "2026-03-15",
+      "fixed_at": "2026-03-15",
+      "overall_score": 81,
+      "critical_issues": 0,
+      "status": "fixed",
+      "fixes": [
+        "第137章倒计时修正：16天→6天（股东大会为9月21日）",
+        "第133章倒计时修正：21天→23天（从9月9日推算）"
+      ],
+      "notes": [
+        "人物塑造出色，女主'睚眦必报'人设贯穿始终",
+        "追读力强，第140章结尾电影感十足",
+        "时间线矛盾已修复，可继续创作"
       ]
     }
   ],

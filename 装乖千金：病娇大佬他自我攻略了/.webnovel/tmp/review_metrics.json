@@ -1,13 +1,14 @@
 {
-  "start_chapter": 136,
-  "end_chapter": 136,
-  "overall_score": 92.0,
+  "start_chapter": 141,
+  "end_chapter": 141,
+  "overall_score": 89.0,
   "dimension_scores": {
-    "设定一致性": 90,
-    "连贯性": 92,
-    "人物塑造": 95,
-    "爽点密度": 88,
-    "节奏控制": 90
+    "设定一致性": 9.2,
+    "连贯性": 8.8,
+    "人物塑造": 9.2,
+    "追读力": 8.8,
+    "爽点密度": 8.8,
+    "节奏控制": 8.6
   },
   "severity_counts": {
     "critical": 0,
@@ -16,6 +17,6 @@
     "low": 2
   },
   "critical_issues": [],
-  "report_file": "审查报告/第136章审查报告.md",
-  "notes": "selected_checkers: consistency-checker,continuity-checker,ooc-checker; timeline_gate: passed; 低优先级问题: 1.场景转换过渡建议优化 2.陈明称呼确认"
+  "report_file": "审查报告/第141章审查报告.md",
+  "notes": "selected_checkers: consistency-checker,continuity-checker,ooc-checker,reader-pull-checker,high-point-checker,pacing-checker | low_issues: 六年前车祸真相线索14章未回收,顾长渊陆家目标线索9章未回收 | anti_ai_force_check: pending"
 }
