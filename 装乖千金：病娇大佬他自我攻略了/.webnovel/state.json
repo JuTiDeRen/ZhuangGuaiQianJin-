@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 2,
-    "current_chapter": 142,
+    "current_chapter": 143,
     "total_written_words": 259400,
     "status": "writing",
     "total_words": 241800,
-    "last_updated": "2026-03-15 23:00:00"
+    "last_updated": "2026-03-15 22:40:33"
   },
   "volume_plan": {
     "volume_1": {
@@ -49,8 +49,8 @@
   "protagonist_state": {
     "abilities": {
       "微表情洞察": {
-        "used_today": 2,
-        "remaining": 1
+        "used_today": 3,
+        "remaining": 0
       }
     },
     "intel": [
@@ -63,7 +63,11 @@
       "顾长渊目标不仅是沈家还有陆家",
       "顾长渊与沈清瑶的DNA检测报告已获取",
       "顾长渊通过律师见了林氏前财务总监、星辉传媒副总和神秘人",
-      "顾长渊正在收购小股东股份（已被女主预判反制）"
+      "顾长渊正在收购小股东股份（已被女主预判反制）",
+      "陈铭执行顾长渊动手指令",
+      "顾长渊抛出六年前铁证：车祸现场照片、目击者证词",
+      "顾长渊声称沈知意手上沾着顾子衿的血",
+      "陈铭收到新短信：好戏才刚刚开始"
     ]
   },
   "strand_tracker": {
@@ -826,6 +830,25 @@
         "time": "2026年9月21日下午",
         "location": "沈氏集团股东大会会场",
         "emotion": "女主大胜但顾长渊下令动手，最终决战一触即发"
+      }
+    },
+    "0143": {
+      "hook": {
+        "type": "危机钩",
+        "content": "陈铭收到顾长渊动手指令，抛出六年前铁证指控沈知意为杀人凶手",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "承接开场",
+        "hook": "危机钩",
+        "emotion_rhythm": "紧张→反击→大胜→危机",
+        "info_density": "high",
+        "strand_type": "Fire+Quest"
+      },
+      "ending": {
+        "time": "2026年9月21日傍晚",
+        "location": "沈氏集团股东大会会场",
+        "emotion": "女主陷入绝境，陆砚辞坚定支持，顾长渊暗示还有后手"
       }
     }
   },
