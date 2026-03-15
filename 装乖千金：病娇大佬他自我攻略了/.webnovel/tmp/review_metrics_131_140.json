@@ -1,0 +1,17 @@
+{
+  "start_chapter": 131,
+  "end_chapter": 140,
+  "overall_score": 81,
+  "dimension_scores": {
+    "爽点密度": 90,
+    "设定一致性": 60,
+    "节奏控制": 80,
+    "人物塑造": 90,
+    "连贯性": 80,
+    "追读力": 88
+  },
+  "severity_counts": {"critical": 1, "high": 2, "medium": 2, "low": 2},
+  "critical_issues": ["时间线矛盾：股东大会日期前后不一致（第137章倒计时16天→第139章称最后一天，推算矛盾）"],
+  "report_file": "审查报告/第131-140章审查报告.md",
+  "notes": "必须修复时间线矛盾后才能继续创作"
+}

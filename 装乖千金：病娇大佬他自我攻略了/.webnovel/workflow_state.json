@@ -1,67 +1,24 @@
 {
-  "current_task": {
-    "command": "webnovel-write",
-    "args": {
-      "chapter_num": 111
-    },
-    "started_at": "2026-03-15T14:13:39.844110",
-    "last_heartbeat": "2026-03-15T20:41:12.927603",
-    "status": "running",
-    "current_step": {
-      "id": "Step 1",
-      "name": "Context Agent",
-      "status": "running",
-      "started_at": "2026-03-15T20:41:12.927594",
-      "running_at": "2026-03-15T20:41:12.927594",
-      "attempt": 2,
-      "progress_note": null
-    },
-    "completed_steps": [],
-    "failed_steps": [
-      {
-        "id": "Step 1",
-        "name": "Context Agent",
-        "status": "failed",
-        "started_at": "2026-03-15T14:13:40.134684",
-        "running_at": "2026-03-15T14:13:40.134684",
-        "attempt": 1,
-        "progress_note": null,
-        "failed_at": "2026-03-15T20:41:12.927550",
-        "failure_reason": "step_replaced_before_completion"
-      }
-    ],
-    "pending_steps": [
-      "Step 1",
-      "Step 2A",
-      "Step 2B",
-      "Step 3",
-      "Step 4",
-      "Step 5",
-      "Step 6"
-    ],
-    "retry_count": 1,
-    "artifacts": {
-      "chapter_file": {},
-      "git_status": {},
-      "state_json_modified": false,
-      "entities_appeared": false,
-      "review_completed": false
-    }
-  },
+  "current_task": null,
   "last_stable_state": {
     "command": "webnovel-write",
-    "chapter_num": 102,
-    "completed_at": "2026-03-15T14:02:25.451938",
+    "chapter_num": 137,
+    "completed_at": "2026-03-15T21:22:25.413348",
     "artifacts": {
       "chapter_file": {},
       "git_status": {},
       "state_json_modified": false,
       "entities_appeared": false,
       "review_completed": false,
-      "context_contract": "generated",
-      "overall_score": 87,
-      "report_file": "审查报告/第101-110章审查报告.md",
-      "score": 86
+      "ok": true,
+      "word_count": 2100,
+      "chapters": [
+        137,
+        138,
+        139,
+        140
+      ],
+      "status": "completed"
     }
   },
   "history": [
@@ -183,6 +140,20 @@
       "chapter": 102,
       "status": "completed",
       "completed_at": "2026-03-15T14:02:25.451938"
+    },
+    {
+      "task_id": "task_018",
+      "command": "webnovel-write",
+      "chapter": 111,
+      "status": "completed",
+      "completed_at": "2026-03-15T21:17:46.600317"
+    },
+    {
+      "task_id": "task_019",
+      "command": "webnovel-write",
+      "chapter": 137,
+      "status": "completed",
+      "completed_at": "2026-03-15T21:22:25.413348"
     }
   ]
 }

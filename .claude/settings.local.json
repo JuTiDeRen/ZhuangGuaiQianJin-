@@ -21,7 +21,9 @@
       "Bash(ls -la C:/Users/lylens/AppData/Local/Temp/claude/d--WorkSpace-ZhuangGuaiQianJin-/tasks/*.output)",
       "Bash(ls C:/Users/lylens/AppData/Local/Temp/claude/d--WorkSpace-ZhuangGuaiQianJin-/tasks/*.output)",
       "Skill(webnovel-writer:webnovel-dashboard)",
-      "Skill(webnovel-writer:webnovel-dashboard:*)"
+      "Skill(webnovel-writer:webnovel-dashboard:*)",
+      "Skill(webnovel-write)",
+      "Skill(webnovel-write:*)"
     ],
     "additionalDirectories": [
       "D:\\workspace\\小说\\新建文件夹\\$PROJECT_ROOT"

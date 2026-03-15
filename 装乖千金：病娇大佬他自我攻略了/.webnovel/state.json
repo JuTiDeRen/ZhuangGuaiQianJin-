@@ -714,6 +714,63 @@
         "emotion": "罪证到手但发现更大阴谋，决战倒计时"
       }
     },
+    "0133": {
+      "hook": {
+        "type": "清算爽点+展望钩",
+        "content": "沈知意探视沈清瑶，揭露顾长渊抛弃真相，沈清瑶彻底崩溃；准备与顾长渊最终决战",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景描写开场",
+        "hook": "清算爽点",
+        "emotion_rhythm": "冷静→揭露→崩溃→展望",
+        "info_density": "high",
+        "strand_type": "Fire+Quest"
+      },
+      "ending": {
+        "time": "2026年9月9日上午",
+        "location": "京北看守所外/车内",
+        "emotion": "沈清瑶棋子被废弃，准备最终决战"
+      }
+    },
+    "0134": {
+      "hook": {
+        "type": "倒计时钩",
+        "content": "舆论战胜利，距离年度股东大会还有十九天，决战即将开始",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "危机开场",
+        "hook": "反击爽点+甜蜜互动",
+        "emotion_rhythm": "紧张→反击→大胜→甜蜜→期待",
+        "info_density": "high",
+        "strand_type": "Fire+Constellation"
+      },
+      "ending": {
+        "time": "2026年9月12日晚上",
+        "location": "沈氏集团办公室",
+        "emotion": "舆论战大获全胜，感情升温，准备决战"
+      }
+    },
+    "0135": {
+      "hook": {
+        "type": "情感钩",
+        "content": "陆砚辞山顶正式求婚，沈知意答应股东大会后结婚，临别定情之吻",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景描写开场",
+        "hook": "情感钩",
+        "emotion_rhythm": "疲惫→放松→甜蜜→深情→坚定",
+        "info_density": "medium",
+        "strand_type": "Fire"
+      },
+      "ending": {
+        "time": "2026年9月13日深夜",
+        "location": "沈氏集团大楼",
+        "emotion": "感情升华，重拾信心，准备决战"
+      }
+    },
     "0136": {
       "hook": {
         "type": "承诺钩+危机钩",
@@ -1123,6 +1180,24 @@
         "身世之谜层层剥开，真假千金实为同父异母姐妹设计巧妙",
         "陆砚辞六年守护真相揭露，感情线有重大推进",
         "所有中低优先级问题已修复，剩余身世时间线待后续章节补充"
+      ]
+    },
+    {
+      "chapter_range": "131-140",
+      "report_file": "审查报告/第131-140章审查报告.md",
+      "reviewed_at": "2026-03-15",
+      "fixed_at": "2026-03-15",
+      "overall_score": 81,
+      "critical_issues": 0,
+      "status": "fixed",
+      "fixes": [
+        "第137章倒计时修正：16天→6天（股东大会为9月21日）",
+        "第133章倒计时修正：21天→23天（从9月9日推算）"
+      ],
+      "notes": [
+        "人物塑造出色，女主'睚眦必报'人设贯穿始终",
+        "追读力强，第140章结尾电影感十足",
+        "时间线矛盾已修复，可继续创作"
       ]
     }
   ],
