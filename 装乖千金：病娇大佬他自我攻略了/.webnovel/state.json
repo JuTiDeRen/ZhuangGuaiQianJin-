@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 2,
-    "current_chapter": 123,
-    "total_written_words": 239710,
+    "current_chapter": 124,
+    "total_written_words": 242210,
     "status": "writing",
-    "total_words": 224599,
-    "last_updated": "2026-03-15 19:00:00"
+    "total_words": 227099,
+    "last_updated": "2026-03-15 19:15:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -49,8 +49,8 @@
   "protagonist_state": {
     "abilities": {
       "微表情洞察": {
-        "used_today": 0,
-        "remaining": 3
+        "used_today": 1,
+        "remaining": 2
       }
     }
   },
@@ -587,6 +587,25 @@
         "time": "2026年8月23日晚上",
         "location": "京北城郊私人会所",
         "emotion": "感情升温，信任确立"
+      }
+    },
+    "0124": {
+      "hook": {
+        "type": "信息钩+悬念钩",
+        "content": "顾长渊身世揭秘、另一位顾先生浮出水面、商业合作计划",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景开场",
+        "hook": "信息爽点",
+        "emotion_rhythm": "揭秘→推理→计划",
+        "info_density": "high",
+        "strand_type": "Quest+Fire"
+      },
+      "ending": {
+        "time": "2026年8月25日上午",
+        "location": "沈氏集团会议室",
+        "emotion": "真相浮现，计划启动"
       }
     }
   },
