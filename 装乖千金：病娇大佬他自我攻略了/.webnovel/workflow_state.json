@@ -1,5 +1,41 @@
 {
-  "current_task": null,
+  "current_task": {
+    "command": "webnovel-write",
+    "args": {
+      "chapter_num": 111
+    },
+    "started_at": "2026-03-15T14:13:39.844110",
+    "last_heartbeat": "2026-03-15T14:13:40.134712",
+    "status": "running",
+    "current_step": {
+      "id": "Step 1",
+      "name": "Context Agent",
+      "status": "running",
+      "started_at": "2026-03-15T14:13:40.134684",
+      "running_at": "2026-03-15T14:13:40.134684",
+      "attempt": 1,
+      "progress_note": null
+    },
+    "completed_steps": [],
+    "failed_steps": [],
+    "pending_steps": [
+      "Step 1",
+      "Step 2A",
+      "Step 2B",
+      "Step 3",
+      "Step 4",
+      "Step 5",
+      "Step 6"
+    ],
+    "retry_count": 0,
+    "artifacts": {
+      "chapter_file": {},
+      "git_status": {},
+      "state_json_modified": false,
+      "entities_appeared": false,
+      "review_completed": false
+    }
+  },
   "last_stable_state": {
     "command": "webnovel-write",
     "chapter_num": 102,

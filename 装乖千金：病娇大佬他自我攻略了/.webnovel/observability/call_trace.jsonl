@@ -274,3 +274,5 @@
 {"timestamp": "2026-03-15T13:39:01.378640", "event": "step_started", "payload": {"step_id": "Step 5", "step_name": "Data Agent", "command": "webnovel-write", "chapter": 102, "progress_note": null, "expected_owner": "data-agent"}}
 {"timestamp": "2026-03-15T13:59:21.178998", "event": "task_reentered", "payload": {"command": "webnovel-write", "chapter": 102, "retry_count": 1}}
 {"timestamp": "2026-03-15T14:02:25.455266", "event": "task_completed", "payload": {"command": "webnovel-write", "chapter": 102, "completed_steps": 2, "failed_steps": 1}}
+{"timestamp": "2026-03-15T14:13:39.847857", "event": "task_started", "payload": {"command": "webnovel-write", "args": {"chapter_num": 111}}}
+{"timestamp": "2026-03-15T14:13:40.137737", "event": "step_started", "payload": {"step_id": "Step 1", "step_name": "Context Agent", "command": "webnovel-write", "chapter": 111, "progress_note": null, "expected_owner": "context-agent"}}
