@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 2,
-    "current_chapter": 111,
-    "total_written_words": 213650,
+    "current_chapter": 112,
+    "total_written_words": 216050,
     "status": "writing",
     "total_words": 205639,
-    "last_updated": "2026-03-15 23:15:00"
+    "last_updated": "2026-03-15 23:30:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -54,8 +54,8 @@
     "abilities": {
       "微表情洞察": {
         "daily_limit": 3,
-        "used_today": 1,
-        "remaining": 2,
+        "used_today": 0,
+        "remaining": 3,
         "unlock_level": "第81章觉醒完成",
         "special_effect": "对亲密关系目标（信任度≥80）产生50%效果"
       }
@@ -203,7 +203,11 @@
         "顾长渊在听竹轩与沈清瑶秘密会面（第108章）",
         "顾长渊的车牌号：京A88888（第108章）",
         "顾长渊与沈清瑶密谋新的阴谋（第108章）",
-        "顾长渊正式向沈知意透露六年前车祸他在场（第111章）"
+        "顾长渊正式向沈知意透露六年前车祸他在场（第111章）",
+        "关键证人：王德发，环卫工人，目击车祸全过程",
+        "车祸不是意外，白色面包车故意别车",
+        "王德发已消失，最后出现在京北火车站",
+        "王德发可能去了江城投奔女儿"
       ],
       "恋爱关系": [
         "2026年7月28日，两人正式确认恋爱关系（第106章）",
@@ -227,7 +231,7 @@
   },
   "strand_tracker": {
     "fire": 100,
-    "constellation": 82,
+    "constellation": 85,
     "quest": 97
   },
   "chapter_meta": {
@@ -609,6 +613,25 @@
         "time": "2026年8月6日上午",
         "location": "沈氏集团大楼总裁办公室",
         "emotion": "隐藏反派正式宣战，六年前真相悬念加深"
+      }
+    },
+    "0112": {
+      "hook": {
+        "type": "渴望钩",
+        "content": "顾长渊发来短信，正式开启寻找关键证人的竞赛",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "承接开场",
+        "hook": "信息爽点",
+        "emotion_rhythm": "紧张→揭秘→震惊→决心",
+        "info_density": "high",
+        "strand_type": "Constellation"
+      },
+      "ending": {
+        "time": "2026年8月8日下午",
+        "location": "沈氏集团大楼总裁办公室",
+        "emotion": "追查真相的决心，与顾长渊的竞赛正式开始"
       }
     }
   },
