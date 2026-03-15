@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 2,
-    "current_chapter": 114,
-    "total_written_words": 220810,
+    "current_chapter": 115,
+    "total_written_words": 223210,
     "status": "writing",
     "total_words": 208099,
-    "last_updated": "2026-03-15 14:30:00"
+    "last_updated": "2026-03-15 15:30:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -237,7 +237,7 @@
   "strand_tracker": {
     "fire": 102,
     "constellation": 85,
-    "quest": 98
+    "quest": 99
   },
   "chapter_meta": {
     "0078": {
@@ -675,6 +675,21 @@
         "time": "2026年8月12日傍晚",
         "location": "沈氏集团大楼总裁办公室",
         "emotion": "发现阴谋，危机来临"
+      }
+    },
+    "0115": {
+      "hook": {
+        "type": "渴望钩",
+        "content": "沈知意识破阴谋，准备给顾长渊一个惊喜",
+        "strength": "strong"
+      },
+      "pattern": {
+        "strand_type": "Quest"
+      },
+      "ending": {
+        "time": "2026年8月14日下午",
+        "location": "沈氏集团大楼总裁办公室",
+        "emotion": "识破阴谋，准备反击"
       }
     }
   },
