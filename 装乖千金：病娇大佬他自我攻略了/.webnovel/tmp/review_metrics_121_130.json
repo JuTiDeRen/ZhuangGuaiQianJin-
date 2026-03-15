@@ -1,0 +1,17 @@
+{
+  "start_chapter": 121,
+  "end_chapter": 130,
+  "overall_score": 85,
+  "dimension_scores": {
+    "爽点密度": 85,
+    "设定一致性": 85,
+    "节奏控制": 75,
+    "人物塑造": 90,
+    "连贯性": 85,
+    "追读力": 85
+  },
+  "severity_counts": {"critical": 0, "high": 0, "medium": 4, "low": 5},
+  "critical_issues": [],
+  "report_file": "审查报告/第121-130章审查报告.md",
+  "notes": "本批次章节整体质量优秀，真相揭示层层递进，身世之谜与车祸真相双线并进。建议后续章节注意爽点类型多样化，避免连续信息揭露导致读者疲劳。"
+}
