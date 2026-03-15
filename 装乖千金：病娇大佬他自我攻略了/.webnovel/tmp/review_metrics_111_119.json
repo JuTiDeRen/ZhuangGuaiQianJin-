@@ -1,0 +1,17 @@
+{
+  "start_chapter": 111,
+  "end_chapter": 119,
+  "overall_score": 88,
+  "dimension_scores": {
+    "爽点密度": 88,
+    "设定一致性": 92,
+    "节奏控制": 85,
+    "人物塑造": 90,
+    "连贯性": 88,
+    "追读力": 86
+  },
+  "severity_counts": {"critical": 0, "high": 2, "medium": 3, "low": 2},
+  "critical_issues": [],
+  "report_file": "审查报告/第111-119章审查报告.md",
+  "notes": "整体质量优秀，通过审查。建议修复时间锚点缺失和金手指标注不一致问题。"
+}
