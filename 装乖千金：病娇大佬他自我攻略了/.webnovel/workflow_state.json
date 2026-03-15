@@ -2,17 +2,17 @@
   "current_task": {
     "command": "webnovel-write",
     "args": {
-      "chapter_num": 101
+      "chapter_num": 102
     },
-    "started_at": "2026-03-15T13:26:46.260336",
-    "last_heartbeat": "2026-03-15T13:35:55.489500",
+    "started_at": "2026-03-15T13:36:21.039740",
+    "last_heartbeat": "2026-03-15T13:39:01.363972",
     "status": "running",
     "current_step": {
-      "id": "Step 6",
-      "name": "Git备份",
+      "id": "Step 5",
+      "name": "Data Agent",
       "status": "running",
-      "started_at": "2026-03-15T13:35:55.489481",
-      "running_at": "2026-03-15T13:35:55.489481",
+      "started_at": "2026-03-15T13:39:01.363956",
+      "running_at": "2026-03-15T13:39:01.363956",
       "attempt": 1,
       "progress_note": null
     },
@@ -21,70 +21,30 @@
         "id": "Step 1",
         "name": "Context Agent",
         "status": "completed",
-        "started_at": "2026-03-15T13:27:07.088699",
-        "running_at": "2026-03-15T13:27:07.088699",
+        "started_at": "2026-03-15T13:36:41.139296",
+        "running_at": "2026-03-15T13:36:41.139296",
         "attempt": 1,
         "progress_note": null,
-        "completed_at": "2026-03-15T13:28:24.001288",
+        "completed_at": "2026-03-15T13:38:30.191267",
         "artifacts": {
           "context_contract": "generated"
         }
       },
       {
-        "id": "Step 2A",
-        "name": "正文起草",
-        "status": "completed",
-        "started_at": "2026-03-15T13:29:15.332783",
-        "running_at": "2026-03-15T13:29:15.332783",
-        "attempt": 1,
-        "progress_note": null,
-        "completed_at": "2026-03-15T13:29:25.146918",
-        "artifacts": {
-          "word_count": 2450
-        }
-      },
-      {
-        "id": "Step 4",
-        "name": "润色",
-        "status": "completed",
-        "started_at": "2026-03-15T13:31:13.386960",
-        "running_at": "2026-03-15T13:31:13.386960",
-        "attempt": 1,
-        "progress_note": null,
-        "completed_at": "2026-03-15T13:31:25.354609",
-        "artifacts": {
-          "anti_ai_force_check": "pass",
-          "polish_type": "light"
-        }
-      },
-      {
-        "id": "Step 5",
-        "name": "Data Agent",
-        "status": "completed",
-        "started_at": "2026-03-15T13:31:26.198150",
-        "running_at": "2026-03-15T13:31:26.198150",
-        "attempt": 1,
-        "progress_note": null,
-        "completed_at": "2026-03-15T13:35:54.527319",
-        "artifacts": {
-          "state_updated": true,
-          "summary_created": true
-        }
-      }
-    ],
-    "failed_steps": [
-      {
         "id": "Step 3",
         "name": "审查",
-        "status": "failed",
-        "started_at": "2026-03-15T13:29:33.805963",
-        "running_at": "2026-03-15T13:29:33.805963",
+        "status": "completed",
+        "started_at": "2026-03-15T13:38:47.025927",
+        "running_at": "2026-03-15T13:38:47.025927",
         "attempt": 1,
         "progress_note": null,
-        "failed_at": "2026-03-15T13:31:13.386946",
-        "failure_reason": "step_replaced_before_completion"
+        "completed_at": "2026-03-15T13:39:00.636726",
+        "artifacts": {
+          "overall_score": 87
+        }
       }
     ],
+    "failed_steps": [],
     "pending_steps": [
       "Step 1",
       "Step 2A",
@@ -102,39 +62,27 @@
       "entities_appeared": false,
       "review_completed": false,
       "context_contract": "generated",
-      "word_count": 2450,
-      "anti_ai_force_check": "pass",
-      "polish_type": "light",
-      "state_updated": true,
-      "summary_created": true
+      "overall_score": 87
     }
   },
   "last_stable_state": {
     "command": "webnovel-write",
-    "chapter_num": 98,
-    "completed_at": "2026-03-15T12:44:37.502189",
+    "chapter_num": 101,
+    "completed_at": "2026-03-15T13:36:12.705360",
     "artifacts": {
       "chapter_file": {},
       "git_status": {},
       "state_json_modified": false,
       "entities_appeared": false,
       "review_completed": false,
-      "word_count": 3200,
-      "status": "completed",
-      "notes": "风格适配完成，章节符合网文风格",
-      "overall_score": 88.5,
-      "critical_issues": 0,
+      "context_contract": "generated",
+      "word_count": 2450,
       "anti_ai_force_check": "pass",
-      "poison_check": "pass",
-      "fixes": 0,
-      "summary_saved": true,
+      "polish_type": "light",
       "state_updated": true,
-      "new_entities": [
-        "京北城郊高地",
-        "陆砚辞母亲"
-      ],
-      "commit_hash": "dd04614",
-      "chapter": 98
+      "summary_created": true,
+      "committed": true,
+      "chapter_101": "completed"
     }
   },
   "history": [
@@ -242,6 +190,13 @@
       "chapter": 98,
       "status": "completed",
       "completed_at": "2026-03-15T12:44:37.502189"
+    },
+    {
+      "task_id": "task_016",
+      "command": "webnovel-write",
+      "chapter": 101,
+      "status": "completed",
+      "completed_at": "2026-03-15T13:36:12.705360"
     }
   ]
 }

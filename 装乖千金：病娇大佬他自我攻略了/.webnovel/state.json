@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 2,
-    "current_chapter": 101,
-    "total_written_words": 190140,
+    "current_chapter": 102,
+    "total_written_words": 192340,
     "status": "writing",
-    "total_words": 182129,
-    "last_updated": "2026-03-15 20:00:00"
+    "total_words": 184329,
+    "last_updated": "2026-03-15 20:30:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -54,8 +54,8 @@
     "abilities": {
       "微表情洞察": {
         "daily_limit": 5,
-        "used_today": 3,
-        "remaining": 2,
+        "used_today": 4,
+        "remaining": 1,
         "unlock_level": "第81章觉醒完成",
         "special_effect": "对亲密关系目标（信任度≥80）产生50%效果"
       }

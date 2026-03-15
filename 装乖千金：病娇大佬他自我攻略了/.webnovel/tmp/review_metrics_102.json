@@ -1,0 +1,10 @@
+{
+  "start_chapter": 102,
+  "end_chapter": 102,
+  "overall_score": 87.0,
+  "dimension_scores": {"爽点密度": 8.5, "设定一致性": 9.0, "节奏控制": 8.7, "人物塑造": 8.5, "连贯性": 9.0, "追读力": 8.5},
+  "severity_counts": {"critical": 0, "high": 0, "medium": 0, "low": 3},
+  "critical_issues": [],
+  "report_file": "审查报告/第102章审查报告.md",
+  "notes": "selected_checkers: consistency-checker,ooc-checker,high-point-checker,pacing-checker | 检查通过，轻微问题:1)投票过程可以更详细 2)沈清瑶反应可更强烈 3)字数略少约2200字 | anti_ai_force_check: pass"
+}

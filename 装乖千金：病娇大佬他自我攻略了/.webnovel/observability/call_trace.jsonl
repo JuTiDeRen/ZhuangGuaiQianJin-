@@ -262,3 +262,13 @@
 {"timestamp": "2026-03-15T13:35:54.542135", "event": "step_completed", "payload": {"step_id": "Step 5", "command": "webnovel-write", "chapter": 101}}
 {"timestamp": "2026-03-15T13:35:55.488907", "event": "step_order_violation", "payload": {"step_id": "Step 6", "command": "webnovel-write", "completed_steps": ["Step 1", "Step 2A", "Step 4", "Step 5"]}}
 {"timestamp": "2026-03-15T13:35:55.497188", "event": "step_started", "payload": {"step_id": "Step 6", "step_name": "Git备份", "command": "webnovel-write", "chapter": 101, "progress_note": null, "expected_owner": "backup-agent"}}
+{"timestamp": "2026-03-15T13:36:12.068272", "event": "step_completed", "payload": {"step_id": "Step 6", "command": "webnovel-write", "chapter": 101}}
+{"timestamp": "2026-03-15T13:36:12.712124", "event": "task_completed", "payload": {"command": "webnovel-write", "chapter": 101, "completed_steps": 5, "failed_steps": 1}}
+{"timestamp": "2026-03-15T13:36:21.046428", "event": "task_started", "payload": {"command": "webnovel-write", "args": {"chapter_num": 102}}}
+{"timestamp": "2026-03-15T13:36:41.154653", "event": "step_started", "payload": {"step_id": "Step 1", "step_name": "Context Agent", "command": "webnovel-write", "chapter": 102, "progress_note": null, "expected_owner": "context-agent"}}
+{"timestamp": "2026-03-15T13:38:30.204907", "event": "step_completed", "payload": {"step_id": "Step 1", "command": "webnovel-write", "chapter": 102}}
+{"timestamp": "2026-03-15T13:38:47.025579", "event": "step_order_violation", "payload": {"step_id": "Step 3", "command": "webnovel-write", "completed_steps": ["Step 1"]}}
+{"timestamp": "2026-03-15T13:38:47.039352", "event": "step_started", "payload": {"step_id": "Step 3", "step_name": "审查", "command": "webnovel-write", "chapter": 102, "progress_note": null, "expected_owner": "review-agents"}}
+{"timestamp": "2026-03-15T13:39:00.644292", "event": "step_completed", "payload": {"step_id": "Step 3", "command": "webnovel-write", "chapter": 102}}
+{"timestamp": "2026-03-15T13:39:01.363463", "event": "step_order_violation", "payload": {"step_id": "Step 5", "command": "webnovel-write", "completed_steps": ["Step 1", "Step 3"]}}
+{"timestamp": "2026-03-15T13:39:01.378640", "event": "step_started", "payload": {"step_id": "Step 5", "step_name": "Data Agent", "command": "webnovel-write", "chapter": 102, "progress_note": null, "expected_owner": "data-agent"}}
