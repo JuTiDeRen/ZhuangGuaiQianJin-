@@ -1,0 +1,10 @@
+{
+  "start_chapter": 101,
+  "end_chapter": 101,
+  "overall_score": 89.0,
+  "dimension_scores": {"爽点密度": 8.8, "设定一致性": 9.2, "节奏控制": 8.6, "人物塑造": 9.0, "连贯性": 9.0, "追读力": 8.7},
+  "severity_counts": {"critical": 0, "high": 0, "medium": 0, "low": 5},
+  "critical_issues": [],
+  "report_file": "审查报告/第101章审查报告.md",
+  "notes": "selected_checkers: consistency-checker,ooc-checker,high-point-checker,pacing-checker | 所有检查通过，轻微问题:1)字数略超2580字 2)陆砚辞缺少自我攻略OS 3)Constellation线缺席22章 4)时间表述可优化 5)金手指使用标注可更清晰 | anti_ai_force_check: pass"
+}

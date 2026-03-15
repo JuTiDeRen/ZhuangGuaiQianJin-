@@ -1,5 +1,114 @@
 {
-  "current_task": null,
+  "current_task": {
+    "command": "webnovel-write",
+    "args": {
+      "chapter_num": 101
+    },
+    "started_at": "2026-03-15T13:26:46.260336",
+    "last_heartbeat": "2026-03-15T13:35:55.489500",
+    "status": "running",
+    "current_step": {
+      "id": "Step 6",
+      "name": "Git备份",
+      "status": "running",
+      "started_at": "2026-03-15T13:35:55.489481",
+      "running_at": "2026-03-15T13:35:55.489481",
+      "attempt": 1,
+      "progress_note": null
+    },
+    "completed_steps": [
+      {
+        "id": "Step 1",
+        "name": "Context Agent",
+        "status": "completed",
+        "started_at": "2026-03-15T13:27:07.088699",
+        "running_at": "2026-03-15T13:27:07.088699",
+        "attempt": 1,
+        "progress_note": null,
+        "completed_at": "2026-03-15T13:28:24.001288",
+        "artifacts": {
+          "context_contract": "generated"
+        }
+      },
+      {
+        "id": "Step 2A",
+        "name": "正文起草",
+        "status": "completed",
+        "started_at": "2026-03-15T13:29:15.332783",
+        "running_at": "2026-03-15T13:29:15.332783",
+        "attempt": 1,
+        "progress_note": null,
+        "completed_at": "2026-03-15T13:29:25.146918",
+        "artifacts": {
+          "word_count": 2450
+        }
+      },
+      {
+        "id": "Step 4",
+        "name": "润色",
+        "status": "completed",
+        "started_at": "2026-03-15T13:31:13.386960",
+        "running_at": "2026-03-15T13:31:13.386960",
+        "attempt": 1,
+        "progress_note": null,
+        "completed_at": "2026-03-15T13:31:25.354609",
+        "artifacts": {
+          "anti_ai_force_check": "pass",
+          "polish_type": "light"
+        }
+      },
+      {
+        "id": "Step 5",
+        "name": "Data Agent",
+        "status": "completed",
+        "started_at": "2026-03-15T13:31:26.198150",
+        "running_at": "2026-03-15T13:31:26.198150",
+        "attempt": 1,
+        "progress_note": null,
+        "completed_at": "2026-03-15T13:35:54.527319",
+        "artifacts": {
+          "state_updated": true,
+          "summary_created": true
+        }
+      }
+    ],
+    "failed_steps": [
+      {
+        "id": "Step 3",
+        "name": "审查",
+        "status": "failed",
+        "started_at": "2026-03-15T13:29:33.805963",
+        "running_at": "2026-03-15T13:29:33.805963",
+        "attempt": 1,
+        "progress_note": null,
+        "failed_at": "2026-03-15T13:31:13.386946",
+        "failure_reason": "step_replaced_before_completion"
+      }
+    ],
+    "pending_steps": [
+      "Step 1",
+      "Step 2A",
+      "Step 2B",
+      "Step 3",
+      "Step 4",
+      "Step 5",
+      "Step 6"
+    ],
+    "retry_count": 0,
+    "artifacts": {
+      "chapter_file": {},
+      "git_status": {},
+      "state_json_modified": false,
+      "entities_appeared": false,
+      "review_completed": false,
+      "context_contract": "generated",
+      "word_count": 2450,
+      "anti_ai_force_check": "pass",
+      "polish_type": "light",
+      "state_updated": true,
+      "summary_created": true
+    }
+  },
   "last_stable_state": {
     "command": "webnovel-write",
     "chapter_num": 98,
