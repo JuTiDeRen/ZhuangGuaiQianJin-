@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 2,
-    "current_chapter": 126,
-    "total_written_words": 244710,
+    "current_chapter": 127,
+    "total_written_words": 247210,
     "status": "writing",
-    "total_words": 229599,
-    "last_updated": "2026-03-15 15:54:45"
+    "total_words": 231849,
+    "last_updated": "2026-03-15 16:30:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -49,14 +49,14 @@
   "protagonist_state": {
     "abilities": {
       "微表情洞察": {
-        "used_today": 1,
-        "remaining": 2
+        "used_today": 2,
+        "remaining": 1
       }
     }
   },
   "strand_tracker": {
     "fire": 104,
-    "constellation": 86,
+    "constellation": 87,
     "quest": 100
   },
   "chapter_meta": {
@@ -627,24 +627,41 @@
       }
     },
     "0126": {
-      "0126": {
-        "hook": {
-          "type": "真相揭露钩",
-          "content": "六年前车祸真相揭露：顾明轩误杀亲生女儿顾子衿，陈建国是关键证人",
-          "strength": "strong"
-        },
-        "pattern": {
-          "opening": "信息接收开场",
-          "hook": "真相揭露",
-          "emotion_rhythm": "紧张→恐惧→震撼",
-          "info_density": "high",
-          "strand_type": "Constellation"
-        },
-        "ending": {
-          "time": "2026年8月29日下午",
-          "location": "江城青松路老陈便利店",
-          "emotion": "真相揭露后的震撼与愤怒"
-        }
+      "hook": {
+        "type": "真相揭露钩",
+        "content": "六年前车祸真相揭露：顾明轩误杀亲生女儿顾子衿，陈建国是关键证人",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "信息接收开场",
+        "hook": "真相揭露",
+        "emotion_rhythm": "紧张→恐惧→震撼",
+        "info_density": "high",
+        "strand_type": "Constellation"
+      },
+      "ending": {
+        "time": "2026年8月29日下午",
+        "location": "江城青松路老陈便利店",
+        "emotion": "真相揭露后的震撼与愤怒"
+      }
+    },
+    "0127": {
+      "hook": {
+        "type": "真相揭露钩+危机钩",
+        "content": "陈建国讲述六年前车祸真相，顾明轩现身持枪对峙，揭露误杀亲生女儿的真相",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景氛围开场",
+        "hook": "真相揭露+危机对峙",
+        "emotion_rhythm": "紧张→恐惧→震撼→反击",
+        "info_density": "high",
+        "strand_type": "Constellation"
+      },
+      "ending": {
+        "time": "2026年8月30日晚上",
+        "location": "江城老陈便利店后间",
+        "emotion": "真相揭露后的震惊与决心"
       }
     }
   },

@@ -578,3 +578,11 @@
 {"timestamp": "2026-03-15T15:54:45.762483", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 21, "chapter": 126}
 {"timestamp": "2026-03-15T15:55:11.278721", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 440, "chapter": 126}
 {"timestamp": "2026-03-15T15:55:18.010429", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 9, "chapter": 126}
+{"timestamp": "2026-03-15T16:00:30.725552", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-03-15T16:00:34.525861", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 9, "error_code": "NOT_FOUND", "error_message": "未找到别名: 顾明轩"}
+{"timestamp": "2026-03-15T16:00:37.737556", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-03-15T16:01:02.208158", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-15T16:01:02.469111", "tool_name": "index_manager:register-alias", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-15T16:01:02.733464", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-15T16:01:09.460433", "tool_name": "state_manager:process-chapter", "success": false, "elapsed_ms": 14, "error_code": "SCHEMA_VALIDATION_FAILED", "error_message": "数据结构校验失败"}
+{"timestamp": "2026-03-15T16:02:16.999908", "tool_name": "index_manager:entity-appearances", "success": true, "elapsed_ms": 8}
