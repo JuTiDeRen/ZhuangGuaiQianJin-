@@ -1,0 +1,22 @@
+{
+  "start_chapter": 96,
+  "end_chapter": 96,
+  "overall_score": 88.5,
+  "dimension_scores": {
+    "爽点密度": 8.5,
+    "设定一致性": 9.0,
+    "节奏控制": 8.5,
+    "人物塑造": 9.0,
+    "连贯性": 9.0,
+    "追读力": 8.5
+  },
+  "severity_counts": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0
+  },
+  "critical_issues": [],
+  "report_file": "审查报告/第96章审查报告.md",
+  "notes": "selected_checkers: consistency-checker,continuity-checker,ooc-checker,high-point-checker,pacing-checker; anti_ai_force_check: pass"
+}

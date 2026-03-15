@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 2,
-    "current_chapter": 95,
-    "total_written_words": 174840,
+    "current_chapter": 96,
+    "total_written_words": 177140,
     "status": "writing",
-    "total_words": 167029,
-    "last_updated": "2026-03-15 02:45:00"
+    "total_words": 169329,
+    "last_updated": "2026-03-15 10:30:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -175,9 +175,10 @@
         "陆砚辞六年前就认识沈知意并喜欢她（第87章）"
       ],
       "季度董事会": [
-        "季度董事会倒计时D-20（第95章）",
+        "季度董事会倒计时D-18（第96章）",
         "陈董事、周董事已争取为盟友（第95章）",
-        "刘董事被揭穿并处理（第95章）"
+        "刘董事被揭穿并处理（第95章）",
+        "陆砚辞承诺十亿投资支持（第96章）"
       ]
     },
     "items": [
@@ -527,6 +528,274 @@
       "description": "被沈清瑶收买，被沈知意揭穿并移交监管部门"
     }
   },
+  "chapter_meta": {
+    "0078": {
+      "hook": {
+        "type": "危机钩",
+        "content": "沈清瑶召来星辉传媒刘总及黑衣人，声称要让所有人知道谁才是最后的赢家",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景描写开场",
+        "hook": "危机钩",
+        "emotion_rhythm": "紧张→反击→危机",
+        "info_density": "high",
+        "strand_type": "Fire"
+      },
+      "ending": {
+        "time": "2026年6月24日晚上7点",
+        "location": "揽月阁宴会厅",
+        "emotion": "决战一触即发"
+      }
+    },
+    "0079": {
+      "hook": {
+        "type": "爽点钩",
+        "content": "沈知意当众播放沈清瑶密会视频和林婉清录音，彻底揭穿母女阴谋",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "危机开场",
+        "hook": "爽点钩",
+        "emotion_rhythm": "紧张→反击→大胜",
+        "info_density": "high",
+        "strand_type": "Fire"
+      },
+      "ending": {
+        "time": "慈善晚宴当晚",
+        "location": "揽月阁宴会厅",
+        "emotion": "大获全胜，反派落网"
+      }
+    },
+    "0080": {
+      "hook": {
+        "type": "情感钩+悬念钩",
+        "content": "陆砚辞当众求婚成功，但神秘短信预告六年前的真相另有隐情",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "胜利后余韵开场",
+        "hook": "情感钩转悬念钩",
+        "emotion_rhythm": "甜蜜→幸福→悬念",
+        "info_density": "medium",
+        "strand_type": "Constellation"
+      },
+      "ending": {
+        "time": "2026年6月24日晚上10点",
+        "location": "返程车内",
+        "emotion": "幸福中暗藏危机，第2卷预告"
+      }
+    },
+    "0081": {
+      "hook": {
+        "type": "悬念钩",
+        "content": "沈知意收到匿名信，警告她'游戏才刚刚开始'，第2卷正式开启",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "日常转危机",
+        "hook": "悬念钩",
+        "emotion_rhythm": "平静→紧张",
+        "info_density": "medium",
+        "strand_type": "Quest"
+      },
+      "ending": {
+        "time": "2026年6月26日早上",
+        "location": "沈知意公寓",
+        "emotion": "危机预感，准备应对"
+      }
+    },
+    "0082": {
+      "hook": {
+        "type": "危机钩+倒计时钩",
+        "content": "林氏集团陈总发出7天倒计时警告：沈氏撑不过七天",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "发现异常开场",
+        "hook": "危机钩",
+        "emotion_rhythm": "警觉→揭示→对抗",
+        "info_density": "high",
+        "strand_type": "Fire"
+      },
+      "ending": {
+        "time": "2026年6月26日晚上",
+        "location": "沈氏集团大楼总裁办公室",
+        "emotion": "风暴前夕，准备反击"
+      }
+    },
+    "0083": {
+      "hook": {
+        "type": "策略钩+爽点钩",
+        "content": "沈知意'装乖示弱'骗过所有人，沈清瑶得意上钩",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "危机开场",
+        "hook": "策略钩",
+        "emotion_rhythm": "紧张→示弱→反转",
+        "info_density": "high",
+        "strand_type": "Fire"
+      },
+      "ending": {
+        "time": "2026年6月26日深夜",
+        "location": "沈氏集团大楼总裁办公室",
+        "emotion": "反击计划启动，鱼儿上钩"
+      }
+    },
+    "0086": {
+      "hook": {
+        "type": "危机钩",
+        "content": "沈清瑶察觉到反击，准备反扑；顾长渊施压",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景描写开场",
+        "hook": "能力爽点+甜蜜互动",
+        "emotion_rhythm": "紧张→反击→甜蜜→危机",
+        "info_density": "high",
+        "strand_type": "Quest+Fire"
+      },
+      "ending": {
+        "time": "2026年6月28日晚上",
+        "location": "林氏集团大楼/沈氏集团大楼",
+        "emotion": "反击初胜但危机暗涌，沈清瑶准备疯狂反扑"
+      }
+    },
+    "0087": {
+      "hook": {
+        "type": "悬念钩+情感钩",
+        "content": "林深现身，揭示其顾长渊养子身份及六年前车祸目击者身份；陆砚辞坦白六年前就认识女主",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "紧张股市博弈开场",
+        "hook": "打脸爽点+悬念钩",
+        "emotion_rhythm": "紧张→反击→胜利→震惊→情感",
+        "info_density": "high",
+        "strand_type": "Quest"
+      },
+      "ending": {
+        "time": "2026年6月28日晚上",
+        "location": "沈氏集团大楼顶层",
+        "emotion": "股市博弈获胜但震惊于林深身份，陆砚辞深情告白"
+      }
+    },
+    "0091": {
+      "hook": {
+        "type": "爽点钩+倒计时钩",
+        "content": "沈知意在董事会上展示希曼集团合作，打脸张董事；季度董事会D-28倒计时启动",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景描写开场",
+        "hook": "爽点钩",
+        "emotion_rhythm": "庄重→反击→大胜→展望",
+        "info_density": "high",
+        "strand_type": "Fire+Quest"
+      },
+      "ending": {
+        "time": "2026年7月2日上午",
+        "location": "沈氏集团大楼总裁办公室",
+        "emotion": "危机解除，新的战场开始"
+      }
+    },
+    "0092": {
+      "hook": {
+        "type": "关系裂痕钩",
+        "content": "沈母纪舒为沈清瑶求情，母女理念冲突裂痕加深；沈清瑶想回来认错",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景描写开场",
+        "hook": "清算爽点转关系裂痕",
+        "emotion_rhythm": "冷静→冲突→决裂",
+        "info_density": "medium",
+        "strand_type": "Fire+Quest"
+      },
+      "ending": {
+        "time": "2026年7月3日下午",
+        "location": "沈氏集团大楼总裁办公室",
+        "emotion": "冷酷决绝，母女裂痕加深"
+      }
+    },
+    "0093": {
+      "hook": {
+        "type": "展望钩+情感钩",
+        "content": "二十三天后的董事会将是关键一战；欧洲之行确定，陆砚辞陪同",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景描写开场",
+        "hook": "展望钩",
+        "emotion_rhythm": "自信→震撼→甜蜜→展望",
+        "info_density": "high",
+        "strand_type": "Quest+Constellation"
+      },
+      "ending": {
+        "time": "2026年7月5日上午",
+        "location": "沈氏集团大楼总裁办公室",
+        "emotion": "野心勃勃，准备迎接新战场"
+      }
+    },
+    "0094": {
+      "hook": {
+        "type": "成长钩+展望钩",
+        "content": "女主突破'装乖'模式直接发飙清算赵总，决定做真实的自己；明天出发欧洲",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "会议场景开场",
+        "hook": "成长觉醒+打脸爽点",
+        "emotion_rhythm": "隐忍→觉醒→爆发→甜蜜→展望",
+        "info_density": "medium",
+        "strand_type": "Fire+Constellation"
+      },
+      "ending": {
+        "time": "2026年7月7日下午",
+        "location": "沈氏集团大楼总裁办公室",
+        "emotion": "突破自我，决心不再伪装，准备出发欧洲"
+      }
+    },
+    "0095": {
+      "hook": {
+        "type": "倒计时钩",
+        "content": "二十天后的董事会决战；沈知意成功争取两位董事支持，揭穿一位叛徒",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景描写开场",
+        "hook": "能力爽点+策略",
+        "emotion_rhythm": "试探→洞察→揭穿→收服→甜蜜",
+        "info_density": "high",
+        "strand_type": "Fire+Quest"
+      },
+      "ending": {
+        "time": "2026年7月10日晚上",
+        "location": "揽月阁顶层包厢/露台",
+        "emotion": "董事会前哨战胜利，感情升温，准备欧洲之行"
+      }
+    },
+    "0096": {
+      "hook": {
+        "type": "渴望钩",
+        "content": "陆砚辞十亿投资承诺+欧洲陪同，沈知意表示'等欧洲回来有话要说'",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景描写开场",
+        "hook": "甜蜜爽点",
+        "emotion_rhythm": "防备→感动→软化→期待",
+        "info_density": "medium",
+        "strand_type": "Fire"
+      },
+      "ending": {
+        "time": "2026年7月12日晚上",
+        "location": "沈知意公寓",
+        "emotion": "感情升温，准备欧洲之行，期待表白"
+      }
+    }
+  },
   "world_settings": {
     "power_system": [],
     "factions": [
@@ -570,11 +839,13 @@
       "陈明晋升为技术部副总监，成为核心同盟",
       "财务部李主管成为新盟友（第82章）",
       "希曼集团合作已确认，预计首年营收增加八亿（第91章）",
-      "季度董事会倒计时D-20（第95章）",
+      "季度董事会倒计时D-18（第96章）",
       "女主突破'装乖'模式，决定做真实的自己（第94章）",
       "赵总被开除并追责，智慧社区项目推进（第94章）",
       "陈董事、周董事成为董事会盟友（第95章）",
-      "刘董事被揭穿并处理（第95章）"
+      "刘董事被揭穿并处理（第95章）",
+      "陆砚辞承诺十亿投资支持沈氏（第96章）",
+      "欧洲之行即将开始，陆砚辞陪同（第96章）"
     ],
     "foreshadowing": [
       "季度董事会将是沈知意正式确立继承人地位的关键一战",
