@@ -1,20 +1,10 @@
 {
-  "start_chapter": 116,
-  "end_chapter": 116,
-  "overall_score": 92.5,
-  "dimension_scores": {
-    "设定一致性": 9.5,
-    "连贯性": 9.2,
-    "人物塑造": 9.5,
-    "爽点密度": 8.8
-  },
-  "severity_counts": {
-    "critical": 0,
-    "high": 0,
-    "medium": 0,
-    "low": 4
-  },
+  "start_chapter": 117,
+  "end_chapter": 117,
+  "overall_score": 85,
+  "dimension_scores": {"设定一致性": 9, "连贯性": 9, "人物塑造": 8, "爽点密度": 8},
+  "severity_counts": {"critical": 0, "high": 0, "medium": 0, "low": 1},
   "critical_issues": [],
-  "report_file": "审查报告/第116章审查报告.md",
-  "notes": "selected_checkers: consistency-checker,continuity-checker,ooc-checker,high-point-checker; all_passed: true; low_issues: 4 (state_update_needed, suggestion_x3)"
+  "report_file": "审查报告/第117章审查报告.md",
+  "notes": "selected_checkers: consistency,continuity,ooc,high-point; pass: true"
 }
