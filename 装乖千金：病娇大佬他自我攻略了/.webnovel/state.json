@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 2,
-    "current_chapter": 120,
-    "total_written_words": 232210,
+    "current_chapter": 121,
+    "total_written_words": 234710,
     "status": "writing",
-    "total_words": 217099,
-    "last_updated": "2026-03-15 17:00:00"
+    "total_words": 219599,
+    "last_updated": "2026-03-15 18:30:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -49,15 +49,15 @@
   "protagonist_state": {
     "abilities": {
       "微表情洞察": {
-        "used_today": 3,
-        "remaining": 0
+        "used_today": 1,
+        "remaining": 2
       }
     }
   },
   "strand_tracker": {
     "fire": 102,
     "constellation": 85,
-    "quest": 99
+    "quest": 100
   },
   "chapter_meta": {
     "0078": {
@@ -531,6 +531,25 @@
           "location": "沈氏集团顶层会议室",
           "emotion": "商业对决获胜，但危机暗涌"
         }
+    },
+    "0121": {
+      "hook": {
+        "type": "成长钩+渴望钩",
+        "content": "沈知意从绝望中振作，找到顾长渊计划致命漏洞，设下'放弃继承权'圈套准备引蛇出洞",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "承接开场",
+        "hook": "成长觉醒",
+        "emotion_rhythm": "绝望→冷静分析→找到漏洞→制定反击",
+        "info_density": "high",
+        "strand_type": "Quest"
+      },
+      "ending": {
+        "time": "2026年8月21日上午",
+        "location": "沈氏集团顶层会议室",
+        "emotion": "重整旗鼓，准备反击"
+      }
     }
   },
   "export_source": {
