@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 2,
-    "current_chapter": 151,
-    "total_written_words": 268800,
+    "current_chapter": 152,
+    "total_written_words": 271100,
     "status": "writing",
-    "total_words": 251500,
-    "last_updated": "2026-03-17 02:00:00"
+    "total_words": 253800,
+    "last_updated": "2026-03-17 03:00:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -54,7 +54,7 @@
       }
     },
     "current_date": "2026-09-24",
-    "location": "京北第一医院VIP病房",
+    "location": "沈氏集团大楼顶层办公室",
     "intel": [
       "顾长渊控制的空壳公司转移资产证据",
       "顾长渊与境外资金往来记录",
@@ -84,6 +84,25 @@
     "quest": 109
   },
   "chapter_meta": {
+    "0152": {
+      "hook": {
+        "type": "危机钩",
+        "content": "顾长渊神秘电话宣战：游戏才刚刚开始",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "承接开场",
+        "hook": "打脸爽点+危机钩",
+        "emotion_rhythm": "愤怒→布局→甜蜜→危机",
+        "info_density": "high",
+        "strand_type": "Quest+Constellation"
+      },
+      "ending": {
+        "time": "2026年9月25日凌晨",
+        "location": "沈氏集团大楼顶层办公室",
+        "emotion": "决战前夜，顾长渊宣战"
+      }
+    },
     "0078": {
       "hook": {
         "type": "危机钩",
