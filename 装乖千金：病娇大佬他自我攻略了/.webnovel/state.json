@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 2,
-    "current_chapter": 146,
-    "total_written_words": 266600,
+    "current_chapter": 151,
+    "total_written_words": 268800,
     "status": "writing",
-    "total_words": 249000,
-    "last_updated": "2026-03-15 23:30:00"
+    "total_words": 251500,
+    "last_updated": "2026-03-17 02:00:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -53,11 +53,17 @@
         "remaining": 3
       }
     },
+    "current_date": "2026-09-24",
+    "location": "京北第一医院VIP病房",
     "intel": [
       "顾长渊控制的空壳公司转移资产证据",
       "顾长渊与境外资金往来记录",
       "监管部门已正式立案调查顾长渊",
       "顾子衿的nanny是关键证人",
+      "六年前车祸真相：顾长渊杀害顾子衿灭口",
+      "顾长渊转移顾家资产至境外",
+      "顾长渊在狱中假死，疑似金蝉脱壳",
+      "顾长渊资产正在被紧急转移（3天内完成）",
       "六年前车祸真相：顾明轩误杀亲生女儿",
       "顾长渊的核心罪证已获取（黑色文件夹）",
       "顾长渊目标不仅是沈家还有陆家",
@@ -908,6 +914,25 @@
         "time": "2026年9月22日上午",
         "location": "沈知意公寓",
         "emotion": "感情升华，决心表白，决战前最后准备"
+      }
+    },
+    "0151": {
+      "hook": {
+        "type": "信息钩+悬念钩",
+        "content": "六年前真相逐渐揭开：顾长渊杀害顾子衿灭口、陷害女主；顾长渊狱中假死，资产被紧急转移",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "医院探望场景",
+        "hook": "信息爽点",
+        "emotion_rhythm": "温情→揭秘→震惊→危机",
+        "info_density": "high",
+        "strand_type": "Constellation"
+      },
+      "ending": {
+        "time": "2026年9月24日晚上",
+        "location": "京北第一医院VIP病房",
+        "emotion": "真相大白但新危机浮现，顾长渊假死疑云"
       }
     }
   },
