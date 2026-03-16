@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 2,
-    "current_chapter": 153,
-    "total_written_words": 273600,
+    "current_chapter": 154,
+    "total_written_words": 275800,
     "status": "writing",
-    "total_words": 256300,
-    "last_updated": "2026-03-17 04:00:00"
+    "total_words": 275800,
+    "last_updated": "2026-03-17 08:00:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -49,8 +49,8 @@
   "protagonist_state": {
     "abilities": {
       "微表情洞察": {
-        "used_today": 0,
-        "remaining": 3
+        "used_today": 1,
+        "remaining": 2
       }
     },
     "current_date": "2026-09-25",
@@ -80,15 +80,37 @@
       "股东大会投票获胜，67%股东支持",
       "正式成为沈氏集团董事长",
       "陆砚辞表白：六年前就喜欢你",
-      "沈清瑶挟持沈母，新危机爆发"
+      "沈清瑶挟持沈母，新危机爆发",
+      "沈清瑶彻底崩溃被制服",
+      "沈知意与纪舒母女关系决裂",
+      "沈清瑶透露顾长渊还有后手"
     ]
   },
   "strand_tracker": {
     "fire": 113,
     "constellation": 95,
-    "quest": 110
+    "quest": 111
   },
   "chapter_meta": {
+    "0154": {
+      "hook": {
+        "type": "情绪钩",
+        "content": "沈清瑶被带走时透露顾长渊还有后手",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "危机开场承接",
+        "hook": "打脸爽点+心理战爽点",
+        "emotion_rhythm": "紧张→对峙→心理战→崩溃→清算",
+        "info_density": "high",
+        "strand_type": "Quest"
+      },
+      "ending": {
+        "time": "2026年9月25日清晨8:00",
+        "location": "沈氏集团天台/电梯",
+        "emotion": "沈清瑶崩溃被制服，沈知意与母亲决裂，但顾长渊后手成谜"
+      }
+    },
     "0153": {
       "hook": {
         "type": "危机钩",
