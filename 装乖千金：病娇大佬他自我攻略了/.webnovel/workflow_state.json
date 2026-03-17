@@ -1,291 +1,9 @@
 {
-  "current_task": {
+  "current_task": null,
+  "last_stable_state": {
     "command": "webnovel-write",
-    "args": {
-      "chapter_num": 161
-    },
-    "started_at": "2026-03-17T11:06:20.546803",
-    "last_heartbeat": "2026-03-17T22:19:51.686526",
-    "status": "running",
-    "current_step": {
-      "id": "Step 4",
-      "name": "润色",
-      "status": "running",
-      "started_at": "2026-03-17T22:19:51.686513",
-      "running_at": "2026-03-17T22:19:51.686513",
-      "attempt": 9,
-      "progress_note": null
-    },
-    "completed_steps": [
-      {
-        "id": "Step 1",
-        "name": "Context Agent",
-        "status": "completed",
-        "started_at": "2026-03-17T21:18:51.761222",
-        "running_at": "2026-03-17T21:18:51.761222",
-        "attempt": 7,
-        "progress_note": null,
-        "completed_at": "2026-03-17T21:20:38.216921",
-        "artifacts": {
-          "chapter": 196,
-          "status": "context_ready"
-        }
-      },
-      {
-        "id": "Step 2A",
-        "name": "正文起草",
-        "status": "completed",
-        "started_at": "2026-03-17T22:04:06.522722",
-        "running_at": "2026-03-17T22:04:06.522722",
-        "attempt": 8,
-        "progress_note": null,
-        "completed_at": "2026-03-17T22:04:06.871874",
-        "artifacts": {
-          "chapter_file": "正文/第0201章-关键线索浮现.md",
-          "word_count": 2200
-        }
-      },
-      {
-        "id": "Step 2B",
-        "name": "风格适配",
-        "status": "completed",
-        "started_at": "2026-03-17T22:05:13.346699",
-        "running_at": "2026-03-17T22:05:13.346699",
-        "attempt": 8,
-        "progress_note": null,
-        "completed_at": "2026-03-17T22:05:13.696828",
-        "artifacts": {
-          "chapter_file": "正文/第0201章-关键线索浮现.md"
-        }
-      },
-      {
-        "id": "Step 4",
-        "name": "润色",
-        "status": "completed",
-        "started_at": "2026-03-17T22:08:54.271898",
-        "running_at": "2026-03-17T22:08:54.271898",
-        "attempt": 8,
-        "progress_note": null,
-        "completed_at": "2026-03-17T22:08:54.591505",
-        "artifacts": {
-          "anti_ai_force_check": "pass",
-          "polished": true
-        }
-      },
-      {
-        "id": "Step 2A",
-        "name": "正文起草",
-        "status": "completed",
-        "started_at": "2026-03-17T22:16:35.918330",
-        "running_at": "2026-03-17T22:16:35.918330",
-        "attempt": 9,
-        "progress_note": null,
-        "completed_at": "2026-03-17T22:17:54.431781",
-        "artifacts": {
-          "chapter_file": "正文/第0202章-关键证人.md",
-          "word_count": 2300
-        }
-      }
-    ],
-    "failed_steps": [
-      {
-        "id": "Step 3",
-        "name": "Review Agents",
-        "status": "failed",
-        "started_at": "2026-03-17T11:09:26.142414",
-        "running_at": "2026-03-17T11:09:26.142414",
-        "attempt": 1,
-        "progress_note": null,
-        "failed_at": "2026-03-17T11:11:48.591809",
-        "failure_reason": "step_replaced_before_completion"
-      },
-      {
-        "id": "Step 5",
-        "name": "Data Agent",
-        "status": "failed",
-        "started_at": "2026-03-17T11:11:48.591816",
-        "running_at": "2026-03-17T11:11:48.591816",
-        "attempt": 1,
-        "progress_note": null,
-        "failed_at": "2026-03-17T13:51:27.100351",
-        "failure_reason": "step_replaced_before_completion"
-      },
-      {
-        "id": "Step 1",
-        "name": "Context Agent",
-        "status": "failed",
-        "started_at": "2026-03-17T13:51:27.100370",
-        "running_at": "2026-03-17T13:51:27.100370",
-        "attempt": 4,
-        "progress_note": null,
-        "failed_at": "2026-03-17T13:53:49.180466",
-        "failure_reason": "step_replaced_before_completion"
-      },
-      {
-        "id": "Step 2A",
-        "name": "正文起草",
-        "status": "failed",
-        "started_at": "2026-03-17T13:53:49.180473",
-        "running_at": "2026-03-17T13:53:49.180473",
-        "attempt": 4,
-        "progress_note": null,
-        "failed_at": "2026-03-17T13:55:35.276234",
-        "failure_reason": "step_replaced_before_completion"
-      },
-      {
-        "id": "Step 2B",
-        "name": "风格适配",
-        "status": "failed",
-        "started_at": "2026-03-17T13:55:35.276241",
-        "running_at": "2026-03-17T13:55:35.276241",
-        "attempt": 4,
-        "progress_note": null,
-        "failed_at": "2026-03-17T13:56:03.311499",
-        "failure_reason": "step_replaced_before_completion"
-      },
-      {
-        "id": "Step 3",
-        "name": "审查",
-        "status": "failed",
-        "started_at": "2026-03-17T13:56:03.311504",
-        "running_at": "2026-03-17T13:56:03.311504",
-        "attempt": 4,
-        "progress_note": null,
-        "failed_at": "2026-03-17T13:59:13.822484",
-        "failure_reason": "step_replaced_before_completion"
-      },
-      {
-        "id": "Step 4",
-        "name": "润色",
-        "status": "failed",
-        "started_at": "2026-03-17T13:59:13.822490",
-        "running_at": "2026-03-17T13:59:13.822490",
-        "attempt": 4,
-        "progress_note": null,
-        "failed_at": "2026-03-17T14:00:01.336110",
-        "failure_reason": "step_replaced_before_completion"
-      },
-      {
-        "id": "Step 5",
-        "name": "Data Agent",
-        "status": "failed",
-        "started_at": "2026-03-17T14:00:01.336115",
-        "running_at": "2026-03-17T14:00:01.336115",
-        "attempt": 4,
-        "progress_note": null,
-        "failed_at": "2026-03-17T14:04:55.791284",
-        "failure_reason": "step_replaced_before_completion"
-      },
-      {
-        "id": "Step 1",
-        "name": "Context Agent",
-        "status": "failed",
-        "started_at": "2026-03-17T14:04:55.791304",
-        "running_at": "2026-03-17T14:04:55.791304",
-        "attempt": 4,
-        "progress_note": null,
-        "failed_at": "2026-03-17T14:06:44.469276",
-        "failure_reason": "step_replaced_before_completion"
-      },
-      {
-        "id": "Step 2A",
-        "name": "正文起草",
-        "status": "failed",
-        "started_at": "2026-03-17T14:06:44.469281",
-        "running_at": "2026-03-17T14:06:44.469281",
-        "attempt": 4,
-        "progress_note": null,
-        "failed_at": "2026-03-17T14:08:05.271709",
-        "failure_reason": "step_replaced_before_completion"
-      },
-      {
-        "id": "Step 3",
-        "name": "审查",
-        "status": "failed",
-        "started_at": "2026-03-17T14:08:05.271715",
-        "running_at": "2026-03-17T14:08:05.271715",
-        "attempt": 4,
-        "progress_note": null,
-        "failed_at": "2026-03-17T14:09:42.113691",
-        "failure_reason": "step_replaced_before_completion"
-      },
-      {
-        "id": "Step 5",
-        "name": "Data Agent",
-        "status": "failed",
-        "started_at": "2026-03-17T14:09:42.113697",
-        "running_at": "2026-03-17T14:09:42.113697",
-        "attempt": 4,
-        "progress_note": null,
-        "failed_at": "2026-03-17T14:23:33.269459",
-        "failure_reason": "step_replaced_before_completion"
-      },
-      {
-        "id": "Step 1",
-        "name": "Context Agent",
-        "status": "failed",
-        "started_at": "2026-03-17T14:23:33.269479",
-        "running_at": "2026-03-17T14:23:33.269479",
-        "attempt": 4,
-        "progress_note": null,
-        "failed_at": "2026-03-17T14:35:22.687969",
-        "failure_reason": "step_replaced_before_completion"
-      },
-      {
-        "id": "Step 2A",
-        "name": "正文起草",
-        "status": "failed",
-        "started_at": "2026-03-17T14:35:22.687974",
-        "running_at": "2026-03-17T14:35:22.687974",
-        "attempt": 4,
-        "progress_note": null,
-        "failed_at": "2026-03-17T16:22:53.043572",
-        "failure_reason": "step_replaced_before_completion"
-      },
-      {
-        "id": "Step 5",
-        "name": "Data Agent",
-        "status": "failed",
-        "started_at": "2026-03-17T16:22:53.043578",
-        "running_at": "2026-03-17T16:22:53.043578",
-        "attempt": 5,
-        "progress_note": null,
-        "failed_at": "2026-03-17T16:28:52.659688",
-        "failure_reason": "step_replaced_before_completion"
-      },
-      {
-        "id": "Step 1",
-        "name": "Context Agent",
-        "status": "failed",
-        "started_at": "2026-03-17T16:28:52.659708",
-        "running_at": "2026-03-17T16:28:52.659708",
-        "attempt": 5,
-        "progress_note": null,
-        "failed_at": "2026-03-17T20:09:20.528185",
-        "failure_reason": "step_replaced_before_completion"
-      },
-      {
-        "id": "Step 5",
-        "name": "Data Agent",
-        "status": "failed",
-        "started_at": "2026-03-17T20:09:20.528191",
-        "running_at": "2026-03-17T20:09:20.528191",
-        "attempt": 6,
-        "progress_note": null,
-        "failed_at": "2026-03-17T21:18:51.761198",
-        "failure_reason": "step_replaced_before_completion"
-      }
-    ],
-    "pending_steps": [
-      "Step 1",
-      "Step 2A",
-      "Step 2B",
-      "Step 3",
-      "Step 4",
-      "Step 5",
-      "Step 6"
-    ],
-    "retry_count": 8,
+    "chapter_num": 161,
+    "completed_at": "2026-03-17T22:24:55.158433",
     "artifacts": {
       "chapter_file": "正文/第0202章-关键证人.md",
       "git_status": {},
@@ -296,21 +14,12 @@
       "status": "context_ready",
       "word_count": 2300,
       "anti_ai_force_check": "pass",
-      "polished": true
-    }
-  },
-  "last_stable_state": {
-    "command": "webnovel-review",
-    "chapter_num": 160,
-    "completed_at": "2026-03-17T09:25:52.285640",
-    "artifacts": {
-      "chapter_file": {},
-      "git_status": {},
-      "state_json_modified": false,
-      "entities_appeared": false,
-      "review_completed": false,
-      "report": "审查报告/第1-160章审查报告.md",
-      "score": 87.8
+      "polished": true,
+      "chapters": [
+        201,
+        202
+      ],
+      "total_new_words": 4500
     }
   },
   "history": [
@@ -467,6 +176,13 @@
       "chapter": 160,
       "status": "completed",
       "completed_at": "2026-03-17T09:25:52.285640"
+    },
+    {
+      "task_id": "task_023",
+      "command": "webnovel-write",
+      "chapter": 161,
+      "status": "completed",
+      "completed_at": "2026-03-17T22:24:55.158433"
     }
   ]
 }
