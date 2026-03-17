@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import json; f=open\\(''d:/WorkSpace/ZhuangGuaiQianJin-/装乖千金：病娇大佬他自我攻略了/.webnovel/state.json'', ''r'', encoding=''utf-8''\\); data=json.load\\(f\\); print\\(''JSON valid''\\); print\\(''0173'' in data.get\\(''chapter_meta'', {}\\)\\)\")",
+      "Bash(python -c \"import json; f=open\\(''d:/WorkSpace/ZhuangGuaiQianJin-/装乖千金：病娇大佬他自我攻略了/.webnovel/state.json'', ''r'', encoding=''utf-8''\\); data=json.load\\(f\\); print\\(''current_chapter:'', data[''progress''][''current_chapter'']\\); print\\(''abilities:'', data[''protagonist_state''][''abilities'']\\); print\\(''current_date:'', data[''protagonist_state''][''current_date'']\\)\")",
+      "Bash(python -c \"import json; f=open\\(''d:/WorkSpace/ZhuangGuaiQianJin-/装乖千金：病娇大佬他自我攻略了/.webnovel/state.json'', ''r'', encoding=''utf-8''\\); data=json.load\\(f\\); print\\(''abilities:'', data[''protagonist_state''][''abilities'']\\)\")",
+      "Bash(python -c \"import json; f=open\\(''d:/WorkSpace/ZhuangGuaiQianJin-/装乖千金：病娇大佬他自我攻略了/.webnovel/state.json'', ''r'', encoding=''utf-8''\\); data=json.load\\(f\\); print\\(''current_date:'', data[''protagonist_state''][''current_date'']\\); print\\(''abilities:'', data[''protagonist_state''][''abilities'']\\); print\\(''last_intel:'', data[''protagonist_state''][''intel''][-3:]\\)\")"
+    ]
+  }
+}
