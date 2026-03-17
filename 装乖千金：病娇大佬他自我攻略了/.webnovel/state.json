@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 3,
-    "current_chapter": 215,
+    "current_chapter": 216,
     "total_written_words": 345200,
     "status": "writing",
     "total_words": 319056,
-    "last_updated": "2026-03-18 01:00:00"
+    "last_updated": "2026-03-18 00:35:55"
   },
   "volume_plan": {
     "volume_1": {
@@ -1621,6 +1621,24 @@
       "hook_type": "完结钩",
       "pattern": "Quest",
       "review_score": 95
+    },
+    "0216": {
+      "hook": {
+        "type": "清算钩",
+        "content": "沈仲明、李婉柔被捕，沈清瑶精神崩溃",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景开场",
+        "hook": "清算钩",
+        "emotion_rhythm": "高→平静",
+        "info_density": "medium"
+      },
+      "ending": {
+        "time": "凌晨",
+        "location": "沈家老宅庭院",
+        "emotion": "复杂释然"
+      }
     }
   },
   "export_source": {

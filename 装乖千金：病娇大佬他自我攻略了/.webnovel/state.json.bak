@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 3,
-    "current_chapter": 202,
-    "total_written_words": 324400,
+    "current_chapter": 215,
+    "total_written_words": 345200,
     "status": "writing",
-    "total_words": 312400,
-    "last_updated": "2026-03-17 22:30:00"
+    "total_words": 319056,
+    "last_updated": "2026-03-18 01:00:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -49,12 +49,12 @@
   "protagonist_state": {
     "abilities": {
       "微表情洞察": {
-        "used_today": 2,
-        "remaining": 1
+        "used_today": 3,
+        "remaining": 0
       }
     },
-    "current_date": "2026-11-15",
-    "location": "城郊疗养院",
+    "current_date": "2026年11月24日",
+    "location": "沈家老宅",
     "growth": {
       "stage": "逆境蓄势期",
       "milestones": [
@@ -139,7 +139,33 @@
       "沈家二房给沈婉清送黑色药丸导致中毒",
       "获得关键证物：黑色药丸（沈家二房送的'补品'）",
       "威胁王护士的是沈家二房管家",
-      "祭祖大典倒计时D-10"
+      "祭祖大典倒计时D-10",
+      "抓获三名黑衣人，关押在老宅地下室",
+      "确认刘管家是沈家二房的人，派人来灭口",
+      "微表情洞察今日已用完（3/3）",
+      "母亲死因真相：沈家二房与李婉柔联手，用慢性毒药害死沈母",
+      "李婉柔用黑色药丸融进汤里，伪装成补品",
+      "张医生留有病历复印件，在王护士儿子处",
+      "黑色药丸已送检，3天后出结果",
+      "祭祖大典倒计时D-8",
+      "沈家二房通过空壳公司转移超十亿资金",
+      "沈仲其六年前将15%股份转至沈清瑶名下",
+      "沈家二房每月给李婉柔汇款分赃",
+      "已约沈仲明明日澜韵会所见面",
+      "从沈家老宅密室获取沈仲明与李婉柔六年通信记录",
+      "获得U盘音频证据：沈仲明亲口承认下毒",
+      "母亲日记揭示她早已察觉被下毒，为保护女儿选择沉默",
+      "沈仲明计划在祭祖大典上对沈知意下手'让她永远闭嘴'",
+      "祭祖大典倒计时D-6",
+      "证据链完整：证人（王护士、张桂花）、物证、动机齐全",
+      "张桂花是李婉柔远房表姐，受指使送乌头毒药",
+      "母亲死因：乌头慢性毒药，症状类似心力衰竭",
+      "沈家二房6年转移沈氏集团30%资产",
+      "祭祖大典倒计时D-5",
+      "祭祖大典当天，沈母公开支持女主站在身边",
+      "沈仲明已确认刺客埋伏：3人，携带武器，位置后厨侧门",
+      "陆砚辞已安排三个出口守卫，证人已保护",
+      "沈仲明知道女主在调查他，今天有所准备"
     ]
   },
   "strand_tracker": {
@@ -1448,6 +1474,153 @@
         "location": "城郊疗养院",
         "emotion": "获得关键证物和证词，真相即将大白"
       }
+    },
+    "0203": {
+      "hook": {
+        "type": "悬念钩",
+        "content": "准备化验黑色药丸成分，真相即将浮出水面",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "紧张氛围开场",
+        "hook": "行动爽点+甜蜜互动",
+        "emotion_rhythm": "紧张→掌控→轻松→暧昧→决心",
+        "info_density": "medium",
+        "strand_type": "Quest"
+      },
+      "ending": {
+        "time": "2026年11月16日晚上",
+        "location": "城郊疗养院",
+        "emotion": "沈知意成功保护证人，决心让沈家二房付出代价"
+      }
+    },
+    "0204": {
+      "hook": {
+        "type": "真相揭露钩",
+        "content": "王护士坦白母亲死因真相——沈家二房与李婉柔联手用慢性毒药害死沈母",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "清晨场景承接",
+        "hook": "真相揭露+情感冲击",
+        "emotion_rhythm": "紧张→震惊→愤怒→决心",
+        "info_density": "high",
+        "strand_type": "Quest"
+      },
+      "ending": {
+        "time": "2026年11月17日上午",
+        "location": "前往陆砚辞私人庄园途中",
+        "emotion": "真相大白后的愤怒与复仇决心，陆砚辞约见面送礼物"
+      }
+    },
+    "0205": {
+      "hook": {
+        "type": "揭秘钩",
+        "content": "陆砚辞提供沈家二房完整资料，揭示六年前阴谋全貌（害死母亲→扶持沈清瑶→转移资金）",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景开场",
+        "hook": "揭秘钩",
+        "emotion_rhythm": "平静→震惊→温情→决绝",
+        "info_density": "high"
+      },
+      "ending": {
+        "time": "2026年11月18日下午",
+        "location": "陆砚辞私人庄园书房",
+        "emotion": "决绝准备"
+      }
+    },
+    "0206": {
+      "hook": {
+        "type": "任务钩",
+        "content": "缺少直接通信证据，沈福带来密室线索",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景描写开场",
+        "hook": "任务钩",
+        "emotion_rhythm": "低→高→低→高",
+        "info_density": "high"
+      },
+      "ending": {
+        "time": "深夜",
+        "location": "陆砚辞私人庄园",
+        "emotion": "决意复仇，发现沈仲明暗杀计划"
+      }
+    },
+    "0207": {
+      "hook": {
+        "type": "倒计时钩",
+        "content": "祭祖大典D-5，证据链完整，决战即将开始",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景开场",
+        "hook": "倒计时钩",
+        "emotion_rhythm": "中→高",
+        "info_density": "high",
+        "strand_type": "Quest"
+      },
+      "ending": {
+        "time": "2026年11月19日傍晚",
+        "location": "陆砚辞私人庄园书房",
+        "emotion": "决战前的坚定与温情"
+      }
+    },
+    "0211": {
+      "hook": {
+        "type": "危机钩",
+        "content": "刺客已确认，3人携带武器埋伏在后厨侧门，杀机已至",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景开场（女主准备）",
+        "hook": "危机钩",
+        "emotion_rhythm": "平静→紧张→对峙→危机",
+        "info_density": "high",
+        "strand_type": "Quest+Fire"
+      },
+      "ending": {
+        "time": "2026年11月24日上午，祭祖大典即将开始",
+        "location": "沈家老宅正厅",
+        "emotion": "沈母公开支持女主，但刺客埋伏已确认，危机一触即发"
+      }
+    },
+    "211": {
+      "title": "祭祖大典开幕",
+      "word_count": 2400,
+      "hook_type": "危机钩",
+      "pattern": "Quest",
+      "review_score": 93.6
+    },
+    "212": {
+      "title": "各方入场",
+      "word_count": 2400,
+      "hook_type": "悬念钩",
+      "pattern": "Quest",
+      "review_score": 88
+    },
+    "213": {
+      "title": "沈清瑶发难",
+      "word_count": 2400,
+      "hook_type": "反击钩",
+      "pattern": "Quest",
+      "review_score": 90
+    },
+    "214": {
+      "title": "女主反击",
+      "word_count": 2400,
+      "hook_type": "危机钩",
+      "pattern": "Quest",
+      "review_score": 92
+    },
+    "215": {
+      "title": "真相大白",
+      "word_count": 2400,
+      "hook_type": "完结钩",
+      "pattern": "Quest",
+      "review_score": 95
     }
   },
   "export_source": {
@@ -2009,6 +2182,35 @@
       "score": 75,
       "report": "审查报告/第191-200章审查报告.md",
       "issues": 8
+    },
+    {
+      "chapter": 206,
+      "score": 91,
+      "date": "2026-03-17"
+    },
+    {
+      "chapter_range": "201-210",
+      "report_file": "审查报告/第201-210章审查报告.md",
+      "reviewed_at": "2026-03-17",
+      "overall_score": 77,
+      "critical_issues": 0,
+      "status": "fixed",
+      "fixed_at": "2026-03-17",
+      "fixes": [
+        "【关键】第210章时间标记矛盾：D-2改为D-1",
+        "【关键】补充澜韵会所之约结果：第206章开头说明女主临时取消约见",
+        "【中优】第208章增加女主内心独白：说明放走沈清瑶是策略考量而非圣母",
+        "【中优】第208章添加时间过渡：说明这两天梳理证据、排查风险",
+        "【低优】第209章增强章末钩子：添加沈仲明威胁彩信"
+      ],
+      "notes": [
+        "设定一致性良好（8.5/10），金手指使用规范",
+        "情节连贯性良好（8.5/10），主线推进清晰",
+        "人物塑造良好（7.5/10），装乖人设保持优秀，放走沈清瑶已补充策略动机",
+        "追读力良好（8.2/10），每章都有明确钩子，第209章已增强",
+        "爽点密度达标（7.8/10），10章100%有爽点",
+        "节奏控制预警（4.2/10），Quest线连续9章主导超标，建议后续章节调整"
+      ]
     }
   ],
   "disambiguation_warnings": [],

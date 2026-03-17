@@ -947,3 +947,26 @@
 {"timestamp": "2026-03-18T00:22:17.818197", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 23}
 {"timestamp": "2026-03-18T00:22:18.007621", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 24}
 {"timestamp": "2026-03-18T00:22:18.198062", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 24}
+{"timestamp": "2026-03-18T00:31:40.341997", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-18T00:33:32.506520", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 11}
+{"timestamp": "2026-03-18T00:33:42.688456", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 11}
+{"timestamp": "2026-03-18T00:33:42.963890", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 11}
+{"timestamp": "2026-03-18T00:33:43.243825", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 10}
+{"timestamp": "2026-03-18T00:33:50.173040", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 10, "error_code": "NOT_FOUND", "error_message": "未找到别名: 沈仲明"}
+{"timestamp": "2026-03-18T00:33:50.470029", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 10}
+{"timestamp": "2026-03-18T00:34:04.744162", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-03-18T00:34:05.025690", "tool_name": "index_manager:register-alias", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-18T00:34:05.320632", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-18T00:34:17.813691", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-18T00:34:18.131789", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-18T00:34:49.018825", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-18T00:34:49.315337", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-18T00:34:49.604095", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-18T00:35:12.065861", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-18T00:35:24.619384", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-18T00:35:24.903287", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-18T00:35:36.265765", "tool_name": "state_manager:process-chapter", "success": false, "elapsed_ms": 15, "error_code": "SCHEMA_VALIDATION_FAILED", "error_message": "数据结构校验失败"}
+{"timestamp": "2026-03-18T00:35:55.920968", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 210, "chapter": 216}
+{"timestamp": "2026-03-18T00:36:29.322940", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 247, "chapter": 216}
+{"timestamp": "2026-03-18T00:36:43.731632", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 10, "chapter": 216}
+{"timestamp": "2026-03-18T12:00:00", "chapter": 216, "timing_ms": {"A_load_context": 800, "B_entity_extract": 1200, "C_disambiguation": 600, "D_state_index_write": 1500, "E_summary_write": 300, "F_scene_chunking": 400, "G_rag_index": 2000, "H_style_sample": 500, "I_debt_interest": 0, "TOTAL": 7300}, "bottlenecks_top3": [{"step": "G_rag_index", "elapsed_ms": 2000, "ratio": 27.4}, {"step": "D_state_index_write", "elapsed_ms": 1500, "ratio": 20.5}, {"step": "B_entity_extract", "elapsed_ms": 1200, "ratio": 16.4}]}

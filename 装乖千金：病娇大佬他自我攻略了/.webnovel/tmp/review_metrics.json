@@ -1,10 +1,22 @@
 {
-  "start_chapter": 210,
-  "end_chapter": 210,
-  "overall_score": 89.0,
-  "dimension_scores": {"设定一致性": 9.0, "连贯性": 9.0, "人物塑造": 8.8, "爽点密度": 8.5, "追读力": 9.0, "节奏控制": 8.8},
-  "severity_counts": {"critical": 0, "high": 0, "medium": 0, "low": 0},
+  "start_chapter": 216,
+  "end_chapter": 216,
+  "overall_score": 92.0,
+  "dimension_scores": {
+    "设定一致性": 9.8,
+    "人物塑造": 9.5,
+    "连贯性": 9.5,
+    "爽点密度": 8.2,
+    "节奏控制": 8.5,
+    "追读力": 9.0
+  },
+  "severity_counts": {
+    "critical": 0,
+    "high": 0,
+    "medium": 3,
+    "low": 4
+  },
   "critical_issues": [],
-  "report_file": "审查报告/第210章审查报告.md",
-  "notes": "第210章审查通过，祭祖大典前夜氛围营造到位，承诺钩强烈"
+  "report_file": "审查报告/第216章审查报告.md",
+  "notes": "selected_checkers: consistency-checker,ooc-checker,continuity-checker,high-point-checker; overall_pass: true; anti_ai_force_check: pending"
 }
