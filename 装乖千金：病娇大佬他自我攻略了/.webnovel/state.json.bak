@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 2,
-    "current_chapter": 168,
+    "current_chapter": 169,
     "total_written_words": 292700,
     "status": "writing",
     "total_words": 282500,
-    "last_updated": "2026-03-17 11:58:25"
+    "last_updated": "2026-03-17 12:05:03"
   },
   "volume_plan": {
     "volume_1": {
@@ -1118,6 +1118,24 @@
         "time": "2026年10月2日上午",
         "location": "返回市中心途中",
         "emotion": "凝重但坚定"
+      }
+    },
+    "0169": {
+      "hook": {
+        "type": "悬念钩",
+        "content": "张妈即将说出与母亲争吵的人是谁时，窗外飞来威胁纸条",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "对话开场",
+        "hook": "悬念钩",
+        "emotion_rhythm": "低→高→紧张",
+        "info_density": "high"
+      },
+      "ending": {
+        "time": "2026年10月4日下午",
+        "location": "沈家老宅偏院",
+        "emotion": "紧张对峙"
       }
     }
   },

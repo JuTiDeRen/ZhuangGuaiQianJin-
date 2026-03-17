@@ -697,3 +697,18 @@
 {"timestamp": "2026-03-17T12:05:58.068899", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 12, "chapter": 169}
 {"timestamp": "2026-03-17T12:06:09.044253", "tool_name": "index_manager:get-active-debts", "success": true, "elapsed_ms": 13}
 {"timestamp": "2026-03-17T12:06:14.916233", "tool_name": "state_manager:get-progress", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-17T12:07:59.369362", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-17T12:08:35.737122", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 53}
+{"timestamp": "2026-03-17T12:08:36.687234", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 44}
+{"timestamp": "2026-03-17T12:09:00.634716", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 34}
+{"timestamp": "2026-03-17T12:09:01.600169", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 47}
+{"timestamp": "2026-03-17T12:09:02.520836", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 46}
+{"timestamp": "2026-03-17T12:09:22.985304", "tool_name": "index_manager:register-alias", "success": true, "elapsed_ms": 21}
+{"timestamp": "2026-03-17T12:09:44.748487", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 67}
+{"timestamp": "2026-03-17T12:10:09.412044", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 27}
+{"timestamp": "2026-03-17T12:10:10.325814", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 35}
+{"timestamp": "2026-03-17T12:10:22.407446", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 22, "chapter": 170}
+{"timestamp": "2026-03-17T12:10:50.720633", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 231, "chapter": 170}
+{"timestamp": "2026-03-17T12:10:59.020433", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 14, "chapter": 170}
+{"timestamp": "2026-03-17T12:11:07.986307", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 12, "error_code": "NOT_FOUND", "error_message": "未找到别名: 沈福"}
+{"timestamp": "2026-03-17T12:11:09.008038", "tool_name": "state_manager:get-progress", "success": true, "elapsed_ms": 20}

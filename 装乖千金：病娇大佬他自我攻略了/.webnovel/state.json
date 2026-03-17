@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 2,
-    "current_chapter": 169,
+    "current_chapter": 170,
     "total_written_words": 292700,
     "status": "writing",
     "total_words": 282500,
-    "last_updated": "2026-03-17 12:05:03"
+    "last_updated": "2026-03-17 12:10:22"
   },
   "volume_plan": {
     "volume_1": {
@@ -1136,6 +1136,24 @@
         "time": "2026年10月4日下午",
         "location": "沈家老宅偏院",
         "emotion": "紧张对峙"
+      }
+    },
+    "0170": {
+      "hook": {
+        "type": "悬念钩",
+        "content": "内部黑手是谁？母亲日记中的秘密",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "回忆开场",
+        "hook": "悬念钩",
+        "emotion_rhythm": "低→高",
+        "info_density": "high"
+      },
+      "ending": {
+        "time": "晚上",
+        "location": "沈家老宅",
+        "emotion": "坚定期待"
       }
     }
   },
