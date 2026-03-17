@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 3,
-    "current_chapter": 211,
-    "total_written_words": 337800,
+    "current_chapter": 215,
+    "total_written_words": 345200,
     "status": "writing",
     "total_words": 319056,
-    "last_updated": "2026-03-18 00:10:11"
+    "last_updated": "2026-03-18 01:00:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -49,8 +49,8 @@
   "protagonist_state": {
     "abilities": {
       "微表情洞察": {
-        "used_today": 1,
-        "remaining": 2
+        "used_today": 3,
+        "remaining": 0
       }
     },
     "current_date": "2026年11月24日",
@@ -1586,6 +1586,41 @@
         "location": "沈家老宅正厅",
         "emotion": "沈母公开支持女主，但刺客埋伏已确认，危机一触即发"
       }
+    },
+    "211": {
+      "title": "祭祖大典开幕",
+      "word_count": 2400,
+      "hook_type": "危机钩",
+      "pattern": "Quest",
+      "review_score": 93.6
+    },
+    "212": {
+      "title": "各方入场",
+      "word_count": 2400,
+      "hook_type": "悬念钩",
+      "pattern": "Quest",
+      "review_score": 88
+    },
+    "213": {
+      "title": "沈清瑶发难",
+      "word_count": 2400,
+      "hook_type": "反击钩",
+      "pattern": "Quest",
+      "review_score": 90
+    },
+    "214": {
+      "title": "女主反击",
+      "word_count": 2400,
+      "hook_type": "危机钩",
+      "pattern": "Quest",
+      "review_score": 92
+    },
+    "215": {
+      "title": "真相大白",
+      "word_count": 2400,
+      "hook_type": "完结钩",
+      "pattern": "Quest",
+      "review_score": 95
     }
   },
   "export_source": {
