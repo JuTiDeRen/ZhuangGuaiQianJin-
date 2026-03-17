@@ -775,3 +775,4 @@
 {"timestamp": "2026-03-17T15:48:38.818413", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 25, "chapter": 174}
 {"timestamp": "2026-03-17T15:49:05.828113", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 258, "chapter": 174}
 {"timestamp": "2026-03-17T15:49:35.990491", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 20}
+{"timestamp": "2026-03-17T15:54:04.546415", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 21}
