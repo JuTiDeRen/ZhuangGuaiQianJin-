@@ -1,0 +1,20 @@
+{
+  "start_chapter": 212,
+  "end_chapter": 212,
+  "overall_score": 88.0,
+  "dimension_scores": {
+    "设定一致性": 9.0,
+    "人物塑造": 8.8,
+    "爽点密度": 8.5,
+    "追读力": 9.0
+  },
+  "severity_counts": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 2
+  },
+  "critical_issues": [],
+  "report_file": "审查报告/第212章审查报告.md",
+  "notes": "chapter_212_review_passed"
+}
