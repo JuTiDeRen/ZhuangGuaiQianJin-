@@ -346,3 +346,10 @@
 {"timestamp": "2026-03-17T09:24:20.469766", "event": "step_started", "payload": {"step_id": "Step 4", "step_name": "生成审查报告", "command": "webnovel-review", "chapter": 160, "progress_note": null, "expected_owner": "webnovel-review-skill"}}
 {"timestamp": "2026-03-17T09:25:51.352096", "event": "step_completed", "payload": {"step_id": "Step 4", "command": "webnovel-review", "chapter": 160}}
 {"timestamp": "2026-03-17T09:25:52.292858", "event": "task_completed", "payload": {"command": "webnovel-review", "chapter": 160, "completed_steps": 1, "failed_steps": 0}}
+{"timestamp": "2026-03-17T11:06:20.550713", "event": "task_started", "payload": {"command": "webnovel-write", "args": {"chapter_num": 161}}}
+{"timestamp": "2026-03-17T11:09:26.142134", "event": "step_order_violation", "payload": {"step_id": "Step 3", "command": "webnovel-write", "completed_steps": []}}
+{"timestamp": "2026-03-17T11:09:26.147290", "event": "step_started", "payload": {"step_id": "Step 3", "step_name": "Review Agents", "command": "webnovel-write", "chapter": 161, "progress_note": null, "expected_owner": "review-agents"}}
+{"timestamp": "2026-03-17T11:11:48.591358", "event": "step_order_violation", "payload": {"step_id": "Step 5", "command": "webnovel-write", "completed_steps": []}}
+{"timestamp": "2026-03-17T11:11:48.596753", "event": "step_started", "payload": {"step_id": "Step 5", "step_name": "Data Agent", "command": "webnovel-write", "chapter": 161, "progress_note": null, "expected_owner": "data-agent"}}
+{"timestamp": "2026-03-17T11:18:26.482976", "event": "task_reentered", "payload": {"command": "webnovel-write", "chapter": 161, "retry_count": 1}}
+{"timestamp": "2026-03-17T11:34:54.525886", "event": "task_reentered", "payload": {"command": "webnovel-write", "chapter": 161, "retry_count": 2}}

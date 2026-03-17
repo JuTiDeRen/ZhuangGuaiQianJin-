@@ -620,3 +620,33 @@
 {"timestamp": "2026-03-17T01:51:26.084984", "tool_name": "index_manager:get-recent-review-metrics", "success": true, "elapsed_ms": 8}
 {"timestamp": "2026-03-17T02:21:44.578878", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 14}
 {"timestamp": "2026-03-17T09:25:22.294424", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 25}
+{"timestamp": "2026-03-17T11:12:27.146647", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 10}
+{"timestamp": "2026-03-17T11:12:28.059175", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-03-17T11:12:28.936498", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-03-17T11:12:40.524329", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 14, "error_code": "NOT_FOUND", "error_message": "未找到别名: 顾念卿"}
+{"timestamp": "2026-03-17T11:12:41.387375", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-17T11:13:47.642700", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 22}
+{"timestamp": "2026-03-17T11:13:48.645292", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 22}
+{"timestamp": "2026-03-17T11:13:49.615281", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 22}
+{"timestamp": "2026-03-17T11:13:50.724278", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 23}
+{"timestamp": "2026-03-17T11:13:51.741541", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 23}
+{"timestamp": "2026-03-17T11:13:52.825846", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 21}
+{"timestamp": "2026-03-17T11:13:53.941222", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 77}
+{"timestamp": "2026-03-17T11:14:16.400205", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 25}
+{"timestamp": "2026-03-17T11:14:17.379968", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 22}
+{"timestamp": "2026-03-17T11:14:18.231510", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 24}
+{"timestamp": "2026-03-17T11:14:44.267295", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 23}
+{"timestamp": "2026-03-17T11:14:45.179043", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 23}
+{"timestamp": "2026-03-17T11:15:18.693974", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 23}
+{"timestamp": "2026-03-17T11:15:19.652843", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 24}
+{"timestamp": "2026-03-17T11:15:29.661165", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 25, "chapter": 161}
+{"timestamp": "2026-03-17T11:16:10.017864", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 916, "chapter": 161}
+{"timestamp": "2026-03-17T11:41:44.412981", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 24}
+{"timestamp": "2026-03-17T11:43:13.496258", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-17T11:43:14.445830", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-17T11:43:41.906495", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 20}
+{"timestamp": "2026-03-17T11:43:43.758912", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 28}
+{"timestamp": "2026-03-17T11:44:01.720993", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 25}
+{"timestamp": "2026-03-17T11:44:14.232470", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 24, "chapter": 166}
+{"timestamp": "2026-03-17T11:44:50.734842", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 836, "chapter": 166}
+{"timestamp": "2026-03-17T11:45:06.147418", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 24, "chapter": 166}
