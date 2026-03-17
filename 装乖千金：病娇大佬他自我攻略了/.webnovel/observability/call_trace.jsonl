@@ -468,3 +468,22 @@
 {"timestamp": "2026-03-18T02:01:55.879553", "event": "step_completed", "payload": {"step_id": "Step 4", "command": "webnovel-write", "chapter": 228}}
 {"timestamp": "2026-03-18T02:01:56.190594", "event": "step_order_violation", "payload": {"step_id": "Step 5", "command": "webnovel-write", "completed_steps": ["Step 2A", "Step 2B", "Step 3", "Step 4"]}}
 {"timestamp": "2026-03-18T02:01:56.193963", "event": "step_started", "payload": {"step_id": "Step 5", "step_name": "Data Agent", "command": "webnovel-write", "chapter": 228, "progress_note": null, "expected_owner": "data-agent"}}
+{"timestamp": "2026-03-18T02:04:04.737247", "event": "step_completed", "payload": {"step_id": "Step 5", "command": "webnovel-write", "chapter": 228}}
+{"timestamp": "2026-03-18T02:04:05.197449", "event": "step_order_violation", "payload": {"step_id": "Step 6", "command": "webnovel-write", "completed_steps": ["Step 2A", "Step 2B", "Step 3", "Step 4", "Step 5"]}}
+{"timestamp": "2026-03-18T02:04:05.201979", "event": "step_started", "payload": {"step_id": "Step 6", "step_name": "Git备份", "command": "webnovel-write", "chapter": 228, "progress_note": null, "expected_owner": "backup-agent"}}
+{"timestamp": "2026-03-18T02:04:12.335745", "event": "step_completed", "payload": {"step_id": "Step 6", "command": "webnovel-write", "chapter": 228}}
+{"timestamp": "2026-03-18T02:04:12.679123", "event": "task_completed", "payload": {"command": "webnovel-write", "chapter": 228, "completed_steps": 6, "failed_steps": 0}}
+{"timestamp": "2026-03-18T02:08:33.356577", "event": "task_started", "payload": {"command": "webnovel-write", "args": {"chapter_num": 229}}}
+{"timestamp": "2026-03-18T02:08:56.407187", "event": "step_started", "payload": {"step_id": "Step 1", "step_name": "Context Agent", "command": "webnovel-write", "chapter": 229, "progress_note": null, "expected_owner": "context-agent"}}
+{"timestamp": "2026-03-18T02:10:11.723615", "event": "step_completed", "payload": {"step_id": "Step 1", "command": "webnovel-write", "chapter": 229}}
+{"timestamp": "2026-03-18T02:10:17.683491", "event": "step_started", "payload": {"step_id": "Step 2A", "step_name": "正文起草", "command": "webnovel-write", "chapter": 229, "progress_note": null, "expected_owner": "writer-draft"}}
+{"timestamp": "2026-03-18T02:10:53.927979", "event": "step_completed", "payload": {"step_id": "Step 2A", "command": "webnovel-write", "chapter": 229}}
+{"timestamp": "2026-03-18T02:11:06.653962", "event": "step_order_violation", "payload": {"step_id": "Step 3", "command": "webnovel-write", "completed_steps": ["Step 1", "Step 2A"]}}
+{"timestamp": "2026-03-18T02:11:06.658010", "event": "step_started", "payload": {"step_id": "Step 3", "step_name": "审查阶段", "command": "webnovel-write", "chapter": 229, "progress_note": null, "expected_owner": "review-agents"}}
+{"timestamp": "2026-03-18T02:12:52.056841", "event": "step_completed", "payload": {"step_id": "Step 3", "command": "webnovel-write", "chapter": 229}}
+{"timestamp": "2026-03-18T02:12:59.582529", "event": "step_order_violation", "payload": {"step_id": "Step 4", "command": "webnovel-write", "completed_steps": ["Step 1", "Step 2A", "Step 3"]}}
+{"timestamp": "2026-03-18T02:12:59.586482", "event": "step_started", "payload": {"step_id": "Step 4", "step_name": "润色阶段", "command": "webnovel-write", "chapter": 229, "progress_note": null, "expected_owner": "polish-agent"}}
+{"timestamp": "2026-03-18T02:13:17.233488", "event": "step_completed", "payload": {"step_id": "Step 4", "command": "webnovel-write", "chapter": 229}}
+{"timestamp": "2026-03-18T02:13:32.232791", "event": "step_order_violation", "payload": {"step_id": "Step 5", "command": "webnovel-write", "completed_steps": ["Step 1", "Step 2A", "Step 3", "Step 4"]}}
+{"timestamp": "2026-03-18T02:13:32.244100", "event": "step_started", "payload": {"step_id": "Step 5", "step_name": "Data Agent", "command": "webnovel-write", "chapter": 229, "progress_note": null, "expected_owner": "data-agent"}}
+{"timestamp": "2026-03-18T02:16:06.329785", "event": "step_completed", "payload": {"step_id": "Step 5", "command": "webnovel-write", "chapter": 229}}

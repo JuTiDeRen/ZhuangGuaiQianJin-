@@ -997,3 +997,5 @@
 {"timestamp": "2026-03-18T01:51:24.315617", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 273, "chapter": 227}
 {"timestamp": "2026-03-18T01:51:29.368907", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 10, "chapter": 227}
 {"timestamp": "2026-03-18T02:01:47.958595", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-18T02:12:51.625354", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-18T02:15:28.307383", "chapter": 229, "agent": "data-agent", "timing_ms": {"A_load_context": 150, "B_entity_extract": 800, "C_disambiguation": 120, "D_state_index_write": 300, "E_summary_write": 100, "F_scene_chunking": 0, "G_rag_index": 0, "H_style_sample": 0, "I_debt_interest": 0, "TOTAL": 1470}, "bottlenecks_top3": [{"step": "B_entity_extract", "elapsed_ms": 800, "ratio": 54.4}, {"step": "A_load_context", "elapsed_ms": 150, "ratio": 10.2}, {"step": "D_state_index_write", "elapsed_ms": 300, "ratio": 20.4}]}

@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 3,
-    "current_chapter": 229,
-    "total_written_words": 360500,
+    "current_chapter": 228,
+    "total_written_words": 358100,
     "status": "writing",
     "total_words": 331956,
-    "last_updated": "2026-03-18 04:00:00"
+    "last_updated": "2026-03-18 03:00:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -53,8 +53,8 @@
         "remaining": 3
       }
     },
-    "current_date": "2026年12月18日",
-    "location": "车上（回家路上）",
+    "current_date": "2026年12月16日",
+    "location": "陆砚辞车上",
     "growth": {
       "stage": "掌权稳固期",
       "milestones": [
@@ -1789,7 +1789,7 @@
       },
       "ending": {
         "time": "2026年12月14日 晚上十点",
-        "location": "车上（回家路上）",
+        "location": "陆砚辞车上",
         "emotion": "甜蜜期待"
       }
     },
@@ -1809,25 +1809,6 @@
         "time": "2026年12月16日 中午",
         "location": "九门湾赛车场",
         "emotion": "期待紧张"
-      }
-    }
-    ,
-    "0229": {
-      "hook": {
-        "type": "渴望钩",
-        "content": "陆砚辞暗示还有更大惊喜，沈知意对平安夜求婚充满期待",
-        "strength": "strong"
-      },
-      "pattern": {
-        "opening": "生日当天早晨场景",
-        "hook": "渴望钩+甜蜜超预期",
-        "emotion_rhythm": "惊喜→甜蜜→期待",
-        "info_density": "medium"
-      },
-      "ending": {
-        "time": "2026年12月18日 傍晚",
-        "location": "车上（回家路上）",
-        "emotion": "甜蜜期待"
       }
     }
   },

@@ -1,0 +1,22 @@
+{
+  "start_chapter": 229,
+  "end_chapter": 229,
+  "overall_score": 90.0,
+  "dimension_scores": {
+    "爽点密度": 9.2,
+    "设定一致性": 9.2,
+    "节奏控制": 8.6,
+    "人物塑造": 9.1,
+    "连贯性": 9.2,
+    "追读力": 8.8
+  },
+  "severity_counts": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 2
+  },
+  "critical_issues": [],
+  "report_file": "审查报告/第229章审查报告.md",
+  "notes": "selected_checkers: consistency-checker,continuity-checker,ooc-checker,reader-pull-checker,high-point-checker,pacing-checker | 轻微问题: 1)'更大的惊喜'重复提及3次可减至2次 2)派对场景可轻微压缩 | 整体评价: 甜宠过渡章执行优秀，爽点密度远超基线，人物性格保持准确"
+}
