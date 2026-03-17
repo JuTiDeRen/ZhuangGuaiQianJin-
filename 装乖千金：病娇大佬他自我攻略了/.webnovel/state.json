@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 3,
-    "current_chapter": 196,
+    "current_chapter": 201,
     "total_written_words": 322200,
     "status": "writing",
     "total_words": 310200,
-    "last_updated": "2026-03-17 21:29:21"
+    "last_updated": "2026-03-17 22:11:44"
   },
   "volume_plan": {
     "volume_1": {
@@ -1405,6 +1405,26 @@
         "time": "2026年11月6日凌晨",
         "location": "沈家老宅（软禁小院）",
         "emotion": "从绝望中获得希望，对陆砚辞的信任进一步加深"
+      }
+    },
+    "0201": {
+      "0201": {
+        "hook": {
+          "type": "悬念钩",
+          "content": "王护士愿意出面作证吗？她知道的那个送药的人究竟是谁？",
+          "strength": "strong"
+        },
+        "pattern": {
+          "opening": "回忆开场",
+          "hook": "悬念钩",
+          "emotion_rhythm": "低→高→暖→悬",
+          "info_density": "high"
+        },
+        "ending": {
+          "time": "傍晚六点",
+          "location": "沈家老宅",
+          "emotion": "希望与悬念交织"
+        }
       }
     }
   },

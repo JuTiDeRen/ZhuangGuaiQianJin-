@@ -5,7 +5,7 @@
       "chapter_num": 161
     },
     "started_at": "2026-03-17T11:06:20.546803",
-    "last_heartbeat": "2026-03-17T21:20:38.216980",
+    "last_heartbeat": "2026-03-17T22:08:54.591546",
     "status": "running",
     "current_step": null,
     "completed_steps": [
@@ -21,6 +21,47 @@
         "artifacts": {
           "chapter": 196,
           "status": "context_ready"
+        }
+      },
+      {
+        "id": "Step 2A",
+        "name": "正文起草",
+        "status": "completed",
+        "started_at": "2026-03-17T22:04:06.522722",
+        "running_at": "2026-03-17T22:04:06.522722",
+        "attempt": 8,
+        "progress_note": null,
+        "completed_at": "2026-03-17T22:04:06.871874",
+        "artifacts": {
+          "chapter_file": "正文/第0201章-关键线索浮现.md",
+          "word_count": 2200
+        }
+      },
+      {
+        "id": "Step 2B",
+        "name": "风格适配",
+        "status": "completed",
+        "started_at": "2026-03-17T22:05:13.346699",
+        "running_at": "2026-03-17T22:05:13.346699",
+        "attempt": 8,
+        "progress_note": null,
+        "completed_at": "2026-03-17T22:05:13.696828",
+        "artifacts": {
+          "chapter_file": "正文/第0201章-关键线索浮现.md"
+        }
+      },
+      {
+        "id": "Step 4",
+        "name": "润色",
+        "status": "completed",
+        "started_at": "2026-03-17T22:08:54.271898",
+        "running_at": "2026-03-17T22:08:54.271898",
+        "attempt": 8,
+        "progress_note": null,
+        "completed_at": "2026-03-17T22:08:54.591505",
+        "artifacts": {
+          "anti_ai_force_check": "pass",
+          "polished": true
         }
       }
     ],
@@ -222,15 +263,18 @@
       "Step 5",
       "Step 6"
     ],
-    "retry_count": 6,
+    "retry_count": 7,
     "artifacts": {
-      "chapter_file": {},
+      "chapter_file": "正文/第0201章-关键线索浮现.md",
       "git_status": {},
       "state_json_modified": false,
       "entities_appeared": false,
       "review_completed": false,
       "chapter": 196,
-      "status": "context_ready"
+      "status": "context_ready",
+      "word_count": 2200,
+      "anti_ai_force_check": "pass",
+      "polished": true
     }
   },
   "last_stable_state": {
