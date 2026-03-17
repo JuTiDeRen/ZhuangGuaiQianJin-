@@ -5,15 +5,15 @@
       "chapter_num": 161
     },
     "started_at": "2026-03-17T11:06:20.546803",
-    "last_heartbeat": "2026-03-17T14:35:22.687977",
+    "last_heartbeat": "2026-03-17T16:22:53.043582",
     "status": "running",
     "current_step": {
-      "id": "Step 2A",
-      "name": "正文起草",
+      "id": "Step 5",
+      "name": "Data Agent",
       "status": "running",
-      "started_at": "2026-03-17T14:35:22.687974",
-      "running_at": "2026-03-17T14:35:22.687974",
-      "attempt": 4,
+      "started_at": "2026-03-17T16:22:53.043578",
+      "running_at": "2026-03-17T16:22:53.043578",
+      "attempt": 5,
       "progress_note": null
     },
     "completed_steps": [],
@@ -160,6 +160,17 @@
         "progress_note": null,
         "failed_at": "2026-03-17T14:35:22.687969",
         "failure_reason": "step_replaced_before_completion"
+      },
+      {
+        "id": "Step 2A",
+        "name": "正文起草",
+        "status": "failed",
+        "started_at": "2026-03-17T14:35:22.687974",
+        "running_at": "2026-03-17T14:35:22.687974",
+        "attempt": 4,
+        "progress_note": null,
+        "failed_at": "2026-03-17T16:22:53.043572",
+        "failure_reason": "step_replaced_before_completion"
       }
     ],
     "pending_steps": [
@@ -171,7 +182,7 @@
       "Step 5",
       "Step 6"
     ],
-    "retry_count": 3,
+    "retry_count": 4,
     "artifacts": {
       "chapter_file": {},
       "git_status": {},

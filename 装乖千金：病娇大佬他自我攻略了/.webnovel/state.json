@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 2,
-    "current_chapter": 175,
-    "total_written_words": 297500,
+    "current_chapter": 176,
+    "total_written_words": 299900,
     "status": "writing",
-    "total_words": 287300,
-    "last_updated": "2026-03-17 15:59:38"
+    "total_words": 289700,
+    "last_updated": "2026-03-17 16:30:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -49,12 +49,12 @@
   "protagonist_state": {
     "abilities": {
       "微表情洞察": {
-        "used_today": 0,
-        "remaining": 3
+        "used_today": 3,
+        "remaining": 0
       }
     },
-    "current_date": "2026-10-11",
-    "location": "沈家老宅→沈清瑶院子",
+    "current_date": "2026-10-12",
+    "location": "沈清瑶院子",
     "growth": {
       "stage": "独立掌权期",
       "milestones": [
@@ -119,7 +119,10 @@
       "音音被关押在城郊废弃仓库",
       "仓库有至少4名明面守卫，暗处还有更多人",
       "营救C方案：明线拖延沈清瑶，暗线陆砚辞救人",
-      "营救行动时间：7:30开始，8点前必须完成"
+      "营救行动时间：7:30开始，8点前必须完成",
+      "营救行动外围突破成功，但苏音音已被转移",
+      "沈清瑶与绑匪合作，苏音音被囚于新地点",
+      "与沈清瑶正面撕破脸，双方彻底对立"
     ]
   },
   "strand_tracker": {
@@ -1240,6 +1243,25 @@
         "time": "2026年10月11日早上7:30",
         "location": "沈家老宅→沈清瑶院子",
         "emotion": "女主以装乖面具走向正面对峙，暗线营救同时启动"
+      }
+    },
+    "0176": {
+      "hook": {
+        "type": "危机钩",
+        "content": "营救行动暴露，苏音音被转移，沈知意与沈清瑶正面撕破脸",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "双线并进开场",
+        "hook": "危机钩+能力爽点",
+        "emotion_rhythm": "紧张→洞察→突破→对峙→危机",
+        "info_density": "high",
+        "strand_type": "Quest+Fire"
+      },
+      "ending": {
+        "time": "2026年10月12日上午",
+        "location": "沈清瑶院子/城郊废弃仓库",
+        "emotion": "营救失败，人质被转移，双方正面冲突"
       }
     }
   },

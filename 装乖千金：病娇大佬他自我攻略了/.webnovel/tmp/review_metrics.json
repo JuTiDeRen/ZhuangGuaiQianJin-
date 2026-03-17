@@ -1,10 +1,22 @@
 {
-  "start_chapter": 166,
-  "end_chapter": 166,
-  "overall_score": 85.0,
-  "dimension_scores": {"爽点密度": 8.5, "设定一致性": 8.5, "节奏控制": 8.0, "人物塑造": 8.5, "连贯性": 8.5, "追读力": 8.5},
-  "severity_counts": {"critical": 0, "high": 0, "medium": 1, "low": 2},
+  "start_chapter": 176,
+  "end_chapter": 176,
+  "overall_score": 91.0,
+  "dimension_scores": {
+    "设定一致性": 92,
+    "连贯性": 90,
+    "人物塑造": 97,
+    "爽点密度": 92,
+    "追读力": 88,
+    "节奏控制": 88
+  },
+  "severity_counts": {
+    "critical": 0,
+    "high": 0,
+    "medium": 2,
+    "low": 2
+  },
   "critical_issues": [],
-  "report_file": "审查报告/第166-166章审查报告.md",
-  "notes": "selected_checkers: consistency-checker,continuity-checker,ooc-checker,reader-pull-checker,high-point-checker,pacing-checker | anti_ai_force_check: pass | timeline_gate: pass"
+  "report_file": "审查报告/第176章审查报告.md",
+  "notes": "selected_checkers: consistency-checker,continuity-checker,ooc-checker,high-point-checker,reader-pull-checker,pacing-checker | 轻微问题: 时间锚点未明确标注、state.json微表情使用次数需更新"
 }
