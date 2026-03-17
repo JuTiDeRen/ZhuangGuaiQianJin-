@@ -1,22 +1,21 @@
 {
-  "start_chapter": 226,
-  "end_chapter": 226,
-  "overall_score": 90.0,
+  "start_chapter": 227,
+  "end_chapter": 227,
+  "overall_score": 86.0,
   "dimension_scores": {
-    "爽点密度": 7.8,
-    "设定一致性": 9.5,
-    "节奏控制": 9.2,
-    "人物塑造": 9.5,
-    "连贯性": 9.2,
-    "追读力": 8.5
+    "爽点密度": 8.0,
+    "设定一致性": 9.0,
+    "节奏控制": 8.5,
+    "人物塑造": 9.0,
+    "连贯性": 8.5
   },
   "severity_counts": {
     "critical": 0,
     "high": 0,
     "medium": 0,
-    "low": 1
+    "low": 0
   },
   "critical_issues": [],
-  "report_file": "审查报告/第226章审查报告.md",
-  "notes": "selected_checkers: consistency-checker,continuity-checker,ooc-checker,high-point-checker; 轻微问题: 李婉柔背景线未提及建议后续补充; anti_ai_force_check: pending"
+  "report_file": "审查报告/第227章审查报告.md",
+  "notes": "审查通过; anti_ai_force_check: pass"
 }

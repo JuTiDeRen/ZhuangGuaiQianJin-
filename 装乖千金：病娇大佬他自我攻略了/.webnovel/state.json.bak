@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 3,
-    "current_chapter": 220,
+    "current_chapter": 226,
     "total_written_words": 356100,
     "status": "writing",
     "total_words": 329956,
-    "last_updated": "2026-03-18 01:25:09"
+    "last_updated": "2026-03-18 01:44:07"
   },
   "volume_plan": {
     "volume_1": {
@@ -1754,6 +1754,26 @@
       "hook_type": "表白钩",
       "pattern": "Constellation",
       "review_score": 92
+    },
+    "0226": {
+      "0226": {
+        "hook": {
+          "type": "悬念钩",
+          "content": "陆砚辞心不在焉隐瞒秘密，女主产生误会",
+          "strength": "strong"
+        },
+        "pattern": {
+          "opening": "温馨约会开场",
+          "hook": "悬念钩",
+          "emotion_rhythm": "甜蜜→疑惑→不安",
+          "info_density": "medium"
+        },
+        "ending": {
+          "time": "2026年12月12日傍晚",
+          "location": "沈家老宅门口",
+          "emotion": "女主疑惑男主有秘密"
+        }
+      }
     }
   },
   "export_source": {

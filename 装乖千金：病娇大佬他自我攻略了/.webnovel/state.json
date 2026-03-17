@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 3,
-    "current_chapter": 226,
-    "total_written_words": 356100,
+    "current_chapter": 227,
+    "total_written_words": 358100,
     "status": "writing",
-    "total_words": 329956,
-    "last_updated": "2026-03-18 01:44:07"
+    "total_words": 331956,
+    "last_updated": "2026-03-18 02:00:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -53,8 +53,8 @@
         "remaining": 3
       }
     },
-    "current_date": "2026年11月28日",
-    "location": "沈氏集团",
+    "current_date": "2026年12月14日",
+    "location": "陆砚辞车上",
     "growth": {
       "stage": "掌权稳固期",
       "milestones": [
@@ -1773,6 +1773,24 @@
           "location": "沈家老宅门口",
           "emotion": "女主疑惑男主有秘密"
         }
+      }
+    },
+    "0227": {
+      "hook": {
+        "type": "期待钩",
+        "content": "陆砚辞说\"再等几天\"，求婚还是别的惊喜？",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "内心独白开场",
+        "hook": "期待钩",
+        "emotion_rhythm": "疑虑→甜蜜期待",
+        "info_density": "medium"
+      },
+      "ending": {
+        "time": "2026年12月14日 晚上十点",
+        "location": "陆砚辞车上",
+        "emotion": "甜蜜期待"
       }
     }
   },
