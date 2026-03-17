@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 3,
-    "current_chapter": 192,
-    "total_written_words": 317200,
+    "current_chapter": 196,
+    "total_written_words": 322200,
     "status": "writing",
-    "total_words": 305200,
-    "last_updated": "2026-03-17 23:30:00"
+    "total_words": 310200,
+    "last_updated": "2026-03-17 21:29:21"
   },
   "volume_plan": {
     "volume_1": {
@@ -53,7 +53,7 @@
         "remaining": 2
       }
     },
-    "current_date": "2026-11-02",
+    "current_date": "2026-11-06",
     "location": "沈家老宅（软禁小院）",
     "growth": {
       "stage": "逆境蓄势期",
@@ -130,7 +130,11 @@
       "李婉柔伪造账目指控沈知意转移资产",
       "账目某一页有问题（李婉柔展示时紧张）",
       "沈母给沈知意三天时间自证清白",
-      "王护士在城南，陆砚辞三日后带回"
+      "王护士在城南，陆砚辞三日后带回",
+      "收到陆砚辞密信：王护士愿意出面作证",
+      "王护士知道当年给母亲送药的人是谁",
+      "完整证据链将在天亮前送达",
+      "祭祖大典倒计时D-19"
     ]
   },
   "strand_tracker": {
@@ -1382,6 +1386,25 @@
         "time": "2026年11月2日",
         "location": "沈家老宅软禁小院",
         "emotion": "看到翻盘希望，决心反击"
+      }
+    },
+    "0196": {
+      "hook": {
+        "type": "希望钩",
+        "content": "收到陆砚辞密信，王护士愿意作证，关键线索即将到手",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "深夜场景开场",
+        "hook": "希望钩+情感升温",
+        "emotion_rhythm": "思念→警觉→紧张→希望→温暖",
+        "info_density": "medium",
+        "strand_type": "Quest+Constellation"
+      },
+      "ending": {
+        "time": "2026年11月6日凌晨",
+        "location": "沈家老宅（软禁小院）",
+        "emotion": "从绝望中获得希望，对陆砚辞的信任进一步加深"
       }
     }
   },
