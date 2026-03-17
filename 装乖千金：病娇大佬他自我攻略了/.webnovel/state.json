@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 2,
-    "current_chapter": 177,
+    "current_chapter": 181,
     "total_written_words": 299900,
     "status": "writing",
     "total_words": 289700,
-    "last_updated": "2026-03-17 16:34:58"
+    "last_updated": "2026-03-17 19:26:54"
   },
   "volume_plan": {
     "volume_1": {
@@ -1280,6 +1280,26 @@
         "time": "傍晚",
         "location": "城郊安全屋",
         "emotion": "坚定复仇"
+      }
+    },
+    "0181": {
+      "0181": {
+        "hook": {
+          "type": "渴望钩",
+          "content": "录音笔中母亲透露身世秘密，真相即将揭晓，但证据可能是陷阱",
+          "strength": "strong"
+        },
+        "pattern": {
+          "opening": "内心独白开场",
+          "hook": "渴望钩",
+          "emotion_rhythm": "低→高→悬疑",
+          "info_density": "high"
+        },
+        "ending": {
+          "time": "2026年10月22日上午",
+          "location": "沈知意公寓",
+          "emotion": "震惊与怀疑交织"
+        }
       }
     }
   },

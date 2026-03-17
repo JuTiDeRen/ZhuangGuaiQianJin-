@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 2,
-    "current_chapter": 176,
+    "current_chapter": 177,
     "total_written_words": 299900,
     "status": "writing",
     "total_words": 289700,
-    "last_updated": "2026-03-17 16:30:00"
+    "last_updated": "2026-03-17 16:34:58"
   },
   "volume_plan": {
     "volume_1": {
@@ -1262,6 +1262,24 @@
         "time": "2026年10月12日上午",
         "location": "沈清瑶院子/城郊废弃仓库",
         "emotion": "营救失败，人质被转移，双方正面冲突"
+      }
+    },
+    "0177": {
+      "hook": {
+        "type": "真相钩",
+        "content": "苏音音透露沈清瑶背后有沈家二房，沈知意下令调查资金流向",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "行动开场",
+        "hook": "真相钩",
+        "emotion_rhythm": "高→低→高",
+        "info_density": "high"
+      },
+      "ending": {
+        "time": "傍晚",
+        "location": "城郊安全屋",
+        "emotion": "坚定复仇"
       }
     }
   },
