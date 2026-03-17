@@ -1,0 +1,22 @@
+{
+  "start_chapter": 217,
+  "end_chapter": 220,
+  "overall_score": 88.0,
+  "dimension_scores": {
+    "设定一致性": 9.0,
+    "人物塑造": 8.8,
+    "连贯性": 9.0,
+    "爽点密度": 8.5,
+    "节奏控制": 8.5,
+    "追读力": 8.5
+  },
+  "severity_counts": {
+    "critical": 0,
+    "high": 0,
+    "medium": 2,
+    "low": 3
+  },
+  "critical_issues": [],
+  "report_file": "审查报告/第217-220章审查报告.md",
+  "notes": "批量审查: chapters 217-220; selected_checkers: consistency-checker,ooc-checker,continuity-checker,high-point-checker; overall_pass: true; anti_ai_force_check: pass"
+}

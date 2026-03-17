@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 3,
-    "current_chapter": 216,
-    "total_written_words": 345200,
+    "current_chapter": 220,
+    "total_written_words": 353800,
     "status": "writing",
-    "total_words": 319056,
-    "last_updated": "2026-03-18 00:35:55"
+    "total_words": 327656,
+    "last_updated": "2026-03-18 01:00:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -49,11 +49,11 @@
   "protagonist_state": {
     "abilities": {
       "微表情洞察": {
-        "used_today": 3,
-        "remaining": 0
+        "used_today": 0,
+        "remaining": 3
       }
     },
-    "current_date": "2026年11月24日",
+    "current_date": "2026年11月27日",
     "location": "沈家老宅",
     "growth": {
       "stage": "逆境蓄势期",
@@ -165,7 +165,14 @@
       "祭祖大典当天，沈母公开支持女主站在身边",
       "沈仲明已确认刺客埋伏：3人，携带武器，位置后厨侧门",
       "陆砚辞已安排三个出口守卫，证人已保护",
-      "沈仲明知道女主在调查他，今天有所准备"
+      "沈仲明知道女主在调查他，今天有所准备",
+      "沈家二房被逐出家族，永不得回",
+      "沈知意正式成为沈家掌权人，获得母亲公开支持",
+      "福伯被逐出沈家，念在四十年功劳免于法律追究",
+      "沈氏集团获得陆氏集团注资，战略合作伙伴关系确立",
+      "沈家新家族章程生效：嫡系统管、按能力分配、背叛者永不得回",
+      "母女关系彻底和解",
+      "陆砚辞正式表白，两人关系确立"
     ]
   },
   "strand_tracker": {
@@ -1639,6 +1646,110 @@
         "location": "沈家老宅庭院",
         "emotion": "复杂释然"
       }
+    },
+    "0217": {
+      "hook": {
+        "type": "立威钩",
+        "content": "沈知意当众宣布沈仲明逐出家族，沈家变天",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景开场（清晨庭院）",
+        "hook": "立威钩",
+        "emotion_rhythm": "温情→威严→震慑",
+        "info_density": "medium",
+        "strand_type": "Quest"
+      },
+      "ending": {
+        "time": "2026年11月25日清晨",
+        "location": "沈家老宅主厅",
+        "emotion": "母女并肩，沈家变天"
+      }
+    },
+    "0218": {
+      "hook": {
+        "type": "清算钩",
+        "content": "逐一清理二房残余势力",
+        "strength": "medium"
+      },
+      "pattern": {
+        "opening": "承接开场",
+        "hook": "清算钩",
+        "emotion_rhythm": "紧张→公正→温情",
+        "info_density": "medium",
+        "strand_type": "Quest"
+      },
+      "ending": {
+        "time": "2026年11月25日",
+        "location": "沈家老宅书房",
+        "emotion": "清理完成，准备重建"
+      }
+    },
+    "0219": {
+      "hook": {
+        "type": "甜蜜钩",
+        "content": "陆氏集团注资，陆砚辞当众牵手",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "会议开场",
+        "hook": "甜蜜钩",
+        "emotion_rhythm": "正式→甜蜜→骄傲",
+        "info_density": "medium",
+        "strand_type": "Constellation"
+      },
+      "ending": {
+        "time": "2026年11月27日晚",
+        "location": "沈家老宅宴会厅",
+        "emotion": "甜蜜温馨，感情升温"
+      }
+    },
+    "0220": {
+      "hook": {
+        "type": "表白钩",
+        "content": "陆砚辞正式表白，沈知意以吻回应",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "夜晚庭院场景",
+        "hook": "表白钩",
+        "emotion_rhythm": "温情→甜蜜→幸福",
+        "info_density": "low",
+        "strand_type": "Constellation"
+      },
+      "ending": {
+        "time": "2026年11月27日晚",
+        "location": "沈家老宅庭院",
+        "emotion": "爱情确立，新人生开始"
+      }
+    },
+    "217": {
+      "title": "沈家二房暴露",
+      "word_count": 2200,
+      "hook_type": "立威钩",
+      "pattern": "Quest",
+      "review_score": 88
+    },
+    "218": {
+      "title": "清理门户",
+      "word_count": 2300,
+      "hook_type": "清算钩",
+      "pattern": "Quest",
+      "review_score": 86
+    },
+    "219": {
+      "title": "家族重建",
+      "word_count": 2150,
+      "hook_type": "甜蜜钩",
+      "pattern": "Constellation",
+      "review_score": 90
+    },
+    "220": {
+      "title": "母女和解",
+      "word_count": 2100,
+      "hook_type": "表白钩",
+      "pattern": "Constellation",
+      "review_score": 92
     }
   },
   "export_source": {
