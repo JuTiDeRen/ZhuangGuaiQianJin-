@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 2,
-    "current_chapter": 169,
-    "total_written_words": 292700,
+    "current_chapter": 172,
+    "total_written_words": 295000,
     "status": "writing",
-    "total_words": 282500,
-    "last_updated": "2026-03-17 12:05:03"
+    "total_words": 284800,
+    "last_updated": "2026-03-17 14:11:21"
   },
   "volume_plan": {
     "volume_1": {
@@ -49,12 +49,12 @@
   "protagonist_state": {
     "abilities": {
       "微表情洞察": {
-        "used_today": 2,
-        "remaining": 1
+        "used_today": 3,
+        "remaining": 0
       }
     },
-    "current_date": "2026-10-02",
-    "location": "城郊",
+    "current_date": "2026-10-08",
+    "location": "沈家老宅",
     "growth": {
       "stage": "独立掌权期",
       "milestones": [
@@ -109,7 +109,10 @@
       "母亲是中毒身亡，症状为慢性毒药（定时发作的内出血）",
       "王护士当年被威胁，报告被销毁",
       "档案管理员陈某可能有备份病历，已辞职下落不明",
-      "医院内部有人配合掩盖真相"
+      "医院内部有人配合掩盖真相",
+      "沈清瑶已察觉调查并发出警告",
+      "沈清瑶有神秘同伙，正按计划行动",
+      "收到陌生号码威胁短信"
     ]
   },
   "strand_tracker": {
@@ -1137,6 +1140,43 @@
         "location": "沈家老宅偏院",
         "emotion": "紧张对峙"
       }
+    },
+    "0170": {
+      "hook": {
+        "type": "悬念钩",
+        "content": "内部黑手是谁？母亲日记中的秘密",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "回忆开场",
+        "hook": "悬念钩",
+        "emotion_rhythm": "低→高",
+        "info_density": "high"
+      },
+      "ending": {
+        "time": "晚上",
+        "location": "沈家老宅",
+        "emotion": "坚定期待"
+      }
+    },
+    "0171": {
+      "hook": {
+        "type": "危机钩",
+        "content": "沈清瑶察觉女主调查并发出警告，章末收到陌生号码威胁短信",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "承接前章日记线索",
+        "hook": "危机钩+对峙张力",
+        "emotion_rhythm": "警觉→对峙→紧张→反击",
+        "info_density": "high",
+        "strand_type": "Quest"
+      },
+      "ending": {
+        "time": "2026年10月8日",
+        "location": "沈家老宅/沈清瑶房间",
+        "emotion": "双方进入对峙状态，暴风雨将至"
+      }
     }
   },
   "export_source": {
@@ -1638,6 +1678,36 @@
         "追读力优秀，钩子有效率88.75%",
         "建议修复：第30章时间线矛盾、第33-37章节奏优化、第81-85章约束重建"
       ]
+    },
+    {
+      "chapter_range": "161-170",
+      "report_file": "审查报告/第161-170章审查报告.md",
+      "reviewed_at": "2026-03-17",
+      "fixed_at": "2026-03-17",
+      "overall_score": 83,
+      "critical_issues": 0,
+      "status": "fixed",
+      "fixes": [
+        "补充陆砚辞自我攻略内心OS 5处（第167、168、169章）",
+        "修复微表情洞察日期标注（第163-165、168-170章）",
+        "调整时间线，第168章延后至10月5日",
+        "优化沈知意独立性描写（第167章）",
+        "添加陆家警告内心挣扎（第167章）",
+        "回收东厢房钥匙伏笔（第166-167章）",
+        "增强章末钩子（第162、164、168章）",
+        "统一章节标题格式（第166-170章）"
+      ],
+      "notes": [
+        "修复后综合评分提升至83分，评级A-",
+        "人物塑造改善：陆砚辞自我攻略特质充分展现",
+        "设定一致性改善：日期标注清晰，伏笔回收完整",
+        "追读力改善：章末钩子强度提升"
+      ]
+    },
+    {
+      "chapter": 171,
+      "score": 82,
+      "date": "2026-03-17"
     }
   ],
   "disambiguation_warnings": [],
