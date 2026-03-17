@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 3,
-    "current_chapter": 201,
-    "total_written_words": 322200,
+    "current_chapter": 202,
+    "total_written_words": 324400,
     "status": "writing",
-    "total_words": 310200,
-    "last_updated": "2026-03-17 22:11:44"
+    "total_words": 312400,
+    "last_updated": "2026-03-17 22:30:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -49,12 +49,12 @@
   "protagonist_state": {
     "abilities": {
       "微表情洞察": {
-        "used_today": 1,
-        "remaining": 2
+        "used_today": 2,
+        "remaining": 1
       }
     },
-    "current_date": "2026-11-06",
-    "location": "沈家老宅（软禁小院）",
+    "current_date": "2026-11-15",
+    "location": "城郊疗养院",
     "growth": {
       "stage": "逆境蓄势期",
       "milestones": [
@@ -134,7 +134,12 @@
       "收到陆砚辞密信：王护士愿意出面作证",
       "王护士知道当年给母亲送药的人是谁",
       "完整证据链将在天亮前送达",
-      "祭祖大典倒计时D-19"
+      "祭祖大典倒计时D-19",
+      "王护士愿意出面作证，已获取证词",
+      "沈家二房给沈婉清送黑色药丸导致中毒",
+      "获得关键证物：黑色药丸（沈家二房送的'补品'）",
+      "威胁王护士的是沈家二房管家",
+      "祭祖大典倒计时D-10"
     ]
   },
   "strand_tracker": {
@@ -1408,23 +1413,40 @@
       }
     },
     "0201": {
-      "0201": {
-        "hook": {
-          "type": "悬念钩",
-          "content": "王护士愿意出面作证吗？她知道的那个送药的人究竟是谁？",
-          "strength": "strong"
-        },
-        "pattern": {
-          "opening": "回忆开场",
-          "hook": "悬念钩",
-          "emotion_rhythm": "低→高→暖→悬",
-          "info_density": "high"
-        },
-        "ending": {
-          "time": "傍晚六点",
-          "location": "沈家老宅",
-          "emotion": "希望与悬念交织"
-        }
+      "hook": {
+        "type": "悬念钩",
+        "content": "王护士愿意出面作证吗？她知道的那个送药的人究竟是谁？",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "回忆开场",
+        "hook": "悬念钩",
+        "emotion_rhythm": "低→高→暖→悬",
+        "info_density": "high"
+      },
+      "ending": {
+        "time": "傍晚六点",
+        "location": "沈家老宅",
+        "emotion": "希望与悬念交织"
+      }
+    },
+    "0202": {
+      "hook": {
+        "type": "悬念钩",
+        "content": "黑色药丸的真相是什么？沈家二房的毒药阴谋即将揭露",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景描写开场",
+        "hook": "悬念钩+信息爽点",
+        "emotion_rhythm": "紧张→真诚→突破→震撼",
+        "info_density": "high",
+        "strand_type": "Quest"
+      },
+      "ending": {
+        "time": "2026年11月15日下午",
+        "location": "城郊疗养院",
+        "emotion": "获得关键证物和证词，真相即将大白"
       }
     }
   },
