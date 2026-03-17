@@ -1,0 +1,17 @@
+{
+  "start_chapter": 211,
+  "end_chapter": 220,
+  "overall_score": 82,
+  "dimension_scores": {
+    "爽点密度": 9,
+    "设定一致性": 8,
+    "节奏控制": 8,
+    "人物塑造": 8,
+    "连贯性": 8,
+    "追读力": 8
+  },
+  "severity_counts": {"critical": 0, "high": 1, "medium": 4, "low": 3},
+  "critical_issues": [],
+  "report_file": "审查报告/第211-220章审查报告.md",
+  "notes": "祭祖大典系列终章，复仇线闭环完整，人物塑造优秀，主要问题是金手指使用次数可能超限"
+}
