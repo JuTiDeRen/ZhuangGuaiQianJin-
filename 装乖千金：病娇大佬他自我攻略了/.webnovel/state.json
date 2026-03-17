@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 2,
-    "current_chapter": 181,
-    "total_written_words": 299900,
+    "current_chapter": 186,
+    "total_written_words": 302800,
     "status": "writing",
-    "total_words": 289700,
-    "last_updated": "2026-03-17 19:26:54"
+    "total_words": 302800,
+    "last_updated": "2026-03-17 20:11:31"
   },
   "volume_plan": {
     "volume_1": {
@@ -49,14 +49,14 @@
   "protagonist_state": {
     "abilities": {
       "微表情洞察": {
-        "used_today": 3,
-        "remaining": 0
+        "used_today": 0,
+        "remaining": 3
       }
     },
-    "current_date": "2026-10-12",
-    "location": "沈清瑶院子",
+    "current_date": "2026-10-26",
+    "location": "沈家老宅（被软禁）",
     "growth": {
-      "stage": "独立掌权期",
+      "stage": "逆境蓄势期",
       "milestones": [
         "第60章：初步掌控沈氏集团经营权",
         "第156章：独立赢得股东大会，正式成为掌权人",
@@ -122,7 +122,11 @@
       "营救行动时间：7:30开始，8点前必须完成",
       "营救行动外围突破成功，但苏音音已被转移",
       "沈清瑶与绑匪合作，苏音音被囚于新地点",
-      "与沈清瑶正面撕破脸，双方彻底对立"
+      "与沈清瑶正面撕破脸，双方彻底对立",
+      "长老会决议：暂停沈知意继承人资格",
+      "沈知意被正式软禁在沈家老宅",
+      "陆砚辞掌握沈天雄向李婉柔转账三百万的证据",
+      "沈天雄被警方介入调查"
     ]
   },
   "strand_tracker": {
@@ -1300,6 +1304,25 @@
           "location": "沈知意公寓",
           "emotion": "震惊与怀疑交织"
         }
+      }
+    },
+    "0186": {
+      "hook": {
+        "type": "危机钩",
+        "content": "沈知意失去继承人资格被软禁，但暗示已有翻盘对策",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "回忆承接开场",
+        "hook": "危机钩+反击暗示",
+        "emotion_rhythm": "压抑→冷静→对抗→蓄势",
+        "info_density": "high",
+        "strand_type": "Quest"
+      },
+      "ending": {
+        "time": "2026年10月26日上午",
+        "location": "沈家老宅-沈知意院子",
+        "emotion": "女主被软禁但胸有成竹，游戏才刚刚开始"
       }
     }
   },
