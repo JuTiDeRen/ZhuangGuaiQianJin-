@@ -11,12 +11,12 @@
     "platform": "番茄小说/七猫小说"
   },
   "progress": {
-    "current_volume": 2,
-    "current_chapter": 186,
-    "total_written_words": 302800,
+    "current_volume": 3,
+    "current_chapter": 187,
+    "total_written_words": 305200,
     "status": "writing",
-    "total_words": 302800,
-    "last_updated": "2026-03-17 20:11:31"
+    "total_words": 305200,
+    "last_updated": "2026-03-17 21:30:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -53,7 +53,7 @@
         "remaining": 3
       }
     },
-    "current_date": "2026-10-26",
+    "current_date": "2026-10-27",
     "location": "沈家老宅（被软禁）",
     "growth": {
       "stage": "逆境蓄势期",
@@ -1323,6 +1323,25 @@
         "time": "2026年10月26日上午",
         "location": "沈家老宅-沈知意院子",
         "emotion": "女主被软禁但胸有成竹，游戏才刚刚开始"
+      }
+    },
+    "0187": {
+      "hook": {
+        "type": "渴望钩",
+        "content": "众叛亲离之际，只有男主陆砚辞不离不弃，正式表白",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景描写开场（梧桐落叶）",
+        "hook": "情绪爽点（压抑型）+甜蜜爽点",
+        "emotion_rhythm": "压抑→委屈→温暖→坚定",
+        "info_density": "medium",
+        "strand_type": "Quest+Fire"
+      },
+      "ending": {
+        "time": "2026年10月27日晚上",
+        "location": "沈家老宅-沈知意院子",
+        "emotion": "女主虽众叛亲离但有男主支持，决心反击"
       }
     }
   },
