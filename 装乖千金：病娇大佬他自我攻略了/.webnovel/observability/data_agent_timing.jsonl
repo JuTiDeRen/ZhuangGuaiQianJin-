@@ -712,3 +712,4 @@
 {"timestamp": "2026-03-17T12:10:59.020433", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 14, "chapter": 170}
 {"timestamp": "2026-03-17T12:11:07.986307", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 12, "error_code": "NOT_FOUND", "error_message": "未找到别名: 沈福"}
 {"timestamp": "2026-03-17T12:11:09.008038", "tool_name": "state_manager:get-progress", "success": true, "elapsed_ms": 20}
+{"timestamp": "2026-03-17T12:34:46.510131", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 25}
