@@ -1,20 +1,17 @@
 {
   "current_task": null,
   "last_stable_state": {
-    "command": "webnovel-write",
-    "chapter_num": 142,
-    "completed_at": "2026-03-15T23:07:02.755924",
+    "command": "webnovel-review",
+    "chapter_num": 160,
+    "completed_at": "2026-03-17T09:25:52.285640",
     "artifacts": {
       "chapter_file": {},
       "git_status": {},
       "state_json_modified": false,
       "entities_appeared": false,
       "review_completed": false,
-      "ok": true,
-      "anti_ai_force_check": "pass",
-      "changes": "无critical/high问题，保持原稿",
-      "chapter": 146,
-      "status": "completed"
+      "report": "审查报告/第1-160章审查报告.md",
+      "score": 87.8
     }
   },
   "history": [
@@ -164,6 +161,13 @@
       "chapter": 142,
       "status": "completed",
       "completed_at": "2026-03-15T23:07:02.755924"
+    },
+    {
+      "task_id": "task_022",
+      "command": "webnovel-review",
+      "chapter": 160,
+      "status": "completed",
+      "completed_at": "2026-03-17T09:25:52.285640"
     }
   ]
 }

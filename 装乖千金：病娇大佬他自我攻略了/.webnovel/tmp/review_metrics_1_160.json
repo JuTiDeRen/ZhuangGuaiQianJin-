@@ -1,0 +1,24 @@
+{
+  "start_chapter": 1,
+  "end_chapter": 160,
+  "overall_score": 87.8,
+  "dimension_scores": {
+    "爽点密度": 8.5,
+    "设定一致性": 8.5,
+    "节奏控制": 8.8,
+    "人物塑造": 9.2,
+    "连贯性": 8.8,
+    "追读力": 8.6
+  },
+  "severity_counts": {
+    "critical": 0,
+    "high": 3,
+    "medium": 5,
+    "low": 8
+  },
+  "critical_issues": [],
+  "report_file": "审查报告/第1-160章审查报告.md",
+  "notes": "第1-2卷完整审查，综合得分87.8分，评级A。无critical问题，建议修复高优先级时间线矛盾后继续创作。",
+  "review_date": "2026-03-17",
+  "check_types": ["consistency", "continuity", "ooc", "reader_pull"]
+}
