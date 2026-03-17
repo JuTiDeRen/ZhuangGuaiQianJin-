@@ -1,22 +1,22 @@
 {
-  "start_chapter": 176,
-  "end_chapter": 176,
+  "start_chapter": 206,
+  "end_chapter": 206,
   "overall_score": 91.0,
   "dimension_scores": {
-    "设定一致性": 92,
-    "连贯性": 90,
-    "人物塑造": 97,
-    "爽点密度": 92,
-    "追读力": 88,
-    "节奏控制": 88
+    "设定一致性": 10.0,
+    "连贯性": 9.0,
+    "人物塑造": 9.5,
+    "爽点密度": 9.2,
+    "追读力": 9.0,
+    "节奏控制": 9.0
   },
   "severity_counts": {
     "critical": 0,
     "high": 0,
-    "medium": 2,
-    "low": 2
+    "medium": 0,
+    "low": 1
   },
   "critical_issues": [],
-  "report_file": "审查报告/第176章审查报告.md",
-  "notes": "selected_checkers: consistency-checker,continuity-checker,ooc-checker,high-point-checker,reader-pull-checker,pacing-checker | 轻微问题: 时间锚点未明确标注、state.json微表情使用次数需更新"
+  "report_file": "审查报告/第206章审查报告.md",
+  "notes": "已启用审查器: consistency-checker, continuity-checker, ooc-checker, reader-pull-checker, high-point-checker; 轻微建议: 陆砚辞对话可加入少量毒舌元素; 钩子强度medium可提升至strong"
 }

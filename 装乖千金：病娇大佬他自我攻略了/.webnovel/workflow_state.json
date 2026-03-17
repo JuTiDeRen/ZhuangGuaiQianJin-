@@ -5,10 +5,85 @@
       "chapter_num": 203
     },
     "started_at": "2026-03-17T22:30:08.677810",
-    "last_heartbeat": "2026-03-17T22:30:08.677810",
+    "last_heartbeat": "2026-03-17T23:31:03.955535",
     "status": "running",
-    "current_step": null,
-    "completed_steps": [],
+    "current_step": {
+      "id": "Step 6",
+      "name": "Git Backup",
+      "status": "running",
+      "started_at": "2026-03-17T23:31:03.955528",
+      "running_at": "2026-03-17T23:31:03.955528",
+      "attempt": 2,
+      "progress_note": null
+    },
+    "completed_steps": [
+      {
+        "id": "Step 1",
+        "name": "Context Agent",
+        "status": "completed",
+        "started_at": "2026-03-17T23:14:51.626724",
+        "running_at": "2026-03-17T23:14:51.626724",
+        "attempt": 2,
+        "progress_note": null,
+        "completed_at": "2026-03-17T23:16:59.570325",
+        "artifacts": {
+          "context_pack": "ok"
+        }
+      },
+      {
+        "id": "Step 2B",
+        "name": "Style Adapter",
+        "status": "completed",
+        "started_at": "2026-03-17T23:19:08.545073",
+        "running_at": "2026-03-17T23:19:08.545073",
+        "attempt": 2,
+        "progress_note": null,
+        "completed_at": "2026-03-17T23:21:02.907498",
+        "artifacts": {
+          "style_adapted": "ok"
+        }
+      },
+      {
+        "id": "Step 3",
+        "name": "Review",
+        "status": "completed",
+        "started_at": "2026-03-17T23:21:03.216876",
+        "running_at": "2026-03-17T23:21:03.216876",
+        "attempt": 2,
+        "progress_note": null,
+        "completed_at": "2026-03-17T23:24:01.897250",
+        "artifacts": {
+          "review_score": 91
+        }
+      },
+      {
+        "id": "Step 4",
+        "name": "Polish",
+        "status": "completed",
+        "started_at": "2026-03-17T23:24:02.219818",
+        "running_at": "2026-03-17T23:24:02.219818",
+        "attempt": 2,
+        "progress_note": null,
+        "completed_at": "2026-03-17T23:24:53.311049",
+        "artifacts": {
+          "polish": "ok",
+          "anti_ai_force_check": "pass"
+        }
+      },
+      {
+        "id": "Step 5",
+        "name": "Data Agent",
+        "status": "completed",
+        "started_at": "2026-03-17T23:24:53.611576",
+        "running_at": "2026-03-17T23:24:53.611576",
+        "attempt": 2,
+        "progress_note": null,
+        "completed_at": "2026-03-17T23:31:03.648819",
+        "artifacts": {
+          "data_extracted": "ok"
+        }
+      }
+    ],
     "failed_steps": [],
     "pending_steps": [
       "Step 1",
@@ -19,13 +94,19 @@
       "Step 5",
       "Step 6"
     ],
-    "retry_count": 0,
+    "retry_count": 1,
     "artifacts": {
       "chapter_file": {},
       "git_status": {},
       "state_json_modified": false,
       "entities_appeared": false,
-      "review_completed": false
+      "review_completed": false,
+      "context_pack": "ok",
+      "style_adapted": "ok",
+      "review_score": 91,
+      "polish": "ok",
+      "anti_ai_force_check": "pass",
+      "data_extracted": "ok"
     }
   },
   "last_stable_state": {

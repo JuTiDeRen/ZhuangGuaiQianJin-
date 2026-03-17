@@ -905,3 +905,23 @@
 {"timestamp": "2026-03-17T22:56:48.170043", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 387, "chapter": 205}
 {"timestamp": "2026-03-17T22:56:57.432779", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 11, "chapter": 205}
 {"timestamp": "2026-03-17T23:00:00", "agent": "data-agent", "chapter": 205, "timing_ms": {"A_load_context": 3200, "B_entity_extract": 800, "C_disambiguation": 400, "D_state_index_write": 2500, "E_summary_write": 300, "F_scene_chunking": 200, "G_rag_index": 1800, "H_style_sample": 500, "I_debt_interest": 0, "TOTAL": 9700}, "bottlenecks_top3": [{"step": "A_load_context", "elapsed_ms": 3200, "ratio": 33.0}, {"step": "D_state_index_write", "elapsed_ms": 2500, "ratio": 25.8}, {"step": "G_rag_index", "elapsed_ms": 1800, "ratio": 18.6}], "entities_appeared": 8, "entities_new": 3, "state_changes": 1, "relationships_new": 2}
+{"timestamp": "2026-03-17T23:14:15.547255", "tool_name": "state_manager:get-progress", "success": true, "elapsed_ms": 18}
+{"timestamp": "2026-03-17T23:23:50.636620", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-17T23:25:39.059307", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 11}
+{"timestamp": "2026-03-17T23:25:47.207016", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-03-17T23:25:47.496394", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 10}
+{"timestamp": "2026-03-17T23:26:22.400202", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-17T23:26:22.682108", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-17T23:26:22.966680", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-03-17T23:26:23.262132", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 19}
+{"timestamp": "2026-03-17T23:26:46.550878", "tool_name": "index_manager:register-alias", "success": false, "elapsed_ms": 11, "error_code": "ALIAS_EXISTS", "error_message": "别名已存在或注册失败: 福伯"}
+{"timestamp": "2026-03-17T23:27:05.232053", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-17T23:27:31.151962", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-17T23:27:31.433284", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-17T23:27:43.723303", "tool_name": "state_manager:process-chapter", "success": false, "elapsed_ms": 16, "error_code": "SCHEMA_VALIDATION_FAILED", "error_message": "数据结构校验失败"}
+{"timestamp": "2026-03-17T23:29:22.817000", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 433, "chapter": 206}
+{"timestamp": "2026-03-17T23:29:38.535450", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 10, "chapter": 206}
+{"timestamp": "2026-03-17T23:29:52.535930", "chapter": 206, "agent": "data-agent", "timing_ms": {"A_load_context": 3200, "B_entity_extract": 1500, "C_disambiguation": 800, "D_state_index_write": 2800, "E_summary_write": 400, "F_scene_chunking": 600, "G_rag_index": 1200, "H_style_sample": 500, "I_debt_interest": 0, "TOTAL": 11000}, "bottlenecks_top3": [{"step": "A_load_context", "elapsed_ms": 3200, "ratio": 29.1}, {"step": "D_state_index_write", "elapsed_ms": 2800, "ratio": 25.5}, {"step": "B_entity_extract", "elapsed_ms": 1500, "ratio": 13.6}]}
+{"timestamp": "2026-03-17T23:30:00.494755", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 10, "error_code": "NOT_FOUND", "error_message": "未找到别名: 沈福"}
+{"timestamp": "2026-03-17T23:30:00.803230", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 10, "error_code": "NOT_FOUND", "error_message": "未找到别名: 密室"}
+{"timestamp": "2026-03-17T23:30:12.723438", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 11}

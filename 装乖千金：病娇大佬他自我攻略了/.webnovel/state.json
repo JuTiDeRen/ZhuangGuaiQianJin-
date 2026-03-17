@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 3,
-    "current_chapter": 205,
-    "total_written_words": 331161,
+    "current_chapter": 206,
+    "total_written_words": 333300,
     "status": "writing",
     "total_words": 314556,
-    "last_updated": "2026-03-17 23:00:00"
+    "last_updated": "2026-03-17 23:30:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -49,8 +49,8 @@
   "protagonist_state": {
     "abilities": {
       "微表情洞察": {
-        "used_today": 0,
-        "remaining": 3
+        "used_today": 2,
+        "remaining": 1
       }
     },
     "current_date": "2026年11月18日",
@@ -151,7 +151,12 @@
       "沈家二房通过空壳公司转移超十亿资金",
       "沈仲其六年前将15%股份转至沈清瑶名下",
       "沈家二房每月给李婉柔汇款分赃",
-      "已约沈仲明明日澜韵会所见面"
+      "已约沈仲明明日澜韵会所见面",
+      "从沈家老宅密室获取沈仲明与李婉柔六年通信记录",
+      "获得U盘音频证据：沈仲明亲口承认下毒",
+      "母亲日记揭示她早已察觉被下毒，为保护女儿选择沉默",
+      "沈仲明计划在祭祖大典上对沈知意下手'让她永远闭嘴'",
+      "祭祖大典倒计时D-6"
     ]
   },
   "strand_tracker": {
@@ -1516,6 +1521,24 @@
         "location": "陆砚辞私人庄园书房",
         "emotion": "决绝准备"
       }
+    },
+    "0206": {
+      "hook": {
+        "type": "任务钩",
+        "content": "缺少直接通信证据，沈福带来密室线索",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景描写开场",
+        "hook": "任务钩",
+        "emotion_rhythm": "低→高→低→高",
+        "info_density": "high"
+      },
+      "ending": {
+        "time": "深夜",
+        "location": "陆砚辞私人庄园",
+        "emotion": "决意复仇，发现沈仲明暗杀计划"
+      }
     }
   },
   "export_source": {
@@ -2077,6 +2100,11 @@
       "score": 75,
       "report": "审查报告/第191-200章审查报告.md",
       "issues": 8
+    },
+    {
+      "chapter": 206,
+      "score": 91,
+      "date": "2026-03-17"
     }
   ],
   "disambiguation_warnings": [],
