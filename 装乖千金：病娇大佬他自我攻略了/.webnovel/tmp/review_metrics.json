@@ -1,13 +1,13 @@
 {
-  "start_chapter": 227,
-  "end_chapter": 227,
-  "overall_score": 86.0,
+  "start_chapter": 228,
+  "end_chapter": 228,
+  "overall_score": 92.0,
   "dimension_scores": {
-    "爽点密度": 8.0,
-    "设定一致性": 9.0,
-    "节奏控制": 8.5,
-    "人物塑造": 9.0,
-    "连贯性": 8.5
+    "爽点密度": 9.0,
+    "设定一致性": 9.5,
+    "节奏控制": 8.8,
+    "人物塑造": 9.5,
+    "连贯性": 9.2
   },
   "severity_counts": {
     "critical": 0,
@@ -16,6 +16,6 @@
     "low": 0
   },
   "critical_issues": [],
-  "report_file": "审查报告/第227章审查报告.md",
+  "report_file": "审查报告/第228章审查报告.md",
   "notes": "审查通过; anti_ai_force_check: pass"
 }

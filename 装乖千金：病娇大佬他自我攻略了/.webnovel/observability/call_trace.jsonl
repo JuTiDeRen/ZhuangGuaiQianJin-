@@ -451,3 +451,20 @@
 {"timestamp": "2026-03-18T01:49:01.198794", "event": "step_completed", "payload": {"step_id": "Step 4", "command": "webnovel-write", "chapter": 227}}
 {"timestamp": "2026-03-18T01:49:01.515194", "event": "step_order_violation", "payload": {"step_id": "Step 5", "command": "webnovel-write", "completed_steps": ["Step 2A", "Step 2B", "Step 3", "Step 4"]}}
 {"timestamp": "2026-03-18T01:49:01.519335", "event": "step_started", "payload": {"step_id": "Step 5", "step_name": "Data Agent", "command": "webnovel-write", "chapter": 227, "progress_note": null, "expected_owner": "data-agent"}}
+{"timestamp": "2026-03-18T01:51:59.997306", "event": "step_complete_rejected", "payload": {"requested_step_id": "Step 6", "active_step_id": "Step 5", "command": "webnovel-write"}}
+{"timestamp": "2026-03-18T01:52:00.343257", "event": "task_completed", "payload": {"command": "webnovel-write", "chapter": 227, "completed_steps": 4, "failed_steps": 1}}
+{"timestamp": "2026-03-18T01:58:52.388033", "event": "task_started", "payload": {"command": "webnovel-write", "args": {"chapter_num": 228}}}
+{"timestamp": "2026-03-18T02:00:12.288788", "event": "step_order_violation", "payload": {"step_id": "Step 2A", "command": "webnovel-write", "completed_steps": []}}
+{"timestamp": "2026-03-18T02:00:12.293133", "event": "step_started", "payload": {"step_id": "Step 2A", "step_name": "正文起草", "command": "webnovel-write", "chapter": 228, "progress_note": null, "expected_owner": "writer-draft"}}
+{"timestamp": "2026-03-18T02:00:54.208380", "event": "step_completed", "payload": {"step_id": "Step 2A", "command": "webnovel-write", "chapter": 228}}
+{"timestamp": "2026-03-18T02:00:54.528987", "event": "step_order_violation", "payload": {"step_id": "Step 2B", "command": "webnovel-write", "completed_steps": ["Step 2A"]}}
+{"timestamp": "2026-03-18T02:00:54.532962", "event": "step_started", "payload": {"step_id": "Step 2B", "step_name": "风格适配", "command": "webnovel-write", "chapter": 228, "progress_note": null, "expected_owner": "style-adapter"}}
+{"timestamp": "2026-03-18T02:01:01.100216", "event": "step_completed", "payload": {"step_id": "Step 2B", "command": "webnovel-write", "chapter": 228}}
+{"timestamp": "2026-03-18T02:01:01.411950", "event": "step_order_violation", "payload": {"step_id": "Step 3", "command": "webnovel-write", "completed_steps": ["Step 2A", "Step 2B"]}}
+{"timestamp": "2026-03-18T02:01:01.419707", "event": "step_started", "payload": {"step_id": "Step 3", "step_name": "审查", "command": "webnovel-write", "chapter": 228, "progress_note": null, "expected_owner": "review-agents"}}
+{"timestamp": "2026-03-18T02:01:48.256221", "event": "step_completed", "payload": {"step_id": "Step 3", "command": "webnovel-write", "chapter": 228}}
+{"timestamp": "2026-03-18T02:01:48.571966", "event": "step_order_violation", "payload": {"step_id": "Step 4", "command": "webnovel-write", "completed_steps": ["Step 2A", "Step 2B", "Step 3"]}}
+{"timestamp": "2026-03-18T02:01:48.575898", "event": "step_started", "payload": {"step_id": "Step 4", "step_name": "润色", "command": "webnovel-write", "chapter": 228, "progress_note": null, "expected_owner": "polish-agent"}}
+{"timestamp": "2026-03-18T02:01:55.879553", "event": "step_completed", "payload": {"step_id": "Step 4", "command": "webnovel-write", "chapter": 228}}
+{"timestamp": "2026-03-18T02:01:56.190594", "event": "step_order_violation", "payload": {"step_id": "Step 5", "command": "webnovel-write", "completed_steps": ["Step 2A", "Step 2B", "Step 3", "Step 4"]}}
+{"timestamp": "2026-03-18T02:01:56.193963", "event": "step_started", "payload": {"step_id": "Step 5", "step_name": "Data Agent", "command": "webnovel-write", "chapter": 228, "progress_note": null, "expected_owner": "data-agent"}}

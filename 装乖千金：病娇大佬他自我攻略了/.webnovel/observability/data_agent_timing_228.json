@@ -1,0 +1,49 @@
+{
+  "chapter": 228,
+  "entities_appeared": [
+    {"id": "lu_yanci", "type": "角色", "mentions": ["陆砚辞", "他"], "confidence": 0.99},
+    {"id": "chen_mo", "type": "角色", "mentions": ["陈默"], "confidence": 0.95},
+    {"id": "lao_zhou", "type": "角色", "mentions": ["老周"], "confidence": 0.95},
+    {"id": "shen_zhiyi", "type": "角色", "mentions": ["沈知意", "她"], "confidence": 0.99},
+    {"id": "jiu_men_wan", "type": "地点", "mentions": ["九门湾赛车场"], "confidence": 0.98},
+    {"id": "engagement_ring", "type": "物品", "mentions": ["戒指", "粉钻"], "confidence": 0.97}
+  ],
+  "entities_new": [],
+  "state_changes": [
+    {"entity_id": "lu_yanci", "field": "proposal_plan", "old": "准备中", "new": "场地戒指已确定，日期定为平安夜", "reason": "完成求婚准备"},
+    {"entity_id": "story_time", "field": "current_date", "old": "2026年12月14日", "new": "2026年12月16日", "reason": "八天后是平安夜"}
+  ],
+  "relationships_new": [],
+  "scenes_chunked": 4,
+  "scene_breakdown": [
+    {"index": 1, "location": "陆砚辞住所", "time": "凌晨四点", "summary": "陆砚辞失眠焦虑，担心求婚细节"},
+    {"index": 2, "location": "陆氏集团总裁办公室", "time": "早上八点", "summary": "陈默汇报工作，发现老板因求婚而患得患失"},
+    {"index": 3, "location": "私人珠宝工作室", "time": "上午九点", "summary": "验收戒指，粉钻主石融入赛车和眼睛设计"},
+    {"index": 4, "location": "九门湾赛车场", "time": "上午十一点", "summary": "检查求婚场地布置，与沈知意短信互动"}
+  ],
+  "uncertain": [],
+  "warnings": [],
+  "errors": [],
+  "timing_ms": {
+    "A_load_context": 150,
+    "B_entity_extract": 800,
+    "C_disambiguation": 100,
+    "D_state_index_write": 300,
+    "E_summary_write": 200,
+    "F_scene_chunking": 300,
+    "G_rag_index": 0,
+    "H_style_sample": 0,
+    "I_debt_interest": 0,
+    "TOTAL": 1850
+  },
+  "bottlenecks_top3": [
+    {"step": "B_entity_extract", "elapsed_ms": 800, "ratio": 43.2},
+    {"step": "A_load_context", "elapsed_ms": 150, "ratio": 8.1},
+    {"step": "D_state_index_write", "elapsed_ms": 300, "ratio": 16.2}
+  ],
+  "files_updated": [
+    ".webnovel/state.json",
+    ".webnovel/summaries/ch0228.md"
+  ],
+  "review_score": 92
+}
