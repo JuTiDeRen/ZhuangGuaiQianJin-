@@ -971,3 +971,11 @@
 {"timestamp": "2026-03-18T00:36:43.731632", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 10, "chapter": 216}
 {"timestamp": "2026-03-18T12:00:00", "chapter": 216, "timing_ms": {"A_load_context": 800, "B_entity_extract": 1200, "C_disambiguation": 600, "D_state_index_write": 1500, "E_summary_write": 300, "F_scene_chunking": 400, "G_rag_index": 2000, "H_style_sample": 500, "I_debt_interest": 0, "TOTAL": 7300}, "bottlenecks_top3": [{"step": "G_rag_index", "elapsed_ms": 2000, "ratio": 27.4}, {"step": "D_state_index_write", "elapsed_ms": 1500, "ratio": 20.5}, {"step": "B_entity_extract", "elapsed_ms": 1200, "ratio": 16.4}]}
 {"timestamp": "2026-03-18T00:43:05.838995", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-18T01:42:44.556638", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 22}
+{"timestamp": "2026-03-18T01:44:07.871356", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 23, "chapter": 226}
+{"timestamp": "2026-03-18T01:44:41.898433", "tool_name": "index_manager:get-chapter", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-03-18T01:44:45.817631", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-18T01:44:49.027080", "tool_name": "index_manager:record-relationship-event", "success": false, "elapsed_ms": 10, "error_code": "INVALID_RELATIONSHIP_EVENT", "error_message": "关系事件参数无效，未写入"}
+{"timestamp": "2026-03-18T01:45:06.751913", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 9, "chapter": 226}
+{"timestamp": "2026-03-18T01:45:10.939907", "tool_name": "index_manager:get-chapter", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-03-18T01:45:14.532388", "tool_name": "state_manager:get-progress", "success": true, "elapsed_ms": 22}
