@@ -871,3 +871,37 @@
 {"timestamp": "2026-03-17T22:11:44.756110", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 22, "chapter": 201}
 {"timestamp": "2026-03-17T22:12:25.722290", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 494, "chapter": 201}
 {"timestamp": "2026-03-17T22:12:38.730855", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 9, "chapter": 201}
+{"timestamp": "2026-03-17T22:35:19.820931", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 10}
+{"timestamp": "2026-03-17T22:35:20.095044", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 10}
+{"timestamp": "2026-03-17T22:35:30.326132", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-03-17T22:35:30.610826", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-03-17T22:35:59.090594", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-17T22:35:59.377078", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-17T22:35:59.651800", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-17T22:35:59.922410", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-17T22:36:00.204703", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-17T22:36:24.492793", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-17T22:36:24.769002", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-17T22:36:25.074048", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-17T22:36:25.368921", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-17T22:36:47.973826", "tool_name": "index_manager:register-alias", "success": false, "elapsed_ms": 10, "error_code": "ALIAS_EXISTS", "error_message": "别名已存在或注册失败: 王护士"}
+{"timestamp": "2026-03-17T22:36:48.261485", "tool_name": "index_manager:register-alias", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-17T22:37:16.678285", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-17T22:37:16.960890", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-17T22:37:23.669596", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 21, "chapter": 203}
+{"timestamp": "2026-03-17T22:37:55.601943", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 368, "chapter": 203}
+{"timestamp": "2026-03-17T22:38:04.937166", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 10, "chapter": 203}
+{"timestamp": "2026-03-17T22:47:47.653822", "chapter": 204, "timing_ms": {"A_load_context": 150, "B_entity_extract": 800, "C_disambiguation": 200, "D_state_index_write": 450, "E_summary_write": 120, "F_scene_chunking": 300, "G_rag_index": 0, "H_style_sample": 50, "I_debt_interest": 0, "TOTAL": 2070}, "bottlenecks_top3": [{"step": "B_entity_extract", "elapsed_ms": 800, "ratio": 38.6}, {"step": "D_state_index_write", "elapsed_ms": 450, "ratio": 21.7}, {"step": "A_load_context", "elapsed_ms": 150, "ratio": 7.2}]}
+{"timestamp": "2026-03-17T22:53:10.522751", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 11}
+{"timestamp": "2026-03-17T22:53:10.813560", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-03-17T22:53:47.963618", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-17T22:53:48.256964", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-17T22:53:48.543275", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-03-17T22:54:09.720824", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-17T22:54:32.851569", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 13}
+{"timestamp": "2026-03-17T22:55:00.156711", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-17T22:55:00.479886", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-17T22:55:18.874118", "tool_name": "state_manager:process-chapter", "success": false, "elapsed_ms": 29, "error_code": "SCHEMA_VALIDATION_FAILED", "error_message": "数据结构校验失败"}
+{"timestamp": "2026-03-17T22:56:48.170043", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 387, "chapter": 205}
+{"timestamp": "2026-03-17T22:56:57.432779", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 11, "chapter": 205}
+{"timestamp": "2026-03-17T23:00:00", "agent": "data-agent", "chapter": 205, "timing_ms": {"A_load_context": 3200, "B_entity_extract": 800, "C_disambiguation": 400, "D_state_index_write": 2500, "E_summary_write": 300, "F_scene_chunking": 200, "G_rag_index": 1800, "H_style_sample": 500, "I_debt_interest": 0, "TOTAL": 9700}, "bottlenecks_top3": [{"step": "A_load_context", "elapsed_ms": 3200, "ratio": 33.0}, {"step": "D_state_index_write", "elapsed_ms": 2500, "ratio": 25.8}, {"step": "G_rag_index", "elapsed_ms": 1800, "ratio": 18.6}], "entities_appeared": 8, "entities_new": 3, "state_changes": 1, "relationships_new": 2}
