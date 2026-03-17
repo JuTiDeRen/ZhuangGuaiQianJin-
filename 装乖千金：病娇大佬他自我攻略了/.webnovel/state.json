@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 3,
-    "current_chapter": 207,
-    "total_written_words": 335500,
+    "current_chapter": 211,
+    "total_written_words": 337800,
     "status": "writing",
-    "total_words": 316756,
-    "last_updated": "2026-03-17 23:45:00"
+    "total_words": 319056,
+    "last_updated": "2026-03-18 00:10:11"
   },
   "volume_plan": {
     "volume_1": {
@@ -49,12 +49,12 @@
   "protagonist_state": {
     "abilities": {
       "微表情洞察": {
-        "used_today": 3,
-        "remaining": 0
+        "used_today": 1,
+        "remaining": 2
       }
     },
-    "current_date": "2026年11月19日",
-    "location": "陆砚辞私人庄园",
+    "current_date": "2026年11月24日",
+    "location": "沈家老宅",
     "growth": {
       "stage": "逆境蓄势期",
       "milestones": [
@@ -161,7 +161,11 @@
       "张桂花是李婉柔远房表姐，受指使送乌头毒药",
       "母亲死因：乌头慢性毒药，症状类似心力衰竭",
       "沈家二房6年转移沈氏集团30%资产",
-      "祭祖大典倒计时D-5"
+      "祭祖大典倒计时D-5",
+      "祭祖大典当天，沈母公开支持女主站在身边",
+      "沈仲明已确认刺客埋伏：3人，携带武器，位置后厨侧门",
+      "陆砚辞已安排三个出口守卫，证人已保护",
+      "沈仲明知道女主在调查他，今天有所准备"
     ]
   },
   "strand_tracker": {
@@ -1563,6 +1567,25 @@
         "location": "陆砚辞私人庄园书房",
         "emotion": "决战前的坚定与温情"
       }
+    },
+    "0211": {
+      "hook": {
+        "type": "危机钩",
+        "content": "刺客已确认，3人携带武器埋伏在后厨侧门，杀机已至",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景开场（女主准备）",
+        "hook": "危机钩",
+        "emotion_rhythm": "平静→紧张→对峙→危机",
+        "info_density": "high",
+        "strand_type": "Quest+Fire"
+      },
+      "ending": {
+        "time": "2026年11月24日上午，祭祖大典即将开始",
+        "location": "沈家老宅正厅",
+        "emotion": "沈母公开支持女主，但刺客埋伏已确认，危机一触即发"
+      }
     }
   },
   "export_source": {
@@ -2129,6 +2152,30 @@
       "chapter": 206,
       "score": 91,
       "date": "2026-03-17"
+    },
+    {
+      "chapter_range": "201-210",
+      "report_file": "审查报告/第201-210章审查报告.md",
+      "reviewed_at": "2026-03-17",
+      "overall_score": 77,
+      "critical_issues": 0,
+      "status": "fixed",
+      "fixed_at": "2026-03-17",
+      "fixes": [
+        "【关键】第210章时间标记矛盾：D-2改为D-1",
+        "【关键】补充澜韵会所之约结果：第206章开头说明女主临时取消约见",
+        "【中优】第208章增加女主内心独白：说明放走沈清瑶是策略考量而非圣母",
+        "【中优】第208章添加时间过渡：说明这两天梳理证据、排查风险",
+        "【低优】第209章增强章末钩子：添加沈仲明威胁彩信"
+      ],
+      "notes": [
+        "设定一致性良好（8.5/10），金手指使用规范",
+        "情节连贯性良好（8.5/10），主线推进清晰",
+        "人物塑造良好（7.5/10），装乖人设保持优秀，放走沈清瑶已补充策略动机",
+        "追读力良好（8.2/10），每章都有明确钩子，第209章已增强",
+        "爽点密度达标（7.8/10），10章100%有爽点",
+        "节奏控制预警（4.2/10），Quest线连续9章主导超标，建议后续章节调整"
+      ]
     }
   ],
   "disambiguation_warnings": [],
