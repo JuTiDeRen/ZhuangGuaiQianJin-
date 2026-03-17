@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 2,
-    "current_chapter": 167,
-    "total_written_words": 290500,
+    "current_chapter": 168,
+    "total_written_words": 292700,
     "status": "writing",
-    "total_words": 280300,
-    "last_updated": "2026-03-17 11:51:26"
+    "total_words": 282500,
+    "last_updated": "2026-03-17 11:58:25"
   },
   "volume_plan": {
     "volume_1": {
@@ -49,12 +49,12 @@
   "protagonist_state": {
     "abilities": {
       "微表情洞察": {
-        "used_today": 0,
-        "remaining": 2
+        "used_today": 2,
+        "remaining": 1
       }
     },
-    "current_date": "2026-09-30",
-    "location": "陆砚辞私人会所",
+    "current_date": "2026-10-02",
+    "location": "城郊",
     "growth": {
       "stage": "独立掌权期",
       "milestones": [
@@ -105,7 +105,11 @@
       "最终投票险胜，65.5%赞成票通过",
       "正式成为沈氏集团掌权人",
       "刘洋、林晓态度转变",
-      "顾长渊在押送途中被劫走"
+      "顾长渊在押送途中被劫走",
+      "母亲是中毒身亡，症状为慢性毒药（定时发作的内出血）",
+      "王护士当年被威胁，报告被销毁",
+      "档案管理员陈某可能有备份病历，已辞职下落不明",
+      "医院内部有人配合掩盖真相"
     ]
   },
   "strand_tracker": {
@@ -1096,6 +1100,24 @@
         "time": "2026年9月30日晚上",
         "location": "陆砚辞私人会所",
         "emotion": "安心但有隐忧"
+      }
+    },
+    "0168": {
+      "hook": {
+        "type": "危机钩",
+        "content": "下毒的人是谁？为什么要害死母亲？沈家在这件事里又扮演了什么角色？",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "对话开场",
+        "hook": "危机钩",
+        "emotion_rhythm": "低→高→低",
+        "info_density": "high"
+      },
+      "ending": {
+        "time": "2026年10月2日上午",
+        "location": "返回市中心途中",
+        "emotion": "凝重但坚定"
       }
     }
   },
