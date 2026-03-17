@@ -1,0 +1,10 @@
+{
+  "start_chapter": 174,
+  "end_chapter": 174,
+  "overall_score": 87.0,
+  "dimension_scores": {"设定一致性": 9.0, "人物塑造": 9.0, "追读力": 8.5, "爽点密度": 8.0, "节奏控制": 8.0},
+  "severity_counts": {"critical": 0, "high": 0, "medium": 0, "low": 0},
+  "critical_issues": [],
+  "report_file": "审查报告/第174章审查报告.md",
+  "notes": "审查器: consistency-checker,ooc-checker,reader-pull-checker | 金手指使用1次 | 新情报: 李婉柔+沈家二房 | anti_ai_force_check: pass"
+}

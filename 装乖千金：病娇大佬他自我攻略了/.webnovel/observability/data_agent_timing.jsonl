@@ -760,3 +760,18 @@
 {"timestamp": "2026-03-17T15:18:02.361984", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 28, "chapter": 173}
 {"timestamp": "2026-03-17T15:18:21.974800", "tool_name": "state_manager:list-entities", "success": true, "elapsed_ms": 19}
 {"timestamp": "2026-03-17T15:36:23.532698", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 12}
+{"timestamp": "2026-03-17T15:38:57.859674", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 22}
+{"timestamp": "2026-03-17T15:40:00.633064", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 12}
+{"timestamp": "2026-03-17T15:40:13.225918", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 13}
+{"timestamp": "2026-03-17T15:40:30.897543", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 13, "error_code": "NOT_FOUND", "error_message": "未找到别名: 李婉柔"}
+{"timestamp": "2026-03-17T15:40:35.509501", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 17, "error_code": "NOT_FOUND", "error_message": "未找到别名: 沈家二房"}
+{"timestamp": "2026-03-17T15:40:58.846936", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 22}
+{"timestamp": "2026-03-17T15:41:02.112945", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 22}
+{"timestamp": "2026-03-17T15:41:04.939024", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 25}
+{"timestamp": "2026-03-17T15:44:21.084882", "tool_name": "index_manager:record-relationship-event", "success": false, "elapsed_ms": 14, "error_code": "INVALID_RELATIONSHIP_EVENT", "error_message": "关系事件参数无效，未写入"}
+{"timestamp": "2026-03-17T15:44:36.021237", "tool_name": "state_manager:process-chapter", "success": false, "elapsed_ms": 18, "error_code": "SCHEMA_VALIDATION_FAILED", "error_message": "数据结构校验失败"}
+{"timestamp": "2026-03-17T15:44:51.500253", "tool_name": "state_manager:process-chapter", "success": false, "elapsed_ms": 19, "error_code": "SCHEMA_VALIDATION_FAILED", "error_message": "数据结构校验失败"}
+{"timestamp": "2026-03-17T15:45:11.058658", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 26, "chapter": 174}
+{"timestamp": "2026-03-17T15:48:38.818413", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 25, "chapter": 174}
+{"timestamp": "2026-03-17T15:49:05.828113", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 258, "chapter": 174}
+{"timestamp": "2026-03-17T15:49:35.990491", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 20}

@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 2,
-    "current_chapter": 173,
+    "current_chapter": 174,
     "total_written_words": 295000,
     "status": "writing",
     "total_words": 284800,
-    "last_updated": "2026-03-17 15:16:15"
+    "last_updated": "2026-03-17 15:45:11"
   },
   "volume_plan": {
     "volume_1": {
@@ -53,7 +53,7 @@
         "remaining": 0
       }
     },
-    "current_date": "2026-10-08",
+    "current_date": "2026-10-10",
     "location": "沈家老宅",
     "growth": {
       "stage": "独立掌权期",
@@ -112,7 +112,10 @@
       "医院内部有人配合掩盖真相",
       "沈清瑶已察觉调查并发出警告",
       "沈清瑶有神秘同伙，正按计划行动",
-      "收到陌生号码威胁短信"
+      "收到陌生号码威胁短信",
+      "音音被沈清瑶绑架，成为威胁筹码",
+      "6年前有人频繁出入沈家，那人现在仍在京城",
+      "陆砚辞知道音音失踪的线索"
     ]
   },
   "strand_tracker": {
@@ -1176,6 +1179,44 @@
         "time": "2026年10月8日",
         "location": "沈家老宅/沈清瑶房间",
         "emotion": "双方进入对峙状态，暴风雨将至"
+      }
+    },
+    "0172": {
+      "hook": {
+        "type": "信息钩+危机钩",
+        "content": "闺蜜团抵达，音音似乎知道6年前事件的传闻，欲言又止",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "日常场景开场",
+        "hook": "信息暗示+情感铺垫",
+        "emotion_rhythm": "温馨→暗示→疑虑",
+        "info_density": "medium",
+        "strand_type": "Constellation"
+      },
+      "ending": {
+        "time": "2026年10月9日",
+        "location": "闺蜜团住酒店",
+        "emotion": "音音知道秘密但欲言又止，为后续绑架埋伏笔"
+      }
+    },
+    "0173": {
+      "hook": {
+        "type": "悬念钩",
+        "content": "陆砚辞：我知道一些线索",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "承接前章时间锚点",
+        "hook": "危机升级+悬念",
+        "emotion_rhythm": "紧张→对峙→愤怒→悬念",
+        "info_density": "high",
+        "strand_type": "Fire+Quest"
+      },
+      "ending": {
+        "time": "2026年10月10日晚上",
+        "location": "沈家老宅",
+        "emotion": "确认音音被绑架，陆砚辞掌握线索，营救行动即将展开"
       }
     }
   },
