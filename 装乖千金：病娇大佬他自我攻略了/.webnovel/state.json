@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 3,
-    "current_chapter": 191,
-    "total_written_words": 314900,
+    "current_chapter": 192,
+    "total_written_words": 317200,
     "status": "writing",
     "total_words": 305200,
-    "last_updated": "2026-03-17 22:00:00"
+    "last_updated": "2026-03-17 23:30:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -49,12 +49,12 @@
   "protagonist_state": {
     "abilities": {
       "微表情洞察": {
-        "used_today": 2,
-        "remaining": 1
+        "used_today": 1,
+        "remaining": 2
       }
     },
-    "current_date": "2026-11-01",
-    "location": "沈家老宅（被隔离）",
+    "current_date": "2026-11-02",
+    "location": "沈家老宅（软禁小院）",
     "growth": {
       "stage": "逆境蓄势期",
       "milestones": [
@@ -126,7 +126,11 @@
       "长老会决议：暂停沈知意继承人资格",
       "沈知意被正式软禁在沈家老宅",
       "陆砚辞掌握沈天雄向李婉柔转账三百万的证据",
-      "沈天雄被警方介入调查"
+      "沈天雄被警方介入调查",
+      "李婉柔伪造账目指控沈知意转移资产",
+      "账目某一页有问题（李婉柔展示时紧张）",
+      "沈母给沈知意三天时间自证清白",
+      "王护士在城南，陆砚辞三日后带回"
     ]
   },
   "strand_tracker": {
@@ -1360,6 +1364,24 @@
         "time": "2026年11月1日",
         "location": "沈家老宅正厅外",
         "emotion": "被栽赃后的冷静与决心"
+      }
+    },
+    "0192": {
+      "hook": {
+        "type": "希望钩",
+        "content": "陆砚辞传信：王护士在城南，三日后带回",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "回忆场景",
+        "hook": "危机+希望",
+        "emotion_rhythm": "压抑→紧张→转机",
+        "info_density": "high"
+      },
+      "ending": {
+        "time": "2026年11月2日",
+        "location": "沈家老宅软禁小院",
+        "emotion": "看到翻盘希望，决心反击"
       }
     }
   },
