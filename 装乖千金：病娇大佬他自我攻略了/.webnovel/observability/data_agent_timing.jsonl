@@ -939,3 +939,6 @@
 {"timestamp": "2026-03-17T23:38:56.291798", "tool_name": "state_manager:process-chapter", "success": false, "elapsed_ms": 17, "error_code": "SCHEMA_VALIDATION_FAILED", "error_message": "数据结构校验失败"}
 {"timestamp": "2026-03-17T23:41:45.623612", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 270, "chapter": 207}
 {"timestamp": "2026-03-17T23:41:51.619213", "tool_name": "state_manager:get-progress", "success": true, "elapsed_ms": 22}
+{"timestamp": "2026-03-17T23:46:41.111602", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-17T23:46:41.307191", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-17T23:46:41.508994", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 16}

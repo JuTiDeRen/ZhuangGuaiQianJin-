@@ -1,22 +1,10 @@
 {
-  "start_chapter": 207,
-  "end_chapter": 207,
-  "overall_score": 88.0,
-  "dimension_scores": {
-    "设定一致性": 9.0,
-    "连贯性": 9.0,
-    "人物塑造": 8.8,
-    "爽点密度": 8.5,
-    "追读力": 8.7,
-    "节奏控制": 8.5
-  },
-  "severity_counts": {
-    "critical": 0,
-    "high": 0,
-    "medium": 0,
-    "low": 0
-  },
+  "start_chapter": 210,
+  "end_chapter": 210,
+  "overall_score": 89.0,
+  "dimension_scores": {"设定一致性": 9.0, "连贯性": 9.0, "人物塑造": 8.8, "爽点密度": 8.5, "追读力": 9.0, "节奏控制": 8.8},
+  "severity_counts": {"critical": 0, "high": 0, "medium": 0, "low": 0},
   "critical_issues": [],
-  "report_file": "审查报告/第207章审查报告.md",
-  "notes": "第207章审查通过，证据链完整，希望爽点设置到位，章末承诺钩有效"
+  "report_file": "审查报告/第210章审查报告.md",
+  "notes": "第210章审查通过，祭祖大典前夜氛围营造到位，承诺钩强烈"
 }
