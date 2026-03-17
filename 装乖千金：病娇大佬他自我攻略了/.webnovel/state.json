@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 2,
-    "current_chapter": 155,
-    "total_written_words": 278200,
+    "current_chapter": 161,
+    "total_written_words": 280300,
     "status": "writing",
-    "total_words": 278200,
-    "last_updated": "2026-03-17 10:00:00"
+    "total_words": 280300,
+    "last_updated": "2026-03-17 11:15:29"
   },
   "volume_plan": {
     "volume_1": {
@@ -53,8 +53,8 @@
         "remaining": 2
       }
     },
-    "current_date": "2026-09-25",
-    "location": "沈氏集团股东大会会场",
+    "current_date": "2026-09-26",
+    "location": "沈家老宅书房",
     "growth": {
       "stage": "独立掌权期",
       "milestones": [
@@ -114,6 +114,25 @@
     "quest": 112
   },
   "chapter_meta": {
+    "0161": {
+      "hook": {
+        "type": "悬念钩",
+        "content": "母亲死因与陆家有关，沈知意决定隐瞒陆砚辞独自调查",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "深夜场景开场",
+        "hook": "悬念钩+情感冲击",
+        "emotion_rhythm": "好奇→震惊→挣扎→决绝",
+        "info_density": "high",
+        "strand_type": "Quest"
+      },
+      "ending": {
+        "time": "2026年9月26日凌晨",
+        "location": "沈家老宅书房/废弃工厂",
+        "emotion": "沈知意决心独自追查真相，顾长渊确认圈套成功"
+      }
+    },
     "0155": {
       "hook": {
         "type": "危机钩",
@@ -129,7 +148,7 @@
       },
       "ending": {
         "time": "2026年9月25日上午11:30",
-        "location": "沈氏集团股东大会会场",
+        "location": "沈家老宅书房",
         "emotion": "投票获胜成为掌权人，但顾长渊被劫走，危机再起"
       }
     },
@@ -923,7 +942,7 @@
       },
       "ending": {
         "time": "2026年9月21日上午",
-        "location": "沈氏集团股东大会会场",
+        "location": "沈家老宅书房",
         "emotion": "DNA真相揭露，顾长渊远程威胁，决战升级"
       }
     },
@@ -942,7 +961,7 @@
       },
       "ending": {
         "time": "2026年9月21日下午",
-        "location": "沈氏集团股东大会会场",
+        "location": "沈家老宅书房",
         "emotion": "女主大胜但顾长渊下令动手，最终决战一触即发"
       }
     },
@@ -961,7 +980,7 @@
       },
       "ending": {
         "time": "2026年9月21日傍晚",
-        "location": "沈氏集团股东大会会场",
+        "location": "沈家老宅书房",
         "emotion": "女主陷入绝境，陆砚辞坚定支持，顾长渊暗示还有后手"
       }
     },
