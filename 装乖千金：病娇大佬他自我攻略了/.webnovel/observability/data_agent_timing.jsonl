@@ -925,3 +925,17 @@
 {"timestamp": "2026-03-17T23:30:00.494755", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 10, "error_code": "NOT_FOUND", "error_message": "未找到别名: 沈福"}
 {"timestamp": "2026-03-17T23:30:00.803230", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 10, "error_code": "NOT_FOUND", "error_message": "未找到别名: 密室"}
 {"timestamp": "2026-03-17T23:30:12.723438", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 11}
+{"timestamp": "2026-03-17T23:34:33.298650", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-17T23:37:19.752435", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 10}
+{"timestamp": "2026-03-17T23:37:20.021034", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 10}
+{"timestamp": "2026-03-17T23:37:45.752528", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-17T23:37:46.045889", "tool_name": "index_manager:register-alias", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-03-17T23:37:46.335759", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-17T23:37:46.631430", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-17T23:38:26.917235", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-17T23:38:44.478701", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-17T23:38:44.771691", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-17T23:38:45.068566", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-17T23:38:56.291798", "tool_name": "state_manager:process-chapter", "success": false, "elapsed_ms": 17, "error_code": "SCHEMA_VALIDATION_FAILED", "error_message": "数据结构校验失败"}
+{"timestamp": "2026-03-17T23:41:45.623612", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 270, "chapter": 207}
+{"timestamp": "2026-03-17T23:41:51.619213", "tool_name": "state_manager:get-progress", "success": true, "elapsed_ms": 22}
