@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 3,
-    "current_chapter": 229,
-    "total_written_words": 360500,
+    "current_chapter": 230,
+    "total_written_words": 362700,
     "status": "writing",
     "total_words": 331956,
-    "last_updated": "2026-03-18 04:00:00"
+    "last_updated": "2026-03-18 05:00:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -53,8 +53,8 @@
         "remaining": 3
       }
     },
-    "current_date": "2026年12月18日",
-    "location": "车上（回家路上）",
+    "current_date": "2026年12月18日（深夜）",
+    "location": "回家路上/沈家老宅",
     "growth": {
       "stage": "掌权稳固期",
       "milestones": [
@@ -1810,8 +1810,7 @@
         "location": "九门湾赛车场",
         "emotion": "期待紧张"
       }
-    }
-    ,
+    },
     "0229": {
       "hook": {
         "type": "渴望钩",
@@ -1828,6 +1827,25 @@
         "time": "2026年12月18日 傍晚",
         "location": "车上（回家路上）",
         "emotion": "甜蜜期待"
+      }
+    },
+    "0230": {
+      "hook": {
+        "type": "期待钩",
+        "content": "陆砚辞预告平安夜有更重要的惊喜：那会比今天更让你难忘",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "车内场景承接",
+        "hook": "甜蜜超预期+期待钩",
+        "emotion_rhythm": "好奇→惊喜→感动→甜蜜→期待",
+        "info_density": "medium",
+        "strand_type": "Constellation"
+      },
+      "ending": {
+        "time": "2026年12月18日深夜",
+        "location": "回家路上/沈家老宅",
+        "emotion": "感动甜蜜，对平安夜惊喜充满期待"
       }
     }
   },

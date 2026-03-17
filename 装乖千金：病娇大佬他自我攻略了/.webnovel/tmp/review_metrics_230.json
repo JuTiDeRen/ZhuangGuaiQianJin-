@@ -1,0 +1,22 @@
+{
+  "start_chapter": 230,
+  "end_chapter": 230,
+  "overall_score": 90.0,
+  "dimension_scores": {
+    "爽点密度": 9.0,
+    "设定一致性": 9.5,
+    "节奏控制": 8.8,
+    "人物塑造": 8.8,
+    "连贯性": 9.2,
+    "追读力": 9.2
+  },
+  "severity_counts": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 1
+  },
+  "critical_issues": [],
+  "report_file": "审查报告/第230章审查报告.md",
+  "notes": "综合评分90分，质量良好。时间线正确，人设保持到位，章末钩子有效。1个轻微建议：女主装乖被看穿后的反应可再强化一点内心吐槽。"
+}
