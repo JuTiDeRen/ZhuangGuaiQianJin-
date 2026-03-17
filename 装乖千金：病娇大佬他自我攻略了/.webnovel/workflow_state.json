@@ -5,14 +5,14 @@
       "chapter_num": 161
     },
     "started_at": "2026-03-17T11:06:20.546803",
-    "last_heartbeat": "2026-03-17T16:22:53.043582",
+    "last_heartbeat": "2026-03-17T16:28:52.659712",
     "status": "running",
     "current_step": {
-      "id": "Step 5",
-      "name": "Data Agent",
+      "id": "Step 1",
+      "name": "Context Agent",
       "status": "running",
-      "started_at": "2026-03-17T16:22:53.043578",
-      "running_at": "2026-03-17T16:22:53.043578",
+      "started_at": "2026-03-17T16:28:52.659708",
+      "running_at": "2026-03-17T16:28:52.659708",
       "attempt": 5,
       "progress_note": null
     },
@@ -170,6 +170,17 @@
         "attempt": 4,
         "progress_note": null,
         "failed_at": "2026-03-17T16:22:53.043572",
+        "failure_reason": "step_replaced_before_completion"
+      },
+      {
+        "id": "Step 5",
+        "name": "Data Agent",
+        "status": "failed",
+        "started_at": "2026-03-17T16:22:53.043578",
+        "running_at": "2026-03-17T16:22:53.043578",
+        "attempt": 5,
+        "progress_note": null,
+        "failed_at": "2026-03-17T16:28:52.659688",
         "failure_reason": "step_replaced_before_completion"
       }
     ],

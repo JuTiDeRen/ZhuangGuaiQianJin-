@@ -789,3 +789,17 @@
 {"timestamp": "2026-03-17T16:27:42.337778", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 385, "chapter": 176}
 {"timestamp": "2026-03-17T16:27:51.781985", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 12, "chapter": 176}
 {"timestamp": "2026-03-17T16:27:58.405702", "tool_name": "index_manager:get-entity", "success": true, "elapsed_ms": 12}
+{"timestamp": "2026-03-17T16:33:15.058596", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 19}
+{"timestamp": "2026-03-17T16:34:04.086272", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 13}
+{"timestamp": "2026-03-17T16:34:05.078621", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 12, "error_code": "NOT_FOUND", "error_message": "未找到别名: 苏音音"}
+{"timestamp": "2026-03-17T16:34:06.148558", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-17T16:34:07.223140", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 12, "error_code": "NOT_FOUND", "error_message": "未找到别名: 沈家二房"}
+{"timestamp": "2026-03-17T16:34:41.889984", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-03-17T16:34:42.968141", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-17T16:34:44.036321", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-17T16:34:58.725131", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 106, "chapter": 177}
+{"timestamp": "2026-03-17T16:35:30.440787", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 290, "chapter": 177}
+{"timestamp": "2026-03-17T16:35:42.163578", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 62, "chapter": 177}
+{"timestamp": "2026-03-17T16:36:28.716946", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 17}
+{"timestamp": "2026-03-17T16:36:28.932009", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 65}
+{"timestamp": "2026-03-17T16:36:29.149456", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 57}

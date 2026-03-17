@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 2,
-    "current_chapter": 174,
-    "total_written_words": 295000,
+    "current_chapter": 176,
+    "total_written_words": 299900,
     "status": "writing",
-    "total_words": 284800,
-    "last_updated": "2026-03-17 15:45:11"
+    "total_words": 289700,
+    "last_updated": "2026-03-17 16:30:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -53,8 +53,8 @@
         "remaining": 0
       }
     },
-    "current_date": "2026-10-10",
-    "location": "沈家老宅",
+    "current_date": "2026-10-12",
+    "location": "沈清瑶院子",
     "growth": {
       "stage": "独立掌权期",
       "milestones": [
@@ -115,13 +115,20 @@
       "收到陌生号码威胁短信",
       "音音被沈清瑶绑架，成为威胁筹码",
       "6年前有人频繁出入沈家，那人现在仍在京城",
-      "陆砚辞知道音音失踪的线索"
+      "陆砚辞知道音音失踪的线索",
+      "音音被关押在城郊废弃仓库",
+      "仓库有至少4名明面守卫，暗处还有更多人",
+      "营救C方案：明线拖延沈清瑶，暗线陆砚辞救人",
+      "营救行动时间：7:30开始，8点前必须完成",
+      "营救行动外围突破成功，但苏音音已被转移",
+      "沈清瑶与绑匪合作，苏音音被囚于新地点",
+      "与沈清瑶正面撕破脸，双方彻底对立"
     ]
   },
   "strand_tracker": {
-    "fire": 113,
+    "fire": 114,
     "constellation": 95,
-    "quest": 112
+    "quest": 113
   },
   "chapter_meta": {
     "0161": {
@@ -1217,6 +1224,44 @@
         "time": "2026年10月10日晚上",
         "location": "沈家老宅",
         "emotion": "确认音音被绑架，陆砚辞掌握线索，营救行动即将展开"
+      }
+    },
+    "0175": {
+      "hook": {
+        "type": "行动钩",
+        "content": "营救行动开始，女主走向沈清瑶的院子，双线并进",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "深夜独处场景开场",
+        "hook": "行动钩",
+        "emotion_rhythm": "焦虑→冷静→信任→决绝",
+        "info_density": "high",
+        "strand_type": "Quest+Fire"
+      },
+      "ending": {
+        "time": "2026年10月11日早上7:30",
+        "location": "沈家老宅→沈清瑶院子",
+        "emotion": "女主以装乖面具走向正面对峙，暗线营救同时启动"
+      }
+    },
+    "0176": {
+      "hook": {
+        "type": "危机钩",
+        "content": "营救行动暴露，苏音音被转移，沈知意与沈清瑶正面撕破脸",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "双线并进开场",
+        "hook": "危机钩+能力爽点",
+        "emotion_rhythm": "紧张→洞察→突破→对峙→危机",
+        "info_density": "high",
+        "strand_type": "Quest+Fire"
+      },
+      "ending": {
+        "time": "2026年10月12日上午",
+        "location": "沈清瑶院子/城郊废弃仓库",
+        "emotion": "营救失败，人质被转移，双方正面冲突"
       }
     }
   },
