@@ -1,0 +1,20 @@
+{
+  "start_chapter": 213,
+  "end_chapter": 213,
+  "overall_score": 90.0,
+  "dimension_scores": {
+    "设定一致性": 9.2,
+    "人物塑造": 9.0,
+    "爽点密度": 8.8,
+    "追读力": 8.9
+  },
+  "severity_counts": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0
+  },
+  "critical_issues": [],
+  "report_file": "审查报告/第213章审查报告.md",
+  "notes": "chapter_213_review_passed"
+}

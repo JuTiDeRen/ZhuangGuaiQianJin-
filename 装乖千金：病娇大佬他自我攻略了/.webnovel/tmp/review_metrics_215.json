@@ -1,0 +1,20 @@
+{
+  "start_chapter": 215,
+  "end_chapter": 215,
+  "overall_score": 95.0,
+  "dimension_scores": {
+    "设定一致性": 9.2,
+    "人物塑造": 9.0,
+    "爽点密度": 9.0,
+    "追读力": 9.2
+  },
+  "severity_counts": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0
+  },
+  "critical_issues": [],
+  "report_file": "审查报告/第215章审查报告.md",
+  "notes": "chapter_215_review_passed"
+}
