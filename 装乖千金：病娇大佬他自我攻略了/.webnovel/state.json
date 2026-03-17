@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 2,
-    "current_chapter": 170,
-    "total_written_words": 292700,
+    "current_chapter": 171,
+    "total_written_words": 295000,
     "status": "writing",
-    "total_words": 282500,
-    "last_updated": "2026-03-17 12:10:22"
+    "total_words": 284800,
+    "last_updated": "2026-03-17 14:30:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -49,12 +49,12 @@
   "protagonist_state": {
     "abilities": {
       "微表情洞察": {
-        "used_today": 2,
-        "remaining": 1
+        "used_today": 3,
+        "remaining": 0
       }
     },
-    "current_date": "2026-10-09",
-    "location": "城郊",
+    "current_date": "2026-10-08",
+    "location": "沈家老宅",
     "growth": {
       "stage": "独立掌权期",
       "milestones": [
@@ -109,7 +109,10 @@
       "母亲是中毒身亡，症状为慢性毒药（定时发作的内出血）",
       "王护士当年被威胁，报告被销毁",
       "档案管理员陈某可能有备份病历，已辞职下落不明",
-      "医院内部有人配合掩盖真相"
+      "医院内部有人配合掩盖真相",
+      "沈清瑶已察觉调查并发出警告",
+      "沈清瑶有神秘同伙，正按计划行动",
+      "收到陌生号码威胁短信"
     ]
   },
   "strand_tracker": {
@@ -1155,6 +1158,25 @@
         "location": "沈家老宅",
         "emotion": "坚定期待"
       }
+    },
+    "0171": {
+      "hook": {
+        "type": "危机钩",
+        "content": "沈清瑶察觉女主调查并发出警告，章末收到陌生号码威胁短信",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "承接前章日记线索",
+        "hook": "危机钩+对峙张力",
+        "emotion_rhythm": "警觉→对峙→紧张→反击",
+        "info_density": "high",
+        "strand_type": "Quest"
+      },
+      "ending": {
+        "time": "2026年10月8日",
+        "location": "沈家老宅/沈清瑶房间",
+        "emotion": "双方进入对峙状态，暴风雨将至"
+      }
     }
   },
   "export_source": {
@@ -1681,6 +1703,11 @@
         "设定一致性改善：日期标注清晰，伏笔回收完整",
         "追读力改善：章末钩子强度提升"
       ]
+    },
+    {
+      "chapter": 171,
+      "score": 82,
+      "date": "2026-03-17"
     }
   ],
   "disambiguation_warnings": [],

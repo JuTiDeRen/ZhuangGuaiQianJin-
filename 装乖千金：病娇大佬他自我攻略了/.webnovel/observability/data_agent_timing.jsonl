@@ -713,3 +713,16 @@
 {"timestamp": "2026-03-17T12:11:07.986307", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 12, "error_code": "NOT_FOUND", "error_message": "未找到别名: 沈福"}
 {"timestamp": "2026-03-17T12:11:09.008038", "tool_name": "state_manager:get-progress", "success": true, "elapsed_ms": 20}
 {"timestamp": "2026-03-17T12:34:46.510131", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 25}
+{"timestamp": "2026-03-17T13:59:01.224744", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 34}
+{"timestamp": "2026-03-17T14:01:05.322161", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 13}
+{"timestamp": "2026-03-17T14:01:06.309055", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-17T14:01:32.122578", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 24}
+{"timestamp": "2026-03-17T14:01:33.199773", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 21}
+{"timestamp": "2026-03-17T14:01:47.564533", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 24}
+{"timestamp": "2026-03-17T14:01:48.503151", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 26}
+{"timestamp": "2026-03-17T14:01:49.497081", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 21}
+{"timestamp": "2026-03-17T14:02:03.066077", "tool_name": "state_manager:process-chapter", "success": false, "elapsed_ms": 17, "error_code": "SCHEMA_VALIDATION_FAILED", "error_message": "数据结构校验失败"}
+{"timestamp": "2026-03-17T14:02:15.739505", "tool_name": "state_manager:process-chapter", "success": false, "elapsed_ms": 15, "error_code": "SCHEMA_VALIDATION_FAILED", "error_message": "数据结构校验失败"}
+{"timestamp": "2026-03-17T14:03:35.475194", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 257, "chapter": 171}
+{"timestamp": "2026-03-17T14:03:43.033214", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 14, "chapter": 171}
+{"timestamp": "2026-03-17T14:03:47.775215", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 17}
