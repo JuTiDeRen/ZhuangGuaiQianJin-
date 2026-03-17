@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 2,
-    "current_chapter": 166,
+    "current_chapter": 167,
     "total_written_words": 290500,
     "status": "writing",
     "total_words": 280300,
-    "last_updated": "2026-03-17 11:44:14"
+    "last_updated": "2026-03-17 11:51:26"
   },
   "volume_plan": {
     "volume_1": {
@@ -49,12 +49,12 @@
   "protagonist_state": {
     "abilities": {
       "微表情洞察": {
-        "used_today": 1,
+        "used_today": 0,
         "remaining": 2
       }
     },
-    "current_date": "2026-09-26",
-    "location": "沈家老宅书房",
+    "current_date": "2026-09-30",
+    "location": "陆砚辞私人会所",
     "growth": {
       "stage": "独立掌权期",
       "milestones": [
@@ -148,7 +148,7 @@
       },
       "ending": {
         "time": "2026年9月25日上午11:30",
-        "location": "沈家老宅书房",
+        "location": "陆砚辞私人会所",
         "emotion": "投票获胜成为掌权人，但顾长渊被劫走，危机再起"
       }
     },
@@ -942,7 +942,7 @@
       },
       "ending": {
         "time": "2026年9月21日上午",
-        "location": "沈家老宅书房",
+        "location": "陆砚辞私人会所",
         "emotion": "DNA真相揭露，顾长渊远程威胁，决战升级"
       }
     },
@@ -961,7 +961,7 @@
       },
       "ending": {
         "time": "2026年9月21日下午",
-        "location": "沈家老宅书房",
+        "location": "陆砚辞私人会所",
         "emotion": "女主大胜但顾长渊下令动手，最终决战一触即发"
       }
     },
@@ -980,7 +980,7 @@
       },
       "ending": {
         "time": "2026年9月21日傍晚",
-        "location": "沈家老宅书房",
+        "location": "陆砚辞私人会所",
         "emotion": "女主陷入绝境，陆砚辞坚定支持，顾长渊暗示还有后手"
       }
     },
@@ -1078,6 +1078,24 @@
           "location": "沈家老宅",
           "emotion": "决心与警惕"
         }
+      }
+    },
+    "0167": {
+      "hook": {
+        "type": "渴望钩",
+        "content": "男主会因此陷入危险吗？",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "内心独白开场",
+        "hook": "渴望钩",
+        "emotion_rhythm": "低→高",
+        "info_density": "medium"
+      },
+      "ending": {
+        "time": "2026年9月30日晚上",
+        "location": "陆砚辞私人会所",
+        "emotion": "安心但有隐忧"
       }
     }
   },

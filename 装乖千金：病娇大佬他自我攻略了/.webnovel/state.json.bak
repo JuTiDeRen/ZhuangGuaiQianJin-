@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 2,
-    "current_chapter": 165,
+    "current_chapter": 166,
     "total_written_words": 290500,
     "status": "writing",
     "total_words": 280300,
-    "last_updated": "2026-03-17 11:15:29"
+    "last_updated": "2026-03-17 11:44:14"
   },
   "volume_plan": {
     "volume_1": {
@@ -1058,6 +1058,26 @@
         "time": "2026年9月24日晚上",
         "location": "京北第一医院VIP病房",
         "emotion": "真相大白但新危机浮现，顾长渊假死疑云"
+      }
+    },
+    "0166": {
+      "0166": {
+        "hook": {
+          "type": "悬念钩",
+          "content": "沈母警告：有些事不该知道，知道得越少活得越久",
+          "strength": "strong"
+        },
+        "pattern": {
+          "opening": "内心独白开场",
+          "hook": "悬念钩",
+          "emotion_rhythm": "低→高→低",
+          "info_density": "high"
+        },
+        "ending": {
+          "time": "2026年9月29日傍晚",
+          "location": "沈家老宅",
+          "emotion": "决心与警惕"
+        }
       }
     }
   },
