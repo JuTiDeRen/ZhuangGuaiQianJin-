@@ -5,14 +5,14 @@
       "chapter_num": 161
     },
     "started_at": "2026-03-17T11:06:20.546803",
-    "last_heartbeat": "2026-03-17T14:09:42.113700",
+    "last_heartbeat": "2026-03-17T14:35:22.687977",
     "status": "running",
     "current_step": {
-      "id": "Step 5",
-      "name": "Data Agent",
+      "id": "Step 2A",
+      "name": "正文起草",
       "status": "running",
-      "started_at": "2026-03-17T14:09:42.113697",
-      "running_at": "2026-03-17T14:09:42.113697",
+      "started_at": "2026-03-17T14:35:22.687974",
+      "running_at": "2026-03-17T14:35:22.687974",
       "attempt": 4,
       "progress_note": null
     },
@@ -137,6 +137,28 @@
         "attempt": 4,
         "progress_note": null,
         "failed_at": "2026-03-17T14:09:42.113691",
+        "failure_reason": "step_replaced_before_completion"
+      },
+      {
+        "id": "Step 5",
+        "name": "Data Agent",
+        "status": "failed",
+        "started_at": "2026-03-17T14:09:42.113697",
+        "running_at": "2026-03-17T14:09:42.113697",
+        "attempt": 4,
+        "progress_note": null,
+        "failed_at": "2026-03-17T14:23:33.269459",
+        "failure_reason": "step_replaced_before_completion"
+      },
+      {
+        "id": "Step 1",
+        "name": "Context Agent",
+        "status": "failed",
+        "started_at": "2026-03-17T14:23:33.269479",
+        "running_at": "2026-03-17T14:23:33.269479",
+        "attempt": 4,
+        "progress_note": null,
+        "failed_at": "2026-03-17T14:35:22.687969",
         "failure_reason": "step_replaced_before_completion"
       }
     ],
