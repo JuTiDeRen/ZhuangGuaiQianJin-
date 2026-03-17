@@ -13,10 +13,10 @@
   "progress": {
     "current_volume": 3,
     "current_chapter": 220,
-    "total_written_words": 353800,
+    "total_written_words": 356100,
     "status": "writing",
-    "total_words": 327656,
-    "last_updated": "2026-03-18 01:00:00"
+    "total_words": 329956,
+    "last_updated": "2026-03-18 01:25:09"
   },
   "volume_plan": {
     "volume_1": {
@@ -53,10 +53,10 @@
         "remaining": 3
       }
     },
-    "current_date": "2026年11月27日",
-    "location": "沈家老宅",
+    "current_date": "2026年11月28日",
+    "location": "沈氏集团",
     "growth": {
-      "stage": "逆境蓄势期",
+      "stage": "掌权稳固期",
       "milestones": [
         "第60章：初步掌控沈氏集团经营权",
         "第156章：独立赢得股东大会，正式成为掌权人",
@@ -172,11 +172,15 @@
       "沈氏集团获得陆氏集团注资，战略合作伙伴关系确立",
       "沈家新家族章程生效：嫡系统管、按能力分配、背叛者永不得回",
       "母女关系彻底和解",
-      "陆砚辞正式表白，两人关系确立"
+      "陆砚辞正式表白，两人关系确立",
+      "正式上任沈氏集团董事长第一天",
+      "陆氏注资到位，三个新项目启动",
+      "董事会通过新绩效考核制度",
+      "旧城改造项目有人重新接触，与母亲死因相关"
     ]
   },
   "strand_tracker": {
-    "fire": 114,
+    "fire": 115,
     "constellation": 95,
     "quest": 113
   },
@@ -1706,21 +1710,21 @@
     },
     "0220": {
       "hook": {
-        "type": "表白钩",
-        "content": "陆砚辞正式表白，沈知意以吻回应",
+        "type": "悬念钩",
+        "content": "旧城改造项目有人重新接触，与母亲死因相关",
         "strength": "strong"
       },
       "pattern": {
-        "opening": "夜晚庭院场景",
-        "hook": "表白钩",
-        "emotion_rhythm": "温情→甜蜜→幸福",
-        "info_density": "low",
-        "strand_type": "Constellation"
+        "opening": "清晨场景承接",
+        "hook": "希望爽点+悬念钩",
+        "emotion_rhythm": "温暖→坚定→甜蜜→展望→悬念",
+        "info_density": "medium",
+        "strand_type": "Fire"
       },
       "ending": {
-        "time": "2026年11月27日晚",
-        "location": "沈家老宅庭院",
-        "emotion": "爱情确立，新人生开始"
+        "time": "2026年11月28日傍晚",
+        "location": "沈氏集团楼下",
+        "emotion": "新生活开始，但母亲死因调查悬念浮现"
       }
     },
     "217": {
