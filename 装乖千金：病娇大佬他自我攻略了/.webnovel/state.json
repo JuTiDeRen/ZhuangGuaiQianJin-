@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 3,
-    "current_chapter": 190,
-    "total_written_words": 312800,
+    "current_chapter": 191,
+    "total_written_words": 314900,
     "status": "writing",
     "total_words": 305200,
-    "last_updated": "2026-03-17 21:30:00"
+    "last_updated": "2026-03-17 22:00:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -49,12 +49,12 @@
   "protagonist_state": {
     "abilities": {
       "微表情洞察": {
-        "used_today": 0,
-        "remaining": 3
+        "used_today": 2,
+        "remaining": 1
       }
     },
-    "current_date": "2026-10-30",
-    "location": "沈家老宅（被软禁）",
+    "current_date": "2026-11-01",
+    "location": "沈家老宅（被隔离）",
     "growth": {
       "stage": "逆境蓄势期",
       "milestones": [
@@ -1342,6 +1342,24 @@
         "time": "2026年10月27日晚上",
         "location": "沈家老宅-沈知意院子",
         "emotion": "女主虽众叛亲离但有男主支持，决心反击"
+      }
+    },
+    "0191": {
+      "hook": {
+        "type": "危机钩",
+        "content": "李婉柔当众指控沈知意转移资产，出示伪造账目",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景铺陈",
+        "hook": "危机钩",
+        "emotion_rhythm": "平静→危机→压抑",
+        "info_density": "high"
+      },
+      "ending": {
+        "time": "2026年11月1日",
+        "location": "沈家老宅正厅外",
+        "emotion": "被栽赃后的冷静与决心"
       }
     }
   },
