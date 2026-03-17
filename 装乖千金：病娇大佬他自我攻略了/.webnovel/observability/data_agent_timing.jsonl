@@ -851,3 +851,4 @@
 {"timestamp": "2026-03-17T23:30:00", "chapter": 192, "timing_ms": {"A_load_context": 150, "B_entity_extract": 800, "C_disambiguation": 100, "D_state_index_write": 500, "E_summary_write": 200, "F_scene_chunking": 0, "G_rag_index": 0, "H_style_sample": 0, "I_debt_interest": 0, "TOTAL": 1750}, "bottlenecks_top3": [{"step": "B_entity_extract", "elapsed_ms": 800, "ratio": 45.7}, {"step": "D_state_index_write", "elapsed_ms": 500, "ratio": 28.6}, {"step": "A_load_context", "elapsed_ms": 150, "ratio": 8.6}]}
 {"timestamp": "2026-03-17T21:11:54.682828", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 22}
 {"timestamp": "2026-03-17T21:13:01.588611", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 16}
+{"timestamp": "2026-03-17T21:14:11.158761", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 16}
