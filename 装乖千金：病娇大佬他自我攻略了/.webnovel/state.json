@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 3,
-    "current_chapter": 202,
-    "total_written_words": 324400,
+    "current_chapter": 205,
+    "total_written_words": 331161,
     "status": "writing",
-    "total_words": 312400,
-    "last_updated": "2026-03-17 22:30:00"
+    "total_words": 314556,
+    "last_updated": "2026-03-17 23:00:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -49,12 +49,12 @@
   "protagonist_state": {
     "abilities": {
       "微表情洞察": {
-        "used_today": 2,
-        "remaining": 1
+        "used_today": 0,
+        "remaining": 3
       }
     },
-    "current_date": "2026-11-15",
-    "location": "城郊疗养院",
+    "current_date": "2026年11月18日",
+    "location": "陆砚辞私人庄园",
     "growth": {
       "stage": "逆境蓄势期",
       "milestones": [
@@ -139,7 +139,19 @@
       "沈家二房给沈婉清送黑色药丸导致中毒",
       "获得关键证物：黑色药丸（沈家二房送的'补品'）",
       "威胁王护士的是沈家二房管家",
-      "祭祖大典倒计时D-10"
+      "祭祖大典倒计时D-10",
+      "抓获三名黑衣人，关押在老宅地下室",
+      "确认刘管家是沈家二房的人，派人来灭口",
+      "微表情洞察今日已用完（3/3）",
+      "母亲死因真相：沈家二房与李婉柔联手，用慢性毒药害死沈母",
+      "李婉柔用黑色药丸融进汤里，伪装成补品",
+      "张医生留有病历复印件，在王护士儿子处",
+      "黑色药丸已送检，3天后出结果",
+      "祭祖大典倒计时D-8",
+      "沈家二房通过空壳公司转移超十亿资金",
+      "沈仲其六年前将15%股份转至沈清瑶名下",
+      "沈家二房每月给李婉柔汇款分赃",
+      "已约沈仲明明日澜韵会所见面"
     ]
   },
   "strand_tracker": {
@@ -1447,6 +1459,62 @@
         "time": "2026年11月15日下午",
         "location": "城郊疗养院",
         "emotion": "获得关键证物和证词，真相即将大白"
+      }
+    },
+    "0203": {
+      "hook": {
+        "type": "悬念钩",
+        "content": "准备化验黑色药丸成分，真相即将浮出水面",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "紧张氛围开场",
+        "hook": "行动爽点+甜蜜互动",
+        "emotion_rhythm": "紧张→掌控→轻松→暧昧→决心",
+        "info_density": "medium",
+        "strand_type": "Quest"
+      },
+      "ending": {
+        "time": "2026年11月16日晚上",
+        "location": "城郊疗养院",
+        "emotion": "沈知意成功保护证人，决心让沈家二房付出代价"
+      }
+    },
+    "0204": {
+      "hook": {
+        "type": "真相揭露钩",
+        "content": "王护士坦白母亲死因真相——沈家二房与李婉柔联手用慢性毒药害死沈母",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "清晨场景承接",
+        "hook": "真相揭露+情感冲击",
+        "emotion_rhythm": "紧张→震惊→愤怒→决心",
+        "info_density": "high",
+        "strand_type": "Quest"
+      },
+      "ending": {
+        "time": "2026年11月17日上午",
+        "location": "前往陆砚辞私人庄园途中",
+        "emotion": "真相大白后的愤怒与复仇决心，陆砚辞约见面送礼物"
+      }
+    },
+    "0205": {
+      "hook": {
+        "type": "揭秘钩",
+        "content": "陆砚辞提供沈家二房完整资料，揭示六年前阴谋全貌（害死母亲→扶持沈清瑶→转移资金）",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "场景开场",
+        "hook": "揭秘钩",
+        "emotion_rhythm": "平静→震惊→温情→决绝",
+        "info_density": "high"
+      },
+      "ending": {
+        "time": "2026年11月18日下午",
+        "location": "陆砚辞私人庄园书房",
+        "emotion": "决绝准备"
       }
     }
   },
