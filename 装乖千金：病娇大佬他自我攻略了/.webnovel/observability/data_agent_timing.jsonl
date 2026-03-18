@@ -1013,3 +1013,11 @@
 {"timestamp": "2026-03-18T10:00:06.946512", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 32, "chapter": 232}
 {"timestamp": "2026-03-18T10:00:24.115300", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 355, "chapter": 232}
 {"timestamp": "2026-03-18T10:00:39.155156", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 13, "chapter": 232}
+{"timestamp": "2026-03-18T10:06:46.541832", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-18T10:06:57.072240", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-18T10:06:57.940221", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-03-18T10:07:26.509942", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 23}
+{"timestamp": "2026-03-18T10:07:27.476881", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 24}
+{"timestamp": "2026-03-18T10:07:39.055397", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 28, "chapter": 233}
+{"timestamp": "2026-03-18T10:08:37.896249", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 269, "chapter": 233}
+{"timestamp": "2026-03-18T10:09:54.261125", "chapter": 233, "agent": "data-agent", "timing_ms": {"A_load_context": 150, "B_entity_extract": 800, "C_disambiguation": 100, "D_state_index_write": 300, "E_summary_write": 100, "F_scene_chunking": 200, "G_rag_index": 500, "H_style_sample": 0, "I_debt_interest": 0, "TOTAL": 2150}, "bottlenecks_top3": [{"step": "B_entity_extract", "elapsed_ms": 800, "ratio": 37.2}, {"step": "G_rag_index", "elapsed_ms": 500, "ratio": 23.3}, {"step": "D_state_index_write", "elapsed_ms": 300, "ratio": 14.0}]}

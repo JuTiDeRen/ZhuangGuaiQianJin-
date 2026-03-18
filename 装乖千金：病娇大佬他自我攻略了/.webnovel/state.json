@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 3,
-    "current_chapter": 232,
-    "total_written_words": 364800,
+    "current_chapter": 233,
+    "total_written_words": 366900,
     "status": "writing",
-    "total_words": 333600,
-    "last_updated": "2026-03-18 10:00:06"
+    "total_words": 335700,
+    "last_updated": "2026-03-18 10:08:22"
   },
   "volume_plan": {
     "volume_1": {
@@ -49,12 +49,12 @@
   "protagonist_state": {
     "abilities": {
       "微表情洞察": {
-        "used_today": 0,
-        "remaining": 3
+        "used_today": 1,
+        "remaining": 2
       }
     },
-    "current_date": "2026年12月18日（深夜）",
-    "location": "回家路上/沈家老宅",
+    "current_date": "2026年12月21日晚上",
+    "location": "两人住处",
     "growth": {
       "stage": "掌权稳固期",
       "milestones": [
@@ -180,7 +180,7 @@
     ]
   },
   "strand_tracker": {
-    "fire": 115,
+    "fire": 116,
     "constellation": 95,
     "quest": 113
   },
@@ -1844,8 +1844,27 @@
       },
       "ending": {
         "time": "2026年12月18日深夜",
-        "location": "回家路上/沈家老宅",
+        "location": "两人住处",
         "emotion": "感动甜蜜，对平安夜惊喜充满期待"
+      }
+    },
+    "0233": {
+      "hook": {
+        "type": "期待钩",
+        "content": "距离平安夜求婚还有3天，陆砚辞紧张准备",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "温馨日常开场",
+        "hook": "期待钩",
+        "emotion_rhythm": "甜蜜→好奇→甜蜜→紧张→甜蜜",
+        "info_density": "low",
+        "strand_type": "Fire"
+      },
+      "ending": {
+        "time": "2026年12月21日晚上",
+        "location": "两人住处客厅",
+        "emotion": "两人相拥，期待三天后的求婚"
       }
     }
   },
