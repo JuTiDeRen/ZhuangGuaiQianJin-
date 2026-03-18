@@ -186,6 +186,87 @@
     "quest": 113
   },
   "chapter_meta": {
+    "211": {
+      "title": "祭祖大典开幕",
+      "word_count": 2400,
+      "hook_type": "危机钩",
+      "pattern": {
+        "strand_type": "Quest"
+      },
+      "review_score": 93.6
+    },
+    "212": {
+      "title": "各方入场",
+      "word_count": 2400,
+      "hook_type": "悬念钩",
+      "pattern": {
+        "strand_type": "Quest"
+      },
+      "review_score": 88
+    },
+    "213": {
+      "title": "沈清瑶发难",
+      "word_count": 2400,
+      "hook_type": "反击钩",
+      "pattern": {
+        "strand_type": "Quest"
+      },
+      "review_score": 90
+    },
+    "214": {
+      "title": "女主反击",
+      "word_count": 2400,
+      "hook_type": "危机钩",
+      "pattern": {
+        "strand_type": "Quest"
+      },
+      "review_score": 92
+    },
+    "215": {
+      "title": "真相大白",
+      "word_count": 2400,
+      "hook_type": "完结钩",
+      "pattern": {
+        "strand_type": "Quest"
+      },
+      "review_score": 95
+    },
+    "217": {
+      "title": "沈家二房暴露",
+      "word_count": 2200,
+      "hook_type": "立威钩",
+      "pattern": {
+        "strand_type": "Quest"
+      },
+      "review_score": 88
+    },
+    "218": {
+      "title": "清理门户",
+      "word_count": 2300,
+      "hook_type": "清算钩",
+      "pattern": {
+        "strand_type": "Quest"
+      },
+      "review_score": 86
+    },
+    "219": {
+      "title": "家族重建",
+      "word_count": 2150,
+      "hook_type": "甜蜜钩",
+      "pattern": {
+        "strand_type": "Quest"
+      },
+      "review_score": 90
+    },
+    "220": {
+      "title": "母女和解",
+      "word_count": 2100,
+      "hook_type": "表白钩",
+      "pattern": {
+        "strand_type": "Quest"
+      },
+      "review_score": 92
+    },
     "0161": {
       "hook": {
         "type": "悬念钩",
@@ -1615,51 +1696,6 @@
         "emotion": "沈母公开支持女主，但刺客埋伏已确认，危机一触即发"
       }
     },
-    "211": {
-      "title": "祭祖大典开幕",
-      "word_count": 2400,
-      "hook_type": "危机钩",
-      "pattern": {
-        "strand_type": "Quest"
-      },
-      "review_score": 93.6
-    },
-    "212": {
-      "title": "各方入场",
-      "word_count": 2400,
-      "hook_type": "悬念钩",
-      "pattern": {
-        "strand_type": "Quest"
-      },
-      "review_score": 88
-    },
-    "213": {
-      "title": "沈清瑶发难",
-      "word_count": 2400,
-      "hook_type": "反击钩",
-      "pattern": {
-        "strand_type": "Quest"
-      },
-      "review_score": 90
-    },
-    "214": {
-      "title": "女主反击",
-      "word_count": 2400,
-      "hook_type": "危机钩",
-      "pattern": {
-        "strand_type": "Quest"
-      },
-      "review_score": 92
-    },
-    "215": {
-      "title": "真相大白",
-      "word_count": 2400,
-      "hook_type": "完结钩",
-      "pattern": {
-        "strand_type": "Quest"
-      },
-      "review_score": 95
-    },
     "0216": {
       "hook": {
         "type": "清算钩",
@@ -1754,42 +1790,6 @@
         "location": "沈氏集团楼下",
         "emotion": "新生活开始，但母亲死因调查悬念浮现"
       }
-    },
-    "217": {
-      "title": "沈家二房暴露",
-      "word_count": 2200,
-      "hook_type": "立威钩",
-      "pattern": {
-        "strand_type": "Quest"
-      },
-      "review_score": 88
-    },
-    "218": {
-      "title": "清理门户",
-      "word_count": 2300,
-      "hook_type": "清算钩",
-      "pattern": {
-        "strand_type": "Quest"
-      },
-      "review_score": 86
-    },
-    "219": {
-      "title": "家族重建",
-      "word_count": 2150,
-      "hook_type": "甜蜜钩",
-      "pattern": {
-        "strand_type": "Quest"
-      },
-      "review_score": 90
-    },
-    "220": {
-      "title": "母女和解",
-      "word_count": 2100,
-      "hook_type": "表白钩",
-      "pattern": {
-        "strand_type": "Quest"
-      },
-      "review_score": 92
     },
     "0226": {
       "0226": {
@@ -2233,6 +2233,25 @@
       "type": "full_review",
       "report": "审查报告/第1-240章审查报告.md",
       "rating": "A-"
+    },
+    "1-240-full": {
+      "score": 82,
+      "date": "2026-03-18",
+      "report": "审查报告/第1-240章审查报告.md",
+      "dimensions": {
+        "cool_point": 85,
+        "consistency": 80,
+        "pacing": 70,
+        "character": 90,
+        "continuity": 85,
+        "reader_pull": 85
+      },
+      "issues": {
+        "critical": 0,
+        "high": 3,
+        "medium": 4,
+        "low": 4
+      }
     }
   },
   "disambiguation_warnings": [],
