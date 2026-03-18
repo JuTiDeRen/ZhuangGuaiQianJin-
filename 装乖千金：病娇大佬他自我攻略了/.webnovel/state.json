@@ -2252,6 +2252,29 @@
         "medium": 4,
         "low": 4
       }
+    },
+    "1-10": {
+      "score": 84,
+      "date": "2026-03-18",
+      "type": "core_review",
+      "report": "审查报告/第1-10章审查报告.md",
+      "rating": "A",
+      "dimensions": {
+        "cool_point": 9,
+        "consistency": 9,
+        "pacing": 8,
+        "character": 8.5,
+        "continuity": 8,
+        "reader_pull": 8
+      },
+      "issues": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 2
+      },
+      "fixed_at": "2026-03-18",
+      "fixed_count": 7
     }
   },
   "disambiguation_warnings": [],
