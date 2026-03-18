@@ -3,17 +3,14 @@
   "last_stable_state": {
     "command": "webnovel-review",
     "chapter_num": 240,
-    "completed_at": "2026-03-18T16:55:36.044739",
+    "completed_at": "2026-03-18T17:46:37.992104",
     "artifacts": {
       "chapter_file": {},
       "git_status": {},
       "state_json_modified": false,
       "entities_appeared": false,
       "review_completed": false,
-      "saved": true,
-      "no_critical": true,
-      "ok": true,
-      "completed": true
+      "ok": true
     }
   },
   "history": [
@@ -268,6 +265,13 @@
       "chapter": 240,
       "status": "completed",
       "completed_at": "2026-03-18T16:55:36.044739"
+    },
+    {
+      "task_id": "task_037",
+      "command": "webnovel-review",
+      "chapter": 240,
+      "status": "completed",
+      "completed_at": "2026-03-18T17:46:37.992104"
     }
   ]
 }

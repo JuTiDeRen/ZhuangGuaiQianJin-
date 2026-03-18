@@ -617,3 +617,11 @@
 {"timestamp": "2026-03-18T16:55:35.507230", "event": "step_started", "payload": {"step_id": "Step 8", "step_name": "收尾", "command": "webnovel-review", "chapter": 240, "progress_note": null, "expected_owner": "webnovel-review-skill"}}
 {"timestamp": "2026-03-18T16:55:35.782928", "event": "step_completed", "payload": {"step_id": "Step 8", "command": "webnovel-review", "chapter": 240}}
 {"timestamp": "2026-03-18T16:55:36.049460", "event": "task_completed", "payload": {"command": "webnovel-review", "chapter": 240, "completed_steps": 3, "failed_steps": 2}}
+{"timestamp": "2026-03-18T17:35:32.044780", "event": "task_started", "payload": {"command": "webnovel-review", "args": {"chapter_num": 240}}}
+{"timestamp": "2026-03-18T17:35:47.440469", "event": "step_order_violation", "payload": {"step_id": "Step 3", "command": "webnovel-review", "completed_steps": []}}
+{"timestamp": "2026-03-18T17:35:47.445687", "event": "step_started", "payload": {"step_id": "Step 3", "step_name": "并行调用检查员", "command": "webnovel-review", "chapter": 240, "progress_note": null, "expected_owner": "webnovel-review-skill"}}
+{"timestamp": "2026-03-18T17:42:12.332651", "event": "step_completed", "payload": {"step_id": "Step 3", "command": "webnovel-review", "chapter": 240}}
+{"timestamp": "2026-03-18T17:46:37.485331", "event": "step_order_violation", "payload": {"step_id": "Step 8", "command": "webnovel-review", "completed_steps": ["Step 3"]}}
+{"timestamp": "2026-03-18T17:46:37.492287", "event": "step_started", "payload": {"step_id": "Step 8", "step_name": "收尾", "command": "webnovel-review", "chapter": 240, "progress_note": null, "expected_owner": "webnovel-review-skill"}}
+{"timestamp": "2026-03-18T17:46:37.734123", "event": "step_completed", "payload": {"step_id": "Step 8", "command": "webnovel-review", "chapter": 240}}
+{"timestamp": "2026-03-18T17:46:38.000313", "event": "task_completed", "payload": {"command": "webnovel-review", "chapter": 240, "completed_steps": 2, "failed_steps": 0}}
