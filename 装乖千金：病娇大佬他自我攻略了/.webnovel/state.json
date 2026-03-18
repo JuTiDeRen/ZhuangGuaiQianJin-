@@ -12,11 +12,12 @@
   },
   "progress": {
     "current_volume": 3,
-    "current_chapter": 236,
-    "total_written_words": 371800,
-    "status": "writing",
-    "total_words": 340600,
-    "last_updated": "2026-03-18 10:42:22"
+    "current_chapter": 240,
+    "total_written_words": 383800,
+    "status": "completed",
+    "total_words": 352600,
+    "last_updated": "2026-03-18 12:00:00",
+    "completed_at": "2026-03-18 12:00:00"
   },
   "volume_plan": {
     "volume_1": {
