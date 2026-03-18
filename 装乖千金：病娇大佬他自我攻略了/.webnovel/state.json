@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 3,
-    "current_chapter": 234,
+    "current_chapter": 235,
     "total_written_words": 369400,
     "status": "writing",
     "total_words": 338200,
-    "last_updated": "2026-03-18 10:15:00"
+    "last_updated": "2026-03-18 10:23:37"
   },
   "volume_plan": {
     "volume_1": {
@@ -1884,6 +1884,25 @@
         "time": "2026年12月22日晚上",
         "location": "陆宅",
         "emotion": "陆砚辞满怀期待，距离求婚还有2天"
+      }
+    },
+    "0235": {
+      "hook": {
+        "type": "期待钩",
+        "content": "陆砚辞取戒指、布置求婚场地，距离平安夜求婚还有1天",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "男主视角开场",
+        "hook": "期待钩+回忆杀",
+        "emotion_rhythm": "温馨→回忆→期待",
+        "info_density": "medium",
+        "strand_type": "Fire"
+      },
+      "ending": {
+        "time": "2026年12月23日深夜",
+        "location": "回陆宅路上",
+        "emotion": "紧张期待，准备求婚"
       }
     }
   },
