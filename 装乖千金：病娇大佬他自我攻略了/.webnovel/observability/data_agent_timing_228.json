@@ -5,7 +5,7 @@
     {"id": "chen_mo", "type": "角色", "mentions": ["陈默"], "confidence": 0.95},
     {"id": "lao_zhou", "type": "角色", "mentions": ["老周"], "confidence": 0.95},
     {"id": "shen_zhiyi", "type": "角色", "mentions": ["沈知意", "她"], "confidence": 0.99},
-    {"id": "jiu_men_wan", "type": "地点", "mentions": ["九门湾赛车场"], "confidence": 0.98},
+    {"id": "jiu_men_wan", "type": "地点", "mentions": ["云顶山赛车场"], "confidence": 0.98},
     {"id": "engagement_ring", "type": "物品", "mentions": ["戒指", "粉钻"], "confidence": 0.97}
   ],
   "entities_new": [],
@@ -19,7 +19,7 @@
     {"index": 1, "location": "陆砚辞住所", "time": "凌晨四点", "summary": "陆砚辞失眠焦虑，担心求婚细节"},
     {"index": 2, "location": "陆氏集团总裁办公室", "time": "早上八点", "summary": "陈默汇报工作，发现老板因求婚而患得患失"},
     {"index": 3, "location": "私人珠宝工作室", "time": "上午九点", "summary": "验收戒指，粉钻主石融入赛车和眼睛设计"},
-    {"index": 4, "location": "九门湾赛车场", "time": "上午十一点", "summary": "检查求婚场地布置，与沈知意短信互动"}
+    {"index": 4, "location": "云顶山赛车场", "time": "上午十一点", "summary": "检查求婚场地布置，与沈知意短信互动"}
   ],
   "uncertain": [],
   "warnings": [],
