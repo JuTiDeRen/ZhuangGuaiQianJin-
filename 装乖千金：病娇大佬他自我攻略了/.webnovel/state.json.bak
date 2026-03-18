@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 3,
-    "current_chapter": 234,
-    "total_written_words": 369400,
+    "current_chapter": 236,
+    "total_written_words": 371800,
     "status": "writing",
-    "total_words": 338200,
-    "last_updated": "2026-03-18 10:15:00"
+    "total_words": 340600,
+    "last_updated": "2026-03-18 10:41:50"
   },
   "volume_plan": {
     "volume_1": {
@@ -53,8 +53,8 @@
         "remaining": 2
       }
     },
-    "current_date": "2026年12月22日晚上",
-    "location": "陆宅",
+    "current_date": "2026年12月24日早晨",
+    "location": "九门湾赛车场求婚平台",
     "growth": {
       "stage": "掌权稳固期",
       "milestones": [
@@ -1884,6 +1884,44 @@
         "time": "2026年12月22日晚上",
         "location": "陆宅",
         "emotion": "陆砚辞满怀期待，距离求婚还有2天"
+      }
+    },
+    "0235": {
+      "hook": {
+        "type": "期待钩",
+        "content": "陆砚辞取戒指、布置求婚场地，距离平安夜求婚还有1天",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "男主视角开场",
+        "hook": "期待钩+回忆杀",
+        "emotion_rhythm": "温馨→回忆→期待",
+        "info_density": "medium",
+        "strand_type": "Fire"
+      },
+      "ending": {
+        "time": "2026年12月23日深夜",
+        "location": "回陆宅路上",
+        "emotion": "紧张期待，准备求婚"
+      }
+    },
+    "0236": {
+      "hook": {
+        "type": "期待钩",
+        "content": "平安夜前夕，女主被带到求婚场地，意识到即将被求婚",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "失眠场景开场",
+        "hook": "期待钩+回忆杀",
+        "emotion_rhythm": "紧张期待→甜蜜回忆→感动",
+        "info_density": "medium",
+        "strand_type": "Constellation"
+      },
+      "ending": {
+        "time": "2026年12月24日早晨",
+        "location": "九门湾赛车场求婚平台",
+        "emotion": "女主站在平台边缘，等待求婚开始，充满期待与感动"
       }
     }
   },

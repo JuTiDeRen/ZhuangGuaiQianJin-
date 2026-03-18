@@ -1,5 +1,118 @@
 {
-  "current_task": null,
+  "current_task": {
+    "command": "webnovel-write",
+    "args": {
+      "chapter_num": 236
+    },
+    "started_at": "2026-03-18T10:33:31.105215",
+    "last_heartbeat": "2026-03-18T10:40:18.479112",
+    "status": "running",
+    "current_step": {
+      "id": "Step 5",
+      "name": "Data Agent",
+      "status": "running",
+      "started_at": "2026-03-18T10:40:18.479092",
+      "running_at": "2026-03-18T10:40:18.479092",
+      "attempt": 1,
+      "progress_note": null
+    },
+    "completed_steps": [
+      {
+        "id": "Step 1",
+        "name": "Context Agent",
+        "status": "completed",
+        "started_at": "2026-03-18T10:33:59.149925",
+        "running_at": "2026-03-18T10:33:59.149925",
+        "attempt": 1,
+        "progress_note": null,
+        "completed_at": "2026-03-18T10:35:45.799129",
+        "artifacts": {
+          "ok": true
+        }
+      },
+      {
+        "id": "Step 2A",
+        "name": "正文起草",
+        "status": "completed",
+        "started_at": "2026-03-18T10:35:46.067485",
+        "running_at": "2026-03-18T10:35:46.067485",
+        "attempt": 1,
+        "progress_note": null,
+        "completed_at": "2026-03-18T10:37:02.650181",
+        "artifacts": {
+          "chapter_file": "正文/第0236章-平安夜前夕.md"
+        }
+      },
+      {
+        "id": "Step 2B",
+        "name": "风格适配",
+        "status": "completed",
+        "started_at": "2026-03-18T10:37:02.886837",
+        "running_at": "2026-03-18T10:37:02.886837",
+        "attempt": 1,
+        "progress_note": null,
+        "completed_at": "2026-03-18T10:37:36.985445",
+        "artifacts": {
+          "ok": true
+        }
+      },
+      {
+        "id": "Step 3",
+        "name": "审查",
+        "status": "completed",
+        "started_at": "2026-03-18T10:37:37.253572",
+        "running_at": "2026-03-18T10:37:37.253572",
+        "attempt": 1,
+        "progress_note": null,
+        "completed_at": "2026-03-18T10:39:32.472138",
+        "artifacts": {
+          "consistency_score": 9.5,
+          "continuity_score": 9,
+          "ooc_score": 9,
+          "overall_score": 9.2
+        }
+      },
+      {
+        "id": "Step 4",
+        "name": "润色",
+        "status": "completed",
+        "started_at": "2026-03-18T10:39:32.717454",
+        "running_at": "2026-03-18T10:39:32.717454",
+        "attempt": 1,
+        "progress_note": null,
+        "completed_at": "2026-03-18T10:39:54.997557",
+        "artifacts": {
+          "anti_ai_force_check": "pass",
+          "no_poison_check": "pass"
+        }
+      }
+    ],
+    "failed_steps": [],
+    "pending_steps": [
+      "Step 1",
+      "Step 2A",
+      "Step 2B",
+      "Step 3",
+      "Step 4",
+      "Step 5",
+      "Step 6"
+    ],
+    "retry_count": 0,
+    "artifacts": {
+      "chapter_file": "正文/第0236章-平安夜前夕.md",
+      "git_status": {},
+      "state_json_modified": false,
+      "entities_appeared": false,
+      "review_completed": false,
+      "ok": true,
+      "consistency_score": 9.5,
+      "continuity_score": 9,
+      "ooc_score": 9,
+      "overall_score": 9.2,
+      "anti_ai_force_check": "pass",
+      "no_poison_check": "pass"
+    }
+  },
   "last_stable_state": {
     "command": "webnovel-write",
     "chapter_num": 235,
