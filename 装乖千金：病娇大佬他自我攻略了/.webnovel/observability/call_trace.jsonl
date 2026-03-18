@@ -600,3 +600,5 @@
 {"timestamp": "2026-03-18T12:53:12.540031", "event": "step_started", "payload": {"step_id": "Step 8", "step_name": "收尾", "command": "webnovel-review", "chapter": 240, "progress_note": null, "expected_owner": "webnovel-review-skill"}}
 {"timestamp": "2026-03-18T12:53:20.272202", "event": "step_completed", "payload": {"step_id": "Step 8", "command": "webnovel-review", "chapter": 240}}
 {"timestamp": "2026-03-18T12:53:21.224268", "event": "task_completed", "payload": {"command": "webnovel-review", "chapter": 240, "completed_steps": 5, "failed_steps": 1}}
+{"timestamp": "2026-03-18T15:28:50.765330", "event": "task_started", "payload": {"command": "webnovel-review", "args": {"chapter_num": 80}}}
+{"timestamp": "2026-03-18T15:34:48.686641", "event": "task_completed", "payload": {"command": "webnovel-review", "chapter": 80, "completed_steps": 0, "failed_steps": 0}}
