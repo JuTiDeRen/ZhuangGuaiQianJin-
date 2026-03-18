@@ -12,11 +12,11 @@
   },
   "progress": {
     "current_volume": 3,
-    "current_chapter": 226,
-    "total_written_words": 356100,
+    "current_chapter": 231,
+    "total_written_words": 364800,
     "status": "writing",
-    "total_words": 329956,
-    "last_updated": "2026-03-18 01:44:07"
+    "total_words": 333600,
+    "last_updated": "2026-03-18 12:00:00"
   },
   "volume_plan": {
     "volume_1": {
@@ -53,8 +53,8 @@
         "remaining": 3
       }
     },
-    "current_date": "2026年11月28日",
-    "location": "沈氏集团",
+    "current_date": "2026年12月18日（深夜）",
+    "location": "回家路上/沈家老宅",
     "growth": {
       "stage": "掌权稳固期",
       "milestones": [
@@ -1774,6 +1774,79 @@
           "emotion": "女主疑惑男主有秘密"
         }
       }
+    },
+    "0227": {
+      "hook": {
+        "type": "期待钩",
+        "content": "陆砚辞说\"再等几天\"，求婚还是别的惊喜？",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "内心独白开场",
+        "hook": "期待钩",
+        "emotion_rhythm": "疑虑→甜蜜期待",
+        "info_density": "medium"
+      },
+      "ending": {
+        "time": "2026年12月14日 晚上十点",
+        "location": "车上（回家路上）",
+        "emotion": "甜蜜期待"
+      }
+    },
+    "0228": {
+      "hook": {
+        "type": "期待钩",
+        "content": "八天后平安夜，陆砚辞将在九门湾赛车场向沈知意求婚",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "失眠场景开场",
+        "hook": "期待钩",
+        "emotion_rhythm": "焦虑→期待→甜蜜",
+        "info_density": "medium"
+      },
+      "ending": {
+        "time": "2026年12月16日 中午",
+        "location": "九门湾赛车场",
+        "emotion": "期待紧张"
+      }
+    },
+    "0229": {
+      "hook": {
+        "type": "渴望钩",
+        "content": "陆砚辞暗示还有更大惊喜，沈知意对平安夜求婚充满期待",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "生日当天早晨场景",
+        "hook": "渴望钩+甜蜜超预期",
+        "emotion_rhythm": "惊喜→甜蜜→期待",
+        "info_density": "medium"
+      },
+      "ending": {
+        "time": "2026年12月18日 傍晚",
+        "location": "车上（回家路上）",
+        "emotion": "甜蜜期待"
+      }
+    },
+    "0230": {
+      "hook": {
+        "type": "期待钩",
+        "content": "陆砚辞预告平安夜有更重要的惊喜：那会比今天更让你难忘",
+        "strength": "strong"
+      },
+      "pattern": {
+        "opening": "车内场景承接",
+        "hook": "甜蜜超预期+期待钩",
+        "emotion_rhythm": "好奇→惊喜→感动→甜蜜→期待",
+        "info_density": "medium",
+        "strand_type": "Constellation"
+      },
+      "ending": {
+        "time": "2026年12月18日深夜",
+        "location": "回家路上/沈家老宅",
+        "emotion": "感动甜蜜，对平安夜惊喜充满期待"
+      }
     }
   },
   "export_source": {
@@ -2259,6 +2332,28 @@
         "爽点密度80%，远超标准要求",
         "追读力强劲：章章有钩子，悬念递进合理",
         "Critical问题：第1-30章金手指使用记录需统一修正"
+      ]
+    },
+    {
+      "chapter_range": "221-231",
+      "report_file": "审查报告/第221-231章审查报告.md",
+      "reviewed_at": "2026-03-18",
+      "fixed_at": "2026-03-18",
+      "overall_score": 86,
+      "critical_issues": 0,
+      "status": "fixed",
+      "fixes": [
+        "新增第225章'新能源危机'，插入Quest线平衡Fire线节奏",
+        "原225-230章顺延为226-231章，更新章节标题与时间锚点",
+        "在第226章末尾插入李婉柔暗线（会所监视场景）",
+        "在第228章末尾插入李婉柔暗线（盯梢场景）",
+        "在第230章末尾插入李婉柔暗线（林氏办公室指令场景）"
+      ],
+      "notes": [
+        "第221-231章综合质量优秀(86分，修复后提升2.5分)",
+        "新增第225章Quest线：新能源危机，平衡连续Fire线问题",
+        "李婉柔暗线贯穿226/228/230章，反派威胁感重建",
+        "节奏优化：Quest+Fire+Constellation线交替更合理"
       ]
     },
     {

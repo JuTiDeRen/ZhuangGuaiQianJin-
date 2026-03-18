@@ -1000,3 +1000,16 @@
 {"timestamp": "2026-03-18T02:12:51.625354", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 16}
 {"timestamp": "2026-03-18T02:15:28.307383", "chapter": 229, "agent": "data-agent", "timing_ms": {"A_load_context": 150, "B_entity_extract": 800, "C_disambiguation": 120, "D_state_index_write": 300, "E_summary_write": 100, "F_scene_chunking": 0, "G_rag_index": 0, "H_style_sample": 0, "I_debt_interest": 0, "TOTAL": 1470}, "bottlenecks_top3": [{"step": "B_entity_extract", "elapsed_ms": 800, "ratio": 54.4}, {"step": "A_load_context", "elapsed_ms": 150, "ratio": 10.2}, {"step": "D_state_index_write", "elapsed_ms": 300, "ratio": 20.4}]}
 {"timestamp": "2026-03-18T02:19:18.835346", "tool_name": "index_manager:save-review-metrics", "success": true, "elapsed_ms": 15}
+{"timestamp": "2026-03-18T09:58:25.964984", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 26}
+{"timestamp": "2026-03-18T09:58:26.855030", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 12}
+{"timestamp": "2026-03-18T09:58:54.683636", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 23}
+{"timestamp": "2026-03-18T09:58:55.551727", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 21}
+{"timestamp": "2026-03-18T09:58:56.458654", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 25}
+{"timestamp": "2026-03-18T09:58:57.326667", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 23}
+{"timestamp": "2026-03-18T09:58:58.231635", "tool_name": "index_manager:upsert-entity", "success": true, "elapsed_ms": 22}
+{"timestamp": "2026-03-18T09:59:37.903688", "tool_name": "index_manager:upsert-relationship", "success": true, "elapsed_ms": 25}
+{"timestamp": "2026-03-18T09:59:38.843788", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 24}
+{"timestamp": "2026-03-18T09:59:39.742799", "tool_name": "index_manager:record-state-change", "success": true, "elapsed_ms": 23}
+{"timestamp": "2026-03-18T10:00:06.946512", "tool_name": "state_manager:process-chapter", "success": true, "elapsed_ms": 32, "chapter": 232}
+{"timestamp": "2026-03-18T10:00:24.115300", "tool_name": "rag_adapter:index-chapter", "success": true, "elapsed_ms": 355, "chapter": 232}
+{"timestamp": "2026-03-18T10:00:39.155156", "tool_name": "style_sampler:extract", "success": true, "elapsed_ms": 13, "chapter": 232}
