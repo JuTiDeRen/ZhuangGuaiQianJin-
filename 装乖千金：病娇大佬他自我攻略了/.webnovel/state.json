@@ -1150,6 +1150,9 @@
           "location": "沈家老宅",
           "emotion": "决心与警惕"
         }
+      },
+      "pattern": {
+        "strand_type": "Quest"
       }
     },
     "0167": {
@@ -1162,7 +1165,8 @@
         "opening": "内心独白开场",
         "hook": "渴望钩",
         "emotion_rhythm": "低→高",
-        "info_density": "medium"
+        "info_density": "medium",
+        "strand_type": "Quest"
       },
       "ending": {
         "time": "2026年9月30日晚上",
@@ -1180,7 +1184,8 @@
         "opening": "对话开场",
         "hook": "危机钩",
         "emotion_rhythm": "低→高→低",
-        "info_density": "high"
+        "info_density": "high",
+        "strand_type": "Quest"
       },
       "ending": {
         "time": "2026年10月2日上午",
@@ -1198,7 +1203,8 @@
         "opening": "对话开场",
         "hook": "悬念钩",
         "emotion_rhythm": "低→高→紧张",
-        "info_density": "high"
+        "info_density": "high",
+        "strand_type": "Quest"
       },
       "ending": {
         "time": "2026年10月4日下午",
@@ -1216,7 +1222,8 @@
         "opening": "回忆开场",
         "hook": "悬念钩",
         "emotion_rhythm": "低→高",
-        "info_density": "high"
+        "info_density": "high",
+        "strand_type": "Quest+Constellation"
       },
       "ending": {
         "time": "晚上",
@@ -1329,7 +1336,8 @@
         "opening": "行动开场",
         "hook": "真相钩",
         "emotion_rhythm": "高→低→高",
-        "info_density": "high"
+        "info_density": "high",
+        "strand_type": "Quest+Constellation"
       },
       "ending": {
         "time": "傍晚",
@@ -1355,6 +1363,9 @@
           "location": "沈知意公寓",
           "emotion": "震惊与怀疑交织"
         }
+      },
+      "pattern": {
+        "strand_type": "Quest"
       }
     },
     "0186": {
@@ -1405,7 +1416,8 @@
         "opening": "场景铺陈",
         "hook": "危机钩",
         "emotion_rhythm": "平静→危机→压抑",
-        "info_density": "high"
+        "info_density": "high",
+        "strand_type": "Quest"
       },
       "ending": {
         "time": "2026年11月1日",
@@ -1423,7 +1435,8 @@
         "opening": "回忆场景",
         "hook": "危机+希望",
         "emotion_rhythm": "压抑→紧张→转机",
-        "info_density": "high"
+        "info_density": "high",
+        "strand_type": "Quest"
       },
       "ending": {
         "time": "2026年11月2日",
@@ -1460,7 +1473,8 @@
         "opening": "回忆开场",
         "hook": "悬念钩",
         "emotion_rhythm": "低→高→暖→悬",
-        "info_density": "high"
+        "info_density": "high",
+        "strand_type": "Quest"
       },
       "ending": {
         "time": "傍晚六点",
@@ -1535,7 +1549,8 @@
         "opening": "场景开场",
         "hook": "揭秘钩",
         "emotion_rhythm": "平静→震惊→温情→决绝",
-        "info_density": "high"
+        "info_density": "high",
+        "strand_type": "Quest+Constellation"
       },
       "ending": {
         "time": "2026年11月18日下午",
@@ -1553,7 +1568,8 @@
         "opening": "场景描写开场",
         "hook": "任务钩",
         "emotion_rhythm": "低→高→低→高",
-        "info_density": "high"
+        "info_density": "high",
+        "strand_type": "Quest+Constellation"
       },
       "ending": {
         "time": "深夜",
@@ -1603,35 +1619,45 @@
       "title": "祭祖大典开幕",
       "word_count": 2400,
       "hook_type": "危机钩",
-      "pattern": "Quest",
+      "pattern": {
+        "strand_type": "Quest"
+      },
       "review_score": 93.6
     },
     "212": {
       "title": "各方入场",
       "word_count": 2400,
       "hook_type": "悬念钩",
-      "pattern": "Quest",
+      "pattern": {
+        "strand_type": "Quest"
+      },
       "review_score": 88
     },
     "213": {
       "title": "沈清瑶发难",
       "word_count": 2400,
       "hook_type": "反击钩",
-      "pattern": "Quest",
+      "pattern": {
+        "strand_type": "Quest"
+      },
       "review_score": 90
     },
     "214": {
       "title": "女主反击",
       "word_count": 2400,
       "hook_type": "危机钩",
-      "pattern": "Quest",
+      "pattern": {
+        "strand_type": "Quest"
+      },
       "review_score": 92
     },
     "215": {
       "title": "真相大白",
       "word_count": 2400,
       "hook_type": "完结钩",
-      "pattern": "Quest",
+      "pattern": {
+        "strand_type": "Quest"
+      },
       "review_score": 95
     },
     "0216": {
@@ -1644,7 +1670,8 @@
         "opening": "场景开场",
         "hook": "清算钩",
         "emotion_rhythm": "高→平静",
-        "info_density": "medium"
+        "info_density": "medium",
+        "strand_type": "Quest"
       },
       "ending": {
         "time": "凌晨",
@@ -1732,28 +1759,36 @@
       "title": "沈家二房暴露",
       "word_count": 2200,
       "hook_type": "立威钩",
-      "pattern": "Quest",
+      "pattern": {
+        "strand_type": "Quest"
+      },
       "review_score": 88
     },
     "218": {
       "title": "清理门户",
       "word_count": 2300,
       "hook_type": "清算钩",
-      "pattern": "Quest",
+      "pattern": {
+        "strand_type": "Quest"
+      },
       "review_score": 86
     },
     "219": {
       "title": "家族重建",
       "word_count": 2150,
       "hook_type": "甜蜜钩",
-      "pattern": "Constellation",
+      "pattern": {
+        "strand_type": "Quest"
+      },
       "review_score": 90
     },
     "220": {
       "title": "母女和解",
       "word_count": 2100,
       "hook_type": "表白钩",
-      "pattern": "Constellation",
+      "pattern": {
+        "strand_type": "Quest"
+      },
       "review_score": 92
     },
     "0226": {
@@ -1774,6 +1809,9 @@
           "location": "沈家老宅门口",
           "emotion": "女主疑惑男主有秘密"
         }
+      },
+      "pattern": {
+        "strand_type": "Quest"
       }
     },
     "0227": {
@@ -1786,7 +1824,8 @@
         "opening": "内心独白开场",
         "hook": "期待钩",
         "emotion_rhythm": "疑虑→甜蜜期待",
-        "info_density": "medium"
+        "info_density": "medium",
+        "strand_type": "Quest+Fire"
       },
       "ending": {
         "time": "2026年12月14日 晚上十点",
@@ -1804,7 +1843,8 @@
         "opening": "失眠场景开场",
         "hook": "期待钩",
         "emotion_rhythm": "焦虑→期待→甜蜜",
-        "info_density": "medium"
+        "info_density": "medium",
+        "strand_type": "Quest+Fire"
       },
       "ending": {
         "time": "2026年12月16日 中午",
@@ -1822,7 +1862,8 @@
         "opening": "生日当天早晨场景",
         "hook": "渴望钩+甜蜜超预期",
         "emotion_rhythm": "惊喜→甜蜜→期待",
-        "info_density": "medium"
+        "info_density": "medium",
+        "strand_type": "Quest+Fire"
       },
       "ending": {
         "time": "2026年12月18日 傍晚",
