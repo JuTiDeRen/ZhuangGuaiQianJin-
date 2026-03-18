@@ -2,49 +2,44 @@
   "current_task": {
     "command": "webnovel-write",
     "args": {
-      "chapter_num": 233
+      "chapter_num": 234
     },
-    "started_at": "2026-03-18T10:01:31.105911",
-    "last_heartbeat": "2026-03-18T10:06:23.804970",
+    "started_at": "2026-03-18T10:11:08.081316",
+    "last_heartbeat": "2026-03-18T10:16:07.874948",
     "status": "running",
-    "current_step": null,
+    "current_step": {
+      "id": "Step 5",
+      "name": "Data Agent",
+      "status": "running",
+      "started_at": "2026-03-18T10:16:07.874941",
+      "running_at": "2026-03-18T10:16:07.874941",
+      "attempt": 1,
+      "progress_note": null
+    },
     "completed_steps": [
-      {
-        "id": "Step 1",
-        "name": "Context Agent",
-        "status": "completed",
-        "started_at": "2026-03-18T10:01:49.549788",
-        "running_at": "2026-03-18T10:01:49.549788",
-        "attempt": 1,
-        "progress_note": null,
-        "completed_at": "2026-03-18T10:04:14.778296",
-        "artifacts": {
-          "ok": true
-        }
-      },
       {
         "id": "Step 2A",
         "name": "正文起草",
         "status": "completed",
-        "started_at": "2026-03-18T10:04:30.573650",
-        "running_at": "2026-03-18T10:04:30.573650",
+        "started_at": "2026-03-18T10:14:12.995208",
+        "running_at": "2026-03-18T10:14:12.995208",
         "attempt": 1,
         "progress_note": null,
-        "completed_at": "2026-03-18T10:04:30.824621",
+        "completed_at": "2026-03-18T10:14:13.240696",
         "artifacts": {
           "ok": true,
-          "word_count": 2300
+          "word_count": 2400
         }
       },
       {
         "id": "Step 2B",
         "name": "风格适配",
         "status": "completed",
-        "started_at": "2026-03-18T10:04:31.071847",
-        "running_at": "2026-03-18T10:04:31.071847",
+        "started_at": "2026-03-18T10:14:13.495208",
+        "running_at": "2026-03-18T10:14:13.495208",
         "attempt": 1,
         "progress_note": null,
-        "completed_at": "2026-03-18T10:04:31.322195",
+        "completed_at": "2026-03-18T10:14:13.731531",
         "artifacts": {
           "ok": true
         }
@@ -53,17 +48,15 @@
         "id": "Step 3",
         "name": "审查",
         "status": "completed",
-        "started_at": "2026-03-18T10:04:31.575489",
-        "running_at": "2026-03-18T10:04:31.575489",
+        "started_at": "2026-03-18T10:16:06.093879",
+        "running_at": "2026-03-18T10:16:06.093879",
         "attempt": 1,
         "progress_note": null,
-        "completed_at": "2026-03-18T10:06:22.482208",
+        "completed_at": "2026-03-18T10:16:06.329592",
         "artifacts": {
-          "overall_score": 87,
+          "overall_score": 86,
           "checkers": [
-            "consistency-checker",
-            "continuity-checker",
-            "ooc-checker"
+            "consistency-checker"
           ],
           "result": "passed"
         }
@@ -72,11 +65,11 @@
         "id": "Step 4",
         "name": "润色",
         "status": "completed",
-        "started_at": "2026-03-18T10:06:23.543163",
-        "running_at": "2026-03-18T10:06:23.543163",
+        "started_at": "2026-03-18T10:16:07.363298",
+        "running_at": "2026-03-18T10:16:07.363298",
         "attempt": 1,
         "progress_note": null,
-        "completed_at": "2026-03-18T10:06:23.804944",
+        "completed_at": "2026-03-18T10:16:07.623128",
         "artifacts": {
           "anti_ai_check": "pass",
           "changes": "none_needed"
@@ -101,6 +94,27 @@
       "entities_appeared": false,
       "review_completed": false,
       "ok": true,
+      "word_count": 2400,
+      "overall_score": 86,
+      "checkers": [
+        "consistency-checker"
+      ],
+      "result": "passed",
+      "anti_ai_check": "pass",
+      "changes": "none_needed"
+    }
+  },
+  "last_stable_state": {
+    "command": "webnovel-write",
+    "chapter_num": 233,
+    "completed_at": "2026-03-18T10:10:42.747571",
+    "artifacts": {
+      "chapter_file": {},
+      "git_status": {},
+      "state_json_modified": false,
+      "entities_appeared": false,
+      "review_completed": false,
+      "ok": true,
       "word_count": 2300,
       "overall_score": 87,
       "checkers": [
@@ -110,32 +124,8 @@
       ],
       "result": "passed",
       "anti_ai_check": "pass",
-      "changes": "none_needed"
-    }
-  },
-  "last_stable_state": {
-    "command": "webnovel-write",
-    "chapter_num": 230,
-    "completed_at": "2026-03-18T10:01:19.045172",
-    "artifacts": {
-      "chapter_file": {},
-      "git_status": {},
-      "state_json_modified": false,
-      "entities_appeared": false,
-      "review_completed": false,
-      "draft": "completed",
-      "word_count": 2400,
-      "ok": true,
-      "overall_score": 88,
-      "checkers": [
-        "consistency-checker",
-        "continuity-checker",
-        "ooc-checker"
-      ],
-      "result": "passed",
-      "anti_ai_check": "pass",
       "changes": "none_needed",
-      "chapter": 232,
+      "chapter": 233,
       "status": "completed"
     }
   },
@@ -342,6 +332,13 @@
       "chapter": 230,
       "status": "completed",
       "completed_at": "2026-03-18T10:01:19.045172"
+    },
+    {
+      "task_id": "task_030",
+      "command": "webnovel-write",
+      "chapter": 233,
+      "status": "completed",
+      "completed_at": "2026-03-18T10:10:42.747571"
     }
   ]
 }
