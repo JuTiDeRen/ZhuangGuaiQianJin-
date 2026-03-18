@@ -10,7 +10,14 @@
       "Bash(export PROJECT_ROOT=\"/d/WorkSpace/ZhuangGuaiQianJin-/装乖千金：病娇大佬他自我攻略了\")",
       "Read(//d/WorkSpace/ZhuangGuaiQianJin-/$PROJECT_ROOT/.webnovel/**)",
       "Bash(grep -c '\"\"strand_type\"\": null' \"/d/WorkSpace/ZhuangGuaiQianJin-/装乖千金：病娇大佬他自我攻略了/.webnovel/state.json\")",
-      "Bash(python update_strand_types.py)"
+      "Bash(python update_strand_types.py)",
+      "Bash(python fix_chapter_81.py)",
+      "Bash(chcp 65001)",
+      "Bash(iconv -f GBK -t UTF-8 \"第0081章-匿名信.md\")",
+      "Bash(\"第0081章-匿名信.md.utf8\")",
+      "Bash(mv \"第0081章-匿名信.md.utf8\" \"第0081章-匿名信.md\")",
+      "Bash(python fix_ch81.py)",
+      "Bash(grep -n \"每日4次\\\\|每日.*4.*次\\\\|4次\" /d/WorkSpace/ZhuangGuaiQianJin-/装乖千金：病娇大佬他自我攻略了/正文/第0200章-*.md)"
     ]
   }
 }

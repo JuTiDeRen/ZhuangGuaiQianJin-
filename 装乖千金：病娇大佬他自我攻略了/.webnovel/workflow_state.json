@@ -1,24 +1,23 @@
 {
   "current_task": null,
   "last_stable_state": {
-    "command": "webnovel-write",
-    "chapter_num": 236,
-    "completed_at": "2026-03-18T11:22:18.199828",
+    "command": "webnovel-review",
+    "chapter_num": 240,
+    "completed_at": "2026-03-18T12:53:21.215986",
     "artifacts": {
-      "chapter_file": "正文/第0236章-平安夜前夕.md",
+      "chapter_file": {},
       "git_status": {},
       "state_json_modified": false,
       "entities_appeared": false,
       "review_completed": false,
       "ok": true,
-      "consistency_score": 9.5,
-      "continuity_score": 9,
-      "ooc_score": 9,
-      "overall_score": 9.2,
-      "anti_ai_force_check": "pass",
-      "no_poison_check": "pass",
-      "report": "审查报告/第1-140章审查报告.md",
-      "score": 82
+      "chapters": 240,
+      "words": 383800,
+      "agents": 6,
+      "fixed": 2,
+      "report": "审查报告/第1-240章审查报告.md",
+      "score": 85,
+      "rating": "A-"
     }
   },
   "history": [
@@ -252,6 +251,13 @@
       "chapter": 236,
       "status": "completed",
       "completed_at": "2026-03-18T11:22:18.199828"
+    },
+    {
+      "task_id": "task_034",
+      "command": "webnovel-review",
+      "chapter": 240,
+      "status": "completed",
+      "completed_at": "2026-03-18T12:53:21.215986"
     }
   ]
 }

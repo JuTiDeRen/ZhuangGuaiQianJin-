@@ -2226,6 +2226,13 @@
     "234": {
       "score": 86,
       "date": "2026-03-18"
+    },
+    "1-240": {
+      "score": 85,
+      "date": "2026-03-18",
+      "type": "full_review",
+      "report": "审查报告/第1-240章审查报告.md",
+      "rating": "A-"
     }
   },
   "disambiguation_warnings": [],
