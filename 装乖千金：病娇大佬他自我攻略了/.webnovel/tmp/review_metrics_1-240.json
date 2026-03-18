@@ -1,16 +1,17 @@
 {
   "start_chapter": 1,
   "end_chapter": 240,
-  "overall_score": 84,
+  "overall_score": 85,
   "dimension_scores": {
-    "设定一致性": 78,
-    "人物塑造": 82,
-    "追读力": 89,
-    "爽点密度": 90,
-    "节奏控制": 85
+    "爽点密度": 85,
+    "设定一致性": 85,
+    "节奏控制": 75,
+    "人物塑造": 92,
+    "连贯性": 85,
+    "追读力": 85
   },
-  "severity_counts": {"critical": 1, "high": 2, "medium": 3, "low": 3},
-  "critical_issues": ["男主座驾设定矛盾（保时捷Taycan vs 迈巴赫）"],
-  "report_file": "审查报告/第1-240章全本审查报告.md",
-  "notes": "按修改后设定进行的全本深度审查，发现1个Critical问题需立即修复"
+  "severity_counts": {"critical": 0, "high": 3, "medium": 6, "low": 4},
+  "critical_issues": [],
+  "report_file": "审查报告/第1-240章审查报告.md",
+  "notes": "全本审查完成，综合评分8.5/10，建议优先处理3处高优先级问题"
 }

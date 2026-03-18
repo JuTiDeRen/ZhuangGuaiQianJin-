@@ -21,7 +21,11 @@
       "Bash(sed -i 's/【微表情洞察】——启动。//' \"/d/WorkSpace/ZhuangGuaiQianJin-/装乖千金：病娇大佬他自我攻略了/正文/第0171章-沈清瑶察觉.md\")",
       "Bash(sed -i 's/这是她今天第一次使用能力。//' \"/d/WorkSpace/ZhuangGuaiQianJin-/装乖千金：病娇大佬他自我攻略了/正文/第0171章-沈清瑶察觉.md\")",
       "Bash(sed -i 's/视野中，沈清瑶的表情被无限放大。//' \"/d/WorkSpace/ZhuangGuaiQianJin-/装乖千金：病娇大佬他自我攻略了/正文/第0171章-沈清瑶察觉.md\")",
-      "Bash(sed -i 's/那个温柔的笑容依旧挂在脸上，但在能力的解析下，沈知意看到了更多——/沈清瑶的表情细节被她尽收眼底——/' \"/d/WorkSpace/ZhuangGuaiQianJin-/装乖千金：病娇大佬他自我攻略了/正文/第0171章-沈清瑶察觉.md\")"
+      "Bash(sed -i 's/那个温柔的笑容依旧挂在脸上，但在能力的解析下，沈知意看到了更多——/沈清瑶的表情细节被她尽收眼底——/' \"/d/WorkSpace/ZhuangGuaiQianJin-/装乖千金：病娇大佬他自我攻略了/正文/第0171章-沈清瑶察觉.md\")",
+      "Bash(python fix_chapter_31.py)",
+      "Bash(do head:*)",
+      "Bash(grep -v ^$)",
+      "Bash(do sed:*)"
     ]
   }
 }
